@@ -58,6 +58,9 @@ banking_mode = "vertical"
 #   - "scn3me_subm"  : MOSIS 0.8um scalable CMOS (3-metal)
 tech_name = "freepdk45"
 
+# Use conda for dependency management (set to False to skip conda installation)
+use_conda = False
+
 # ==============================================================================
 # Advanced Options (Optional)
 # ==============================================================================

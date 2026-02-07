@@ -18,11 +18,11 @@
 
 # Word size: Number of bits per word (data width)
 # Common values: 8, 16, 32, 64, 128, 256
-word_size = 64
+word_size = 32
 
 # Number of words: Depth of the SRAM (number of addressable locations)
 # Must be a power of 2: 32, 64, 128, 256, 512, 1024, 2048, 4096, etc.
-num_words = 256
+num_words = 32
 
 # Number of banks: Must be a power of 2 (1, 2, 4, 8, etc.)
 # More banks = better performance but larger area
@@ -49,6 +49,9 @@ banking_mode = "vertical"  # Options: "vertical", "horizontal"
 # Process technology node
 # Available: "freepdk45", "sky130", "gf180mcu", "scn4m_subm"
 tech_name = "freepdk45"
+
+# Use conda for dependency management (set to False to skip conda installation)
+use_conda = False
 
 # ==============================================================================
 # Advanced Options (Optional)
