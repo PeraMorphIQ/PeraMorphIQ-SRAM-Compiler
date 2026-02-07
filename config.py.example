@@ -101,7 +101,9 @@ pvt_corners = "TT_1p0V_25C"
 # ==============================================================================
 
 # SRAM instance name (auto-generated from parameters)
-sram_name = f"sram_{word_size}x{num_words}_{num_banks}bank"
+# Suffix: 'v' for vertical (default), 'h' for horizontal
+_banking_suffix = "h" if banking_mode == "horizontal" else "v"
+sram_name = f"sram_{word_size}x{num_words}_{num_banks}{_banking_suffix}"
 
 # Output directory for generated files
 output_path = "./outputs"

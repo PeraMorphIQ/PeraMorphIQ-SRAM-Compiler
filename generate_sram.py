@@ -81,16 +81,6 @@ if hasattr(config, 'banking_mode'):
     globals.OPTS.banking_mode = config.banking_mode
     print(f"\n  Banking mode set to: {config.banking_mode}")
 
-# Optional performance optimizations (uncomment in config.py to enable)
-# if hasattr(config, 'analytical_delay'):
-#     globals.OPTS.analytical_delay = config.analytical_delay
-# if hasattr(config, 'use_pex'):
-#     globals.OPTS.use_pex = config.use_pex
-# if hasattr(config, 'check_lvsdrc'):
-#     globals.OPTS.check_lvsdrc = config.check_lvsdrc
-# if hasattr(config, 'trim_netlist'):
-#     globals.OPTS.trim_netlist = config.trim_netlist
-
 # =============================================================================
 # Setup Output Directory Structure
 # =============================================================================
@@ -151,7 +141,7 @@ for dest_dir, patterns in file_moves.items():
             dest = os.path.join(output_base, dest_dir, os.path.basename(f))
             if os.path.exists(f):
                 shutil.move(f, dest)
-                print(f"  ✓ {os.path.basename(f):40s} → {dest_dir}/")
+                print(f"  [OK] {os.path.basename(f):40s} -> {dest_dir}/")
 
 # =============================================================================
 # Update Post-Processing Script Configuration
@@ -178,7 +168,7 @@ script_content = re.sub(
 with open(post_process_script, 'w') as f:
     f.write(script_content)
 
-print(f"  ✓ Updated SRAM_NAME to: {design_name}")
+print(f"  [OK] Updated SRAM_NAME to: {design_name}")
 
 # =============================================================================
 # Summary

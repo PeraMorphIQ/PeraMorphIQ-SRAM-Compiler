@@ -28,6 +28,20 @@ num_words = 256
 # More banks = better performance but larger area
 num_banks = 1
 
+# Banking Mode
+# -----------------------------------------------------------------------------
+# "vertical": Address space divided (current default)
+#   - Each bank stores different words
+#   - Bank selection via address bits
+#   - Example 4 banks: Bank0=words 0-511, Bank1=512-1023, etc.
+#
+# "horizontal": Word width divided (bit-slicing)  
+#   - Each bank stores portion of bits for ALL words
+#   - All banks accessed simultaneously
+#   - Example 1024-bit word, 4 banks: each bank stores 256 bits
+#   - NO bank mux latency!
+banking_mode = "vertical"  # Options: "vertical", "horizontal"
+
 # ==============================================================================
 # Technology Configuration
 # ==============================================================================
@@ -67,7 +81,9 @@ pvt_corners = "TT_1p0V_25C"
 # ==============================================================================
 
 # SRAM instance name (auto-generated from parameters)
-sram_name = f"sram_{word_size}x{num_words}_{num_banks}bank"
+# Suffix: 'v' for vertical (default), 'h' for horizontal
+_banking_suffix = "h" if banking_mode == "horizontal" else "v"
+sram_name = f"sram_{word_size}x{num_words}_{num_banks}{_banking_suffix}"
 
 # Output directory for generated files
 output_path = "./outputs"
