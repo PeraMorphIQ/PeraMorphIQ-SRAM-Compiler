@@ -1,0 +1,140 @@
+# Copyright (c) 2026 PeraMorphIQ
+# SPDX-License-Identifier: BSD-3-Clause
+#
+# This file is part of Pera-OpenRAM.
+# Developed by the PeraCom Neuromorphic Research Group.
+#
+# Author: PeraMorphIQ Team
+
+# ==============================================================================
+# PeraMorphIQ SRAM Configuration Example
+# ==============================================================================
+# Copy this file to config.py and edit the parameters below
+# Then run: python generate_sram.py
+# ==============================================================================
+
+# ==============================================================================
+# SRAM Architecture Parameters
+# ==============================================================================
+
+# Word size: Number of bits per word (data width)
+# Common values: 8, 16, 32, 64, 128, 256
+word_size = 64
+
+# Number of words: Depth of the SRAM (number of addressable locations)
+# Must be a power of 2: 32, 64, 128, 256, 512, 1024, 2048, 4096, etc.
+num_words = 256
+
+# Number of banks: Must be a power of 2 (1, 2, 4, 8, etc.)
+# More banks = better performance but larger area
+num_banks = 1
+
+# Banking mode: "vertical" or "horizontal" (for multi-bank SRAMs)
+# 
+# "vertical" (default): Address space divided across banks
+#   - Each bank stores different words
+#   - Bank selection via address bits
+#   - Example: 4 banks, 2048 words → each bank has 512 words
+#   - Use case: Standard multi-bank SRAM
+#
+# "horizontal": Word width divided across banks (bit-slicing)
+#   - Each bank stores portion of bits for ALL words
+#   - All banks accessed in parallel
+#   - Example: 1024-bit word, 4 banks → each bank has 256 bits
+#   - Advantage: No bank mux latency, better for wide words
+#   - Use case: Cache lines, vector processors, wide data paths
+banking_mode = "vertical"
+
+# ==============================================================================
+# Technology Configuration
+# ==============================================================================
+
+# Process technology node
+# Available options:
+#   - "freepdk45"    : 45nm predictive PDK (most tested)
+#   - "sky130"       : SkyWater 130nm open-source PDK
+#   - "gf180mcu"     : GlobalFoundries 180nm mixed-signal PDK
+#   - "scn4m_subm"   : MOSIS 0.5um scalable CMOS (4-metal)
+#   - "scn3me_subm"  : MOSIS 0.8um scalable CMOS (3-metal)
+tech_name = "freepdk45"
+
+# ==============================================================================
+# Advanced Options (Optional)
+# ==============================================================================
+
+# Number of parallel threads for generation (default: 4)
+# Increase for faster generation on multi-core systems
+num_threads = 4
+
+# Performance optimizations (uncomment to enable)
+# These make generation faster but may reduce accuracy
+
+# analytical_delay = True        # Use fast analytical delay models (no SPICE)
+# use_pex = False                # Disable parasitic extraction (faster)
+# check_lvsdrc = False           # Skip DRC/LVS checks (faster iteration)
+# trim_netlist = True            # Remove unused subcircuits from netlist
+
+# ==============================================================================
+# Post-Processing Configuration
+# ==============================================================================
+
+# Technology library path for Synopsys tools (NDM generation)
+# Update this path to match your technology library location
+# Only needed if you plan to run run_post_process.sh
+tech_lib_path = "/path/to/your/tech/lib/NangateOpenCellLibrary.ndm"
+
+# PVT corners to process during post-generation
+# Format: <corner>_<voltage>_<temp>
+# Multiple corners separated by spaces
+# 
+# Common corners:
+#   TT_1p0V_25C    : Typical-Typical, 1.0V, 25°C (nominal)
+#   FF_1p1V_125C   : Fast-Fast, 1.1V, 125°C (best case)
+#   SS_0p9V_m40C   : Slow-Slow, 0.9V, -40°C (worst case)
+#
+# Example with multiple corners:
+# pvt_corners = "TT_1p0V_25C FF_1p1V_125C SS_0p9V_m40C"
+pvt_corners = "TT_1p0V_25C"
+
+# ==============================================================================
+# Auto-Generated Settings (Do Not Edit)
+# ==============================================================================
+
+# SRAM instance name (auto-generated from parameters)
+sram_name = f"sram_{word_size}x{num_words}_{num_banks}bank"
+
+# Output directory for generated files
+output_path = "./outputs"
+
+# ==============================================================================
+# Example Configurations
+# ==============================================================================
+# Uncomment one of these example configurations or create your own
+
+# --- Small Cache / Register File ---
+# word_size = 32
+# num_words = 32
+# num_banks = 1
+
+# --- Medium SRAM ---
+# word_size = 64
+# num_words = 256
+# num_banks = 1
+
+# --- Large SRAM ---
+# word_size = 128
+# num_words = 1024
+# num_banks = 2
+# banking_mode = "vertical"
+
+# --- Very Large Multi-Bank SRAM ---
+# word_size = 128
+# num_words = 2048
+# num_banks = 4
+# banking_mode = "vertical"
+
+# --- Wide-Word High-Performance SRAM (Horizontal Banking) ---
+# word_size = 1024
+# num_words = 2048
+# num_banks = 8
+# banking_mode = "horizontal"  # Bit-slicing, no mux latency

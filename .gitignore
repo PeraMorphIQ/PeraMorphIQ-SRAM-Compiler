@@ -1,0 +1,16 @@
+venv/
+miniconda/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+OpenRAM/miniconda/
+OpenRAM/openram.egg-info/
+OpenRAM/dist/
+OpenRAM/.git/
+
+**/*.bsf
+
+.venv/
