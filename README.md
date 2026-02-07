@@ -2,7 +2,7 @@
 
 A streamlined, production-ready OpenRAM-based SRAM compiler with automated output organization and Synopsys tool integration.
 
-**Maintained by:** PeraCom Neuromorphic Research Group  
+**Maintained by:** PeraMorphIQ Neuromorphic Research Group  
 **Based on:** [OpenRAM](https://github.com/VLSIDA/OpenRAM)  
 **License:** BSD-3-Clause
 
