@@ -149,12 +149,26 @@ fix_lef_files() {
         echo "  Backup: $backup_file"
     fi
     
-    # Convert layer names
-    sed -i 's/metal/M/gI' "$SRAM_LEF"
-    sed -i 's/METAL/M/g'  "$SRAM_LEF"
-    sed -i 's/via/VIA/gI' "$SRAM_LEF"
+    # Convert layer names: M1->metal1, M2->metal2, etc. (Nangate45 expects 'metal' prefix)
+    # Process in reverse order to avoid conflicts (M10 before M1)
+    sed -i 's/\bM10\b/metal10/g' "$SRAM_LEF"
+    sed -i 's/\bM9\b/metal9/g' "$SRAM_LEF"
+    sed -i 's/\bM8\b/metal8/g' "$SRAM_LEF"
+    sed -i 's/\bM7\b/metal7/g' "$SRAM_LEF"
+    sed -i 's/\bM6\b/metal6/g' "$SRAM_LEF"
+    sed -i 's/\bM5\b/metal5/g' "$SRAM_LEF"
+    sed -i 's/\bM4\b/metal4/g' "$SRAM_LEF"
+    sed -i 's/\bM3\b/metal3/g' "$SRAM_LEF"
+    sed -i 's/\bM2\b/metal2/g' "$SRAM_LEF"
+    sed -i 's/\bM1\b/metal1/g' "$SRAM_LEF"
     
-    print_success "Fixed: $(basename $SRAM_LEF)"
+    # Also handle VIA layers if needed
+    sed -i 's/\bVIA1\b/via1/g' "$SRAM_LEF"
+    sed -i 's/\bVIA2\b/via2/g' "$SRAM_LEF"
+    sed -i 's/\bVIA3\b/via3/g' "$SRAM_LEF"
+    sed -i 's/\bVIA4\b/via4/g' "$SRAM_LEF"
+    
+    print_success "Fixed: $(basename $SRAM_LEF) (M# → metal#)"
 }
 
 # =============================================================================
