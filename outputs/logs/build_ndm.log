@@ -1,0 +1,175 @@
+
+                              Library Manager (TM)
+
+               Version V-2023.12-SP5-2 for linux64 - Oct 30, 2024
+                           Base build date:9/30/2024
+
+                    Copyright (c) 1988 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+ 
+# Auto-generated NDM build script for sram_32b_2048_1rw_freepdk45_sram_32x2048_1v
+# Configuration
+set TECH_LIB "/tech/45nm/nangate45nm_ndm-main/Nangate.ndm"
+/tech/45nm/nangate45nm_ndm-main/Nangate.ndm
+set SRAM_LEF "outputs/designs/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v.lef"
+outputs/designs/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v.lef
+set SRAM_DB  "outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.db"
+outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.db
+set NDM_OUT  "outputs/ndm/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v.ndm"
+outputs/ndm/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v.ndm
+# Cleanup
+file delete -force sram_build_work
+file delete -force $NDM_OUT
+foreach old_ndm [glob -nocomplain *_lib.ndm] {
+    file delete -force $old_ndm
+}
+# Create Workspace
+puts "Creating Workspace..."
+Creating Workspace...
+create_workspace sram_build_work \
+    -flow exploration \
+    -use_technology_lib $TECH_LIB
+... created workspace sram_build_work in exploration flow
+# Read Data
+puts "Reading Logical Data (.db)..."
+Reading Logical Data (.db)...
+read_db $SRAM_DB
+{sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib}
+puts "Reading Physical Data (.lef)..."
+Reading Physical Data (.lef)...
+read_lef $SRAM_LEF
+Information: The default value of lib.workspace.library_developer_mode will be 'true' in future release. (LMUI-054)
+Information: Loading LEF file '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/designs/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v.lef' (FILE-007)
+Information: Read LEF into a new library 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v'. (LEFR-022)
+Error: Line 15, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 22, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 29, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 36, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 43, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 50, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 57, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 64, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 71, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 78, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 85, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 92, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 99, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 106, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 113, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 120, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 127, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 134, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 141, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 148, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 155, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 162, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 169, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 176, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 183, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 190, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 197, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 204, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 211, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 218, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 225, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 232, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 239, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 246, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 253, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 260, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 267, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 274, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 281, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 288, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 295, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 302, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 309, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 316, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 323, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 330, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 337, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 344, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 351, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 358, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 365, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 372, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 379, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 386, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 393, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 400, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 407, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 414, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 421, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 428, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 435, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 442, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 449, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 456, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 463, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 470, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 477, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 484, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 491, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 498, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 505, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 512, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 519, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 526, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 533, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 540, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 547, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 554, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 563, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 565, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 567, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 569, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 578, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 580, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 582, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 584, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: Line 589, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M1' does not exist in the library technology information. (LEFR-021)
+Error: Line 591, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M2' does not exist in the library technology information. (LEFR-021)
+Error: Line 593, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M3' does not exist in the library technology information. (LEFR-021)
+Error: Line 626, Macro 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', Layer 'M4' does not exist in the library technology information. (LEFR-021)
+Error: read lef file '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/designs/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v.lef' failed. (LEFR-002)
+# Group & Build
+puts "Grouping and Committing..."
+Grouping and Committing...
+group_libs
+design sram_32b_2048_1rw_freepdk45_sram_32x2048_1v has no physical library.
+...Created 1 lib groups
+...Created sub-workspace sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib with type normal: 1 logical lib, 0 physical libs, 0 scaling groups.
+...Created 1 sub-workspace
+check_workspace
+Warning: The command check_workspace (in the EXPLORATION flow) is deprecated. Use process_workspaces. (LMUI-050)
+
+Checking workspace sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib ...
+Checking libraries...
+Error: No libraries to check. You must have at least one physical library. (LM-010)
+Workspace sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib check failed!
+Information: script '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/logs/build_ndm_sram_32b_2048_1rw_freepdk45_sram_32x2048_1v.tcl'
+	stopped at line 32 due to error. (CMD-081)
+Extended error info:
+
+    while executing
+"check_workspace"
+    (file "/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/logs/build_ndm_sram_32b_2048_1rw_freepdk45_sram_32x2048_1v.tcl" line 32)
+ -- End Extended Error Info
+lm_shell> exit
+Maximum memory usage for this session: 103.80 MB
+CPU usage for this session:      2 seconds (  0.00 hours)
+Elapsed time for this session:     39 seconds (  0.01 hours)
+Thank you for using Library Manager.

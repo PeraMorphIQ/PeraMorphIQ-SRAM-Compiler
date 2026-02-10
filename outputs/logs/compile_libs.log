@@ -1,0 +1,57 @@
+
+                             Library Compiler (TM)
+                                 DesignWare (R)
+
+             Version U-2022.12-SP6 for linux64 - Aug 08, 2023 -SLE
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+ 
+Initializing...
+# Auto-generated library compilation script
+puts "========== Compiling Libraries for sram_32b_2048_1rw_freepdk45_sram_32x2048_1v =========="
+========== Compiling Libraries for sram_32b_2048_1rw_freepdk45_sram_32x2048_1v ==========
+# Corner: TT_1p0V_25C
+if {![file exists "outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.db"]} {
+    puts "Processing: TT_1p0V_25C"
+    if {[catch {read_lib "outputs/libs/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.lib"} error_msg]} {
+        puts "ERROR: $error_msg"
+    } else {
+        set libs [get_libs *]
+        set lib_name [get_object_name [lindex $libs end]]
+        write_lib $lib_name -format db -output "outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.db"
+        remove_lib $lib_name
+        puts "SUCCESS: Created outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.db"
+    }
+} else {
+    puts "SKIPPING: outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.db already exists"
+}
+Processing: TT_1p0V_25C
+Reading '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/libs/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.lib' ...
+Warning: Line 1, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
+	No default can be applied to this attribute. (LBDB-366)
+Information: Line 74, Cell 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', The cell 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v' contiains memory/memory_read/memory_write groups which are deprecated, use the is_memory_cell attribute instead. (LIBG-280)
+Technology library 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib' read successfully
+Wrote the 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib' library to '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.db' successfully
+Removing library 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib'
+SUCCESS: Created outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.db
+exit
+Maximum memory usage for this session: 101.08 MB
+CPU usage for this session:      2 seconds (  0.00 hours)
+Elapsed time for this session:      5 seconds (  0.00 hours)
+Thank you for using Library Compiler.
+
+Thank you...

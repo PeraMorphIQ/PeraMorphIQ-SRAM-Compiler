@@ -15,4 +15,4 @@ OpenRAM/.git/
 **/*.bsf
 
 .venv/
-outputs/
+

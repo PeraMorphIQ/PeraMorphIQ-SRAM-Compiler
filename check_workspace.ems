@@ -1,0 +1,16 @@
+<Database>
+versionNumber:2
+Name/home/user26/PeraMorphIQ-SRAM-Compiler/check_workspace.ems
+Creation TimeTue Feb 10 17:58:06 2026
+Modified TimeTue Feb 10 17:58:06 2026
+Design Name
+Library Name
+</Database>
+<RuleCount>
+LM-0101
+</RuleCount>
+<UserDefinedRules>
+</UserDefinedRules>
+<Messages>
+LM-010Errorpara1check. You must have at least one physical library.10
+</Messages>
