@@ -35,7 +35,7 @@ TECH_LIB="/tech/45nm/nangate45nm_ndm-main/Nangate.ndm"
 
 # PVT corners to process (space-separated)
 # Format: <corner>_<voltage>_<temp>
-PVT_CORNERS="TT_1p0V_25C"
+PVT_CORNERS="TT_1p0V_25C SS_1p0V_25C FF_1p0V_25C TT_1p0V_100C TT_1p0V_0C TT_0p9V_25C TT_1p1V_25C"
 
 # =============================================================================
 # DERIVED PATHS - Auto-generated from SRAM_NAME
