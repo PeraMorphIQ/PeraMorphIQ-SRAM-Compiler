@@ -62,69 +62,69 @@
 
 .meas tran vdout0_31ck40 FIND v(dout0_31) AT=25.025n 
 
-.meas tran vdout0_0ck50 FIND v(dout0_0) AT=30.025n 
+.meas tran vdout0_0ck60 FIND v(dout0_0) AT=35.025n 
 
-.meas tran vdout0_1ck50 FIND v(dout0_1) AT=30.025n 
+.meas tran vdout0_1ck60 FIND v(dout0_1) AT=35.025n 
 
-.meas tran vdout0_2ck50 FIND v(dout0_2) AT=30.025n 
+.meas tran vdout0_2ck60 FIND v(dout0_2) AT=35.025n 
 
-.meas tran vdout0_3ck50 FIND v(dout0_3) AT=30.025n 
+.meas tran vdout0_3ck60 FIND v(dout0_3) AT=35.025n 
 
-.meas tran vdout0_4ck50 FIND v(dout0_4) AT=30.025n 
+.meas tran vdout0_4ck60 FIND v(dout0_4) AT=35.025n 
 
-.meas tran vdout0_5ck50 FIND v(dout0_5) AT=30.025n 
+.meas tran vdout0_5ck60 FIND v(dout0_5) AT=35.025n 
 
-.meas tran vdout0_6ck50 FIND v(dout0_6) AT=30.025n 
+.meas tran vdout0_6ck60 FIND v(dout0_6) AT=35.025n 
 
-.meas tran vdout0_7ck50 FIND v(dout0_7) AT=30.025n 
+.meas tran vdout0_7ck60 FIND v(dout0_7) AT=35.025n 
 
-.meas tran vdout0_8ck50 FIND v(dout0_8) AT=30.025n 
+.meas tran vdout0_8ck60 FIND v(dout0_8) AT=35.025n 
 
-.meas tran vdout0_9ck50 FIND v(dout0_9) AT=30.025n 
+.meas tran vdout0_9ck60 FIND v(dout0_9) AT=35.025n 
 
-.meas tran vdout0_10ck50 FIND v(dout0_10) AT=30.025n 
+.meas tran vdout0_10ck60 FIND v(dout0_10) AT=35.025n 
 
-.meas tran vdout0_11ck50 FIND v(dout0_11) AT=30.025n 
+.meas tran vdout0_11ck60 FIND v(dout0_11) AT=35.025n 
 
-.meas tran vdout0_12ck50 FIND v(dout0_12) AT=30.025n 
+.meas tran vdout0_12ck60 FIND v(dout0_12) AT=35.025n 
 
-.meas tran vdout0_13ck50 FIND v(dout0_13) AT=30.025n 
+.meas tran vdout0_13ck60 FIND v(dout0_13) AT=35.025n 
 
-.meas tran vdout0_14ck50 FIND v(dout0_14) AT=30.025n 
+.meas tran vdout0_14ck60 FIND v(dout0_14) AT=35.025n 
 
-.meas tran vdout0_15ck50 FIND v(dout0_15) AT=30.025n 
+.meas tran vdout0_15ck60 FIND v(dout0_15) AT=35.025n 
 
-.meas tran vdout0_16ck50 FIND v(dout0_16) AT=30.025n 
+.meas tran vdout0_16ck60 FIND v(dout0_16) AT=35.025n 
 
-.meas tran vdout0_17ck50 FIND v(dout0_17) AT=30.025n 
+.meas tran vdout0_17ck60 FIND v(dout0_17) AT=35.025n 
 
-.meas tran vdout0_18ck50 FIND v(dout0_18) AT=30.025n 
+.meas tran vdout0_18ck60 FIND v(dout0_18) AT=35.025n 
 
-.meas tran vdout0_19ck50 FIND v(dout0_19) AT=30.025n 
+.meas tran vdout0_19ck60 FIND v(dout0_19) AT=35.025n 
 
-.meas tran vdout0_20ck50 FIND v(dout0_20) AT=30.025n 
+.meas tran vdout0_20ck60 FIND v(dout0_20) AT=35.025n 
 
-.meas tran vdout0_21ck50 FIND v(dout0_21) AT=30.025n 
+.meas tran vdout0_21ck60 FIND v(dout0_21) AT=35.025n 
 
-.meas tran vdout0_22ck50 FIND v(dout0_22) AT=30.025n 
+.meas tran vdout0_22ck60 FIND v(dout0_22) AT=35.025n 
 
-.meas tran vdout0_23ck50 FIND v(dout0_23) AT=30.025n 
+.meas tran vdout0_23ck60 FIND v(dout0_23) AT=35.025n 
 
-.meas tran vdout0_24ck50 FIND v(dout0_24) AT=30.025n 
+.meas tran vdout0_24ck60 FIND v(dout0_24) AT=35.025n 
 
-.meas tran vdout0_25ck50 FIND v(dout0_25) AT=30.025n 
+.meas tran vdout0_25ck60 FIND v(dout0_25) AT=35.025n 
 
-.meas tran vdout0_26ck50 FIND v(dout0_26) AT=30.025n 
+.meas tran vdout0_26ck60 FIND v(dout0_26) AT=35.025n 
 
-.meas tran vdout0_27ck50 FIND v(dout0_27) AT=30.025n 
+.meas tran vdout0_27ck60 FIND v(dout0_27) AT=35.025n 
 
-.meas tran vdout0_28ck50 FIND v(dout0_28) AT=30.025n 
+.meas tran vdout0_28ck60 FIND v(dout0_28) AT=35.025n 
 
-.meas tran vdout0_29ck50 FIND v(dout0_29) AT=30.025n 
+.meas tran vdout0_29ck60 FIND v(dout0_29) AT=35.025n 
 
-.meas tran vdout0_30ck50 FIND v(dout0_30) AT=30.025n 
+.meas tran vdout0_30ck60 FIND v(dout0_30) AT=35.025n 
 
-.meas tran vdout0_31ck50 FIND v(dout0_31) AT=30.025n 
+.meas tran vdout0_31ck60 FIND v(dout0_31) AT=35.025n 
 
 .meas tran vdout0_0ck70 FIND v(dout0_0) AT=40.025n 
 
@@ -190,70 +190,6 @@
 
 .meas tran vdout0_31ck70 FIND v(dout0_31) AT=40.025n 
 
-.meas tran vdout0_0ck90 FIND v(dout0_0) AT=50.025n 
-
-.meas tran vdout0_1ck90 FIND v(dout0_1) AT=50.025n 
-
-.meas tran vdout0_2ck90 FIND v(dout0_2) AT=50.025n 
-
-.meas tran vdout0_3ck90 FIND v(dout0_3) AT=50.025n 
-
-.meas tran vdout0_4ck90 FIND v(dout0_4) AT=50.025n 
-
-.meas tran vdout0_5ck90 FIND v(dout0_5) AT=50.025n 
-
-.meas tran vdout0_6ck90 FIND v(dout0_6) AT=50.025n 
-
-.meas tran vdout0_7ck90 FIND v(dout0_7) AT=50.025n 
-
-.meas tran vdout0_8ck90 FIND v(dout0_8) AT=50.025n 
-
-.meas tran vdout0_9ck90 FIND v(dout0_9) AT=50.025n 
-
-.meas tran vdout0_10ck90 FIND v(dout0_10) AT=50.025n 
-
-.meas tran vdout0_11ck90 FIND v(dout0_11) AT=50.025n 
-
-.meas tran vdout0_12ck90 FIND v(dout0_12) AT=50.025n 
-
-.meas tran vdout0_13ck90 FIND v(dout0_13) AT=50.025n 
-
-.meas tran vdout0_14ck90 FIND v(dout0_14) AT=50.025n 
-
-.meas tran vdout0_15ck90 FIND v(dout0_15) AT=50.025n 
-
-.meas tran vdout0_16ck90 FIND v(dout0_16) AT=50.025n 
-
-.meas tran vdout0_17ck90 FIND v(dout0_17) AT=50.025n 
-
-.meas tran vdout0_18ck90 FIND v(dout0_18) AT=50.025n 
-
-.meas tran vdout0_19ck90 FIND v(dout0_19) AT=50.025n 
-
-.meas tran vdout0_20ck90 FIND v(dout0_20) AT=50.025n 
-
-.meas tran vdout0_21ck90 FIND v(dout0_21) AT=50.025n 
-
-.meas tran vdout0_22ck90 FIND v(dout0_22) AT=50.025n 
-
-.meas tran vdout0_23ck90 FIND v(dout0_23) AT=50.025n 
-
-.meas tran vdout0_24ck90 FIND v(dout0_24) AT=50.025n 
-
-.meas tran vdout0_25ck90 FIND v(dout0_25) AT=50.025n 
-
-.meas tran vdout0_26ck90 FIND v(dout0_26) AT=50.025n 
-
-.meas tran vdout0_27ck90 FIND v(dout0_27) AT=50.025n 
-
-.meas tran vdout0_28ck90 FIND v(dout0_28) AT=50.025n 
-
-.meas tran vdout0_29ck90 FIND v(dout0_29) AT=50.025n 
-
-.meas tran vdout0_30ck90 FIND v(dout0_30) AT=50.025n 
-
-.meas tran vdout0_31ck90 FIND v(dout0_31) AT=50.025n 
-
 .meas tran vdout0_0ck100 FIND v(dout0_0) AT=55.025n 
 
 .meas tran vdout0_1ck100 FIND v(dout0_1) AT=55.025n 
@@ -317,134 +253,6 @@
 .meas tran vdout0_30ck100 FIND v(dout0_30) AT=55.025n 
 
 .meas tran vdout0_31ck100 FIND v(dout0_31) AT=55.025n 
-
-.meas tran vdout0_0ck130 FIND v(dout0_0) AT=70.025n 
-
-.meas tran vdout0_1ck130 FIND v(dout0_1) AT=70.025n 
-
-.meas tran vdout0_2ck130 FIND v(dout0_2) AT=70.025n 
-
-.meas tran vdout0_3ck130 FIND v(dout0_3) AT=70.025n 
-
-.meas tran vdout0_4ck130 FIND v(dout0_4) AT=70.025n 
-
-.meas tran vdout0_5ck130 FIND v(dout0_5) AT=70.025n 
-
-.meas tran vdout0_6ck130 FIND v(dout0_6) AT=70.025n 
-
-.meas tran vdout0_7ck130 FIND v(dout0_7) AT=70.025n 
-
-.meas tran vdout0_8ck130 FIND v(dout0_8) AT=70.025n 
-
-.meas tran vdout0_9ck130 FIND v(dout0_9) AT=70.025n 
-
-.meas tran vdout0_10ck130 FIND v(dout0_10) AT=70.025n 
-
-.meas tran vdout0_11ck130 FIND v(dout0_11) AT=70.025n 
-
-.meas tran vdout0_12ck130 FIND v(dout0_12) AT=70.025n 
-
-.meas tran vdout0_13ck130 FIND v(dout0_13) AT=70.025n 
-
-.meas tran vdout0_14ck130 FIND v(dout0_14) AT=70.025n 
-
-.meas tran vdout0_15ck130 FIND v(dout0_15) AT=70.025n 
-
-.meas tran vdout0_16ck130 FIND v(dout0_16) AT=70.025n 
-
-.meas tran vdout0_17ck130 FIND v(dout0_17) AT=70.025n 
-
-.meas tran vdout0_18ck130 FIND v(dout0_18) AT=70.025n 
-
-.meas tran vdout0_19ck130 FIND v(dout0_19) AT=70.025n 
-
-.meas tran vdout0_20ck130 FIND v(dout0_20) AT=70.025n 
-
-.meas tran vdout0_21ck130 FIND v(dout0_21) AT=70.025n 
-
-.meas tran vdout0_22ck130 FIND v(dout0_22) AT=70.025n 
-
-.meas tran vdout0_23ck130 FIND v(dout0_23) AT=70.025n 
-
-.meas tran vdout0_24ck130 FIND v(dout0_24) AT=70.025n 
-
-.meas tran vdout0_25ck130 FIND v(dout0_25) AT=70.025n 
-
-.meas tran vdout0_26ck130 FIND v(dout0_26) AT=70.025n 
-
-.meas tran vdout0_27ck130 FIND v(dout0_27) AT=70.025n 
-
-.meas tran vdout0_28ck130 FIND v(dout0_28) AT=70.025n 
-
-.meas tran vdout0_29ck130 FIND v(dout0_29) AT=70.025n 
-
-.meas tran vdout0_30ck130 FIND v(dout0_30) AT=70.025n 
-
-.meas tran vdout0_31ck130 FIND v(dout0_31) AT=70.025n 
-
-.meas tran vdout0_0ck140 FIND v(dout0_0) AT=75.025n 
-
-.meas tran vdout0_1ck140 FIND v(dout0_1) AT=75.025n 
-
-.meas tran vdout0_2ck140 FIND v(dout0_2) AT=75.025n 
-
-.meas tran vdout0_3ck140 FIND v(dout0_3) AT=75.025n 
-
-.meas tran vdout0_4ck140 FIND v(dout0_4) AT=75.025n 
-
-.meas tran vdout0_5ck140 FIND v(dout0_5) AT=75.025n 
-
-.meas tran vdout0_6ck140 FIND v(dout0_6) AT=75.025n 
-
-.meas tran vdout0_7ck140 FIND v(dout0_7) AT=75.025n 
-
-.meas tran vdout0_8ck140 FIND v(dout0_8) AT=75.025n 
-
-.meas tran vdout0_9ck140 FIND v(dout0_9) AT=75.025n 
-
-.meas tran vdout0_10ck140 FIND v(dout0_10) AT=75.025n 
-
-.meas tran vdout0_11ck140 FIND v(dout0_11) AT=75.025n 
-
-.meas tran vdout0_12ck140 FIND v(dout0_12) AT=75.025n 
-
-.meas tran vdout0_13ck140 FIND v(dout0_13) AT=75.025n 
-
-.meas tran vdout0_14ck140 FIND v(dout0_14) AT=75.025n 
-
-.meas tran vdout0_15ck140 FIND v(dout0_15) AT=75.025n 
-
-.meas tran vdout0_16ck140 FIND v(dout0_16) AT=75.025n 
-
-.meas tran vdout0_17ck140 FIND v(dout0_17) AT=75.025n 
-
-.meas tran vdout0_18ck140 FIND v(dout0_18) AT=75.025n 
-
-.meas tran vdout0_19ck140 FIND v(dout0_19) AT=75.025n 
-
-.meas tran vdout0_20ck140 FIND v(dout0_20) AT=75.025n 
-
-.meas tran vdout0_21ck140 FIND v(dout0_21) AT=75.025n 
-
-.meas tran vdout0_22ck140 FIND v(dout0_22) AT=75.025n 
-
-.meas tran vdout0_23ck140 FIND v(dout0_23) AT=75.025n 
-
-.meas tran vdout0_24ck140 FIND v(dout0_24) AT=75.025n 
-
-.meas tran vdout0_25ck140 FIND v(dout0_25) AT=75.025n 
-
-.meas tran vdout0_26ck140 FIND v(dout0_26) AT=75.025n 
-
-.meas tran vdout0_27ck140 FIND v(dout0_27) AT=75.025n 
-
-.meas tran vdout0_28ck140 FIND v(dout0_28) AT=75.025n 
-
-.meas tran vdout0_29ck140 FIND v(dout0_29) AT=75.025n 
-
-.meas tran vdout0_30ck140 FIND v(dout0_30) AT=75.025n 
-
-.meas tran vdout0_31ck140 FIND v(dout0_31) AT=75.025n 
 
 .meas tran vdout0_0ck150 FIND v(dout0_0) AT=80.025n 
 
@@ -510,70 +318,6 @@
 
 .meas tran vdout0_31ck150 FIND v(dout0_31) AT=80.025n 
 
-.meas tran vdout0_0ck180 FIND v(dout0_0) AT=95.025n 
-
-.meas tran vdout0_1ck180 FIND v(dout0_1) AT=95.025n 
-
-.meas tran vdout0_2ck180 FIND v(dout0_2) AT=95.025n 
-
-.meas tran vdout0_3ck180 FIND v(dout0_3) AT=95.025n 
-
-.meas tran vdout0_4ck180 FIND v(dout0_4) AT=95.025n 
-
-.meas tran vdout0_5ck180 FIND v(dout0_5) AT=95.025n 
-
-.meas tran vdout0_6ck180 FIND v(dout0_6) AT=95.025n 
-
-.meas tran vdout0_7ck180 FIND v(dout0_7) AT=95.025n 
-
-.meas tran vdout0_8ck180 FIND v(dout0_8) AT=95.025n 
-
-.meas tran vdout0_9ck180 FIND v(dout0_9) AT=95.025n 
-
-.meas tran vdout0_10ck180 FIND v(dout0_10) AT=95.025n 
-
-.meas tran vdout0_11ck180 FIND v(dout0_11) AT=95.025n 
-
-.meas tran vdout0_12ck180 FIND v(dout0_12) AT=95.025n 
-
-.meas tran vdout0_13ck180 FIND v(dout0_13) AT=95.025n 
-
-.meas tran vdout0_14ck180 FIND v(dout0_14) AT=95.025n 
-
-.meas tran vdout0_15ck180 FIND v(dout0_15) AT=95.025n 
-
-.meas tran vdout0_16ck180 FIND v(dout0_16) AT=95.025n 
-
-.meas tran vdout0_17ck180 FIND v(dout0_17) AT=95.025n 
-
-.meas tran vdout0_18ck180 FIND v(dout0_18) AT=95.025n 
-
-.meas tran vdout0_19ck180 FIND v(dout0_19) AT=95.025n 
-
-.meas tran vdout0_20ck180 FIND v(dout0_20) AT=95.025n 
-
-.meas tran vdout0_21ck180 FIND v(dout0_21) AT=95.025n 
-
-.meas tran vdout0_22ck180 FIND v(dout0_22) AT=95.025n 
-
-.meas tran vdout0_23ck180 FIND v(dout0_23) AT=95.025n 
-
-.meas tran vdout0_24ck180 FIND v(dout0_24) AT=95.025n 
-
-.meas tran vdout0_25ck180 FIND v(dout0_25) AT=95.025n 
-
-.meas tran vdout0_26ck180 FIND v(dout0_26) AT=95.025n 
-
-.meas tran vdout0_27ck180 FIND v(dout0_27) AT=95.025n 
-
-.meas tran vdout0_28ck180 FIND v(dout0_28) AT=95.025n 
-
-.meas tran vdout0_29ck180 FIND v(dout0_29) AT=95.025n 
-
-.meas tran vdout0_30ck180 FIND v(dout0_30) AT=95.025n 
-
-.meas tran vdout0_31ck180 FIND v(dout0_31) AT=95.025n 
-
 .meas tran vdout0_0ck190 FIND v(dout0_0) AT=100.025n 
 
 .meas tran vdout0_1ck190 FIND v(dout0_1) AT=100.025n 
@@ -637,6 +381,70 @@
 .meas tran vdout0_30ck190 FIND v(dout0_30) AT=100.025n 
 
 .meas tran vdout0_31ck190 FIND v(dout0_31) AT=100.025n 
+
+.meas tran vdout0_0ck210 FIND v(dout0_0) AT=110.025n 
+
+.meas tran vdout0_1ck210 FIND v(dout0_1) AT=110.025n 
+
+.meas tran vdout0_2ck210 FIND v(dout0_2) AT=110.025n 
+
+.meas tran vdout0_3ck210 FIND v(dout0_3) AT=110.025n 
+
+.meas tran vdout0_4ck210 FIND v(dout0_4) AT=110.025n 
+
+.meas tran vdout0_5ck210 FIND v(dout0_5) AT=110.025n 
+
+.meas tran vdout0_6ck210 FIND v(dout0_6) AT=110.025n 
+
+.meas tran vdout0_7ck210 FIND v(dout0_7) AT=110.025n 
+
+.meas tran vdout0_8ck210 FIND v(dout0_8) AT=110.025n 
+
+.meas tran vdout0_9ck210 FIND v(dout0_9) AT=110.025n 
+
+.meas tran vdout0_10ck210 FIND v(dout0_10) AT=110.025n 
+
+.meas tran vdout0_11ck210 FIND v(dout0_11) AT=110.025n 
+
+.meas tran vdout0_12ck210 FIND v(dout0_12) AT=110.025n 
+
+.meas tran vdout0_13ck210 FIND v(dout0_13) AT=110.025n 
+
+.meas tran vdout0_14ck210 FIND v(dout0_14) AT=110.025n 
+
+.meas tran vdout0_15ck210 FIND v(dout0_15) AT=110.025n 
+
+.meas tran vdout0_16ck210 FIND v(dout0_16) AT=110.025n 
+
+.meas tran vdout0_17ck210 FIND v(dout0_17) AT=110.025n 
+
+.meas tran vdout0_18ck210 FIND v(dout0_18) AT=110.025n 
+
+.meas tran vdout0_19ck210 FIND v(dout0_19) AT=110.025n 
+
+.meas tran vdout0_20ck210 FIND v(dout0_20) AT=110.025n 
+
+.meas tran vdout0_21ck210 FIND v(dout0_21) AT=110.025n 
+
+.meas tran vdout0_22ck210 FIND v(dout0_22) AT=110.025n 
+
+.meas tran vdout0_23ck210 FIND v(dout0_23) AT=110.025n 
+
+.meas tran vdout0_24ck210 FIND v(dout0_24) AT=110.025n 
+
+.meas tran vdout0_25ck210 FIND v(dout0_25) AT=110.025n 
+
+.meas tran vdout0_26ck210 FIND v(dout0_26) AT=110.025n 
+
+.meas tran vdout0_27ck210 FIND v(dout0_27) AT=110.025n 
+
+.meas tran vdout0_28ck210 FIND v(dout0_28) AT=110.025n 
+
+.meas tran vdout0_29ck210 FIND v(dout0_29) AT=110.025n 
+
+.meas tran vdout0_30ck210 FIND v(dout0_30) AT=110.025n 
+
+.meas tran vdout0_31ck210 FIND v(dout0_31) AT=110.025n 
 
 .meas tran vdout0_0ck220 FIND v(dout0_0) AT=115.025n 
 
@@ -702,197 +510,69 @@
 
 .meas tran vdout0_31ck220 FIND v(dout0_31) AT=115.025n 
 
-.meas tran vdout0_0ck230 FIND v(dout0_0) AT=120.025n 
+.meas tran vdout0_0ck260 FIND v(dout0_0) AT=135.025n 
 
-.meas tran vdout0_1ck230 FIND v(dout0_1) AT=120.025n 
+.meas tran vdout0_1ck260 FIND v(dout0_1) AT=135.025n 
 
-.meas tran vdout0_2ck230 FIND v(dout0_2) AT=120.025n 
+.meas tran vdout0_2ck260 FIND v(dout0_2) AT=135.025n 
 
-.meas tran vdout0_3ck230 FIND v(dout0_3) AT=120.025n 
+.meas tran vdout0_3ck260 FIND v(dout0_3) AT=135.025n 
 
-.meas tran vdout0_4ck230 FIND v(dout0_4) AT=120.025n 
+.meas tran vdout0_4ck260 FIND v(dout0_4) AT=135.025n 
 
-.meas tran vdout0_5ck230 FIND v(dout0_5) AT=120.025n 
+.meas tran vdout0_5ck260 FIND v(dout0_5) AT=135.025n 
 
-.meas tran vdout0_6ck230 FIND v(dout0_6) AT=120.025n 
+.meas tran vdout0_6ck260 FIND v(dout0_6) AT=135.025n 
 
-.meas tran vdout0_7ck230 FIND v(dout0_7) AT=120.025n 
+.meas tran vdout0_7ck260 FIND v(dout0_7) AT=135.025n 
 
-.meas tran vdout0_8ck230 FIND v(dout0_8) AT=120.025n 
+.meas tran vdout0_8ck260 FIND v(dout0_8) AT=135.025n 
 
-.meas tran vdout0_9ck230 FIND v(dout0_9) AT=120.025n 
+.meas tran vdout0_9ck260 FIND v(dout0_9) AT=135.025n 
 
-.meas tran vdout0_10ck230 FIND v(dout0_10) AT=120.025n 
+.meas tran vdout0_10ck260 FIND v(dout0_10) AT=135.025n 
 
-.meas tran vdout0_11ck230 FIND v(dout0_11) AT=120.025n 
+.meas tran vdout0_11ck260 FIND v(dout0_11) AT=135.025n 
 
-.meas tran vdout0_12ck230 FIND v(dout0_12) AT=120.025n 
+.meas tran vdout0_12ck260 FIND v(dout0_12) AT=135.025n 
 
-.meas tran vdout0_13ck230 FIND v(dout0_13) AT=120.025n 
+.meas tran vdout0_13ck260 FIND v(dout0_13) AT=135.025n 
 
-.meas tran vdout0_14ck230 FIND v(dout0_14) AT=120.025n 
+.meas tran vdout0_14ck260 FIND v(dout0_14) AT=135.025n 
 
-.meas tran vdout0_15ck230 FIND v(dout0_15) AT=120.025n 
+.meas tran vdout0_15ck260 FIND v(dout0_15) AT=135.025n 
 
-.meas tran vdout0_16ck230 FIND v(dout0_16) AT=120.025n 
+.meas tran vdout0_16ck260 FIND v(dout0_16) AT=135.025n 
 
-.meas tran vdout0_17ck230 FIND v(dout0_17) AT=120.025n 
+.meas tran vdout0_17ck260 FIND v(dout0_17) AT=135.025n 
 
-.meas tran vdout0_18ck230 FIND v(dout0_18) AT=120.025n 
+.meas tran vdout0_18ck260 FIND v(dout0_18) AT=135.025n 
 
-.meas tran vdout0_19ck230 FIND v(dout0_19) AT=120.025n 
+.meas tran vdout0_19ck260 FIND v(dout0_19) AT=135.025n 
 
-.meas tran vdout0_20ck230 FIND v(dout0_20) AT=120.025n 
+.meas tran vdout0_20ck260 FIND v(dout0_20) AT=135.025n 
 
-.meas tran vdout0_21ck230 FIND v(dout0_21) AT=120.025n 
+.meas tran vdout0_21ck260 FIND v(dout0_21) AT=135.025n 
 
-.meas tran vdout0_22ck230 FIND v(dout0_22) AT=120.025n 
+.meas tran vdout0_22ck260 FIND v(dout0_22) AT=135.025n 
 
-.meas tran vdout0_23ck230 FIND v(dout0_23) AT=120.025n 
+.meas tran vdout0_23ck260 FIND v(dout0_23) AT=135.025n 
 
-.meas tran vdout0_24ck230 FIND v(dout0_24) AT=120.025n 
+.meas tran vdout0_24ck260 FIND v(dout0_24) AT=135.025n 
 
-.meas tran vdout0_25ck230 FIND v(dout0_25) AT=120.025n 
+.meas tran vdout0_25ck260 FIND v(dout0_25) AT=135.025n 
 
-.meas tran vdout0_26ck230 FIND v(dout0_26) AT=120.025n 
+.meas tran vdout0_26ck260 FIND v(dout0_26) AT=135.025n 
 
-.meas tran vdout0_27ck230 FIND v(dout0_27) AT=120.025n 
+.meas tran vdout0_27ck260 FIND v(dout0_27) AT=135.025n 
 
-.meas tran vdout0_28ck230 FIND v(dout0_28) AT=120.025n 
+.meas tran vdout0_28ck260 FIND v(dout0_28) AT=135.025n 
 
-.meas tran vdout0_29ck230 FIND v(dout0_29) AT=120.025n 
+.meas tran vdout0_29ck260 FIND v(dout0_29) AT=135.025n 
 
-.meas tran vdout0_30ck230 FIND v(dout0_30) AT=120.025n 
+.meas tran vdout0_30ck260 FIND v(dout0_30) AT=135.025n 
 
-.meas tran vdout0_31ck230 FIND v(dout0_31) AT=120.025n 
-
-.meas tran vdout0_0ck250 FIND v(dout0_0) AT=130.025n 
-
-.meas tran vdout0_1ck250 FIND v(dout0_1) AT=130.025n 
-
-.meas tran vdout0_2ck250 FIND v(dout0_2) AT=130.025n 
-
-.meas tran vdout0_3ck250 FIND v(dout0_3) AT=130.025n 
-
-.meas tran vdout0_4ck250 FIND v(dout0_4) AT=130.025n 
-
-.meas tran vdout0_5ck250 FIND v(dout0_5) AT=130.025n 
-
-.meas tran vdout0_6ck250 FIND v(dout0_6) AT=130.025n 
-
-.meas tran vdout0_7ck250 FIND v(dout0_7) AT=130.025n 
-
-.meas tran vdout0_8ck250 FIND v(dout0_8) AT=130.025n 
-
-.meas tran vdout0_9ck250 FIND v(dout0_9) AT=130.025n 
-
-.meas tran vdout0_10ck250 FIND v(dout0_10) AT=130.025n 
-
-.meas tran vdout0_11ck250 FIND v(dout0_11) AT=130.025n 
-
-.meas tran vdout0_12ck250 FIND v(dout0_12) AT=130.025n 
-
-.meas tran vdout0_13ck250 FIND v(dout0_13) AT=130.025n 
-
-.meas tran vdout0_14ck250 FIND v(dout0_14) AT=130.025n 
-
-.meas tran vdout0_15ck250 FIND v(dout0_15) AT=130.025n 
-
-.meas tran vdout0_16ck250 FIND v(dout0_16) AT=130.025n 
-
-.meas tran vdout0_17ck250 FIND v(dout0_17) AT=130.025n 
-
-.meas tran vdout0_18ck250 FIND v(dout0_18) AT=130.025n 
-
-.meas tran vdout0_19ck250 FIND v(dout0_19) AT=130.025n 
-
-.meas tran vdout0_20ck250 FIND v(dout0_20) AT=130.025n 
-
-.meas tran vdout0_21ck250 FIND v(dout0_21) AT=130.025n 
-
-.meas tran vdout0_22ck250 FIND v(dout0_22) AT=130.025n 
-
-.meas tran vdout0_23ck250 FIND v(dout0_23) AT=130.025n 
-
-.meas tran vdout0_24ck250 FIND v(dout0_24) AT=130.025n 
-
-.meas tran vdout0_25ck250 FIND v(dout0_25) AT=130.025n 
-
-.meas tran vdout0_26ck250 FIND v(dout0_26) AT=130.025n 
-
-.meas tran vdout0_27ck250 FIND v(dout0_27) AT=130.025n 
-
-.meas tran vdout0_28ck250 FIND v(dout0_28) AT=130.025n 
-
-.meas tran vdout0_29ck250 FIND v(dout0_29) AT=130.025n 
-
-.meas tran vdout0_30ck250 FIND v(dout0_30) AT=130.025n 
-
-.meas tran vdout0_31ck250 FIND v(dout0_31) AT=130.025n 
-
-.meas tran vdout0_0ck270 FIND v(dout0_0) AT=140.025n 
-
-.meas tran vdout0_1ck270 FIND v(dout0_1) AT=140.025n 
-
-.meas tran vdout0_2ck270 FIND v(dout0_2) AT=140.025n 
-
-.meas tran vdout0_3ck270 FIND v(dout0_3) AT=140.025n 
-
-.meas tran vdout0_4ck270 FIND v(dout0_4) AT=140.025n 
-
-.meas tran vdout0_5ck270 FIND v(dout0_5) AT=140.025n 
-
-.meas tran vdout0_6ck270 FIND v(dout0_6) AT=140.025n 
-
-.meas tran vdout0_7ck270 FIND v(dout0_7) AT=140.025n 
-
-.meas tran vdout0_8ck270 FIND v(dout0_8) AT=140.025n 
-
-.meas tran vdout0_9ck270 FIND v(dout0_9) AT=140.025n 
-
-.meas tran vdout0_10ck270 FIND v(dout0_10) AT=140.025n 
-
-.meas tran vdout0_11ck270 FIND v(dout0_11) AT=140.025n 
-
-.meas tran vdout0_12ck270 FIND v(dout0_12) AT=140.025n 
-
-.meas tran vdout0_13ck270 FIND v(dout0_13) AT=140.025n 
-
-.meas tran vdout0_14ck270 FIND v(dout0_14) AT=140.025n 
-
-.meas tran vdout0_15ck270 FIND v(dout0_15) AT=140.025n 
-
-.meas tran vdout0_16ck270 FIND v(dout0_16) AT=140.025n 
-
-.meas tran vdout0_17ck270 FIND v(dout0_17) AT=140.025n 
-
-.meas tran vdout0_18ck270 FIND v(dout0_18) AT=140.025n 
-
-.meas tran vdout0_19ck270 FIND v(dout0_19) AT=140.025n 
-
-.meas tran vdout0_20ck270 FIND v(dout0_20) AT=140.025n 
-
-.meas tran vdout0_21ck270 FIND v(dout0_21) AT=140.025n 
-
-.meas tran vdout0_22ck270 FIND v(dout0_22) AT=140.025n 
-
-.meas tran vdout0_23ck270 FIND v(dout0_23) AT=140.025n 
-
-.meas tran vdout0_24ck270 FIND v(dout0_24) AT=140.025n 
-
-.meas tran vdout0_25ck270 FIND v(dout0_25) AT=140.025n 
-
-.meas tran vdout0_26ck270 FIND v(dout0_26) AT=140.025n 
-
-.meas tran vdout0_27ck270 FIND v(dout0_27) AT=140.025n 
-
-.meas tran vdout0_28ck270 FIND v(dout0_28) AT=140.025n 
-
-.meas tran vdout0_29ck270 FIND v(dout0_29) AT=140.025n 
-
-.meas tran vdout0_30ck270 FIND v(dout0_30) AT=140.025n 
-
-.meas tran vdout0_31ck270 FIND v(dout0_31) AT=140.025n 
+.meas tran vdout0_31ck260 FIND v(dout0_31) AT=135.025n 
 
 .meas tran vdout0_0ck280 FIND v(dout0_0) AT=145.025n 
 
@@ -958,69 +638,325 @@
 
 .meas tran vdout0_31ck280 FIND v(dout0_31) AT=145.025n 
 
-.meas tran vdout0_0ck320 FIND v(dout0_0) AT=165.025n 
+.meas tran vdout0_0ck290 FIND v(dout0_0) AT=150.025n 
 
-.meas tran vdout0_1ck320 FIND v(dout0_1) AT=165.025n 
+.meas tran vdout0_1ck290 FIND v(dout0_1) AT=150.025n 
 
-.meas tran vdout0_2ck320 FIND v(dout0_2) AT=165.025n 
+.meas tran vdout0_2ck290 FIND v(dout0_2) AT=150.025n 
 
-.meas tran vdout0_3ck320 FIND v(dout0_3) AT=165.025n 
+.meas tran vdout0_3ck290 FIND v(dout0_3) AT=150.025n 
 
-.meas tran vdout0_4ck320 FIND v(dout0_4) AT=165.025n 
+.meas tran vdout0_4ck290 FIND v(dout0_4) AT=150.025n 
 
-.meas tran vdout0_5ck320 FIND v(dout0_5) AT=165.025n 
+.meas tran vdout0_5ck290 FIND v(dout0_5) AT=150.025n 
 
-.meas tran vdout0_6ck320 FIND v(dout0_6) AT=165.025n 
+.meas tran vdout0_6ck290 FIND v(dout0_6) AT=150.025n 
 
-.meas tran vdout0_7ck320 FIND v(dout0_7) AT=165.025n 
+.meas tran vdout0_7ck290 FIND v(dout0_7) AT=150.025n 
 
-.meas tran vdout0_8ck320 FIND v(dout0_8) AT=165.025n 
+.meas tran vdout0_8ck290 FIND v(dout0_8) AT=150.025n 
 
-.meas tran vdout0_9ck320 FIND v(dout0_9) AT=165.025n 
+.meas tran vdout0_9ck290 FIND v(dout0_9) AT=150.025n 
 
-.meas tran vdout0_10ck320 FIND v(dout0_10) AT=165.025n 
+.meas tran vdout0_10ck290 FIND v(dout0_10) AT=150.025n 
 
-.meas tran vdout0_11ck320 FIND v(dout0_11) AT=165.025n 
+.meas tran vdout0_11ck290 FIND v(dout0_11) AT=150.025n 
 
-.meas tran vdout0_12ck320 FIND v(dout0_12) AT=165.025n 
+.meas tran vdout0_12ck290 FIND v(dout0_12) AT=150.025n 
 
-.meas tran vdout0_13ck320 FIND v(dout0_13) AT=165.025n 
+.meas tran vdout0_13ck290 FIND v(dout0_13) AT=150.025n 
 
-.meas tran vdout0_14ck320 FIND v(dout0_14) AT=165.025n 
+.meas tran vdout0_14ck290 FIND v(dout0_14) AT=150.025n 
 
-.meas tran vdout0_15ck320 FIND v(dout0_15) AT=165.025n 
+.meas tran vdout0_15ck290 FIND v(dout0_15) AT=150.025n 
 
-.meas tran vdout0_16ck320 FIND v(dout0_16) AT=165.025n 
+.meas tran vdout0_16ck290 FIND v(dout0_16) AT=150.025n 
 
-.meas tran vdout0_17ck320 FIND v(dout0_17) AT=165.025n 
+.meas tran vdout0_17ck290 FIND v(dout0_17) AT=150.025n 
 
-.meas tran vdout0_18ck320 FIND v(dout0_18) AT=165.025n 
+.meas tran vdout0_18ck290 FIND v(dout0_18) AT=150.025n 
 
-.meas tran vdout0_19ck320 FIND v(dout0_19) AT=165.025n 
+.meas tran vdout0_19ck290 FIND v(dout0_19) AT=150.025n 
 
-.meas tran vdout0_20ck320 FIND v(dout0_20) AT=165.025n 
+.meas tran vdout0_20ck290 FIND v(dout0_20) AT=150.025n 
 
-.meas tran vdout0_21ck320 FIND v(dout0_21) AT=165.025n 
+.meas tran vdout0_21ck290 FIND v(dout0_21) AT=150.025n 
 
-.meas tran vdout0_22ck320 FIND v(dout0_22) AT=165.025n 
+.meas tran vdout0_22ck290 FIND v(dout0_22) AT=150.025n 
 
-.meas tran vdout0_23ck320 FIND v(dout0_23) AT=165.025n 
+.meas tran vdout0_23ck290 FIND v(dout0_23) AT=150.025n 
 
-.meas tran vdout0_24ck320 FIND v(dout0_24) AT=165.025n 
+.meas tran vdout0_24ck290 FIND v(dout0_24) AT=150.025n 
 
-.meas tran vdout0_25ck320 FIND v(dout0_25) AT=165.025n 
+.meas tran vdout0_25ck290 FIND v(dout0_25) AT=150.025n 
 
-.meas tran vdout0_26ck320 FIND v(dout0_26) AT=165.025n 
+.meas tran vdout0_26ck290 FIND v(dout0_26) AT=150.025n 
 
-.meas tran vdout0_27ck320 FIND v(dout0_27) AT=165.025n 
+.meas tran vdout0_27ck290 FIND v(dout0_27) AT=150.025n 
 
-.meas tran vdout0_28ck320 FIND v(dout0_28) AT=165.025n 
+.meas tran vdout0_28ck290 FIND v(dout0_28) AT=150.025n 
 
-.meas tran vdout0_29ck320 FIND v(dout0_29) AT=165.025n 
+.meas tran vdout0_29ck290 FIND v(dout0_29) AT=150.025n 
 
-.meas tran vdout0_30ck320 FIND v(dout0_30) AT=165.025n 
+.meas tran vdout0_30ck290 FIND v(dout0_30) AT=150.025n 
 
-.meas tran vdout0_31ck320 FIND v(dout0_31) AT=165.025n 
+.meas tran vdout0_31ck290 FIND v(dout0_31) AT=150.025n 
+
+.meas tran vdout0_0ck300 FIND v(dout0_0) AT=155.025n 
+
+.meas tran vdout0_1ck300 FIND v(dout0_1) AT=155.025n 
+
+.meas tran vdout0_2ck300 FIND v(dout0_2) AT=155.025n 
+
+.meas tran vdout0_3ck300 FIND v(dout0_3) AT=155.025n 
+
+.meas tran vdout0_4ck300 FIND v(dout0_4) AT=155.025n 
+
+.meas tran vdout0_5ck300 FIND v(dout0_5) AT=155.025n 
+
+.meas tran vdout0_6ck300 FIND v(dout0_6) AT=155.025n 
+
+.meas tran vdout0_7ck300 FIND v(dout0_7) AT=155.025n 
+
+.meas tran vdout0_8ck300 FIND v(dout0_8) AT=155.025n 
+
+.meas tran vdout0_9ck300 FIND v(dout0_9) AT=155.025n 
+
+.meas tran vdout0_10ck300 FIND v(dout0_10) AT=155.025n 
+
+.meas tran vdout0_11ck300 FIND v(dout0_11) AT=155.025n 
+
+.meas tran vdout0_12ck300 FIND v(dout0_12) AT=155.025n 
+
+.meas tran vdout0_13ck300 FIND v(dout0_13) AT=155.025n 
+
+.meas tran vdout0_14ck300 FIND v(dout0_14) AT=155.025n 
+
+.meas tran vdout0_15ck300 FIND v(dout0_15) AT=155.025n 
+
+.meas tran vdout0_16ck300 FIND v(dout0_16) AT=155.025n 
+
+.meas tran vdout0_17ck300 FIND v(dout0_17) AT=155.025n 
+
+.meas tran vdout0_18ck300 FIND v(dout0_18) AT=155.025n 
+
+.meas tran vdout0_19ck300 FIND v(dout0_19) AT=155.025n 
+
+.meas tran vdout0_20ck300 FIND v(dout0_20) AT=155.025n 
+
+.meas tran vdout0_21ck300 FIND v(dout0_21) AT=155.025n 
+
+.meas tran vdout0_22ck300 FIND v(dout0_22) AT=155.025n 
+
+.meas tran vdout0_23ck300 FIND v(dout0_23) AT=155.025n 
+
+.meas tran vdout0_24ck300 FIND v(dout0_24) AT=155.025n 
+
+.meas tran vdout0_25ck300 FIND v(dout0_25) AT=155.025n 
+
+.meas tran vdout0_26ck300 FIND v(dout0_26) AT=155.025n 
+
+.meas tran vdout0_27ck300 FIND v(dout0_27) AT=155.025n 
+
+.meas tran vdout0_28ck300 FIND v(dout0_28) AT=155.025n 
+
+.meas tran vdout0_29ck300 FIND v(dout0_29) AT=155.025n 
+
+.meas tran vdout0_30ck300 FIND v(dout0_30) AT=155.025n 
+
+.meas tran vdout0_31ck300 FIND v(dout0_31) AT=155.025n 
+
+.meas tran vdout0_0ck330 FIND v(dout0_0) AT=170.025n 
+
+.meas tran vdout0_1ck330 FIND v(dout0_1) AT=170.025n 
+
+.meas tran vdout0_2ck330 FIND v(dout0_2) AT=170.025n 
+
+.meas tran vdout0_3ck330 FIND v(dout0_3) AT=170.025n 
+
+.meas tran vdout0_4ck330 FIND v(dout0_4) AT=170.025n 
+
+.meas tran vdout0_5ck330 FIND v(dout0_5) AT=170.025n 
+
+.meas tran vdout0_6ck330 FIND v(dout0_6) AT=170.025n 
+
+.meas tran vdout0_7ck330 FIND v(dout0_7) AT=170.025n 
+
+.meas tran vdout0_8ck330 FIND v(dout0_8) AT=170.025n 
+
+.meas tran vdout0_9ck330 FIND v(dout0_9) AT=170.025n 
+
+.meas tran vdout0_10ck330 FIND v(dout0_10) AT=170.025n 
+
+.meas tran vdout0_11ck330 FIND v(dout0_11) AT=170.025n 
+
+.meas tran vdout0_12ck330 FIND v(dout0_12) AT=170.025n 
+
+.meas tran vdout0_13ck330 FIND v(dout0_13) AT=170.025n 
+
+.meas tran vdout0_14ck330 FIND v(dout0_14) AT=170.025n 
+
+.meas tran vdout0_15ck330 FIND v(dout0_15) AT=170.025n 
+
+.meas tran vdout0_16ck330 FIND v(dout0_16) AT=170.025n 
+
+.meas tran vdout0_17ck330 FIND v(dout0_17) AT=170.025n 
+
+.meas tran vdout0_18ck330 FIND v(dout0_18) AT=170.025n 
+
+.meas tran vdout0_19ck330 FIND v(dout0_19) AT=170.025n 
+
+.meas tran vdout0_20ck330 FIND v(dout0_20) AT=170.025n 
+
+.meas tran vdout0_21ck330 FIND v(dout0_21) AT=170.025n 
+
+.meas tran vdout0_22ck330 FIND v(dout0_22) AT=170.025n 
+
+.meas tran vdout0_23ck330 FIND v(dout0_23) AT=170.025n 
+
+.meas tran vdout0_24ck330 FIND v(dout0_24) AT=170.025n 
+
+.meas tran vdout0_25ck330 FIND v(dout0_25) AT=170.025n 
+
+.meas tran vdout0_26ck330 FIND v(dout0_26) AT=170.025n 
+
+.meas tran vdout0_27ck330 FIND v(dout0_27) AT=170.025n 
+
+.meas tran vdout0_28ck330 FIND v(dout0_28) AT=170.025n 
+
+.meas tran vdout0_29ck330 FIND v(dout0_29) AT=170.025n 
+
+.meas tran vdout0_30ck330 FIND v(dout0_30) AT=170.025n 
+
+.meas tran vdout0_31ck330 FIND v(dout0_31) AT=170.025n 
+
+.meas tran vdout0_0ck340 FIND v(dout0_0) AT=175.025n 
+
+.meas tran vdout0_1ck340 FIND v(dout0_1) AT=175.025n 
+
+.meas tran vdout0_2ck340 FIND v(dout0_2) AT=175.025n 
+
+.meas tran vdout0_3ck340 FIND v(dout0_3) AT=175.025n 
+
+.meas tran vdout0_4ck340 FIND v(dout0_4) AT=175.025n 
+
+.meas tran vdout0_5ck340 FIND v(dout0_5) AT=175.025n 
+
+.meas tran vdout0_6ck340 FIND v(dout0_6) AT=175.025n 
+
+.meas tran vdout0_7ck340 FIND v(dout0_7) AT=175.025n 
+
+.meas tran vdout0_8ck340 FIND v(dout0_8) AT=175.025n 
+
+.meas tran vdout0_9ck340 FIND v(dout0_9) AT=175.025n 
+
+.meas tran vdout0_10ck340 FIND v(dout0_10) AT=175.025n 
+
+.meas tran vdout0_11ck340 FIND v(dout0_11) AT=175.025n 
+
+.meas tran vdout0_12ck340 FIND v(dout0_12) AT=175.025n 
+
+.meas tran vdout0_13ck340 FIND v(dout0_13) AT=175.025n 
+
+.meas tran vdout0_14ck340 FIND v(dout0_14) AT=175.025n 
+
+.meas tran vdout0_15ck340 FIND v(dout0_15) AT=175.025n 
+
+.meas tran vdout0_16ck340 FIND v(dout0_16) AT=175.025n 
+
+.meas tran vdout0_17ck340 FIND v(dout0_17) AT=175.025n 
+
+.meas tran vdout0_18ck340 FIND v(dout0_18) AT=175.025n 
+
+.meas tran vdout0_19ck340 FIND v(dout0_19) AT=175.025n 
+
+.meas tran vdout0_20ck340 FIND v(dout0_20) AT=175.025n 
+
+.meas tran vdout0_21ck340 FIND v(dout0_21) AT=175.025n 
+
+.meas tran vdout0_22ck340 FIND v(dout0_22) AT=175.025n 
+
+.meas tran vdout0_23ck340 FIND v(dout0_23) AT=175.025n 
+
+.meas tran vdout0_24ck340 FIND v(dout0_24) AT=175.025n 
+
+.meas tran vdout0_25ck340 FIND v(dout0_25) AT=175.025n 
+
+.meas tran vdout0_26ck340 FIND v(dout0_26) AT=175.025n 
+
+.meas tran vdout0_27ck340 FIND v(dout0_27) AT=175.025n 
+
+.meas tran vdout0_28ck340 FIND v(dout0_28) AT=175.025n 
+
+.meas tran vdout0_29ck340 FIND v(dout0_29) AT=175.025n 
+
+.meas tran vdout0_30ck340 FIND v(dout0_30) AT=175.025n 
+
+.meas tran vdout0_31ck340 FIND v(dout0_31) AT=175.025n 
+
+.meas tran vdout0_0ck350 FIND v(dout0_0) AT=180.025n 
+
+.meas tran vdout0_1ck350 FIND v(dout0_1) AT=180.025n 
+
+.meas tran vdout0_2ck350 FIND v(dout0_2) AT=180.025n 
+
+.meas tran vdout0_3ck350 FIND v(dout0_3) AT=180.025n 
+
+.meas tran vdout0_4ck350 FIND v(dout0_4) AT=180.025n 
+
+.meas tran vdout0_5ck350 FIND v(dout0_5) AT=180.025n 
+
+.meas tran vdout0_6ck350 FIND v(dout0_6) AT=180.025n 
+
+.meas tran vdout0_7ck350 FIND v(dout0_7) AT=180.025n 
+
+.meas tran vdout0_8ck350 FIND v(dout0_8) AT=180.025n 
+
+.meas tran vdout0_9ck350 FIND v(dout0_9) AT=180.025n 
+
+.meas tran vdout0_10ck350 FIND v(dout0_10) AT=180.025n 
+
+.meas tran vdout0_11ck350 FIND v(dout0_11) AT=180.025n 
+
+.meas tran vdout0_12ck350 FIND v(dout0_12) AT=180.025n 
+
+.meas tran vdout0_13ck350 FIND v(dout0_13) AT=180.025n 
+
+.meas tran vdout0_14ck350 FIND v(dout0_14) AT=180.025n 
+
+.meas tran vdout0_15ck350 FIND v(dout0_15) AT=180.025n 
+
+.meas tran vdout0_16ck350 FIND v(dout0_16) AT=180.025n 
+
+.meas tran vdout0_17ck350 FIND v(dout0_17) AT=180.025n 
+
+.meas tran vdout0_18ck350 FIND v(dout0_18) AT=180.025n 
+
+.meas tran vdout0_19ck350 FIND v(dout0_19) AT=180.025n 
+
+.meas tran vdout0_20ck350 FIND v(dout0_20) AT=180.025n 
+
+.meas tran vdout0_21ck350 FIND v(dout0_21) AT=180.025n 
+
+.meas tran vdout0_22ck350 FIND v(dout0_22) AT=180.025n 
+
+.meas tran vdout0_23ck350 FIND v(dout0_23) AT=180.025n 
+
+.meas tran vdout0_24ck350 FIND v(dout0_24) AT=180.025n 
+
+.meas tran vdout0_25ck350 FIND v(dout0_25) AT=180.025n 
+
+.meas tran vdout0_26ck350 FIND v(dout0_26) AT=180.025n 
+
+.meas tran vdout0_27ck350 FIND v(dout0_27) AT=180.025n 
+
+.meas tran vdout0_28ck350 FIND v(dout0_28) AT=180.025n 
+
+.meas tran vdout0_29ck350 FIND v(dout0_29) AT=180.025n 
+
+.meas tran vdout0_30ck350 FIND v(dout0_30) AT=180.025n 
+
+.meas tran vdout0_31ck350 FIND v(dout0_31) AT=180.025n 
 
 .meas tran vdout0_0ck360 FIND v(dout0_0) AT=185.025n 
 
@@ -1085,6 +1021,70 @@
 .meas tran vdout0_30ck360 FIND v(dout0_30) AT=185.025n 
 
 .meas tran vdout0_31ck360 FIND v(dout0_31) AT=185.025n 
+
+.meas tran vdout0_0ck370 FIND v(dout0_0) AT=190.025n 
+
+.meas tran vdout0_1ck370 FIND v(dout0_1) AT=190.025n 
+
+.meas tran vdout0_2ck370 FIND v(dout0_2) AT=190.025n 
+
+.meas tran vdout0_3ck370 FIND v(dout0_3) AT=190.025n 
+
+.meas tran vdout0_4ck370 FIND v(dout0_4) AT=190.025n 
+
+.meas tran vdout0_5ck370 FIND v(dout0_5) AT=190.025n 
+
+.meas tran vdout0_6ck370 FIND v(dout0_6) AT=190.025n 
+
+.meas tran vdout0_7ck370 FIND v(dout0_7) AT=190.025n 
+
+.meas tran vdout0_8ck370 FIND v(dout0_8) AT=190.025n 
+
+.meas tran vdout0_9ck370 FIND v(dout0_9) AT=190.025n 
+
+.meas tran vdout0_10ck370 FIND v(dout0_10) AT=190.025n 
+
+.meas tran vdout0_11ck370 FIND v(dout0_11) AT=190.025n 
+
+.meas tran vdout0_12ck370 FIND v(dout0_12) AT=190.025n 
+
+.meas tran vdout0_13ck370 FIND v(dout0_13) AT=190.025n 
+
+.meas tran vdout0_14ck370 FIND v(dout0_14) AT=190.025n 
+
+.meas tran vdout0_15ck370 FIND v(dout0_15) AT=190.025n 
+
+.meas tran vdout0_16ck370 FIND v(dout0_16) AT=190.025n 
+
+.meas tran vdout0_17ck370 FIND v(dout0_17) AT=190.025n 
+
+.meas tran vdout0_18ck370 FIND v(dout0_18) AT=190.025n 
+
+.meas tran vdout0_19ck370 FIND v(dout0_19) AT=190.025n 
+
+.meas tran vdout0_20ck370 FIND v(dout0_20) AT=190.025n 
+
+.meas tran vdout0_21ck370 FIND v(dout0_21) AT=190.025n 
+
+.meas tran vdout0_22ck370 FIND v(dout0_22) AT=190.025n 
+
+.meas tran vdout0_23ck370 FIND v(dout0_23) AT=190.025n 
+
+.meas tran vdout0_24ck370 FIND v(dout0_24) AT=190.025n 
+
+.meas tran vdout0_25ck370 FIND v(dout0_25) AT=190.025n 
+
+.meas tran vdout0_26ck370 FIND v(dout0_26) AT=190.025n 
+
+.meas tran vdout0_27ck370 FIND v(dout0_27) AT=190.025n 
+
+.meas tran vdout0_28ck370 FIND v(dout0_28) AT=190.025n 
+
+.meas tran vdout0_29ck370 FIND v(dout0_29) AT=190.025n 
+
+.meas tran vdout0_30ck370 FIND v(dout0_30) AT=190.025n 
+
+.meas tran vdout0_31ck370 FIND v(dout0_31) AT=190.025n 
 
 .meas tran vdout0_0ck390 FIND v(dout0_0) AT=200.025n 
 
@@ -1278,69 +1278,197 @@
 
 .meas tran vdout0_31ck410 FIND v(dout0_31) AT=210.025n 
 
-.meas tran vdout0_0ck450 FIND v(dout0_0) AT=230.025n 
+.meas tran vdout0_0ck420 FIND v(dout0_0) AT=215.025n 
 
-.meas tran vdout0_1ck450 FIND v(dout0_1) AT=230.025n 
+.meas tran vdout0_1ck420 FIND v(dout0_1) AT=215.025n 
 
-.meas tran vdout0_2ck450 FIND v(dout0_2) AT=230.025n 
+.meas tran vdout0_2ck420 FIND v(dout0_2) AT=215.025n 
 
-.meas tran vdout0_3ck450 FIND v(dout0_3) AT=230.025n 
+.meas tran vdout0_3ck420 FIND v(dout0_3) AT=215.025n 
 
-.meas tran vdout0_4ck450 FIND v(dout0_4) AT=230.025n 
+.meas tran vdout0_4ck420 FIND v(dout0_4) AT=215.025n 
 
-.meas tran vdout0_5ck450 FIND v(dout0_5) AT=230.025n 
+.meas tran vdout0_5ck420 FIND v(dout0_5) AT=215.025n 
 
-.meas tran vdout0_6ck450 FIND v(dout0_6) AT=230.025n 
+.meas tran vdout0_6ck420 FIND v(dout0_6) AT=215.025n 
 
-.meas tran vdout0_7ck450 FIND v(dout0_7) AT=230.025n 
+.meas tran vdout0_7ck420 FIND v(dout0_7) AT=215.025n 
 
-.meas tran vdout0_8ck450 FIND v(dout0_8) AT=230.025n 
+.meas tran vdout0_8ck420 FIND v(dout0_8) AT=215.025n 
 
-.meas tran vdout0_9ck450 FIND v(dout0_9) AT=230.025n 
+.meas tran vdout0_9ck420 FIND v(dout0_9) AT=215.025n 
 
-.meas tran vdout0_10ck450 FIND v(dout0_10) AT=230.025n 
+.meas tran vdout0_10ck420 FIND v(dout0_10) AT=215.025n 
 
-.meas tran vdout0_11ck450 FIND v(dout0_11) AT=230.025n 
+.meas tran vdout0_11ck420 FIND v(dout0_11) AT=215.025n 
 
-.meas tran vdout0_12ck450 FIND v(dout0_12) AT=230.025n 
+.meas tran vdout0_12ck420 FIND v(dout0_12) AT=215.025n 
 
-.meas tran vdout0_13ck450 FIND v(dout0_13) AT=230.025n 
+.meas tran vdout0_13ck420 FIND v(dout0_13) AT=215.025n 
 
-.meas tran vdout0_14ck450 FIND v(dout0_14) AT=230.025n 
+.meas tran vdout0_14ck420 FIND v(dout0_14) AT=215.025n 
 
-.meas tran vdout0_15ck450 FIND v(dout0_15) AT=230.025n 
+.meas tran vdout0_15ck420 FIND v(dout0_15) AT=215.025n 
 
-.meas tran vdout0_16ck450 FIND v(dout0_16) AT=230.025n 
+.meas tran vdout0_16ck420 FIND v(dout0_16) AT=215.025n 
 
-.meas tran vdout0_17ck450 FIND v(dout0_17) AT=230.025n 
+.meas tran vdout0_17ck420 FIND v(dout0_17) AT=215.025n 
 
-.meas tran vdout0_18ck450 FIND v(dout0_18) AT=230.025n 
+.meas tran vdout0_18ck420 FIND v(dout0_18) AT=215.025n 
 
-.meas tran vdout0_19ck450 FIND v(dout0_19) AT=230.025n 
+.meas tran vdout0_19ck420 FIND v(dout0_19) AT=215.025n 
 
-.meas tran vdout0_20ck450 FIND v(dout0_20) AT=230.025n 
+.meas tran vdout0_20ck420 FIND v(dout0_20) AT=215.025n 
 
-.meas tran vdout0_21ck450 FIND v(dout0_21) AT=230.025n 
+.meas tran vdout0_21ck420 FIND v(dout0_21) AT=215.025n 
 
-.meas tran vdout0_22ck450 FIND v(dout0_22) AT=230.025n 
+.meas tran vdout0_22ck420 FIND v(dout0_22) AT=215.025n 
 
-.meas tran vdout0_23ck450 FIND v(dout0_23) AT=230.025n 
+.meas tran vdout0_23ck420 FIND v(dout0_23) AT=215.025n 
 
-.meas tran vdout0_24ck450 FIND v(dout0_24) AT=230.025n 
+.meas tran vdout0_24ck420 FIND v(dout0_24) AT=215.025n 
 
-.meas tran vdout0_25ck450 FIND v(dout0_25) AT=230.025n 
+.meas tran vdout0_25ck420 FIND v(dout0_25) AT=215.025n 
 
-.meas tran vdout0_26ck450 FIND v(dout0_26) AT=230.025n 
+.meas tran vdout0_26ck420 FIND v(dout0_26) AT=215.025n 
 
-.meas tran vdout0_27ck450 FIND v(dout0_27) AT=230.025n 
+.meas tran vdout0_27ck420 FIND v(dout0_27) AT=215.025n 
 
-.meas tran vdout0_28ck450 FIND v(dout0_28) AT=230.025n 
+.meas tran vdout0_28ck420 FIND v(dout0_28) AT=215.025n 
 
-.meas tran vdout0_29ck450 FIND v(dout0_29) AT=230.025n 
+.meas tran vdout0_29ck420 FIND v(dout0_29) AT=215.025n 
 
-.meas tran vdout0_30ck450 FIND v(dout0_30) AT=230.025n 
+.meas tran vdout0_30ck420 FIND v(dout0_30) AT=215.025n 
 
-.meas tran vdout0_31ck450 FIND v(dout0_31) AT=230.025n 
+.meas tran vdout0_31ck420 FIND v(dout0_31) AT=215.025n 
+
+.meas tran vdout0_0ck430 FIND v(dout0_0) AT=220.025n 
+
+.meas tran vdout0_1ck430 FIND v(dout0_1) AT=220.025n 
+
+.meas tran vdout0_2ck430 FIND v(dout0_2) AT=220.025n 
+
+.meas tran vdout0_3ck430 FIND v(dout0_3) AT=220.025n 
+
+.meas tran vdout0_4ck430 FIND v(dout0_4) AT=220.025n 
+
+.meas tran vdout0_5ck430 FIND v(dout0_5) AT=220.025n 
+
+.meas tran vdout0_6ck430 FIND v(dout0_6) AT=220.025n 
+
+.meas tran vdout0_7ck430 FIND v(dout0_7) AT=220.025n 
+
+.meas tran vdout0_8ck430 FIND v(dout0_8) AT=220.025n 
+
+.meas tran vdout0_9ck430 FIND v(dout0_9) AT=220.025n 
+
+.meas tran vdout0_10ck430 FIND v(dout0_10) AT=220.025n 
+
+.meas tran vdout0_11ck430 FIND v(dout0_11) AT=220.025n 
+
+.meas tran vdout0_12ck430 FIND v(dout0_12) AT=220.025n 
+
+.meas tran vdout0_13ck430 FIND v(dout0_13) AT=220.025n 
+
+.meas tran vdout0_14ck430 FIND v(dout0_14) AT=220.025n 
+
+.meas tran vdout0_15ck430 FIND v(dout0_15) AT=220.025n 
+
+.meas tran vdout0_16ck430 FIND v(dout0_16) AT=220.025n 
+
+.meas tran vdout0_17ck430 FIND v(dout0_17) AT=220.025n 
+
+.meas tran vdout0_18ck430 FIND v(dout0_18) AT=220.025n 
+
+.meas tran vdout0_19ck430 FIND v(dout0_19) AT=220.025n 
+
+.meas tran vdout0_20ck430 FIND v(dout0_20) AT=220.025n 
+
+.meas tran vdout0_21ck430 FIND v(dout0_21) AT=220.025n 
+
+.meas tran vdout0_22ck430 FIND v(dout0_22) AT=220.025n 
+
+.meas tran vdout0_23ck430 FIND v(dout0_23) AT=220.025n 
+
+.meas tran vdout0_24ck430 FIND v(dout0_24) AT=220.025n 
+
+.meas tran vdout0_25ck430 FIND v(dout0_25) AT=220.025n 
+
+.meas tran vdout0_26ck430 FIND v(dout0_26) AT=220.025n 
+
+.meas tran vdout0_27ck430 FIND v(dout0_27) AT=220.025n 
+
+.meas tran vdout0_28ck430 FIND v(dout0_28) AT=220.025n 
+
+.meas tran vdout0_29ck430 FIND v(dout0_29) AT=220.025n 
+
+.meas tran vdout0_30ck430 FIND v(dout0_30) AT=220.025n 
+
+.meas tran vdout0_31ck430 FIND v(dout0_31) AT=220.025n 
+
+.meas tran vdout0_0ck440 FIND v(dout0_0) AT=225.025n 
+
+.meas tran vdout0_1ck440 FIND v(dout0_1) AT=225.025n 
+
+.meas tran vdout0_2ck440 FIND v(dout0_2) AT=225.025n 
+
+.meas tran vdout0_3ck440 FIND v(dout0_3) AT=225.025n 
+
+.meas tran vdout0_4ck440 FIND v(dout0_4) AT=225.025n 
+
+.meas tran vdout0_5ck440 FIND v(dout0_5) AT=225.025n 
+
+.meas tran vdout0_6ck440 FIND v(dout0_6) AT=225.025n 
+
+.meas tran vdout0_7ck440 FIND v(dout0_7) AT=225.025n 
+
+.meas tran vdout0_8ck440 FIND v(dout0_8) AT=225.025n 
+
+.meas tran vdout0_9ck440 FIND v(dout0_9) AT=225.025n 
+
+.meas tran vdout0_10ck440 FIND v(dout0_10) AT=225.025n 
+
+.meas tran vdout0_11ck440 FIND v(dout0_11) AT=225.025n 
+
+.meas tran vdout0_12ck440 FIND v(dout0_12) AT=225.025n 
+
+.meas tran vdout0_13ck440 FIND v(dout0_13) AT=225.025n 
+
+.meas tran vdout0_14ck440 FIND v(dout0_14) AT=225.025n 
+
+.meas tran vdout0_15ck440 FIND v(dout0_15) AT=225.025n 
+
+.meas tran vdout0_16ck440 FIND v(dout0_16) AT=225.025n 
+
+.meas tran vdout0_17ck440 FIND v(dout0_17) AT=225.025n 
+
+.meas tran vdout0_18ck440 FIND v(dout0_18) AT=225.025n 
+
+.meas tran vdout0_19ck440 FIND v(dout0_19) AT=225.025n 
+
+.meas tran vdout0_20ck440 FIND v(dout0_20) AT=225.025n 
+
+.meas tran vdout0_21ck440 FIND v(dout0_21) AT=225.025n 
+
+.meas tran vdout0_22ck440 FIND v(dout0_22) AT=225.025n 
+
+.meas tran vdout0_23ck440 FIND v(dout0_23) AT=225.025n 
+
+.meas tran vdout0_24ck440 FIND v(dout0_24) AT=225.025n 
+
+.meas tran vdout0_25ck440 FIND v(dout0_25) AT=225.025n 
+
+.meas tran vdout0_26ck440 FIND v(dout0_26) AT=225.025n 
+
+.meas tran vdout0_27ck440 FIND v(dout0_27) AT=225.025n 
+
+.meas tran vdout0_28ck440 FIND v(dout0_28) AT=225.025n 
+
+.meas tran vdout0_29ck440 FIND v(dout0_29) AT=225.025n 
+
+.meas tran vdout0_30ck440 FIND v(dout0_30) AT=225.025n 
+
+.meas tran vdout0_31ck440 FIND v(dout0_31) AT=225.025n 
 
 .meas tran vdout0_0ck460 FIND v(dout0_0) AT=235.025n 
 
@@ -1406,6 +1534,70 @@
 
 .meas tran vdout0_31ck460 FIND v(dout0_31) AT=235.025n 
 
+.meas tran vdout0_0ck470 FIND v(dout0_0) AT=240.025n 
+
+.meas tran vdout0_1ck470 FIND v(dout0_1) AT=240.025n 
+
+.meas tran vdout0_2ck470 FIND v(dout0_2) AT=240.025n 
+
+.meas tran vdout0_3ck470 FIND v(dout0_3) AT=240.025n 
+
+.meas tran vdout0_4ck470 FIND v(dout0_4) AT=240.025n 
+
+.meas tran vdout0_5ck470 FIND v(dout0_5) AT=240.025n 
+
+.meas tran vdout0_6ck470 FIND v(dout0_6) AT=240.025n 
+
+.meas tran vdout0_7ck470 FIND v(dout0_7) AT=240.025n 
+
+.meas tran vdout0_8ck470 FIND v(dout0_8) AT=240.025n 
+
+.meas tran vdout0_9ck470 FIND v(dout0_9) AT=240.025n 
+
+.meas tran vdout0_10ck470 FIND v(dout0_10) AT=240.025n 
+
+.meas tran vdout0_11ck470 FIND v(dout0_11) AT=240.025n 
+
+.meas tran vdout0_12ck470 FIND v(dout0_12) AT=240.025n 
+
+.meas tran vdout0_13ck470 FIND v(dout0_13) AT=240.025n 
+
+.meas tran vdout0_14ck470 FIND v(dout0_14) AT=240.025n 
+
+.meas tran vdout0_15ck470 FIND v(dout0_15) AT=240.025n 
+
+.meas tran vdout0_16ck470 FIND v(dout0_16) AT=240.025n 
+
+.meas tran vdout0_17ck470 FIND v(dout0_17) AT=240.025n 
+
+.meas tran vdout0_18ck470 FIND v(dout0_18) AT=240.025n 
+
+.meas tran vdout0_19ck470 FIND v(dout0_19) AT=240.025n 
+
+.meas tran vdout0_20ck470 FIND v(dout0_20) AT=240.025n 
+
+.meas tran vdout0_21ck470 FIND v(dout0_21) AT=240.025n 
+
+.meas tran vdout0_22ck470 FIND v(dout0_22) AT=240.025n 
+
+.meas tran vdout0_23ck470 FIND v(dout0_23) AT=240.025n 
+
+.meas tran vdout0_24ck470 FIND v(dout0_24) AT=240.025n 
+
+.meas tran vdout0_25ck470 FIND v(dout0_25) AT=240.025n 
+
+.meas tran vdout0_26ck470 FIND v(dout0_26) AT=240.025n 
+
+.meas tran vdout0_27ck470 FIND v(dout0_27) AT=240.025n 
+
+.meas tran vdout0_28ck470 FIND v(dout0_28) AT=240.025n 
+
+.meas tran vdout0_29ck470 FIND v(dout0_29) AT=240.025n 
+
+.meas tran vdout0_30ck470 FIND v(dout0_30) AT=240.025n 
+
+.meas tran vdout0_31ck470 FIND v(dout0_31) AT=240.025n 
+
 .meas tran vdout0_0ck480 FIND v(dout0_0) AT=245.025n 
 
 .meas tran vdout0_1ck480 FIND v(dout0_1) AT=245.025n 
@@ -1470,261 +1662,197 @@
 
 .meas tran vdout0_31ck480 FIND v(dout0_31) AT=245.025n 
 
-.meas tran vdout0_0ck510 FIND v(dout0_0) AT=260.025n 
+.meas tran vdout0_0ck500 FIND v(dout0_0) AT=255.025n 
 
-.meas tran vdout0_1ck510 FIND v(dout0_1) AT=260.025n 
+.meas tran vdout0_1ck500 FIND v(dout0_1) AT=255.025n 
 
-.meas tran vdout0_2ck510 FIND v(dout0_2) AT=260.025n 
+.meas tran vdout0_2ck500 FIND v(dout0_2) AT=255.025n 
 
-.meas tran vdout0_3ck510 FIND v(dout0_3) AT=260.025n 
+.meas tran vdout0_3ck500 FIND v(dout0_3) AT=255.025n 
 
-.meas tran vdout0_4ck510 FIND v(dout0_4) AT=260.025n 
+.meas tran vdout0_4ck500 FIND v(dout0_4) AT=255.025n 
 
-.meas tran vdout0_5ck510 FIND v(dout0_5) AT=260.025n 
+.meas tran vdout0_5ck500 FIND v(dout0_5) AT=255.025n 
 
-.meas tran vdout0_6ck510 FIND v(dout0_6) AT=260.025n 
+.meas tran vdout0_6ck500 FIND v(dout0_6) AT=255.025n 
 
-.meas tran vdout0_7ck510 FIND v(dout0_7) AT=260.025n 
+.meas tran vdout0_7ck500 FIND v(dout0_7) AT=255.025n 
 
-.meas tran vdout0_8ck510 FIND v(dout0_8) AT=260.025n 
+.meas tran vdout0_8ck500 FIND v(dout0_8) AT=255.025n 
 
-.meas tran vdout0_9ck510 FIND v(dout0_9) AT=260.025n 
+.meas tran vdout0_9ck500 FIND v(dout0_9) AT=255.025n 
 
-.meas tran vdout0_10ck510 FIND v(dout0_10) AT=260.025n 
+.meas tran vdout0_10ck500 FIND v(dout0_10) AT=255.025n 
 
-.meas tran vdout0_11ck510 FIND v(dout0_11) AT=260.025n 
+.meas tran vdout0_11ck500 FIND v(dout0_11) AT=255.025n 
 
-.meas tran vdout0_12ck510 FIND v(dout0_12) AT=260.025n 
+.meas tran vdout0_12ck500 FIND v(dout0_12) AT=255.025n 
 
-.meas tran vdout0_13ck510 FIND v(dout0_13) AT=260.025n 
+.meas tran vdout0_13ck500 FIND v(dout0_13) AT=255.025n 
 
-.meas tran vdout0_14ck510 FIND v(dout0_14) AT=260.025n 
+.meas tran vdout0_14ck500 FIND v(dout0_14) AT=255.025n 
 
-.meas tran vdout0_15ck510 FIND v(dout0_15) AT=260.025n 
+.meas tran vdout0_15ck500 FIND v(dout0_15) AT=255.025n 
 
-.meas tran vdout0_16ck510 FIND v(dout0_16) AT=260.025n 
+.meas tran vdout0_16ck500 FIND v(dout0_16) AT=255.025n 
 
-.meas tran vdout0_17ck510 FIND v(dout0_17) AT=260.025n 
+.meas tran vdout0_17ck500 FIND v(dout0_17) AT=255.025n 
 
-.meas tran vdout0_18ck510 FIND v(dout0_18) AT=260.025n 
+.meas tran vdout0_18ck500 FIND v(dout0_18) AT=255.025n 
 
-.meas tran vdout0_19ck510 FIND v(dout0_19) AT=260.025n 
+.meas tran vdout0_19ck500 FIND v(dout0_19) AT=255.025n 
 
-.meas tran vdout0_20ck510 FIND v(dout0_20) AT=260.025n 
+.meas tran vdout0_20ck500 FIND v(dout0_20) AT=255.025n 
 
-.meas tran vdout0_21ck510 FIND v(dout0_21) AT=260.025n 
+.meas tran vdout0_21ck500 FIND v(dout0_21) AT=255.025n 
 
-.meas tran vdout0_22ck510 FIND v(dout0_22) AT=260.025n 
+.meas tran vdout0_22ck500 FIND v(dout0_22) AT=255.025n 
 
-.meas tran vdout0_23ck510 FIND v(dout0_23) AT=260.025n 
+.meas tran vdout0_23ck500 FIND v(dout0_23) AT=255.025n 
 
-.meas tran vdout0_24ck510 FIND v(dout0_24) AT=260.025n 
+.meas tran vdout0_24ck500 FIND v(dout0_24) AT=255.025n 
 
-.meas tran vdout0_25ck510 FIND v(dout0_25) AT=260.025n 
+.meas tran vdout0_25ck500 FIND v(dout0_25) AT=255.025n 
 
-.meas tran vdout0_26ck510 FIND v(dout0_26) AT=260.025n 
+.meas tran vdout0_26ck500 FIND v(dout0_26) AT=255.025n 
 
-.meas tran vdout0_27ck510 FIND v(dout0_27) AT=260.025n 
+.meas tran vdout0_27ck500 FIND v(dout0_27) AT=255.025n 
 
-.meas tran vdout0_28ck510 FIND v(dout0_28) AT=260.025n 
+.meas tran vdout0_28ck500 FIND v(dout0_28) AT=255.025n 
 
-.meas tran vdout0_29ck510 FIND v(dout0_29) AT=260.025n 
+.meas tran vdout0_29ck500 FIND v(dout0_29) AT=255.025n 
 
-.meas tran vdout0_30ck510 FIND v(dout0_30) AT=260.025n 
+.meas tran vdout0_30ck500 FIND v(dout0_30) AT=255.025n 
 
-.meas tran vdout0_31ck510 FIND v(dout0_31) AT=260.025n 
+.meas tran vdout0_31ck500 FIND v(dout0_31) AT=255.025n 
 
-.meas tran vdout0_0ck530 FIND v(dout0_0) AT=270.025n 
+.meas tran vdout0_0ck520 FIND v(dout0_0) AT=265.025n 
 
-.meas tran vdout0_1ck530 FIND v(dout0_1) AT=270.025n 
+.meas tran vdout0_1ck520 FIND v(dout0_1) AT=265.025n 
 
-.meas tran vdout0_2ck530 FIND v(dout0_2) AT=270.025n 
+.meas tran vdout0_2ck520 FIND v(dout0_2) AT=265.025n 
 
-.meas tran vdout0_3ck530 FIND v(dout0_3) AT=270.025n 
+.meas tran vdout0_3ck520 FIND v(dout0_3) AT=265.025n 
 
-.meas tran vdout0_4ck530 FIND v(dout0_4) AT=270.025n 
+.meas tran vdout0_4ck520 FIND v(dout0_4) AT=265.025n 
 
-.meas tran vdout0_5ck530 FIND v(dout0_5) AT=270.025n 
+.meas tran vdout0_5ck520 FIND v(dout0_5) AT=265.025n 
 
-.meas tran vdout0_6ck530 FIND v(dout0_6) AT=270.025n 
+.meas tran vdout0_6ck520 FIND v(dout0_6) AT=265.025n 
 
-.meas tran vdout0_7ck530 FIND v(dout0_7) AT=270.025n 
+.meas tran vdout0_7ck520 FIND v(dout0_7) AT=265.025n 
 
-.meas tran vdout0_8ck530 FIND v(dout0_8) AT=270.025n 
+.meas tran vdout0_8ck520 FIND v(dout0_8) AT=265.025n 
 
-.meas tran vdout0_9ck530 FIND v(dout0_9) AT=270.025n 
+.meas tran vdout0_9ck520 FIND v(dout0_9) AT=265.025n 
 
-.meas tran vdout0_10ck530 FIND v(dout0_10) AT=270.025n 
+.meas tran vdout0_10ck520 FIND v(dout0_10) AT=265.025n 
 
-.meas tran vdout0_11ck530 FIND v(dout0_11) AT=270.025n 
+.meas tran vdout0_11ck520 FIND v(dout0_11) AT=265.025n 
 
-.meas tran vdout0_12ck530 FIND v(dout0_12) AT=270.025n 
+.meas tran vdout0_12ck520 FIND v(dout0_12) AT=265.025n 
 
-.meas tran vdout0_13ck530 FIND v(dout0_13) AT=270.025n 
+.meas tran vdout0_13ck520 FIND v(dout0_13) AT=265.025n 
 
-.meas tran vdout0_14ck530 FIND v(dout0_14) AT=270.025n 
+.meas tran vdout0_14ck520 FIND v(dout0_14) AT=265.025n 
 
-.meas tran vdout0_15ck530 FIND v(dout0_15) AT=270.025n 
+.meas tran vdout0_15ck520 FIND v(dout0_15) AT=265.025n 
 
-.meas tran vdout0_16ck530 FIND v(dout0_16) AT=270.025n 
+.meas tran vdout0_16ck520 FIND v(dout0_16) AT=265.025n 
 
-.meas tran vdout0_17ck530 FIND v(dout0_17) AT=270.025n 
+.meas tran vdout0_17ck520 FIND v(dout0_17) AT=265.025n 
 
-.meas tran vdout0_18ck530 FIND v(dout0_18) AT=270.025n 
+.meas tran vdout0_18ck520 FIND v(dout0_18) AT=265.025n 
 
-.meas tran vdout0_19ck530 FIND v(dout0_19) AT=270.025n 
+.meas tran vdout0_19ck520 FIND v(dout0_19) AT=265.025n 
 
-.meas tran vdout0_20ck530 FIND v(dout0_20) AT=270.025n 
+.meas tran vdout0_20ck520 FIND v(dout0_20) AT=265.025n 
 
-.meas tran vdout0_21ck530 FIND v(dout0_21) AT=270.025n 
+.meas tran vdout0_21ck520 FIND v(dout0_21) AT=265.025n 
 
-.meas tran vdout0_22ck530 FIND v(dout0_22) AT=270.025n 
+.meas tran vdout0_22ck520 FIND v(dout0_22) AT=265.025n 
 
-.meas tran vdout0_23ck530 FIND v(dout0_23) AT=270.025n 
+.meas tran vdout0_23ck520 FIND v(dout0_23) AT=265.025n 
 
-.meas tran vdout0_24ck530 FIND v(dout0_24) AT=270.025n 
+.meas tran vdout0_24ck520 FIND v(dout0_24) AT=265.025n 
 
-.meas tran vdout0_25ck530 FIND v(dout0_25) AT=270.025n 
+.meas tran vdout0_25ck520 FIND v(dout0_25) AT=265.025n 
 
-.meas tran vdout0_26ck530 FIND v(dout0_26) AT=270.025n 
+.meas tran vdout0_26ck520 FIND v(dout0_26) AT=265.025n 
 
-.meas tran vdout0_27ck530 FIND v(dout0_27) AT=270.025n 
+.meas tran vdout0_27ck520 FIND v(dout0_27) AT=265.025n 
 
-.meas tran vdout0_28ck530 FIND v(dout0_28) AT=270.025n 
+.meas tran vdout0_28ck520 FIND v(dout0_28) AT=265.025n 
 
-.meas tran vdout0_29ck530 FIND v(dout0_29) AT=270.025n 
+.meas tran vdout0_29ck520 FIND v(dout0_29) AT=265.025n 
 
-.meas tran vdout0_30ck530 FIND v(dout0_30) AT=270.025n 
+.meas tran vdout0_30ck520 FIND v(dout0_30) AT=265.025n 
 
-.meas tran vdout0_31ck530 FIND v(dout0_31) AT=270.025n 
+.meas tran vdout0_31ck520 FIND v(dout0_31) AT=265.025n 
 
-.meas tran vdout0_0ck540 FIND v(dout0_0) AT=275.025n 
+.meas tran vdout0_0ck550 FIND v(dout0_0) AT=280.025n 
 
-.meas tran vdout0_1ck540 FIND v(dout0_1) AT=275.025n 
+.meas tran vdout0_1ck550 FIND v(dout0_1) AT=280.025n 
 
-.meas tran vdout0_2ck540 FIND v(dout0_2) AT=275.025n 
+.meas tran vdout0_2ck550 FIND v(dout0_2) AT=280.025n 
 
-.meas tran vdout0_3ck540 FIND v(dout0_3) AT=275.025n 
+.meas tran vdout0_3ck550 FIND v(dout0_3) AT=280.025n 
 
-.meas tran vdout0_4ck540 FIND v(dout0_4) AT=275.025n 
+.meas tran vdout0_4ck550 FIND v(dout0_4) AT=280.025n 
 
-.meas tran vdout0_5ck540 FIND v(dout0_5) AT=275.025n 
+.meas tran vdout0_5ck550 FIND v(dout0_5) AT=280.025n 
 
-.meas tran vdout0_6ck540 FIND v(dout0_6) AT=275.025n 
+.meas tran vdout0_6ck550 FIND v(dout0_6) AT=280.025n 
 
-.meas tran vdout0_7ck540 FIND v(dout0_7) AT=275.025n 
+.meas tran vdout0_7ck550 FIND v(dout0_7) AT=280.025n 
 
-.meas tran vdout0_8ck540 FIND v(dout0_8) AT=275.025n 
+.meas tran vdout0_8ck550 FIND v(dout0_8) AT=280.025n 
 
-.meas tran vdout0_9ck540 FIND v(dout0_9) AT=275.025n 
+.meas tran vdout0_9ck550 FIND v(dout0_9) AT=280.025n 
 
-.meas tran vdout0_10ck540 FIND v(dout0_10) AT=275.025n 
+.meas tran vdout0_10ck550 FIND v(dout0_10) AT=280.025n 
 
-.meas tran vdout0_11ck540 FIND v(dout0_11) AT=275.025n 
+.meas tran vdout0_11ck550 FIND v(dout0_11) AT=280.025n 
 
-.meas tran vdout0_12ck540 FIND v(dout0_12) AT=275.025n 
+.meas tran vdout0_12ck550 FIND v(dout0_12) AT=280.025n 
 
-.meas tran vdout0_13ck540 FIND v(dout0_13) AT=275.025n 
+.meas tran vdout0_13ck550 FIND v(dout0_13) AT=280.025n 
 
-.meas tran vdout0_14ck540 FIND v(dout0_14) AT=275.025n 
+.meas tran vdout0_14ck550 FIND v(dout0_14) AT=280.025n 
 
-.meas tran vdout0_15ck540 FIND v(dout0_15) AT=275.025n 
+.meas tran vdout0_15ck550 FIND v(dout0_15) AT=280.025n 
 
-.meas tran vdout0_16ck540 FIND v(dout0_16) AT=275.025n 
+.meas tran vdout0_16ck550 FIND v(dout0_16) AT=280.025n 
 
-.meas tran vdout0_17ck540 FIND v(dout0_17) AT=275.025n 
+.meas tran vdout0_17ck550 FIND v(dout0_17) AT=280.025n 
 
-.meas tran vdout0_18ck540 FIND v(dout0_18) AT=275.025n 
+.meas tran vdout0_18ck550 FIND v(dout0_18) AT=280.025n 
 
-.meas tran vdout0_19ck540 FIND v(dout0_19) AT=275.025n 
+.meas tran vdout0_19ck550 FIND v(dout0_19) AT=280.025n 
 
-.meas tran vdout0_20ck540 FIND v(dout0_20) AT=275.025n 
+.meas tran vdout0_20ck550 FIND v(dout0_20) AT=280.025n 
 
-.meas tran vdout0_21ck540 FIND v(dout0_21) AT=275.025n 
+.meas tran vdout0_21ck550 FIND v(dout0_21) AT=280.025n 
 
-.meas tran vdout0_22ck540 FIND v(dout0_22) AT=275.025n 
+.meas tran vdout0_22ck550 FIND v(dout0_22) AT=280.025n 
 
-.meas tran vdout0_23ck540 FIND v(dout0_23) AT=275.025n 
+.meas tran vdout0_23ck550 FIND v(dout0_23) AT=280.025n 
 
-.meas tran vdout0_24ck540 FIND v(dout0_24) AT=275.025n 
+.meas tran vdout0_24ck550 FIND v(dout0_24) AT=280.025n 
 
-.meas tran vdout0_25ck540 FIND v(dout0_25) AT=275.025n 
+.meas tran vdout0_25ck550 FIND v(dout0_25) AT=280.025n 
 
-.meas tran vdout0_26ck540 FIND v(dout0_26) AT=275.025n 
+.meas tran vdout0_26ck550 FIND v(dout0_26) AT=280.025n 
 
-.meas tran vdout0_27ck540 FIND v(dout0_27) AT=275.025n 
+.meas tran vdout0_27ck550 FIND v(dout0_27) AT=280.025n 
 
-.meas tran vdout0_28ck540 FIND v(dout0_28) AT=275.025n 
+.meas tran vdout0_28ck550 FIND v(dout0_28) AT=280.025n 
 
-.meas tran vdout0_29ck540 FIND v(dout0_29) AT=275.025n 
+.meas tran vdout0_29ck550 FIND v(dout0_29) AT=280.025n 
 
-.meas tran vdout0_30ck540 FIND v(dout0_30) AT=275.025n 
+.meas tran vdout0_30ck550 FIND v(dout0_30) AT=280.025n 
 
-.meas tran vdout0_31ck540 FIND v(dout0_31) AT=275.025n 
-
-.meas tran vdout0_0ck570 FIND v(dout0_0) AT=290.025n 
-
-.meas tran vdout0_1ck570 FIND v(dout0_1) AT=290.025n 
-
-.meas tran vdout0_2ck570 FIND v(dout0_2) AT=290.025n 
-
-.meas tran vdout0_3ck570 FIND v(dout0_3) AT=290.025n 
-
-.meas tran vdout0_4ck570 FIND v(dout0_4) AT=290.025n 
-
-.meas tran vdout0_5ck570 FIND v(dout0_5) AT=290.025n 
-
-.meas tran vdout0_6ck570 FIND v(dout0_6) AT=290.025n 
-
-.meas tran vdout0_7ck570 FIND v(dout0_7) AT=290.025n 
-
-.meas tran vdout0_8ck570 FIND v(dout0_8) AT=290.025n 
-
-.meas tran vdout0_9ck570 FIND v(dout0_9) AT=290.025n 
-
-.meas tran vdout0_10ck570 FIND v(dout0_10) AT=290.025n 
-
-.meas tran vdout0_11ck570 FIND v(dout0_11) AT=290.025n 
-
-.meas tran vdout0_12ck570 FIND v(dout0_12) AT=290.025n 
-
-.meas tran vdout0_13ck570 FIND v(dout0_13) AT=290.025n 
-
-.meas tran vdout0_14ck570 FIND v(dout0_14) AT=290.025n 
-
-.meas tran vdout0_15ck570 FIND v(dout0_15) AT=290.025n 
-
-.meas tran vdout0_16ck570 FIND v(dout0_16) AT=290.025n 
-
-.meas tran vdout0_17ck570 FIND v(dout0_17) AT=290.025n 
-
-.meas tran vdout0_18ck570 FIND v(dout0_18) AT=290.025n 
-
-.meas tran vdout0_19ck570 FIND v(dout0_19) AT=290.025n 
-
-.meas tran vdout0_20ck570 FIND v(dout0_20) AT=290.025n 
-
-.meas tran vdout0_21ck570 FIND v(dout0_21) AT=290.025n 
-
-.meas tran vdout0_22ck570 FIND v(dout0_22) AT=290.025n 
-
-.meas tran vdout0_23ck570 FIND v(dout0_23) AT=290.025n 
-
-.meas tran vdout0_24ck570 FIND v(dout0_24) AT=290.025n 
-
-.meas tran vdout0_25ck570 FIND v(dout0_25) AT=290.025n 
-
-.meas tran vdout0_26ck570 FIND v(dout0_26) AT=290.025n 
-
-.meas tran vdout0_27ck570 FIND v(dout0_27) AT=290.025n 
-
-.meas tran vdout0_28ck570 FIND v(dout0_28) AT=290.025n 
-
-.meas tran vdout0_29ck570 FIND v(dout0_29) AT=290.025n 
-
-.meas tran vdout0_30ck570 FIND v(dout0_30) AT=290.025n 
-
-.meas tran vdout0_31ck570 FIND v(dout0_31) AT=290.025n 
+.meas tran vdout0_31ck550 FIND v(dout0_31) AT=280.025n 
 
 .meas tran vdout0_0ck580 FIND v(dout0_0) AT=295.025n 
 
@@ -1790,134 +1918,6 @@
 
 .meas tran vdout0_31ck580 FIND v(dout0_31) AT=295.025n 
 
-.meas tran vdout0_0ck590 FIND v(dout0_0) AT=300.025n 
-
-.meas tran vdout0_1ck590 FIND v(dout0_1) AT=300.025n 
-
-.meas tran vdout0_2ck590 FIND v(dout0_2) AT=300.025n 
-
-.meas tran vdout0_3ck590 FIND v(dout0_3) AT=300.025n 
-
-.meas tran vdout0_4ck590 FIND v(dout0_4) AT=300.025n 
-
-.meas tran vdout0_5ck590 FIND v(dout0_5) AT=300.025n 
-
-.meas tran vdout0_6ck590 FIND v(dout0_6) AT=300.025n 
-
-.meas tran vdout0_7ck590 FIND v(dout0_7) AT=300.025n 
-
-.meas tran vdout0_8ck590 FIND v(dout0_8) AT=300.025n 
-
-.meas tran vdout0_9ck590 FIND v(dout0_9) AT=300.025n 
-
-.meas tran vdout0_10ck590 FIND v(dout0_10) AT=300.025n 
-
-.meas tran vdout0_11ck590 FIND v(dout0_11) AT=300.025n 
-
-.meas tran vdout0_12ck590 FIND v(dout0_12) AT=300.025n 
-
-.meas tran vdout0_13ck590 FIND v(dout0_13) AT=300.025n 
-
-.meas tran vdout0_14ck590 FIND v(dout0_14) AT=300.025n 
-
-.meas tran vdout0_15ck590 FIND v(dout0_15) AT=300.025n 
-
-.meas tran vdout0_16ck590 FIND v(dout0_16) AT=300.025n 
-
-.meas tran vdout0_17ck590 FIND v(dout0_17) AT=300.025n 
-
-.meas tran vdout0_18ck590 FIND v(dout0_18) AT=300.025n 
-
-.meas tran vdout0_19ck590 FIND v(dout0_19) AT=300.025n 
-
-.meas tran vdout0_20ck590 FIND v(dout0_20) AT=300.025n 
-
-.meas tran vdout0_21ck590 FIND v(dout0_21) AT=300.025n 
-
-.meas tran vdout0_22ck590 FIND v(dout0_22) AT=300.025n 
-
-.meas tran vdout0_23ck590 FIND v(dout0_23) AT=300.025n 
-
-.meas tran vdout0_24ck590 FIND v(dout0_24) AT=300.025n 
-
-.meas tran vdout0_25ck590 FIND v(dout0_25) AT=300.025n 
-
-.meas tran vdout0_26ck590 FIND v(dout0_26) AT=300.025n 
-
-.meas tran vdout0_27ck590 FIND v(dout0_27) AT=300.025n 
-
-.meas tran vdout0_28ck590 FIND v(dout0_28) AT=300.025n 
-
-.meas tran vdout0_29ck590 FIND v(dout0_29) AT=300.025n 
-
-.meas tran vdout0_30ck590 FIND v(dout0_30) AT=300.025n 
-
-.meas tran vdout0_31ck590 FIND v(dout0_31) AT=300.025n 
-
-.meas tran vdout0_0ck600 FIND v(dout0_0) AT=305.025n 
-
-.meas tran vdout0_1ck600 FIND v(dout0_1) AT=305.025n 
-
-.meas tran vdout0_2ck600 FIND v(dout0_2) AT=305.025n 
-
-.meas tran vdout0_3ck600 FIND v(dout0_3) AT=305.025n 
-
-.meas tran vdout0_4ck600 FIND v(dout0_4) AT=305.025n 
-
-.meas tran vdout0_5ck600 FIND v(dout0_5) AT=305.025n 
-
-.meas tran vdout0_6ck600 FIND v(dout0_6) AT=305.025n 
-
-.meas tran vdout0_7ck600 FIND v(dout0_7) AT=305.025n 
-
-.meas tran vdout0_8ck600 FIND v(dout0_8) AT=305.025n 
-
-.meas tran vdout0_9ck600 FIND v(dout0_9) AT=305.025n 
-
-.meas tran vdout0_10ck600 FIND v(dout0_10) AT=305.025n 
-
-.meas tran vdout0_11ck600 FIND v(dout0_11) AT=305.025n 
-
-.meas tran vdout0_12ck600 FIND v(dout0_12) AT=305.025n 
-
-.meas tran vdout0_13ck600 FIND v(dout0_13) AT=305.025n 
-
-.meas tran vdout0_14ck600 FIND v(dout0_14) AT=305.025n 
-
-.meas tran vdout0_15ck600 FIND v(dout0_15) AT=305.025n 
-
-.meas tran vdout0_16ck600 FIND v(dout0_16) AT=305.025n 
-
-.meas tran vdout0_17ck600 FIND v(dout0_17) AT=305.025n 
-
-.meas tran vdout0_18ck600 FIND v(dout0_18) AT=305.025n 
-
-.meas tran vdout0_19ck600 FIND v(dout0_19) AT=305.025n 
-
-.meas tran vdout0_20ck600 FIND v(dout0_20) AT=305.025n 
-
-.meas tran vdout0_21ck600 FIND v(dout0_21) AT=305.025n 
-
-.meas tran vdout0_22ck600 FIND v(dout0_22) AT=305.025n 
-
-.meas tran vdout0_23ck600 FIND v(dout0_23) AT=305.025n 
-
-.meas tran vdout0_24ck600 FIND v(dout0_24) AT=305.025n 
-
-.meas tran vdout0_25ck600 FIND v(dout0_25) AT=305.025n 
-
-.meas tran vdout0_26ck600 FIND v(dout0_26) AT=305.025n 
-
-.meas tran vdout0_27ck600 FIND v(dout0_27) AT=305.025n 
-
-.meas tran vdout0_28ck600 FIND v(dout0_28) AT=305.025n 
-
-.meas tran vdout0_29ck600 FIND v(dout0_29) AT=305.025n 
-
-.meas tran vdout0_30ck600 FIND v(dout0_30) AT=305.025n 
-
-.meas tran vdout0_31ck600 FIND v(dout0_31) AT=305.025n 
-
 .meas tran vdout0_0ck620 FIND v(dout0_0) AT=315.025n 
 
 .meas tran vdout0_1ck620 FIND v(dout0_1) AT=315.025n 
@@ -1981,70 +1981,6 @@
 .meas tran vdout0_30ck620 FIND v(dout0_30) AT=315.025n 
 
 .meas tran vdout0_31ck620 FIND v(dout0_31) AT=315.025n 
-
-.meas tran vdout0_0ck650 FIND v(dout0_0) AT=330.025n 
-
-.meas tran vdout0_1ck650 FIND v(dout0_1) AT=330.025n 
-
-.meas tran vdout0_2ck650 FIND v(dout0_2) AT=330.025n 
-
-.meas tran vdout0_3ck650 FIND v(dout0_3) AT=330.025n 
-
-.meas tran vdout0_4ck650 FIND v(dout0_4) AT=330.025n 
-
-.meas tran vdout0_5ck650 FIND v(dout0_5) AT=330.025n 
-
-.meas tran vdout0_6ck650 FIND v(dout0_6) AT=330.025n 
-
-.meas tran vdout0_7ck650 FIND v(dout0_7) AT=330.025n 
-
-.meas tran vdout0_8ck650 FIND v(dout0_8) AT=330.025n 
-
-.meas tran vdout0_9ck650 FIND v(dout0_9) AT=330.025n 
-
-.meas tran vdout0_10ck650 FIND v(dout0_10) AT=330.025n 
-
-.meas tran vdout0_11ck650 FIND v(dout0_11) AT=330.025n 
-
-.meas tran vdout0_12ck650 FIND v(dout0_12) AT=330.025n 
-
-.meas tran vdout0_13ck650 FIND v(dout0_13) AT=330.025n 
-
-.meas tran vdout0_14ck650 FIND v(dout0_14) AT=330.025n 
-
-.meas tran vdout0_15ck650 FIND v(dout0_15) AT=330.025n 
-
-.meas tran vdout0_16ck650 FIND v(dout0_16) AT=330.025n 
-
-.meas tran vdout0_17ck650 FIND v(dout0_17) AT=330.025n 
-
-.meas tran vdout0_18ck650 FIND v(dout0_18) AT=330.025n 
-
-.meas tran vdout0_19ck650 FIND v(dout0_19) AT=330.025n 
-
-.meas tran vdout0_20ck650 FIND v(dout0_20) AT=330.025n 
-
-.meas tran vdout0_21ck650 FIND v(dout0_21) AT=330.025n 
-
-.meas tran vdout0_22ck650 FIND v(dout0_22) AT=330.025n 
-
-.meas tran vdout0_23ck650 FIND v(dout0_23) AT=330.025n 
-
-.meas tran vdout0_24ck650 FIND v(dout0_24) AT=330.025n 
-
-.meas tran vdout0_25ck650 FIND v(dout0_25) AT=330.025n 
-
-.meas tran vdout0_26ck650 FIND v(dout0_26) AT=330.025n 
-
-.meas tran vdout0_27ck650 FIND v(dout0_27) AT=330.025n 
-
-.meas tran vdout0_28ck650 FIND v(dout0_28) AT=330.025n 
-
-.meas tran vdout0_29ck650 FIND v(dout0_29) AT=330.025n 
-
-.meas tran vdout0_30ck650 FIND v(dout0_30) AT=330.025n 
-
-.meas tran vdout0_31ck650 FIND v(dout0_31) AT=330.025n 
 
 .meas tran vdout0_0ck660 FIND v(dout0_0) AT=335.025n 
 
@@ -2110,70 +2046,6 @@
 
 .meas tran vdout0_31ck660 FIND v(dout0_31) AT=335.025n 
 
-.meas tran vdout0_0ck680 FIND v(dout0_0) AT=345.025n 
-
-.meas tran vdout0_1ck680 FIND v(dout0_1) AT=345.025n 
-
-.meas tran vdout0_2ck680 FIND v(dout0_2) AT=345.025n 
-
-.meas tran vdout0_3ck680 FIND v(dout0_3) AT=345.025n 
-
-.meas tran vdout0_4ck680 FIND v(dout0_4) AT=345.025n 
-
-.meas tran vdout0_5ck680 FIND v(dout0_5) AT=345.025n 
-
-.meas tran vdout0_6ck680 FIND v(dout0_6) AT=345.025n 
-
-.meas tran vdout0_7ck680 FIND v(dout0_7) AT=345.025n 
-
-.meas tran vdout0_8ck680 FIND v(dout0_8) AT=345.025n 
-
-.meas tran vdout0_9ck680 FIND v(dout0_9) AT=345.025n 
-
-.meas tran vdout0_10ck680 FIND v(dout0_10) AT=345.025n 
-
-.meas tran vdout0_11ck680 FIND v(dout0_11) AT=345.025n 
-
-.meas tran vdout0_12ck680 FIND v(dout0_12) AT=345.025n 
-
-.meas tran vdout0_13ck680 FIND v(dout0_13) AT=345.025n 
-
-.meas tran vdout0_14ck680 FIND v(dout0_14) AT=345.025n 
-
-.meas tran vdout0_15ck680 FIND v(dout0_15) AT=345.025n 
-
-.meas tran vdout0_16ck680 FIND v(dout0_16) AT=345.025n 
-
-.meas tran vdout0_17ck680 FIND v(dout0_17) AT=345.025n 
-
-.meas tran vdout0_18ck680 FIND v(dout0_18) AT=345.025n 
-
-.meas tran vdout0_19ck680 FIND v(dout0_19) AT=345.025n 
-
-.meas tran vdout0_20ck680 FIND v(dout0_20) AT=345.025n 
-
-.meas tran vdout0_21ck680 FIND v(dout0_21) AT=345.025n 
-
-.meas tran vdout0_22ck680 FIND v(dout0_22) AT=345.025n 
-
-.meas tran vdout0_23ck680 FIND v(dout0_23) AT=345.025n 
-
-.meas tran vdout0_24ck680 FIND v(dout0_24) AT=345.025n 
-
-.meas tran vdout0_25ck680 FIND v(dout0_25) AT=345.025n 
-
-.meas tran vdout0_26ck680 FIND v(dout0_26) AT=345.025n 
-
-.meas tran vdout0_27ck680 FIND v(dout0_27) AT=345.025n 
-
-.meas tran vdout0_28ck680 FIND v(dout0_28) AT=345.025n 
-
-.meas tran vdout0_29ck680 FIND v(dout0_29) AT=345.025n 
-
-.meas tran vdout0_30ck680 FIND v(dout0_30) AT=345.025n 
-
-.meas tran vdout0_31ck680 FIND v(dout0_31) AT=345.025n 
-
 .meas tran vdout0_0ck690 FIND v(dout0_0) AT=350.025n 
 
 .meas tran vdout0_1ck690 FIND v(dout0_1) AT=350.025n 
@@ -2237,134 +2109,6 @@
 .meas tran vdout0_30ck690 FIND v(dout0_30) AT=350.025n 
 
 .meas tran vdout0_31ck690 FIND v(dout0_31) AT=350.025n 
-
-.meas tran vdout0_0ck700 FIND v(dout0_0) AT=355.025n 
-
-.meas tran vdout0_1ck700 FIND v(dout0_1) AT=355.025n 
-
-.meas tran vdout0_2ck700 FIND v(dout0_2) AT=355.025n 
-
-.meas tran vdout0_3ck700 FIND v(dout0_3) AT=355.025n 
-
-.meas tran vdout0_4ck700 FIND v(dout0_4) AT=355.025n 
-
-.meas tran vdout0_5ck700 FIND v(dout0_5) AT=355.025n 
-
-.meas tran vdout0_6ck700 FIND v(dout0_6) AT=355.025n 
-
-.meas tran vdout0_7ck700 FIND v(dout0_7) AT=355.025n 
-
-.meas tran vdout0_8ck700 FIND v(dout0_8) AT=355.025n 
-
-.meas tran vdout0_9ck700 FIND v(dout0_9) AT=355.025n 
-
-.meas tran vdout0_10ck700 FIND v(dout0_10) AT=355.025n 
-
-.meas tran vdout0_11ck700 FIND v(dout0_11) AT=355.025n 
-
-.meas tran vdout0_12ck700 FIND v(dout0_12) AT=355.025n 
-
-.meas tran vdout0_13ck700 FIND v(dout0_13) AT=355.025n 
-
-.meas tran vdout0_14ck700 FIND v(dout0_14) AT=355.025n 
-
-.meas tran vdout0_15ck700 FIND v(dout0_15) AT=355.025n 
-
-.meas tran vdout0_16ck700 FIND v(dout0_16) AT=355.025n 
-
-.meas tran vdout0_17ck700 FIND v(dout0_17) AT=355.025n 
-
-.meas tran vdout0_18ck700 FIND v(dout0_18) AT=355.025n 
-
-.meas tran vdout0_19ck700 FIND v(dout0_19) AT=355.025n 
-
-.meas tran vdout0_20ck700 FIND v(dout0_20) AT=355.025n 
-
-.meas tran vdout0_21ck700 FIND v(dout0_21) AT=355.025n 
-
-.meas tran vdout0_22ck700 FIND v(dout0_22) AT=355.025n 
-
-.meas tran vdout0_23ck700 FIND v(dout0_23) AT=355.025n 
-
-.meas tran vdout0_24ck700 FIND v(dout0_24) AT=355.025n 
-
-.meas tran vdout0_25ck700 FIND v(dout0_25) AT=355.025n 
-
-.meas tran vdout0_26ck700 FIND v(dout0_26) AT=355.025n 
-
-.meas tran vdout0_27ck700 FIND v(dout0_27) AT=355.025n 
-
-.meas tran vdout0_28ck700 FIND v(dout0_28) AT=355.025n 
-
-.meas tran vdout0_29ck700 FIND v(dout0_29) AT=355.025n 
-
-.meas tran vdout0_30ck700 FIND v(dout0_30) AT=355.025n 
-
-.meas tran vdout0_31ck700 FIND v(dout0_31) AT=355.025n 
-
-.meas tran vdout0_0ck720 FIND v(dout0_0) AT=365.025n 
-
-.meas tran vdout0_1ck720 FIND v(dout0_1) AT=365.025n 
-
-.meas tran vdout0_2ck720 FIND v(dout0_2) AT=365.025n 
-
-.meas tran vdout0_3ck720 FIND v(dout0_3) AT=365.025n 
-
-.meas tran vdout0_4ck720 FIND v(dout0_4) AT=365.025n 
-
-.meas tran vdout0_5ck720 FIND v(dout0_5) AT=365.025n 
-
-.meas tran vdout0_6ck720 FIND v(dout0_6) AT=365.025n 
-
-.meas tran vdout0_7ck720 FIND v(dout0_7) AT=365.025n 
-
-.meas tran vdout0_8ck720 FIND v(dout0_8) AT=365.025n 
-
-.meas tran vdout0_9ck720 FIND v(dout0_9) AT=365.025n 
-
-.meas tran vdout0_10ck720 FIND v(dout0_10) AT=365.025n 
-
-.meas tran vdout0_11ck720 FIND v(dout0_11) AT=365.025n 
-
-.meas tran vdout0_12ck720 FIND v(dout0_12) AT=365.025n 
-
-.meas tran vdout0_13ck720 FIND v(dout0_13) AT=365.025n 
-
-.meas tran vdout0_14ck720 FIND v(dout0_14) AT=365.025n 
-
-.meas tran vdout0_15ck720 FIND v(dout0_15) AT=365.025n 
-
-.meas tran vdout0_16ck720 FIND v(dout0_16) AT=365.025n 
-
-.meas tran vdout0_17ck720 FIND v(dout0_17) AT=365.025n 
-
-.meas tran vdout0_18ck720 FIND v(dout0_18) AT=365.025n 
-
-.meas tran vdout0_19ck720 FIND v(dout0_19) AT=365.025n 
-
-.meas tran vdout0_20ck720 FIND v(dout0_20) AT=365.025n 
-
-.meas tran vdout0_21ck720 FIND v(dout0_21) AT=365.025n 
-
-.meas tran vdout0_22ck720 FIND v(dout0_22) AT=365.025n 
-
-.meas tran vdout0_23ck720 FIND v(dout0_23) AT=365.025n 
-
-.meas tran vdout0_24ck720 FIND v(dout0_24) AT=365.025n 
-
-.meas tran vdout0_25ck720 FIND v(dout0_25) AT=365.025n 
-
-.meas tran vdout0_26ck720 FIND v(dout0_26) AT=365.025n 
-
-.meas tran vdout0_27ck720 FIND v(dout0_27) AT=365.025n 
-
-.meas tran vdout0_28ck720 FIND v(dout0_28) AT=365.025n 
-
-.meas tran vdout0_29ck720 FIND v(dout0_29) AT=365.025n 
-
-.meas tran vdout0_30ck720 FIND v(dout0_30) AT=365.025n 
-
-.meas tran vdout0_31ck720 FIND v(dout0_31) AT=365.025n 
 
 .meas tran vdout0_0ck730 FIND v(dout0_0) AT=370.025n 
 
@@ -2430,133 +2174,69 @@
 
 .meas tran vdout0_31ck730 FIND v(dout0_31) AT=370.025n 
 
-.meas tran vdout0_0ck760 FIND v(dout0_0) AT=385.025n 
+.meas tran vdout0_0ck750 FIND v(dout0_0) AT=380.025n 
 
-.meas tran vdout0_1ck760 FIND v(dout0_1) AT=385.025n 
+.meas tran vdout0_1ck750 FIND v(dout0_1) AT=380.025n 
 
-.meas tran vdout0_2ck760 FIND v(dout0_2) AT=385.025n 
+.meas tran vdout0_2ck750 FIND v(dout0_2) AT=380.025n 
 
-.meas tran vdout0_3ck760 FIND v(dout0_3) AT=385.025n 
+.meas tran vdout0_3ck750 FIND v(dout0_3) AT=380.025n 
 
-.meas tran vdout0_4ck760 FIND v(dout0_4) AT=385.025n 
+.meas tran vdout0_4ck750 FIND v(dout0_4) AT=380.025n 
 
-.meas tran vdout0_5ck760 FIND v(dout0_5) AT=385.025n 
+.meas tran vdout0_5ck750 FIND v(dout0_5) AT=380.025n 
 
-.meas tran vdout0_6ck760 FIND v(dout0_6) AT=385.025n 
+.meas tran vdout0_6ck750 FIND v(dout0_6) AT=380.025n 
 
-.meas tran vdout0_7ck760 FIND v(dout0_7) AT=385.025n 
+.meas tran vdout0_7ck750 FIND v(dout0_7) AT=380.025n 
 
-.meas tran vdout0_8ck760 FIND v(dout0_8) AT=385.025n 
+.meas tran vdout0_8ck750 FIND v(dout0_8) AT=380.025n 
 
-.meas tran vdout0_9ck760 FIND v(dout0_9) AT=385.025n 
+.meas tran vdout0_9ck750 FIND v(dout0_9) AT=380.025n 
 
-.meas tran vdout0_10ck760 FIND v(dout0_10) AT=385.025n 
+.meas tran vdout0_10ck750 FIND v(dout0_10) AT=380.025n 
 
-.meas tran vdout0_11ck760 FIND v(dout0_11) AT=385.025n 
+.meas tran vdout0_11ck750 FIND v(dout0_11) AT=380.025n 
 
-.meas tran vdout0_12ck760 FIND v(dout0_12) AT=385.025n 
+.meas tran vdout0_12ck750 FIND v(dout0_12) AT=380.025n 
 
-.meas tran vdout0_13ck760 FIND v(dout0_13) AT=385.025n 
+.meas tran vdout0_13ck750 FIND v(dout0_13) AT=380.025n 
 
-.meas tran vdout0_14ck760 FIND v(dout0_14) AT=385.025n 
+.meas tran vdout0_14ck750 FIND v(dout0_14) AT=380.025n 
 
-.meas tran vdout0_15ck760 FIND v(dout0_15) AT=385.025n 
+.meas tran vdout0_15ck750 FIND v(dout0_15) AT=380.025n 
 
-.meas tran vdout0_16ck760 FIND v(dout0_16) AT=385.025n 
+.meas tran vdout0_16ck750 FIND v(dout0_16) AT=380.025n 
 
-.meas tran vdout0_17ck760 FIND v(dout0_17) AT=385.025n 
+.meas tran vdout0_17ck750 FIND v(dout0_17) AT=380.025n 
 
-.meas tran vdout0_18ck760 FIND v(dout0_18) AT=385.025n 
+.meas tran vdout0_18ck750 FIND v(dout0_18) AT=380.025n 
 
-.meas tran vdout0_19ck760 FIND v(dout0_19) AT=385.025n 
+.meas tran vdout0_19ck750 FIND v(dout0_19) AT=380.025n 
 
-.meas tran vdout0_20ck760 FIND v(dout0_20) AT=385.025n 
+.meas tran vdout0_20ck750 FIND v(dout0_20) AT=380.025n 
 
-.meas tran vdout0_21ck760 FIND v(dout0_21) AT=385.025n 
+.meas tran vdout0_21ck750 FIND v(dout0_21) AT=380.025n 
 
-.meas tran vdout0_22ck760 FIND v(dout0_22) AT=385.025n 
+.meas tran vdout0_22ck750 FIND v(dout0_22) AT=380.025n 
 
-.meas tran vdout0_23ck760 FIND v(dout0_23) AT=385.025n 
+.meas tran vdout0_23ck750 FIND v(dout0_23) AT=380.025n 
 
-.meas tran vdout0_24ck760 FIND v(dout0_24) AT=385.025n 
+.meas tran vdout0_24ck750 FIND v(dout0_24) AT=380.025n 
 
-.meas tran vdout0_25ck760 FIND v(dout0_25) AT=385.025n 
+.meas tran vdout0_25ck750 FIND v(dout0_25) AT=380.025n 
 
-.meas tran vdout0_26ck760 FIND v(dout0_26) AT=385.025n 
+.meas tran vdout0_26ck750 FIND v(dout0_26) AT=380.025n 
 
-.meas tran vdout0_27ck760 FIND v(dout0_27) AT=385.025n 
+.meas tran vdout0_27ck750 FIND v(dout0_27) AT=380.025n 
 
-.meas tran vdout0_28ck760 FIND v(dout0_28) AT=385.025n 
+.meas tran vdout0_28ck750 FIND v(dout0_28) AT=380.025n 
 
-.meas tran vdout0_29ck760 FIND v(dout0_29) AT=385.025n 
+.meas tran vdout0_29ck750 FIND v(dout0_29) AT=380.025n 
 
-.meas tran vdout0_30ck760 FIND v(dout0_30) AT=385.025n 
+.meas tran vdout0_30ck750 FIND v(dout0_30) AT=380.025n 
 
-.meas tran vdout0_31ck760 FIND v(dout0_31) AT=385.025n 
-
-.meas tran vdout0_0ck770 FIND v(dout0_0) AT=390.025n 
-
-.meas tran vdout0_1ck770 FIND v(dout0_1) AT=390.025n 
-
-.meas tran vdout0_2ck770 FIND v(dout0_2) AT=390.025n 
-
-.meas tran vdout0_3ck770 FIND v(dout0_3) AT=390.025n 
-
-.meas tran vdout0_4ck770 FIND v(dout0_4) AT=390.025n 
-
-.meas tran vdout0_5ck770 FIND v(dout0_5) AT=390.025n 
-
-.meas tran vdout0_6ck770 FIND v(dout0_6) AT=390.025n 
-
-.meas tran vdout0_7ck770 FIND v(dout0_7) AT=390.025n 
-
-.meas tran vdout0_8ck770 FIND v(dout0_8) AT=390.025n 
-
-.meas tran vdout0_9ck770 FIND v(dout0_9) AT=390.025n 
-
-.meas tran vdout0_10ck770 FIND v(dout0_10) AT=390.025n 
-
-.meas tran vdout0_11ck770 FIND v(dout0_11) AT=390.025n 
-
-.meas tran vdout0_12ck770 FIND v(dout0_12) AT=390.025n 
-
-.meas tran vdout0_13ck770 FIND v(dout0_13) AT=390.025n 
-
-.meas tran vdout0_14ck770 FIND v(dout0_14) AT=390.025n 
-
-.meas tran vdout0_15ck770 FIND v(dout0_15) AT=390.025n 
-
-.meas tran vdout0_16ck770 FIND v(dout0_16) AT=390.025n 
-
-.meas tran vdout0_17ck770 FIND v(dout0_17) AT=390.025n 
-
-.meas tran vdout0_18ck770 FIND v(dout0_18) AT=390.025n 
-
-.meas tran vdout0_19ck770 FIND v(dout0_19) AT=390.025n 
-
-.meas tran vdout0_20ck770 FIND v(dout0_20) AT=390.025n 
-
-.meas tran vdout0_21ck770 FIND v(dout0_21) AT=390.025n 
-
-.meas tran vdout0_22ck770 FIND v(dout0_22) AT=390.025n 
-
-.meas tran vdout0_23ck770 FIND v(dout0_23) AT=390.025n 
-
-.meas tran vdout0_24ck770 FIND v(dout0_24) AT=390.025n 
-
-.meas tran vdout0_25ck770 FIND v(dout0_25) AT=390.025n 
-
-.meas tran vdout0_26ck770 FIND v(dout0_26) AT=390.025n 
-
-.meas tran vdout0_27ck770 FIND v(dout0_27) AT=390.025n 
-
-.meas tran vdout0_28ck770 FIND v(dout0_28) AT=390.025n 
-
-.meas tran vdout0_29ck770 FIND v(dout0_29) AT=390.025n 
-
-.meas tran vdout0_30ck770 FIND v(dout0_30) AT=390.025n 
-
-.meas tran vdout0_31ck770 FIND v(dout0_31) AT=390.025n 
+.meas tran vdout0_31ck750 FIND v(dout0_31) AT=380.025n 
 
 .meas tran vdout0_0ck780 FIND v(dout0_0) AT=395.025n 
 
@@ -2622,197 +2302,325 @@
 
 .meas tran vdout0_31ck780 FIND v(dout0_31) AT=395.025n 
 
-.meas tran vdout0_0ck810 FIND v(dout0_0) AT=410.025n 
+.meas tran vdout0_0ck800 FIND v(dout0_0) AT=405.025n 
 
-.meas tran vdout0_1ck810 FIND v(dout0_1) AT=410.025n 
+.meas tran vdout0_1ck800 FIND v(dout0_1) AT=405.025n 
 
-.meas tran vdout0_2ck810 FIND v(dout0_2) AT=410.025n 
+.meas tran vdout0_2ck800 FIND v(dout0_2) AT=405.025n 
 
-.meas tran vdout0_3ck810 FIND v(dout0_3) AT=410.025n 
+.meas tran vdout0_3ck800 FIND v(dout0_3) AT=405.025n 
 
-.meas tran vdout0_4ck810 FIND v(dout0_4) AT=410.025n 
+.meas tran vdout0_4ck800 FIND v(dout0_4) AT=405.025n 
 
-.meas tran vdout0_5ck810 FIND v(dout0_5) AT=410.025n 
+.meas tran vdout0_5ck800 FIND v(dout0_5) AT=405.025n 
 
-.meas tran vdout0_6ck810 FIND v(dout0_6) AT=410.025n 
+.meas tran vdout0_6ck800 FIND v(dout0_6) AT=405.025n 
 
-.meas tran vdout0_7ck810 FIND v(dout0_7) AT=410.025n 
+.meas tran vdout0_7ck800 FIND v(dout0_7) AT=405.025n 
 
-.meas tran vdout0_8ck810 FIND v(dout0_8) AT=410.025n 
+.meas tran vdout0_8ck800 FIND v(dout0_8) AT=405.025n 
 
-.meas tran vdout0_9ck810 FIND v(dout0_9) AT=410.025n 
+.meas tran vdout0_9ck800 FIND v(dout0_9) AT=405.025n 
 
-.meas tran vdout0_10ck810 FIND v(dout0_10) AT=410.025n 
+.meas tran vdout0_10ck800 FIND v(dout0_10) AT=405.025n 
 
-.meas tran vdout0_11ck810 FIND v(dout0_11) AT=410.025n 
+.meas tran vdout0_11ck800 FIND v(dout0_11) AT=405.025n 
 
-.meas tran vdout0_12ck810 FIND v(dout0_12) AT=410.025n 
+.meas tran vdout0_12ck800 FIND v(dout0_12) AT=405.025n 
 
-.meas tran vdout0_13ck810 FIND v(dout0_13) AT=410.025n 
+.meas tran vdout0_13ck800 FIND v(dout0_13) AT=405.025n 
 
-.meas tran vdout0_14ck810 FIND v(dout0_14) AT=410.025n 
+.meas tran vdout0_14ck800 FIND v(dout0_14) AT=405.025n 
 
-.meas tran vdout0_15ck810 FIND v(dout0_15) AT=410.025n 
+.meas tran vdout0_15ck800 FIND v(dout0_15) AT=405.025n 
 
-.meas tran vdout0_16ck810 FIND v(dout0_16) AT=410.025n 
+.meas tran vdout0_16ck800 FIND v(dout0_16) AT=405.025n 
 
-.meas tran vdout0_17ck810 FIND v(dout0_17) AT=410.025n 
+.meas tran vdout0_17ck800 FIND v(dout0_17) AT=405.025n 
 
-.meas tran vdout0_18ck810 FIND v(dout0_18) AT=410.025n 
+.meas tran vdout0_18ck800 FIND v(dout0_18) AT=405.025n 
 
-.meas tran vdout0_19ck810 FIND v(dout0_19) AT=410.025n 
+.meas tran vdout0_19ck800 FIND v(dout0_19) AT=405.025n 
 
-.meas tran vdout0_20ck810 FIND v(dout0_20) AT=410.025n 
+.meas tran vdout0_20ck800 FIND v(dout0_20) AT=405.025n 
 
-.meas tran vdout0_21ck810 FIND v(dout0_21) AT=410.025n 
+.meas tran vdout0_21ck800 FIND v(dout0_21) AT=405.025n 
 
-.meas tran vdout0_22ck810 FIND v(dout0_22) AT=410.025n 
+.meas tran vdout0_22ck800 FIND v(dout0_22) AT=405.025n 
 
-.meas tran vdout0_23ck810 FIND v(dout0_23) AT=410.025n 
+.meas tran vdout0_23ck800 FIND v(dout0_23) AT=405.025n 
 
-.meas tran vdout0_24ck810 FIND v(dout0_24) AT=410.025n 
+.meas tran vdout0_24ck800 FIND v(dout0_24) AT=405.025n 
 
-.meas tran vdout0_25ck810 FIND v(dout0_25) AT=410.025n 
+.meas tran vdout0_25ck800 FIND v(dout0_25) AT=405.025n 
 
-.meas tran vdout0_26ck810 FIND v(dout0_26) AT=410.025n 
+.meas tran vdout0_26ck800 FIND v(dout0_26) AT=405.025n 
 
-.meas tran vdout0_27ck810 FIND v(dout0_27) AT=410.025n 
+.meas tran vdout0_27ck800 FIND v(dout0_27) AT=405.025n 
 
-.meas tran vdout0_28ck810 FIND v(dout0_28) AT=410.025n 
+.meas tran vdout0_28ck800 FIND v(dout0_28) AT=405.025n 
 
-.meas tran vdout0_29ck810 FIND v(dout0_29) AT=410.025n 
+.meas tran vdout0_29ck800 FIND v(dout0_29) AT=405.025n 
 
-.meas tran vdout0_30ck810 FIND v(dout0_30) AT=410.025n 
+.meas tran vdout0_30ck800 FIND v(dout0_30) AT=405.025n 
 
-.meas tran vdout0_31ck810 FIND v(dout0_31) AT=410.025n 
+.meas tran vdout0_31ck800 FIND v(dout0_31) AT=405.025n 
 
-.meas tran vdout0_0ck830 FIND v(dout0_0) AT=420.025n 
+.meas tran vdout0_0ck850 FIND v(dout0_0) AT=430.025n 
 
-.meas tran vdout0_1ck830 FIND v(dout0_1) AT=420.025n 
+.meas tran vdout0_1ck850 FIND v(dout0_1) AT=430.025n 
 
-.meas tran vdout0_2ck830 FIND v(dout0_2) AT=420.025n 
+.meas tran vdout0_2ck850 FIND v(dout0_2) AT=430.025n 
 
-.meas tran vdout0_3ck830 FIND v(dout0_3) AT=420.025n 
+.meas tran vdout0_3ck850 FIND v(dout0_3) AT=430.025n 
 
-.meas tran vdout0_4ck830 FIND v(dout0_4) AT=420.025n 
+.meas tran vdout0_4ck850 FIND v(dout0_4) AT=430.025n 
 
-.meas tran vdout0_5ck830 FIND v(dout0_5) AT=420.025n 
+.meas tran vdout0_5ck850 FIND v(dout0_5) AT=430.025n 
 
-.meas tran vdout0_6ck830 FIND v(dout0_6) AT=420.025n 
+.meas tran vdout0_6ck850 FIND v(dout0_6) AT=430.025n 
 
-.meas tran vdout0_7ck830 FIND v(dout0_7) AT=420.025n 
+.meas tran vdout0_7ck850 FIND v(dout0_7) AT=430.025n 
 
-.meas tran vdout0_8ck830 FIND v(dout0_8) AT=420.025n 
+.meas tran vdout0_8ck850 FIND v(dout0_8) AT=430.025n 
 
-.meas tran vdout0_9ck830 FIND v(dout0_9) AT=420.025n 
+.meas tran vdout0_9ck850 FIND v(dout0_9) AT=430.025n 
 
-.meas tran vdout0_10ck830 FIND v(dout0_10) AT=420.025n 
+.meas tran vdout0_10ck850 FIND v(dout0_10) AT=430.025n 
 
-.meas tran vdout0_11ck830 FIND v(dout0_11) AT=420.025n 
+.meas tran vdout0_11ck850 FIND v(dout0_11) AT=430.025n 
 
-.meas tran vdout0_12ck830 FIND v(dout0_12) AT=420.025n 
+.meas tran vdout0_12ck850 FIND v(dout0_12) AT=430.025n 
 
-.meas tran vdout0_13ck830 FIND v(dout0_13) AT=420.025n 
+.meas tran vdout0_13ck850 FIND v(dout0_13) AT=430.025n 
 
-.meas tran vdout0_14ck830 FIND v(dout0_14) AT=420.025n 
+.meas tran vdout0_14ck850 FIND v(dout0_14) AT=430.025n 
 
-.meas tran vdout0_15ck830 FIND v(dout0_15) AT=420.025n 
+.meas tran vdout0_15ck850 FIND v(dout0_15) AT=430.025n 
 
-.meas tran vdout0_16ck830 FIND v(dout0_16) AT=420.025n 
+.meas tran vdout0_16ck850 FIND v(dout0_16) AT=430.025n 
 
-.meas tran vdout0_17ck830 FIND v(dout0_17) AT=420.025n 
+.meas tran vdout0_17ck850 FIND v(dout0_17) AT=430.025n 
 
-.meas tran vdout0_18ck830 FIND v(dout0_18) AT=420.025n 
+.meas tran vdout0_18ck850 FIND v(dout0_18) AT=430.025n 
 
-.meas tran vdout0_19ck830 FIND v(dout0_19) AT=420.025n 
+.meas tran vdout0_19ck850 FIND v(dout0_19) AT=430.025n 
 
-.meas tran vdout0_20ck830 FIND v(dout0_20) AT=420.025n 
+.meas tran vdout0_20ck850 FIND v(dout0_20) AT=430.025n 
 
-.meas tran vdout0_21ck830 FIND v(dout0_21) AT=420.025n 
+.meas tran vdout0_21ck850 FIND v(dout0_21) AT=430.025n 
 
-.meas tran vdout0_22ck830 FIND v(dout0_22) AT=420.025n 
+.meas tran vdout0_22ck850 FIND v(dout0_22) AT=430.025n 
 
-.meas tran vdout0_23ck830 FIND v(dout0_23) AT=420.025n 
+.meas tran vdout0_23ck850 FIND v(dout0_23) AT=430.025n 
 
-.meas tran vdout0_24ck830 FIND v(dout0_24) AT=420.025n 
+.meas tran vdout0_24ck850 FIND v(dout0_24) AT=430.025n 
 
-.meas tran vdout0_25ck830 FIND v(dout0_25) AT=420.025n 
+.meas tran vdout0_25ck850 FIND v(dout0_25) AT=430.025n 
 
-.meas tran vdout0_26ck830 FIND v(dout0_26) AT=420.025n 
+.meas tran vdout0_26ck850 FIND v(dout0_26) AT=430.025n 
 
-.meas tran vdout0_27ck830 FIND v(dout0_27) AT=420.025n 
+.meas tran vdout0_27ck850 FIND v(dout0_27) AT=430.025n 
 
-.meas tran vdout0_28ck830 FIND v(dout0_28) AT=420.025n 
+.meas tran vdout0_28ck850 FIND v(dout0_28) AT=430.025n 
 
-.meas tran vdout0_29ck830 FIND v(dout0_29) AT=420.025n 
+.meas tran vdout0_29ck850 FIND v(dout0_29) AT=430.025n 
 
-.meas tran vdout0_30ck830 FIND v(dout0_30) AT=420.025n 
+.meas tran vdout0_30ck850 FIND v(dout0_30) AT=430.025n 
 
-.meas tran vdout0_31ck830 FIND v(dout0_31) AT=420.025n 
+.meas tran vdout0_31ck850 FIND v(dout0_31) AT=430.025n 
 
-.meas tran vdout0_0ck860 FIND v(dout0_0) AT=435.025n 
+.meas tran vdout0_0ck870 FIND v(dout0_0) AT=440.025n 
 
-.meas tran vdout0_1ck860 FIND v(dout0_1) AT=435.025n 
+.meas tran vdout0_1ck870 FIND v(dout0_1) AT=440.025n 
 
-.meas tran vdout0_2ck860 FIND v(dout0_2) AT=435.025n 
+.meas tran vdout0_2ck870 FIND v(dout0_2) AT=440.025n 
 
-.meas tran vdout0_3ck860 FIND v(dout0_3) AT=435.025n 
+.meas tran vdout0_3ck870 FIND v(dout0_3) AT=440.025n 
 
-.meas tran vdout0_4ck860 FIND v(dout0_4) AT=435.025n 
+.meas tran vdout0_4ck870 FIND v(dout0_4) AT=440.025n 
 
-.meas tran vdout0_5ck860 FIND v(dout0_5) AT=435.025n 
+.meas tran vdout0_5ck870 FIND v(dout0_5) AT=440.025n 
 
-.meas tran vdout0_6ck860 FIND v(dout0_6) AT=435.025n 
+.meas tran vdout0_6ck870 FIND v(dout0_6) AT=440.025n 
 
-.meas tran vdout0_7ck860 FIND v(dout0_7) AT=435.025n 
+.meas tran vdout0_7ck870 FIND v(dout0_7) AT=440.025n 
 
-.meas tran vdout0_8ck860 FIND v(dout0_8) AT=435.025n 
+.meas tran vdout0_8ck870 FIND v(dout0_8) AT=440.025n 
 
-.meas tran vdout0_9ck860 FIND v(dout0_9) AT=435.025n 
+.meas tran vdout0_9ck870 FIND v(dout0_9) AT=440.025n 
 
-.meas tran vdout0_10ck860 FIND v(dout0_10) AT=435.025n 
+.meas tran vdout0_10ck870 FIND v(dout0_10) AT=440.025n 
 
-.meas tran vdout0_11ck860 FIND v(dout0_11) AT=435.025n 
+.meas tran vdout0_11ck870 FIND v(dout0_11) AT=440.025n 
 
-.meas tran vdout0_12ck860 FIND v(dout0_12) AT=435.025n 
+.meas tran vdout0_12ck870 FIND v(dout0_12) AT=440.025n 
 
-.meas tran vdout0_13ck860 FIND v(dout0_13) AT=435.025n 
+.meas tran vdout0_13ck870 FIND v(dout0_13) AT=440.025n 
 
-.meas tran vdout0_14ck860 FIND v(dout0_14) AT=435.025n 
+.meas tran vdout0_14ck870 FIND v(dout0_14) AT=440.025n 
 
-.meas tran vdout0_15ck860 FIND v(dout0_15) AT=435.025n 
+.meas tran vdout0_15ck870 FIND v(dout0_15) AT=440.025n 
 
-.meas tran vdout0_16ck860 FIND v(dout0_16) AT=435.025n 
+.meas tran vdout0_16ck870 FIND v(dout0_16) AT=440.025n 
 
-.meas tran vdout0_17ck860 FIND v(dout0_17) AT=435.025n 
+.meas tran vdout0_17ck870 FIND v(dout0_17) AT=440.025n 
 
-.meas tran vdout0_18ck860 FIND v(dout0_18) AT=435.025n 
+.meas tran vdout0_18ck870 FIND v(dout0_18) AT=440.025n 
 
-.meas tran vdout0_19ck860 FIND v(dout0_19) AT=435.025n 
+.meas tran vdout0_19ck870 FIND v(dout0_19) AT=440.025n 
 
-.meas tran vdout0_20ck860 FIND v(dout0_20) AT=435.025n 
+.meas tran vdout0_20ck870 FIND v(dout0_20) AT=440.025n 
 
-.meas tran vdout0_21ck860 FIND v(dout0_21) AT=435.025n 
+.meas tran vdout0_21ck870 FIND v(dout0_21) AT=440.025n 
 
-.meas tran vdout0_22ck860 FIND v(dout0_22) AT=435.025n 
+.meas tran vdout0_22ck870 FIND v(dout0_22) AT=440.025n 
 
-.meas tran vdout0_23ck860 FIND v(dout0_23) AT=435.025n 
+.meas tran vdout0_23ck870 FIND v(dout0_23) AT=440.025n 
 
-.meas tran vdout0_24ck860 FIND v(dout0_24) AT=435.025n 
+.meas tran vdout0_24ck870 FIND v(dout0_24) AT=440.025n 
 
-.meas tran vdout0_25ck860 FIND v(dout0_25) AT=435.025n 
+.meas tran vdout0_25ck870 FIND v(dout0_25) AT=440.025n 
 
-.meas tran vdout0_26ck860 FIND v(dout0_26) AT=435.025n 
+.meas tran vdout0_26ck870 FIND v(dout0_26) AT=440.025n 
 
-.meas tran vdout0_27ck860 FIND v(dout0_27) AT=435.025n 
+.meas tran vdout0_27ck870 FIND v(dout0_27) AT=440.025n 
 
-.meas tran vdout0_28ck860 FIND v(dout0_28) AT=435.025n 
+.meas tran vdout0_28ck870 FIND v(dout0_28) AT=440.025n 
 
-.meas tran vdout0_29ck860 FIND v(dout0_29) AT=435.025n 
+.meas tran vdout0_29ck870 FIND v(dout0_29) AT=440.025n 
 
-.meas tran vdout0_30ck860 FIND v(dout0_30) AT=435.025n 
+.meas tran vdout0_30ck870 FIND v(dout0_30) AT=440.025n 
 
-.meas tran vdout0_31ck860 FIND v(dout0_31) AT=435.025n 
+.meas tran vdout0_31ck870 FIND v(dout0_31) AT=440.025n 
+
+.meas tran vdout0_0ck880 FIND v(dout0_0) AT=445.025n 
+
+.meas tran vdout0_1ck880 FIND v(dout0_1) AT=445.025n 
+
+.meas tran vdout0_2ck880 FIND v(dout0_2) AT=445.025n 
+
+.meas tran vdout0_3ck880 FIND v(dout0_3) AT=445.025n 
+
+.meas tran vdout0_4ck880 FIND v(dout0_4) AT=445.025n 
+
+.meas tran vdout0_5ck880 FIND v(dout0_5) AT=445.025n 
+
+.meas tran vdout0_6ck880 FIND v(dout0_6) AT=445.025n 
+
+.meas tran vdout0_7ck880 FIND v(dout0_7) AT=445.025n 
+
+.meas tran vdout0_8ck880 FIND v(dout0_8) AT=445.025n 
+
+.meas tran vdout0_9ck880 FIND v(dout0_9) AT=445.025n 
+
+.meas tran vdout0_10ck880 FIND v(dout0_10) AT=445.025n 
+
+.meas tran vdout0_11ck880 FIND v(dout0_11) AT=445.025n 
+
+.meas tran vdout0_12ck880 FIND v(dout0_12) AT=445.025n 
+
+.meas tran vdout0_13ck880 FIND v(dout0_13) AT=445.025n 
+
+.meas tran vdout0_14ck880 FIND v(dout0_14) AT=445.025n 
+
+.meas tran vdout0_15ck880 FIND v(dout0_15) AT=445.025n 
+
+.meas tran vdout0_16ck880 FIND v(dout0_16) AT=445.025n 
+
+.meas tran vdout0_17ck880 FIND v(dout0_17) AT=445.025n 
+
+.meas tran vdout0_18ck880 FIND v(dout0_18) AT=445.025n 
+
+.meas tran vdout0_19ck880 FIND v(dout0_19) AT=445.025n 
+
+.meas tran vdout0_20ck880 FIND v(dout0_20) AT=445.025n 
+
+.meas tran vdout0_21ck880 FIND v(dout0_21) AT=445.025n 
+
+.meas tran vdout0_22ck880 FIND v(dout0_22) AT=445.025n 
+
+.meas tran vdout0_23ck880 FIND v(dout0_23) AT=445.025n 
+
+.meas tran vdout0_24ck880 FIND v(dout0_24) AT=445.025n 
+
+.meas tran vdout0_25ck880 FIND v(dout0_25) AT=445.025n 
+
+.meas tran vdout0_26ck880 FIND v(dout0_26) AT=445.025n 
+
+.meas tran vdout0_27ck880 FIND v(dout0_27) AT=445.025n 
+
+.meas tran vdout0_28ck880 FIND v(dout0_28) AT=445.025n 
+
+.meas tran vdout0_29ck880 FIND v(dout0_29) AT=445.025n 
+
+.meas tran vdout0_30ck880 FIND v(dout0_30) AT=445.025n 
+
+.meas tran vdout0_31ck880 FIND v(dout0_31) AT=445.025n 
+
+.meas tran vdout0_0ck890 FIND v(dout0_0) AT=450.025n 
+
+.meas tran vdout0_1ck890 FIND v(dout0_1) AT=450.025n 
+
+.meas tran vdout0_2ck890 FIND v(dout0_2) AT=450.025n 
+
+.meas tran vdout0_3ck890 FIND v(dout0_3) AT=450.025n 
+
+.meas tran vdout0_4ck890 FIND v(dout0_4) AT=450.025n 
+
+.meas tran vdout0_5ck890 FIND v(dout0_5) AT=450.025n 
+
+.meas tran vdout0_6ck890 FIND v(dout0_6) AT=450.025n 
+
+.meas tran vdout0_7ck890 FIND v(dout0_7) AT=450.025n 
+
+.meas tran vdout0_8ck890 FIND v(dout0_8) AT=450.025n 
+
+.meas tran vdout0_9ck890 FIND v(dout0_9) AT=450.025n 
+
+.meas tran vdout0_10ck890 FIND v(dout0_10) AT=450.025n 
+
+.meas tran vdout0_11ck890 FIND v(dout0_11) AT=450.025n 
+
+.meas tran vdout0_12ck890 FIND v(dout0_12) AT=450.025n 
+
+.meas tran vdout0_13ck890 FIND v(dout0_13) AT=450.025n 
+
+.meas tran vdout0_14ck890 FIND v(dout0_14) AT=450.025n 
+
+.meas tran vdout0_15ck890 FIND v(dout0_15) AT=450.025n 
+
+.meas tran vdout0_16ck890 FIND v(dout0_16) AT=450.025n 
+
+.meas tran vdout0_17ck890 FIND v(dout0_17) AT=450.025n 
+
+.meas tran vdout0_18ck890 FIND v(dout0_18) AT=450.025n 
+
+.meas tran vdout0_19ck890 FIND v(dout0_19) AT=450.025n 
+
+.meas tran vdout0_20ck890 FIND v(dout0_20) AT=450.025n 
+
+.meas tran vdout0_21ck890 FIND v(dout0_21) AT=450.025n 
+
+.meas tran vdout0_22ck890 FIND v(dout0_22) AT=450.025n 
+
+.meas tran vdout0_23ck890 FIND v(dout0_23) AT=450.025n 
+
+.meas tran vdout0_24ck890 FIND v(dout0_24) AT=450.025n 
+
+.meas tran vdout0_25ck890 FIND v(dout0_25) AT=450.025n 
+
+.meas tran vdout0_26ck890 FIND v(dout0_26) AT=450.025n 
+
+.meas tran vdout0_27ck890 FIND v(dout0_27) AT=450.025n 
+
+.meas tran vdout0_28ck890 FIND v(dout0_28) AT=450.025n 
+
+.meas tran vdout0_29ck890 FIND v(dout0_29) AT=450.025n 
+
+.meas tran vdout0_30ck890 FIND v(dout0_30) AT=450.025n 
+
+.meas tran vdout0_31ck890 FIND v(dout0_31) AT=450.025n 
 
 .meas tran vdout0_0ck900 FIND v(dout0_0) AT=455.025n 
 
@@ -2942,69 +2750,133 @@
 
 .meas tran vdout0_31ck910 FIND v(dout0_31) AT=460.025n 
 
-.meas tran vdout0_0ck940 FIND v(dout0_0) AT=475.025n 
+.meas tran vdout0_0ck920 FIND v(dout0_0) AT=465.025n 
 
-.meas tran vdout0_1ck940 FIND v(dout0_1) AT=475.025n 
+.meas tran vdout0_1ck920 FIND v(dout0_1) AT=465.025n 
 
-.meas tran vdout0_2ck940 FIND v(dout0_2) AT=475.025n 
+.meas tran vdout0_2ck920 FIND v(dout0_2) AT=465.025n 
 
-.meas tran vdout0_3ck940 FIND v(dout0_3) AT=475.025n 
+.meas tran vdout0_3ck920 FIND v(dout0_3) AT=465.025n 
 
-.meas tran vdout0_4ck940 FIND v(dout0_4) AT=475.025n 
+.meas tran vdout0_4ck920 FIND v(dout0_4) AT=465.025n 
 
-.meas tran vdout0_5ck940 FIND v(dout0_5) AT=475.025n 
+.meas tran vdout0_5ck920 FIND v(dout0_5) AT=465.025n 
 
-.meas tran vdout0_6ck940 FIND v(dout0_6) AT=475.025n 
+.meas tran vdout0_6ck920 FIND v(dout0_6) AT=465.025n 
 
-.meas tran vdout0_7ck940 FIND v(dout0_7) AT=475.025n 
+.meas tran vdout0_7ck920 FIND v(dout0_7) AT=465.025n 
 
-.meas tran vdout0_8ck940 FIND v(dout0_8) AT=475.025n 
+.meas tran vdout0_8ck920 FIND v(dout0_8) AT=465.025n 
 
-.meas tran vdout0_9ck940 FIND v(dout0_9) AT=475.025n 
+.meas tran vdout0_9ck920 FIND v(dout0_9) AT=465.025n 
 
-.meas tran vdout0_10ck940 FIND v(dout0_10) AT=475.025n 
+.meas tran vdout0_10ck920 FIND v(dout0_10) AT=465.025n 
 
-.meas tran vdout0_11ck940 FIND v(dout0_11) AT=475.025n 
+.meas tran vdout0_11ck920 FIND v(dout0_11) AT=465.025n 
 
-.meas tran vdout0_12ck940 FIND v(dout0_12) AT=475.025n 
+.meas tran vdout0_12ck920 FIND v(dout0_12) AT=465.025n 
 
-.meas tran vdout0_13ck940 FIND v(dout0_13) AT=475.025n 
+.meas tran vdout0_13ck920 FIND v(dout0_13) AT=465.025n 
 
-.meas tran vdout0_14ck940 FIND v(dout0_14) AT=475.025n 
+.meas tran vdout0_14ck920 FIND v(dout0_14) AT=465.025n 
 
-.meas tran vdout0_15ck940 FIND v(dout0_15) AT=475.025n 
+.meas tran vdout0_15ck920 FIND v(dout0_15) AT=465.025n 
 
-.meas tran vdout0_16ck940 FIND v(dout0_16) AT=475.025n 
+.meas tran vdout0_16ck920 FIND v(dout0_16) AT=465.025n 
 
-.meas tran vdout0_17ck940 FIND v(dout0_17) AT=475.025n 
+.meas tran vdout0_17ck920 FIND v(dout0_17) AT=465.025n 
 
-.meas tran vdout0_18ck940 FIND v(dout0_18) AT=475.025n 
+.meas tran vdout0_18ck920 FIND v(dout0_18) AT=465.025n 
 
-.meas tran vdout0_19ck940 FIND v(dout0_19) AT=475.025n 
+.meas tran vdout0_19ck920 FIND v(dout0_19) AT=465.025n 
 
-.meas tran vdout0_20ck940 FIND v(dout0_20) AT=475.025n 
+.meas tran vdout0_20ck920 FIND v(dout0_20) AT=465.025n 
 
-.meas tran vdout0_21ck940 FIND v(dout0_21) AT=475.025n 
+.meas tran vdout0_21ck920 FIND v(dout0_21) AT=465.025n 
 
-.meas tran vdout0_22ck940 FIND v(dout0_22) AT=475.025n 
+.meas tran vdout0_22ck920 FIND v(dout0_22) AT=465.025n 
 
-.meas tran vdout0_23ck940 FIND v(dout0_23) AT=475.025n 
+.meas tran vdout0_23ck920 FIND v(dout0_23) AT=465.025n 
 
-.meas tran vdout0_24ck940 FIND v(dout0_24) AT=475.025n 
+.meas tran vdout0_24ck920 FIND v(dout0_24) AT=465.025n 
 
-.meas tran vdout0_25ck940 FIND v(dout0_25) AT=475.025n 
+.meas tran vdout0_25ck920 FIND v(dout0_25) AT=465.025n 
 
-.meas tran vdout0_26ck940 FIND v(dout0_26) AT=475.025n 
+.meas tran vdout0_26ck920 FIND v(dout0_26) AT=465.025n 
 
-.meas tran vdout0_27ck940 FIND v(dout0_27) AT=475.025n 
+.meas tran vdout0_27ck920 FIND v(dout0_27) AT=465.025n 
 
-.meas tran vdout0_28ck940 FIND v(dout0_28) AT=475.025n 
+.meas tran vdout0_28ck920 FIND v(dout0_28) AT=465.025n 
 
-.meas tran vdout0_29ck940 FIND v(dout0_29) AT=475.025n 
+.meas tran vdout0_29ck920 FIND v(dout0_29) AT=465.025n 
 
-.meas tran vdout0_30ck940 FIND v(dout0_30) AT=475.025n 
+.meas tran vdout0_30ck920 FIND v(dout0_30) AT=465.025n 
 
-.meas tran vdout0_31ck940 FIND v(dout0_31) AT=475.025n 
+.meas tran vdout0_31ck920 FIND v(dout0_31) AT=465.025n 
+
+.meas tran vdout0_0ck930 FIND v(dout0_0) AT=470.025n 
+
+.meas tran vdout0_1ck930 FIND v(dout0_1) AT=470.025n 
+
+.meas tran vdout0_2ck930 FIND v(dout0_2) AT=470.025n 
+
+.meas tran vdout0_3ck930 FIND v(dout0_3) AT=470.025n 
+
+.meas tran vdout0_4ck930 FIND v(dout0_4) AT=470.025n 
+
+.meas tran vdout0_5ck930 FIND v(dout0_5) AT=470.025n 
+
+.meas tran vdout0_6ck930 FIND v(dout0_6) AT=470.025n 
+
+.meas tran vdout0_7ck930 FIND v(dout0_7) AT=470.025n 
+
+.meas tran vdout0_8ck930 FIND v(dout0_8) AT=470.025n 
+
+.meas tran vdout0_9ck930 FIND v(dout0_9) AT=470.025n 
+
+.meas tran vdout0_10ck930 FIND v(dout0_10) AT=470.025n 
+
+.meas tran vdout0_11ck930 FIND v(dout0_11) AT=470.025n 
+
+.meas tran vdout0_12ck930 FIND v(dout0_12) AT=470.025n 
+
+.meas tran vdout0_13ck930 FIND v(dout0_13) AT=470.025n 
+
+.meas tran vdout0_14ck930 FIND v(dout0_14) AT=470.025n 
+
+.meas tran vdout0_15ck930 FIND v(dout0_15) AT=470.025n 
+
+.meas tran vdout0_16ck930 FIND v(dout0_16) AT=470.025n 
+
+.meas tran vdout0_17ck930 FIND v(dout0_17) AT=470.025n 
+
+.meas tran vdout0_18ck930 FIND v(dout0_18) AT=470.025n 
+
+.meas tran vdout0_19ck930 FIND v(dout0_19) AT=470.025n 
+
+.meas tran vdout0_20ck930 FIND v(dout0_20) AT=470.025n 
+
+.meas tran vdout0_21ck930 FIND v(dout0_21) AT=470.025n 
+
+.meas tran vdout0_22ck930 FIND v(dout0_22) AT=470.025n 
+
+.meas tran vdout0_23ck930 FIND v(dout0_23) AT=470.025n 
+
+.meas tran vdout0_24ck930 FIND v(dout0_24) AT=470.025n 
+
+.meas tran vdout0_25ck930 FIND v(dout0_25) AT=470.025n 
+
+.meas tran vdout0_26ck930 FIND v(dout0_26) AT=470.025n 
+
+.meas tran vdout0_27ck930 FIND v(dout0_27) AT=470.025n 
+
+.meas tran vdout0_28ck930 FIND v(dout0_28) AT=470.025n 
+
+.meas tran vdout0_29ck930 FIND v(dout0_29) AT=470.025n 
+
+.meas tran vdout0_30ck930 FIND v(dout0_30) AT=470.025n 
+
+.meas tran vdout0_31ck930 FIND v(dout0_31) AT=470.025n 
 
 .meas tran vdout0_0ck950 FIND v(dout0_0) AT=480.025n 
 
@@ -3070,69 +2942,261 @@
 
 .meas tran vdout0_31ck950 FIND v(dout0_31) AT=480.025n 
 
-.meas tran vdout0_0ck960 FIND v(dout0_0) AT=485.025n 
+.meas tran vdout0_0ck970 FIND v(dout0_0) AT=490.025n 
 
-.meas tran vdout0_1ck960 FIND v(dout0_1) AT=485.025n 
+.meas tran vdout0_1ck970 FIND v(dout0_1) AT=490.025n 
 
-.meas tran vdout0_2ck960 FIND v(dout0_2) AT=485.025n 
+.meas tran vdout0_2ck970 FIND v(dout0_2) AT=490.025n 
 
-.meas tran vdout0_3ck960 FIND v(dout0_3) AT=485.025n 
+.meas tran vdout0_3ck970 FIND v(dout0_3) AT=490.025n 
 
-.meas tran vdout0_4ck960 FIND v(dout0_4) AT=485.025n 
+.meas tran vdout0_4ck970 FIND v(dout0_4) AT=490.025n 
 
-.meas tran vdout0_5ck960 FIND v(dout0_5) AT=485.025n 
+.meas tran vdout0_5ck970 FIND v(dout0_5) AT=490.025n 
 
-.meas tran vdout0_6ck960 FIND v(dout0_6) AT=485.025n 
+.meas tran vdout0_6ck970 FIND v(dout0_6) AT=490.025n 
 
-.meas tran vdout0_7ck960 FIND v(dout0_7) AT=485.025n 
+.meas tran vdout0_7ck970 FIND v(dout0_7) AT=490.025n 
 
-.meas tran vdout0_8ck960 FIND v(dout0_8) AT=485.025n 
+.meas tran vdout0_8ck970 FIND v(dout0_8) AT=490.025n 
 
-.meas tran vdout0_9ck960 FIND v(dout0_9) AT=485.025n 
+.meas tran vdout0_9ck970 FIND v(dout0_9) AT=490.025n 
 
-.meas tran vdout0_10ck960 FIND v(dout0_10) AT=485.025n 
+.meas tran vdout0_10ck970 FIND v(dout0_10) AT=490.025n 
 
-.meas tran vdout0_11ck960 FIND v(dout0_11) AT=485.025n 
+.meas tran vdout0_11ck970 FIND v(dout0_11) AT=490.025n 
 
-.meas tran vdout0_12ck960 FIND v(dout0_12) AT=485.025n 
+.meas tran vdout0_12ck970 FIND v(dout0_12) AT=490.025n 
 
-.meas tran vdout0_13ck960 FIND v(dout0_13) AT=485.025n 
+.meas tran vdout0_13ck970 FIND v(dout0_13) AT=490.025n 
 
-.meas tran vdout0_14ck960 FIND v(dout0_14) AT=485.025n 
+.meas tran vdout0_14ck970 FIND v(dout0_14) AT=490.025n 
 
-.meas tran vdout0_15ck960 FIND v(dout0_15) AT=485.025n 
+.meas tran vdout0_15ck970 FIND v(dout0_15) AT=490.025n 
 
-.meas tran vdout0_16ck960 FIND v(dout0_16) AT=485.025n 
+.meas tran vdout0_16ck970 FIND v(dout0_16) AT=490.025n 
 
-.meas tran vdout0_17ck960 FIND v(dout0_17) AT=485.025n 
+.meas tran vdout0_17ck970 FIND v(dout0_17) AT=490.025n 
 
-.meas tran vdout0_18ck960 FIND v(dout0_18) AT=485.025n 
+.meas tran vdout0_18ck970 FIND v(dout0_18) AT=490.025n 
 
-.meas tran vdout0_19ck960 FIND v(dout0_19) AT=485.025n 
+.meas tran vdout0_19ck970 FIND v(dout0_19) AT=490.025n 
 
-.meas tran vdout0_20ck960 FIND v(dout0_20) AT=485.025n 
+.meas tran vdout0_20ck970 FIND v(dout0_20) AT=490.025n 
 
-.meas tran vdout0_21ck960 FIND v(dout0_21) AT=485.025n 
+.meas tran vdout0_21ck970 FIND v(dout0_21) AT=490.025n 
 
-.meas tran vdout0_22ck960 FIND v(dout0_22) AT=485.025n 
+.meas tran vdout0_22ck970 FIND v(dout0_22) AT=490.025n 
 
-.meas tran vdout0_23ck960 FIND v(dout0_23) AT=485.025n 
+.meas tran vdout0_23ck970 FIND v(dout0_23) AT=490.025n 
 
-.meas tran vdout0_24ck960 FIND v(dout0_24) AT=485.025n 
+.meas tran vdout0_24ck970 FIND v(dout0_24) AT=490.025n 
 
-.meas tran vdout0_25ck960 FIND v(dout0_25) AT=485.025n 
+.meas tran vdout0_25ck970 FIND v(dout0_25) AT=490.025n 
 
-.meas tran vdout0_26ck960 FIND v(dout0_26) AT=485.025n 
+.meas tran vdout0_26ck970 FIND v(dout0_26) AT=490.025n 
 
-.meas tran vdout0_27ck960 FIND v(dout0_27) AT=485.025n 
+.meas tran vdout0_27ck970 FIND v(dout0_27) AT=490.025n 
 
-.meas tran vdout0_28ck960 FIND v(dout0_28) AT=485.025n 
+.meas tran vdout0_28ck970 FIND v(dout0_28) AT=490.025n 
 
-.meas tran vdout0_29ck960 FIND v(dout0_29) AT=485.025n 
+.meas tran vdout0_29ck970 FIND v(dout0_29) AT=490.025n 
 
-.meas tran vdout0_30ck960 FIND v(dout0_30) AT=485.025n 
+.meas tran vdout0_30ck970 FIND v(dout0_30) AT=490.025n 
 
-.meas tran vdout0_31ck960 FIND v(dout0_31) AT=485.025n 
+.meas tran vdout0_31ck970 FIND v(dout0_31) AT=490.025n 
+
+.meas tran vdout0_0ck980 FIND v(dout0_0) AT=495.025n 
+
+.meas tran vdout0_1ck980 FIND v(dout0_1) AT=495.025n 
+
+.meas tran vdout0_2ck980 FIND v(dout0_2) AT=495.025n 
+
+.meas tran vdout0_3ck980 FIND v(dout0_3) AT=495.025n 
+
+.meas tran vdout0_4ck980 FIND v(dout0_4) AT=495.025n 
+
+.meas tran vdout0_5ck980 FIND v(dout0_5) AT=495.025n 
+
+.meas tran vdout0_6ck980 FIND v(dout0_6) AT=495.025n 
+
+.meas tran vdout0_7ck980 FIND v(dout0_7) AT=495.025n 
+
+.meas tran vdout0_8ck980 FIND v(dout0_8) AT=495.025n 
+
+.meas tran vdout0_9ck980 FIND v(dout0_9) AT=495.025n 
+
+.meas tran vdout0_10ck980 FIND v(dout0_10) AT=495.025n 
+
+.meas tran vdout0_11ck980 FIND v(dout0_11) AT=495.025n 
+
+.meas tran vdout0_12ck980 FIND v(dout0_12) AT=495.025n 
+
+.meas tran vdout0_13ck980 FIND v(dout0_13) AT=495.025n 
+
+.meas tran vdout0_14ck980 FIND v(dout0_14) AT=495.025n 
+
+.meas tran vdout0_15ck980 FIND v(dout0_15) AT=495.025n 
+
+.meas tran vdout0_16ck980 FIND v(dout0_16) AT=495.025n 
+
+.meas tran vdout0_17ck980 FIND v(dout0_17) AT=495.025n 
+
+.meas tran vdout0_18ck980 FIND v(dout0_18) AT=495.025n 
+
+.meas tran vdout0_19ck980 FIND v(dout0_19) AT=495.025n 
+
+.meas tran vdout0_20ck980 FIND v(dout0_20) AT=495.025n 
+
+.meas tran vdout0_21ck980 FIND v(dout0_21) AT=495.025n 
+
+.meas tran vdout0_22ck980 FIND v(dout0_22) AT=495.025n 
+
+.meas tran vdout0_23ck980 FIND v(dout0_23) AT=495.025n 
+
+.meas tran vdout0_24ck980 FIND v(dout0_24) AT=495.025n 
+
+.meas tran vdout0_25ck980 FIND v(dout0_25) AT=495.025n 
+
+.meas tran vdout0_26ck980 FIND v(dout0_26) AT=495.025n 
+
+.meas tran vdout0_27ck980 FIND v(dout0_27) AT=495.025n 
+
+.meas tran vdout0_28ck980 FIND v(dout0_28) AT=495.025n 
+
+.meas tran vdout0_29ck980 FIND v(dout0_29) AT=495.025n 
+
+.meas tran vdout0_30ck980 FIND v(dout0_30) AT=495.025n 
+
+.meas tran vdout0_31ck980 FIND v(dout0_31) AT=495.025n 
+
+.meas tran vdout0_0ck990 FIND v(dout0_0) AT=500.025n 
+
+.meas tran vdout0_1ck990 FIND v(dout0_1) AT=500.025n 
+
+.meas tran vdout0_2ck990 FIND v(dout0_2) AT=500.025n 
+
+.meas tran vdout0_3ck990 FIND v(dout0_3) AT=500.025n 
+
+.meas tran vdout0_4ck990 FIND v(dout0_4) AT=500.025n 
+
+.meas tran vdout0_5ck990 FIND v(dout0_5) AT=500.025n 
+
+.meas tran vdout0_6ck990 FIND v(dout0_6) AT=500.025n 
+
+.meas tran vdout0_7ck990 FIND v(dout0_7) AT=500.025n 
+
+.meas tran vdout0_8ck990 FIND v(dout0_8) AT=500.025n 
+
+.meas tran vdout0_9ck990 FIND v(dout0_9) AT=500.025n 
+
+.meas tran vdout0_10ck990 FIND v(dout0_10) AT=500.025n 
+
+.meas tran vdout0_11ck990 FIND v(dout0_11) AT=500.025n 
+
+.meas tran vdout0_12ck990 FIND v(dout0_12) AT=500.025n 
+
+.meas tran vdout0_13ck990 FIND v(dout0_13) AT=500.025n 
+
+.meas tran vdout0_14ck990 FIND v(dout0_14) AT=500.025n 
+
+.meas tran vdout0_15ck990 FIND v(dout0_15) AT=500.025n 
+
+.meas tran vdout0_16ck990 FIND v(dout0_16) AT=500.025n 
+
+.meas tran vdout0_17ck990 FIND v(dout0_17) AT=500.025n 
+
+.meas tran vdout0_18ck990 FIND v(dout0_18) AT=500.025n 
+
+.meas tran vdout0_19ck990 FIND v(dout0_19) AT=500.025n 
+
+.meas tran vdout0_20ck990 FIND v(dout0_20) AT=500.025n 
+
+.meas tran vdout0_21ck990 FIND v(dout0_21) AT=500.025n 
+
+.meas tran vdout0_22ck990 FIND v(dout0_22) AT=500.025n 
+
+.meas tran vdout0_23ck990 FIND v(dout0_23) AT=500.025n 
+
+.meas tran vdout0_24ck990 FIND v(dout0_24) AT=500.025n 
+
+.meas tran vdout0_25ck990 FIND v(dout0_25) AT=500.025n 
+
+.meas tran vdout0_26ck990 FIND v(dout0_26) AT=500.025n 
+
+.meas tran vdout0_27ck990 FIND v(dout0_27) AT=500.025n 
+
+.meas tran vdout0_28ck990 FIND v(dout0_28) AT=500.025n 
+
+.meas tran vdout0_29ck990 FIND v(dout0_29) AT=500.025n 
+
+.meas tran vdout0_30ck990 FIND v(dout0_30) AT=500.025n 
+
+.meas tran vdout0_31ck990 FIND v(dout0_31) AT=500.025n 
+
+.meas tran vdout0_0ck1000 FIND v(dout0_0) AT=505.025n 
+
+.meas tran vdout0_1ck1000 FIND v(dout0_1) AT=505.025n 
+
+.meas tran vdout0_2ck1000 FIND v(dout0_2) AT=505.025n 
+
+.meas tran vdout0_3ck1000 FIND v(dout0_3) AT=505.025n 
+
+.meas tran vdout0_4ck1000 FIND v(dout0_4) AT=505.025n 
+
+.meas tran vdout0_5ck1000 FIND v(dout0_5) AT=505.025n 
+
+.meas tran vdout0_6ck1000 FIND v(dout0_6) AT=505.025n 
+
+.meas tran vdout0_7ck1000 FIND v(dout0_7) AT=505.025n 
+
+.meas tran vdout0_8ck1000 FIND v(dout0_8) AT=505.025n 
+
+.meas tran vdout0_9ck1000 FIND v(dout0_9) AT=505.025n 
+
+.meas tran vdout0_10ck1000 FIND v(dout0_10) AT=505.025n 
+
+.meas tran vdout0_11ck1000 FIND v(dout0_11) AT=505.025n 
+
+.meas tran vdout0_12ck1000 FIND v(dout0_12) AT=505.025n 
+
+.meas tran vdout0_13ck1000 FIND v(dout0_13) AT=505.025n 
+
+.meas tran vdout0_14ck1000 FIND v(dout0_14) AT=505.025n 
+
+.meas tran vdout0_15ck1000 FIND v(dout0_15) AT=505.025n 
+
+.meas tran vdout0_16ck1000 FIND v(dout0_16) AT=505.025n 
+
+.meas tran vdout0_17ck1000 FIND v(dout0_17) AT=505.025n 
+
+.meas tran vdout0_18ck1000 FIND v(dout0_18) AT=505.025n 
+
+.meas tran vdout0_19ck1000 FIND v(dout0_19) AT=505.025n 
+
+.meas tran vdout0_20ck1000 FIND v(dout0_20) AT=505.025n 
+
+.meas tran vdout0_21ck1000 FIND v(dout0_21) AT=505.025n 
+
+.meas tran vdout0_22ck1000 FIND v(dout0_22) AT=505.025n 
+
+.meas tran vdout0_23ck1000 FIND v(dout0_23) AT=505.025n 
+
+.meas tran vdout0_24ck1000 FIND v(dout0_24) AT=505.025n 
+
+.meas tran vdout0_25ck1000 FIND v(dout0_25) AT=505.025n 
+
+.meas tran vdout0_26ck1000 FIND v(dout0_26) AT=505.025n 
+
+.meas tran vdout0_27ck1000 FIND v(dout0_27) AT=505.025n 
+
+.meas tran vdout0_28ck1000 FIND v(dout0_28) AT=505.025n 
+
+.meas tran vdout0_29ck1000 FIND v(dout0_29) AT=505.025n 
+
+.meas tran vdout0_30ck1000 FIND v(dout0_30) AT=505.025n 
+
+.meas tran vdout0_31ck1000 FIND v(dout0_31) AT=505.025n 
 
 .meas tran vdout0_0ck1020 FIND v(dout0_0) AT=515.025n 
 
@@ -3390,133 +3454,69 @@
 
 .meas tran vdout0_31ck1070 FIND v(dout0_31) AT=540.025n 
 
-.meas tran vdout0_0ck1080 FIND v(dout0_0) AT=545.025n 
+.meas tran vdout0_0ck1110 FIND v(dout0_0) AT=560.025n 
 
-.meas tran vdout0_1ck1080 FIND v(dout0_1) AT=545.025n 
+.meas tran vdout0_1ck1110 FIND v(dout0_1) AT=560.025n 
 
-.meas tran vdout0_2ck1080 FIND v(dout0_2) AT=545.025n 
+.meas tran vdout0_2ck1110 FIND v(dout0_2) AT=560.025n 
 
-.meas tran vdout0_3ck1080 FIND v(dout0_3) AT=545.025n 
+.meas tran vdout0_3ck1110 FIND v(dout0_3) AT=560.025n 
 
-.meas tran vdout0_4ck1080 FIND v(dout0_4) AT=545.025n 
+.meas tran vdout0_4ck1110 FIND v(dout0_4) AT=560.025n 
 
-.meas tran vdout0_5ck1080 FIND v(dout0_5) AT=545.025n 
+.meas tran vdout0_5ck1110 FIND v(dout0_5) AT=560.025n 
 
-.meas tran vdout0_6ck1080 FIND v(dout0_6) AT=545.025n 
+.meas tran vdout0_6ck1110 FIND v(dout0_6) AT=560.025n 
 
-.meas tran vdout0_7ck1080 FIND v(dout0_7) AT=545.025n 
+.meas tran vdout0_7ck1110 FIND v(dout0_7) AT=560.025n 
 
-.meas tran vdout0_8ck1080 FIND v(dout0_8) AT=545.025n 
+.meas tran vdout0_8ck1110 FIND v(dout0_8) AT=560.025n 
 
-.meas tran vdout0_9ck1080 FIND v(dout0_9) AT=545.025n 
+.meas tran vdout0_9ck1110 FIND v(dout0_9) AT=560.025n 
 
-.meas tran vdout0_10ck1080 FIND v(dout0_10) AT=545.025n 
+.meas tran vdout0_10ck1110 FIND v(dout0_10) AT=560.025n 
 
-.meas tran vdout0_11ck1080 FIND v(dout0_11) AT=545.025n 
+.meas tran vdout0_11ck1110 FIND v(dout0_11) AT=560.025n 
 
-.meas tran vdout0_12ck1080 FIND v(dout0_12) AT=545.025n 
+.meas tran vdout0_12ck1110 FIND v(dout0_12) AT=560.025n 
 
-.meas tran vdout0_13ck1080 FIND v(dout0_13) AT=545.025n 
+.meas tran vdout0_13ck1110 FIND v(dout0_13) AT=560.025n 
 
-.meas tran vdout0_14ck1080 FIND v(dout0_14) AT=545.025n 
+.meas tran vdout0_14ck1110 FIND v(dout0_14) AT=560.025n 
 
-.meas tran vdout0_15ck1080 FIND v(dout0_15) AT=545.025n 
+.meas tran vdout0_15ck1110 FIND v(dout0_15) AT=560.025n 
 
-.meas tran vdout0_16ck1080 FIND v(dout0_16) AT=545.025n 
+.meas tran vdout0_16ck1110 FIND v(dout0_16) AT=560.025n 
 
-.meas tran vdout0_17ck1080 FIND v(dout0_17) AT=545.025n 
+.meas tran vdout0_17ck1110 FIND v(dout0_17) AT=560.025n 
 
-.meas tran vdout0_18ck1080 FIND v(dout0_18) AT=545.025n 
+.meas tran vdout0_18ck1110 FIND v(dout0_18) AT=560.025n 
 
-.meas tran vdout0_19ck1080 FIND v(dout0_19) AT=545.025n 
+.meas tran vdout0_19ck1110 FIND v(dout0_19) AT=560.025n 
 
-.meas tran vdout0_20ck1080 FIND v(dout0_20) AT=545.025n 
+.meas tran vdout0_20ck1110 FIND v(dout0_20) AT=560.025n 
 
-.meas tran vdout0_21ck1080 FIND v(dout0_21) AT=545.025n 
+.meas tran vdout0_21ck1110 FIND v(dout0_21) AT=560.025n 
 
-.meas tran vdout0_22ck1080 FIND v(dout0_22) AT=545.025n 
+.meas tran vdout0_22ck1110 FIND v(dout0_22) AT=560.025n 
 
-.meas tran vdout0_23ck1080 FIND v(dout0_23) AT=545.025n 
+.meas tran vdout0_23ck1110 FIND v(dout0_23) AT=560.025n 
 
-.meas tran vdout0_24ck1080 FIND v(dout0_24) AT=545.025n 
+.meas tran vdout0_24ck1110 FIND v(dout0_24) AT=560.025n 
 
-.meas tran vdout0_25ck1080 FIND v(dout0_25) AT=545.025n 
+.meas tran vdout0_25ck1110 FIND v(dout0_25) AT=560.025n 
 
-.meas tran vdout0_26ck1080 FIND v(dout0_26) AT=545.025n 
+.meas tran vdout0_26ck1110 FIND v(dout0_26) AT=560.025n 
 
-.meas tran vdout0_27ck1080 FIND v(dout0_27) AT=545.025n 
+.meas tran vdout0_27ck1110 FIND v(dout0_27) AT=560.025n 
 
-.meas tran vdout0_28ck1080 FIND v(dout0_28) AT=545.025n 
+.meas tran vdout0_28ck1110 FIND v(dout0_28) AT=560.025n 
 
-.meas tran vdout0_29ck1080 FIND v(dout0_29) AT=545.025n 
+.meas tran vdout0_29ck1110 FIND v(dout0_29) AT=560.025n 
 
-.meas tran vdout0_30ck1080 FIND v(dout0_30) AT=545.025n 
+.meas tran vdout0_30ck1110 FIND v(dout0_30) AT=560.025n 
 
-.meas tran vdout0_31ck1080 FIND v(dout0_31) AT=545.025n 
-
-.meas tran vdout0_0ck1090 FIND v(dout0_0) AT=550.025n 
-
-.meas tran vdout0_1ck1090 FIND v(dout0_1) AT=550.025n 
-
-.meas tran vdout0_2ck1090 FIND v(dout0_2) AT=550.025n 
-
-.meas tran vdout0_3ck1090 FIND v(dout0_3) AT=550.025n 
-
-.meas tran vdout0_4ck1090 FIND v(dout0_4) AT=550.025n 
-
-.meas tran vdout0_5ck1090 FIND v(dout0_5) AT=550.025n 
-
-.meas tran vdout0_6ck1090 FIND v(dout0_6) AT=550.025n 
-
-.meas tran vdout0_7ck1090 FIND v(dout0_7) AT=550.025n 
-
-.meas tran vdout0_8ck1090 FIND v(dout0_8) AT=550.025n 
-
-.meas tran vdout0_9ck1090 FIND v(dout0_9) AT=550.025n 
-
-.meas tran vdout0_10ck1090 FIND v(dout0_10) AT=550.025n 
-
-.meas tran vdout0_11ck1090 FIND v(dout0_11) AT=550.025n 
-
-.meas tran vdout0_12ck1090 FIND v(dout0_12) AT=550.025n 
-
-.meas tran vdout0_13ck1090 FIND v(dout0_13) AT=550.025n 
-
-.meas tran vdout0_14ck1090 FIND v(dout0_14) AT=550.025n 
-
-.meas tran vdout0_15ck1090 FIND v(dout0_15) AT=550.025n 
-
-.meas tran vdout0_16ck1090 FIND v(dout0_16) AT=550.025n 
-
-.meas tran vdout0_17ck1090 FIND v(dout0_17) AT=550.025n 
-
-.meas tran vdout0_18ck1090 FIND v(dout0_18) AT=550.025n 
-
-.meas tran vdout0_19ck1090 FIND v(dout0_19) AT=550.025n 
-
-.meas tran vdout0_20ck1090 FIND v(dout0_20) AT=550.025n 
-
-.meas tran vdout0_21ck1090 FIND v(dout0_21) AT=550.025n 
-
-.meas tran vdout0_22ck1090 FIND v(dout0_22) AT=550.025n 
-
-.meas tran vdout0_23ck1090 FIND v(dout0_23) AT=550.025n 
-
-.meas tran vdout0_24ck1090 FIND v(dout0_24) AT=550.025n 
-
-.meas tran vdout0_25ck1090 FIND v(dout0_25) AT=550.025n 
-
-.meas tran vdout0_26ck1090 FIND v(dout0_26) AT=550.025n 
-
-.meas tran vdout0_27ck1090 FIND v(dout0_27) AT=550.025n 
-
-.meas tran vdout0_28ck1090 FIND v(dout0_28) AT=550.025n 
-
-.meas tran vdout0_29ck1090 FIND v(dout0_29) AT=550.025n 
-
-.meas tran vdout0_30ck1090 FIND v(dout0_30) AT=550.025n 
-
-.meas tran vdout0_31ck1090 FIND v(dout0_31) AT=550.025n 
+.meas tran vdout0_31ck1110 FIND v(dout0_31) AT=560.025n 
 
 .meas tran vdout0_0ck1120 FIND v(dout0_0) AT=565.025n 
 
@@ -3646,133 +3646,133 @@
 
 .meas tran vdout0_31ck1130 FIND v(dout0_31) AT=570.025n 
 
-.meas tran vdout0_0ck1180 FIND v(dout0_0) AT=595.025n 
+.meas tran vdout0_0ck1140 FIND v(dout0_0) AT=575.025n 
 
-.meas tran vdout0_1ck1180 FIND v(dout0_1) AT=595.025n 
+.meas tran vdout0_1ck1140 FIND v(dout0_1) AT=575.025n 
 
-.meas tran vdout0_2ck1180 FIND v(dout0_2) AT=595.025n 
+.meas tran vdout0_2ck1140 FIND v(dout0_2) AT=575.025n 
 
-.meas tran vdout0_3ck1180 FIND v(dout0_3) AT=595.025n 
+.meas tran vdout0_3ck1140 FIND v(dout0_3) AT=575.025n 
 
-.meas tran vdout0_4ck1180 FIND v(dout0_4) AT=595.025n 
+.meas tran vdout0_4ck1140 FIND v(dout0_4) AT=575.025n 
 
-.meas tran vdout0_5ck1180 FIND v(dout0_5) AT=595.025n 
+.meas tran vdout0_5ck1140 FIND v(dout0_5) AT=575.025n 
 
-.meas tran vdout0_6ck1180 FIND v(dout0_6) AT=595.025n 
+.meas tran vdout0_6ck1140 FIND v(dout0_6) AT=575.025n 
 
-.meas tran vdout0_7ck1180 FIND v(dout0_7) AT=595.025n 
+.meas tran vdout0_7ck1140 FIND v(dout0_7) AT=575.025n 
 
-.meas tran vdout0_8ck1180 FIND v(dout0_8) AT=595.025n 
+.meas tran vdout0_8ck1140 FIND v(dout0_8) AT=575.025n 
 
-.meas tran vdout0_9ck1180 FIND v(dout0_9) AT=595.025n 
+.meas tran vdout0_9ck1140 FIND v(dout0_9) AT=575.025n 
 
-.meas tran vdout0_10ck1180 FIND v(dout0_10) AT=595.025n 
+.meas tran vdout0_10ck1140 FIND v(dout0_10) AT=575.025n 
 
-.meas tran vdout0_11ck1180 FIND v(dout0_11) AT=595.025n 
+.meas tran vdout0_11ck1140 FIND v(dout0_11) AT=575.025n 
 
-.meas tran vdout0_12ck1180 FIND v(dout0_12) AT=595.025n 
+.meas tran vdout0_12ck1140 FIND v(dout0_12) AT=575.025n 
 
-.meas tran vdout0_13ck1180 FIND v(dout0_13) AT=595.025n 
+.meas tran vdout0_13ck1140 FIND v(dout0_13) AT=575.025n 
 
-.meas tran vdout0_14ck1180 FIND v(dout0_14) AT=595.025n 
+.meas tran vdout0_14ck1140 FIND v(dout0_14) AT=575.025n 
 
-.meas tran vdout0_15ck1180 FIND v(dout0_15) AT=595.025n 
+.meas tran vdout0_15ck1140 FIND v(dout0_15) AT=575.025n 
 
-.meas tran vdout0_16ck1180 FIND v(dout0_16) AT=595.025n 
+.meas tran vdout0_16ck1140 FIND v(dout0_16) AT=575.025n 
 
-.meas tran vdout0_17ck1180 FIND v(dout0_17) AT=595.025n 
+.meas tran vdout0_17ck1140 FIND v(dout0_17) AT=575.025n 
 
-.meas tran vdout0_18ck1180 FIND v(dout0_18) AT=595.025n 
+.meas tran vdout0_18ck1140 FIND v(dout0_18) AT=575.025n 
 
-.meas tran vdout0_19ck1180 FIND v(dout0_19) AT=595.025n 
+.meas tran vdout0_19ck1140 FIND v(dout0_19) AT=575.025n 
 
-.meas tran vdout0_20ck1180 FIND v(dout0_20) AT=595.025n 
+.meas tran vdout0_20ck1140 FIND v(dout0_20) AT=575.025n 
 
-.meas tran vdout0_21ck1180 FIND v(dout0_21) AT=595.025n 
+.meas tran vdout0_21ck1140 FIND v(dout0_21) AT=575.025n 
 
-.meas tran vdout0_22ck1180 FIND v(dout0_22) AT=595.025n 
+.meas tran vdout0_22ck1140 FIND v(dout0_22) AT=575.025n 
 
-.meas tran vdout0_23ck1180 FIND v(dout0_23) AT=595.025n 
+.meas tran vdout0_23ck1140 FIND v(dout0_23) AT=575.025n 
 
-.meas tran vdout0_24ck1180 FIND v(dout0_24) AT=595.025n 
+.meas tran vdout0_24ck1140 FIND v(dout0_24) AT=575.025n 
 
-.meas tran vdout0_25ck1180 FIND v(dout0_25) AT=595.025n 
+.meas tran vdout0_25ck1140 FIND v(dout0_25) AT=575.025n 
 
-.meas tran vdout0_26ck1180 FIND v(dout0_26) AT=595.025n 
+.meas tran vdout0_26ck1140 FIND v(dout0_26) AT=575.025n 
 
-.meas tran vdout0_27ck1180 FIND v(dout0_27) AT=595.025n 
+.meas tran vdout0_27ck1140 FIND v(dout0_27) AT=575.025n 
 
-.meas tran vdout0_28ck1180 FIND v(dout0_28) AT=595.025n 
+.meas tran vdout0_28ck1140 FIND v(dout0_28) AT=575.025n 
 
-.meas tran vdout0_29ck1180 FIND v(dout0_29) AT=595.025n 
+.meas tran vdout0_29ck1140 FIND v(dout0_29) AT=575.025n 
 
-.meas tran vdout0_30ck1180 FIND v(dout0_30) AT=595.025n 
+.meas tran vdout0_30ck1140 FIND v(dout0_30) AT=575.025n 
 
-.meas tran vdout0_31ck1180 FIND v(dout0_31) AT=595.025n 
+.meas tran vdout0_31ck1140 FIND v(dout0_31) AT=575.025n 
 
-.meas tran vdout0_0ck1190 FIND v(dout0_0) AT=600.025n 
+.meas tran vdout0_0ck1160 FIND v(dout0_0) AT=585.025n 
 
-.meas tran vdout0_1ck1190 FIND v(dout0_1) AT=600.025n 
+.meas tran vdout0_1ck1160 FIND v(dout0_1) AT=585.025n 
 
-.meas tran vdout0_2ck1190 FIND v(dout0_2) AT=600.025n 
+.meas tran vdout0_2ck1160 FIND v(dout0_2) AT=585.025n 
 
-.meas tran vdout0_3ck1190 FIND v(dout0_3) AT=600.025n 
+.meas tran vdout0_3ck1160 FIND v(dout0_3) AT=585.025n 
 
-.meas tran vdout0_4ck1190 FIND v(dout0_4) AT=600.025n 
+.meas tran vdout0_4ck1160 FIND v(dout0_4) AT=585.025n 
 
-.meas tran vdout0_5ck1190 FIND v(dout0_5) AT=600.025n 
+.meas tran vdout0_5ck1160 FIND v(dout0_5) AT=585.025n 
 
-.meas tran vdout0_6ck1190 FIND v(dout0_6) AT=600.025n 
+.meas tran vdout0_6ck1160 FIND v(dout0_6) AT=585.025n 
 
-.meas tran vdout0_7ck1190 FIND v(dout0_7) AT=600.025n 
+.meas tran vdout0_7ck1160 FIND v(dout0_7) AT=585.025n 
 
-.meas tran vdout0_8ck1190 FIND v(dout0_8) AT=600.025n 
+.meas tran vdout0_8ck1160 FIND v(dout0_8) AT=585.025n 
 
-.meas tran vdout0_9ck1190 FIND v(dout0_9) AT=600.025n 
+.meas tran vdout0_9ck1160 FIND v(dout0_9) AT=585.025n 
 
-.meas tran vdout0_10ck1190 FIND v(dout0_10) AT=600.025n 
+.meas tran vdout0_10ck1160 FIND v(dout0_10) AT=585.025n 
 
-.meas tran vdout0_11ck1190 FIND v(dout0_11) AT=600.025n 
+.meas tran vdout0_11ck1160 FIND v(dout0_11) AT=585.025n 
 
-.meas tran vdout0_12ck1190 FIND v(dout0_12) AT=600.025n 
+.meas tran vdout0_12ck1160 FIND v(dout0_12) AT=585.025n 
 
-.meas tran vdout0_13ck1190 FIND v(dout0_13) AT=600.025n 
+.meas tran vdout0_13ck1160 FIND v(dout0_13) AT=585.025n 
 
-.meas tran vdout0_14ck1190 FIND v(dout0_14) AT=600.025n 
+.meas tran vdout0_14ck1160 FIND v(dout0_14) AT=585.025n 
 
-.meas tran vdout0_15ck1190 FIND v(dout0_15) AT=600.025n 
+.meas tran vdout0_15ck1160 FIND v(dout0_15) AT=585.025n 
 
-.meas tran vdout0_16ck1190 FIND v(dout0_16) AT=600.025n 
+.meas tran vdout0_16ck1160 FIND v(dout0_16) AT=585.025n 
 
-.meas tran vdout0_17ck1190 FIND v(dout0_17) AT=600.025n 
+.meas tran vdout0_17ck1160 FIND v(dout0_17) AT=585.025n 
 
-.meas tran vdout0_18ck1190 FIND v(dout0_18) AT=600.025n 
+.meas tran vdout0_18ck1160 FIND v(dout0_18) AT=585.025n 
 
-.meas tran vdout0_19ck1190 FIND v(dout0_19) AT=600.025n 
+.meas tran vdout0_19ck1160 FIND v(dout0_19) AT=585.025n 
 
-.meas tran vdout0_20ck1190 FIND v(dout0_20) AT=600.025n 
+.meas tran vdout0_20ck1160 FIND v(dout0_20) AT=585.025n 
 
-.meas tran vdout0_21ck1190 FIND v(dout0_21) AT=600.025n 
+.meas tran vdout0_21ck1160 FIND v(dout0_21) AT=585.025n 
 
-.meas tran vdout0_22ck1190 FIND v(dout0_22) AT=600.025n 
+.meas tran vdout0_22ck1160 FIND v(dout0_22) AT=585.025n 
 
-.meas tran vdout0_23ck1190 FIND v(dout0_23) AT=600.025n 
+.meas tran vdout0_23ck1160 FIND v(dout0_23) AT=585.025n 
 
-.meas tran vdout0_24ck1190 FIND v(dout0_24) AT=600.025n 
+.meas tran vdout0_24ck1160 FIND v(dout0_24) AT=585.025n 
 
-.meas tran vdout0_25ck1190 FIND v(dout0_25) AT=600.025n 
+.meas tran vdout0_25ck1160 FIND v(dout0_25) AT=585.025n 
 
-.meas tran vdout0_26ck1190 FIND v(dout0_26) AT=600.025n 
+.meas tran vdout0_26ck1160 FIND v(dout0_26) AT=585.025n 
 
-.meas tran vdout0_27ck1190 FIND v(dout0_27) AT=600.025n 
+.meas tran vdout0_27ck1160 FIND v(dout0_27) AT=585.025n 
 
-.meas tran vdout0_28ck1190 FIND v(dout0_28) AT=600.025n 
+.meas tran vdout0_28ck1160 FIND v(dout0_28) AT=585.025n 
 
-.meas tran vdout0_29ck1190 FIND v(dout0_29) AT=600.025n 
+.meas tran vdout0_29ck1160 FIND v(dout0_29) AT=585.025n 
 
-.meas tran vdout0_30ck1190 FIND v(dout0_30) AT=600.025n 
+.meas tran vdout0_30ck1160 FIND v(dout0_30) AT=585.025n 
 
-.meas tran vdout0_31ck1190 FIND v(dout0_31) AT=600.025n 
+.meas tran vdout0_31ck1160 FIND v(dout0_31) AT=585.025n 
 
 .meas tran vdout0_0ck1200 FIND v(dout0_0) AT=605.025n 
 
@@ -3838,69 +3838,133 @@
 
 .meas tran vdout0_31ck1200 FIND v(dout0_31) AT=605.025n 
 
-.meas tran vdout0_0ck1250 FIND v(dout0_0) AT=630.025n 
+.meas tran vdout0_0ck1220 FIND v(dout0_0) AT=615.025n 
 
-.meas tran vdout0_1ck1250 FIND v(dout0_1) AT=630.025n 
+.meas tran vdout0_1ck1220 FIND v(dout0_1) AT=615.025n 
 
-.meas tran vdout0_2ck1250 FIND v(dout0_2) AT=630.025n 
+.meas tran vdout0_2ck1220 FIND v(dout0_2) AT=615.025n 
 
-.meas tran vdout0_3ck1250 FIND v(dout0_3) AT=630.025n 
+.meas tran vdout0_3ck1220 FIND v(dout0_3) AT=615.025n 
 
-.meas tran vdout0_4ck1250 FIND v(dout0_4) AT=630.025n 
+.meas tran vdout0_4ck1220 FIND v(dout0_4) AT=615.025n 
 
-.meas tran vdout0_5ck1250 FIND v(dout0_5) AT=630.025n 
+.meas tran vdout0_5ck1220 FIND v(dout0_5) AT=615.025n 
 
-.meas tran vdout0_6ck1250 FIND v(dout0_6) AT=630.025n 
+.meas tran vdout0_6ck1220 FIND v(dout0_6) AT=615.025n 
 
-.meas tran vdout0_7ck1250 FIND v(dout0_7) AT=630.025n 
+.meas tran vdout0_7ck1220 FIND v(dout0_7) AT=615.025n 
 
-.meas tran vdout0_8ck1250 FIND v(dout0_8) AT=630.025n 
+.meas tran vdout0_8ck1220 FIND v(dout0_8) AT=615.025n 
 
-.meas tran vdout0_9ck1250 FIND v(dout0_9) AT=630.025n 
+.meas tran vdout0_9ck1220 FIND v(dout0_9) AT=615.025n 
 
-.meas tran vdout0_10ck1250 FIND v(dout0_10) AT=630.025n 
+.meas tran vdout0_10ck1220 FIND v(dout0_10) AT=615.025n 
 
-.meas tran vdout0_11ck1250 FIND v(dout0_11) AT=630.025n 
+.meas tran vdout0_11ck1220 FIND v(dout0_11) AT=615.025n 
 
-.meas tran vdout0_12ck1250 FIND v(dout0_12) AT=630.025n 
+.meas tran vdout0_12ck1220 FIND v(dout0_12) AT=615.025n 
 
-.meas tran vdout0_13ck1250 FIND v(dout0_13) AT=630.025n 
+.meas tran vdout0_13ck1220 FIND v(dout0_13) AT=615.025n 
 
-.meas tran vdout0_14ck1250 FIND v(dout0_14) AT=630.025n 
+.meas tran vdout0_14ck1220 FIND v(dout0_14) AT=615.025n 
 
-.meas tran vdout0_15ck1250 FIND v(dout0_15) AT=630.025n 
+.meas tran vdout0_15ck1220 FIND v(dout0_15) AT=615.025n 
 
-.meas tran vdout0_16ck1250 FIND v(dout0_16) AT=630.025n 
+.meas tran vdout0_16ck1220 FIND v(dout0_16) AT=615.025n 
 
-.meas tran vdout0_17ck1250 FIND v(dout0_17) AT=630.025n 
+.meas tran vdout0_17ck1220 FIND v(dout0_17) AT=615.025n 
 
-.meas tran vdout0_18ck1250 FIND v(dout0_18) AT=630.025n 
+.meas tran vdout0_18ck1220 FIND v(dout0_18) AT=615.025n 
 
-.meas tran vdout0_19ck1250 FIND v(dout0_19) AT=630.025n 
+.meas tran vdout0_19ck1220 FIND v(dout0_19) AT=615.025n 
 
-.meas tran vdout0_20ck1250 FIND v(dout0_20) AT=630.025n 
+.meas tran vdout0_20ck1220 FIND v(dout0_20) AT=615.025n 
 
-.meas tran vdout0_21ck1250 FIND v(dout0_21) AT=630.025n 
+.meas tran vdout0_21ck1220 FIND v(dout0_21) AT=615.025n 
 
-.meas tran vdout0_22ck1250 FIND v(dout0_22) AT=630.025n 
+.meas tran vdout0_22ck1220 FIND v(dout0_22) AT=615.025n 
 
-.meas tran vdout0_23ck1250 FIND v(dout0_23) AT=630.025n 
+.meas tran vdout0_23ck1220 FIND v(dout0_23) AT=615.025n 
 
-.meas tran vdout0_24ck1250 FIND v(dout0_24) AT=630.025n 
+.meas tran vdout0_24ck1220 FIND v(dout0_24) AT=615.025n 
 
-.meas tran vdout0_25ck1250 FIND v(dout0_25) AT=630.025n 
+.meas tran vdout0_25ck1220 FIND v(dout0_25) AT=615.025n 
 
-.meas tran vdout0_26ck1250 FIND v(dout0_26) AT=630.025n 
+.meas tran vdout0_26ck1220 FIND v(dout0_26) AT=615.025n 
 
-.meas tran vdout0_27ck1250 FIND v(dout0_27) AT=630.025n 
+.meas tran vdout0_27ck1220 FIND v(dout0_27) AT=615.025n 
 
-.meas tran vdout0_28ck1250 FIND v(dout0_28) AT=630.025n 
+.meas tran vdout0_28ck1220 FIND v(dout0_28) AT=615.025n 
 
-.meas tran vdout0_29ck1250 FIND v(dout0_29) AT=630.025n 
+.meas tran vdout0_29ck1220 FIND v(dout0_29) AT=615.025n 
 
-.meas tran vdout0_30ck1250 FIND v(dout0_30) AT=630.025n 
+.meas tran vdout0_30ck1220 FIND v(dout0_30) AT=615.025n 
 
-.meas tran vdout0_31ck1250 FIND v(dout0_31) AT=630.025n 
+.meas tran vdout0_31ck1220 FIND v(dout0_31) AT=615.025n 
+
+.meas tran vdout0_0ck1240 FIND v(dout0_0) AT=625.025n 
+
+.meas tran vdout0_1ck1240 FIND v(dout0_1) AT=625.025n 
+
+.meas tran vdout0_2ck1240 FIND v(dout0_2) AT=625.025n 
+
+.meas tran vdout0_3ck1240 FIND v(dout0_3) AT=625.025n 
+
+.meas tran vdout0_4ck1240 FIND v(dout0_4) AT=625.025n 
+
+.meas tran vdout0_5ck1240 FIND v(dout0_5) AT=625.025n 
+
+.meas tran vdout0_6ck1240 FIND v(dout0_6) AT=625.025n 
+
+.meas tran vdout0_7ck1240 FIND v(dout0_7) AT=625.025n 
+
+.meas tran vdout0_8ck1240 FIND v(dout0_8) AT=625.025n 
+
+.meas tran vdout0_9ck1240 FIND v(dout0_9) AT=625.025n 
+
+.meas tran vdout0_10ck1240 FIND v(dout0_10) AT=625.025n 
+
+.meas tran vdout0_11ck1240 FIND v(dout0_11) AT=625.025n 
+
+.meas tran vdout0_12ck1240 FIND v(dout0_12) AT=625.025n 
+
+.meas tran vdout0_13ck1240 FIND v(dout0_13) AT=625.025n 
+
+.meas tran vdout0_14ck1240 FIND v(dout0_14) AT=625.025n 
+
+.meas tran vdout0_15ck1240 FIND v(dout0_15) AT=625.025n 
+
+.meas tran vdout0_16ck1240 FIND v(dout0_16) AT=625.025n 
+
+.meas tran vdout0_17ck1240 FIND v(dout0_17) AT=625.025n 
+
+.meas tran vdout0_18ck1240 FIND v(dout0_18) AT=625.025n 
+
+.meas tran vdout0_19ck1240 FIND v(dout0_19) AT=625.025n 
+
+.meas tran vdout0_20ck1240 FIND v(dout0_20) AT=625.025n 
+
+.meas tran vdout0_21ck1240 FIND v(dout0_21) AT=625.025n 
+
+.meas tran vdout0_22ck1240 FIND v(dout0_22) AT=625.025n 
+
+.meas tran vdout0_23ck1240 FIND v(dout0_23) AT=625.025n 
+
+.meas tran vdout0_24ck1240 FIND v(dout0_24) AT=625.025n 
+
+.meas tran vdout0_25ck1240 FIND v(dout0_25) AT=625.025n 
+
+.meas tran vdout0_26ck1240 FIND v(dout0_26) AT=625.025n 
+
+.meas tran vdout0_27ck1240 FIND v(dout0_27) AT=625.025n 
+
+.meas tran vdout0_28ck1240 FIND v(dout0_28) AT=625.025n 
+
+.meas tran vdout0_29ck1240 FIND v(dout0_29) AT=625.025n 
+
+.meas tran vdout0_30ck1240 FIND v(dout0_30) AT=625.025n 
+
+.meas tran vdout0_31ck1240 FIND v(dout0_31) AT=625.025n 
 
 .meas tran vdout0_0ck1260 FIND v(dout0_0) AT=635.025n 
 
@@ -3966,197 +4030,133 @@
 
 .meas tran vdout0_31ck1260 FIND v(dout0_31) AT=635.025n 
 
-.meas tran vdout0_0ck1270 FIND v(dout0_0) AT=640.025n 
+.meas tran vdout0_0ck1280 FIND v(dout0_0) AT=645.025n 
 
-.meas tran vdout0_1ck1270 FIND v(dout0_1) AT=640.025n 
+.meas tran vdout0_1ck1280 FIND v(dout0_1) AT=645.025n 
 
-.meas tran vdout0_2ck1270 FIND v(dout0_2) AT=640.025n 
+.meas tran vdout0_2ck1280 FIND v(dout0_2) AT=645.025n 
 
-.meas tran vdout0_3ck1270 FIND v(dout0_3) AT=640.025n 
+.meas tran vdout0_3ck1280 FIND v(dout0_3) AT=645.025n 
 
-.meas tran vdout0_4ck1270 FIND v(dout0_4) AT=640.025n 
+.meas tran vdout0_4ck1280 FIND v(dout0_4) AT=645.025n 
 
-.meas tran vdout0_5ck1270 FIND v(dout0_5) AT=640.025n 
+.meas tran vdout0_5ck1280 FIND v(dout0_5) AT=645.025n 
 
-.meas tran vdout0_6ck1270 FIND v(dout0_6) AT=640.025n 
+.meas tran vdout0_6ck1280 FIND v(dout0_6) AT=645.025n 
 
-.meas tran vdout0_7ck1270 FIND v(dout0_7) AT=640.025n 
+.meas tran vdout0_7ck1280 FIND v(dout0_7) AT=645.025n 
 
-.meas tran vdout0_8ck1270 FIND v(dout0_8) AT=640.025n 
+.meas tran vdout0_8ck1280 FIND v(dout0_8) AT=645.025n 
 
-.meas tran vdout0_9ck1270 FIND v(dout0_9) AT=640.025n 
+.meas tran vdout0_9ck1280 FIND v(dout0_9) AT=645.025n 
 
-.meas tran vdout0_10ck1270 FIND v(dout0_10) AT=640.025n 
+.meas tran vdout0_10ck1280 FIND v(dout0_10) AT=645.025n 
 
-.meas tran vdout0_11ck1270 FIND v(dout0_11) AT=640.025n 
+.meas tran vdout0_11ck1280 FIND v(dout0_11) AT=645.025n 
 
-.meas tran vdout0_12ck1270 FIND v(dout0_12) AT=640.025n 
+.meas tran vdout0_12ck1280 FIND v(dout0_12) AT=645.025n 
 
-.meas tran vdout0_13ck1270 FIND v(dout0_13) AT=640.025n 
+.meas tran vdout0_13ck1280 FIND v(dout0_13) AT=645.025n 
 
-.meas tran vdout0_14ck1270 FIND v(dout0_14) AT=640.025n 
+.meas tran vdout0_14ck1280 FIND v(dout0_14) AT=645.025n 
 
-.meas tran vdout0_15ck1270 FIND v(dout0_15) AT=640.025n 
+.meas tran vdout0_15ck1280 FIND v(dout0_15) AT=645.025n 
 
-.meas tran vdout0_16ck1270 FIND v(dout0_16) AT=640.025n 
+.meas tran vdout0_16ck1280 FIND v(dout0_16) AT=645.025n 
 
-.meas tran vdout0_17ck1270 FIND v(dout0_17) AT=640.025n 
+.meas tran vdout0_17ck1280 FIND v(dout0_17) AT=645.025n 
 
-.meas tran vdout0_18ck1270 FIND v(dout0_18) AT=640.025n 
+.meas tran vdout0_18ck1280 FIND v(dout0_18) AT=645.025n 
 
-.meas tran vdout0_19ck1270 FIND v(dout0_19) AT=640.025n 
+.meas tran vdout0_19ck1280 FIND v(dout0_19) AT=645.025n 
 
-.meas tran vdout0_20ck1270 FIND v(dout0_20) AT=640.025n 
+.meas tran vdout0_20ck1280 FIND v(dout0_20) AT=645.025n 
 
-.meas tran vdout0_21ck1270 FIND v(dout0_21) AT=640.025n 
+.meas tran vdout0_21ck1280 FIND v(dout0_21) AT=645.025n 
 
-.meas tran vdout0_22ck1270 FIND v(dout0_22) AT=640.025n 
+.meas tran vdout0_22ck1280 FIND v(dout0_22) AT=645.025n 
 
-.meas tran vdout0_23ck1270 FIND v(dout0_23) AT=640.025n 
+.meas tran vdout0_23ck1280 FIND v(dout0_23) AT=645.025n 
 
-.meas tran vdout0_24ck1270 FIND v(dout0_24) AT=640.025n 
+.meas tran vdout0_24ck1280 FIND v(dout0_24) AT=645.025n 
 
-.meas tran vdout0_25ck1270 FIND v(dout0_25) AT=640.025n 
+.meas tran vdout0_25ck1280 FIND v(dout0_25) AT=645.025n 
 
-.meas tran vdout0_26ck1270 FIND v(dout0_26) AT=640.025n 
+.meas tran vdout0_26ck1280 FIND v(dout0_26) AT=645.025n 
 
-.meas tran vdout0_27ck1270 FIND v(dout0_27) AT=640.025n 
+.meas tran vdout0_27ck1280 FIND v(dout0_27) AT=645.025n 
 
-.meas tran vdout0_28ck1270 FIND v(dout0_28) AT=640.025n 
+.meas tran vdout0_28ck1280 FIND v(dout0_28) AT=645.025n 
 
-.meas tran vdout0_29ck1270 FIND v(dout0_29) AT=640.025n 
+.meas tran vdout0_29ck1280 FIND v(dout0_29) AT=645.025n 
 
-.meas tran vdout0_30ck1270 FIND v(dout0_30) AT=640.025n 
+.meas tran vdout0_30ck1280 FIND v(dout0_30) AT=645.025n 
 
-.meas tran vdout0_31ck1270 FIND v(dout0_31) AT=640.025n 
+.meas tran vdout0_31ck1280 FIND v(dout0_31) AT=645.025n 
 
-.meas tran vdout0_0ck1290 FIND v(dout0_0) AT=650.025n 
+.meas tran vdout0_0ck1300 FIND v(dout0_0) AT=655.025n 
 
-.meas tran vdout0_1ck1290 FIND v(dout0_1) AT=650.025n 
+.meas tran vdout0_1ck1300 FIND v(dout0_1) AT=655.025n 
 
-.meas tran vdout0_2ck1290 FIND v(dout0_2) AT=650.025n 
+.meas tran vdout0_2ck1300 FIND v(dout0_2) AT=655.025n 
 
-.meas tran vdout0_3ck1290 FIND v(dout0_3) AT=650.025n 
+.meas tran vdout0_3ck1300 FIND v(dout0_3) AT=655.025n 
 
-.meas tran vdout0_4ck1290 FIND v(dout0_4) AT=650.025n 
+.meas tran vdout0_4ck1300 FIND v(dout0_4) AT=655.025n 
 
-.meas tran vdout0_5ck1290 FIND v(dout0_5) AT=650.025n 
+.meas tran vdout0_5ck1300 FIND v(dout0_5) AT=655.025n 
 
-.meas tran vdout0_6ck1290 FIND v(dout0_6) AT=650.025n 
+.meas tran vdout0_6ck1300 FIND v(dout0_6) AT=655.025n 
 
-.meas tran vdout0_7ck1290 FIND v(dout0_7) AT=650.025n 
+.meas tran vdout0_7ck1300 FIND v(dout0_7) AT=655.025n 
 
-.meas tran vdout0_8ck1290 FIND v(dout0_8) AT=650.025n 
+.meas tran vdout0_8ck1300 FIND v(dout0_8) AT=655.025n 
 
-.meas tran vdout0_9ck1290 FIND v(dout0_9) AT=650.025n 
+.meas tran vdout0_9ck1300 FIND v(dout0_9) AT=655.025n 
 
-.meas tran vdout0_10ck1290 FIND v(dout0_10) AT=650.025n 
+.meas tran vdout0_10ck1300 FIND v(dout0_10) AT=655.025n 
 
-.meas tran vdout0_11ck1290 FIND v(dout0_11) AT=650.025n 
+.meas tran vdout0_11ck1300 FIND v(dout0_11) AT=655.025n 
 
-.meas tran vdout0_12ck1290 FIND v(dout0_12) AT=650.025n 
+.meas tran vdout0_12ck1300 FIND v(dout0_12) AT=655.025n 
 
-.meas tran vdout0_13ck1290 FIND v(dout0_13) AT=650.025n 
+.meas tran vdout0_13ck1300 FIND v(dout0_13) AT=655.025n 
 
-.meas tran vdout0_14ck1290 FIND v(dout0_14) AT=650.025n 
+.meas tran vdout0_14ck1300 FIND v(dout0_14) AT=655.025n 
 
-.meas tran vdout0_15ck1290 FIND v(dout0_15) AT=650.025n 
+.meas tran vdout0_15ck1300 FIND v(dout0_15) AT=655.025n 
 
-.meas tran vdout0_16ck1290 FIND v(dout0_16) AT=650.025n 
+.meas tran vdout0_16ck1300 FIND v(dout0_16) AT=655.025n 
 
-.meas tran vdout0_17ck1290 FIND v(dout0_17) AT=650.025n 
+.meas tran vdout0_17ck1300 FIND v(dout0_17) AT=655.025n 
 
-.meas tran vdout0_18ck1290 FIND v(dout0_18) AT=650.025n 
+.meas tran vdout0_18ck1300 FIND v(dout0_18) AT=655.025n 
 
-.meas tran vdout0_19ck1290 FIND v(dout0_19) AT=650.025n 
+.meas tran vdout0_19ck1300 FIND v(dout0_19) AT=655.025n 
 
-.meas tran vdout0_20ck1290 FIND v(dout0_20) AT=650.025n 
+.meas tran vdout0_20ck1300 FIND v(dout0_20) AT=655.025n 
 
-.meas tran vdout0_21ck1290 FIND v(dout0_21) AT=650.025n 
+.meas tran vdout0_21ck1300 FIND v(dout0_21) AT=655.025n 
 
-.meas tran vdout0_22ck1290 FIND v(dout0_22) AT=650.025n 
+.meas tran vdout0_22ck1300 FIND v(dout0_22) AT=655.025n 
 
-.meas tran vdout0_23ck1290 FIND v(dout0_23) AT=650.025n 
+.meas tran vdout0_23ck1300 FIND v(dout0_23) AT=655.025n 
 
-.meas tran vdout0_24ck1290 FIND v(dout0_24) AT=650.025n 
+.meas tran vdout0_24ck1300 FIND v(dout0_24) AT=655.025n 
 
-.meas tran vdout0_25ck1290 FIND v(dout0_25) AT=650.025n 
+.meas tran vdout0_25ck1300 FIND v(dout0_25) AT=655.025n 
 
-.meas tran vdout0_26ck1290 FIND v(dout0_26) AT=650.025n 
+.meas tran vdout0_26ck1300 FIND v(dout0_26) AT=655.025n 
 
-.meas tran vdout0_27ck1290 FIND v(dout0_27) AT=650.025n 
+.meas tran vdout0_27ck1300 FIND v(dout0_27) AT=655.025n 
 
-.meas tran vdout0_28ck1290 FIND v(dout0_28) AT=650.025n 
+.meas tran vdout0_28ck1300 FIND v(dout0_28) AT=655.025n 
 
-.meas tran vdout0_29ck1290 FIND v(dout0_29) AT=650.025n 
+.meas tran vdout0_29ck1300 FIND v(dout0_29) AT=655.025n 
 
-.meas tran vdout0_30ck1290 FIND v(dout0_30) AT=650.025n 
+.meas tran vdout0_30ck1300 FIND v(dout0_30) AT=655.025n 
 
-.meas tran vdout0_31ck1290 FIND v(dout0_31) AT=650.025n 
-
-.meas tran vdout0_0ck1310 FIND v(dout0_0) AT=660.025n 
-
-.meas tran vdout0_1ck1310 FIND v(dout0_1) AT=660.025n 
-
-.meas tran vdout0_2ck1310 FIND v(dout0_2) AT=660.025n 
-
-.meas tran vdout0_3ck1310 FIND v(dout0_3) AT=660.025n 
-
-.meas tran vdout0_4ck1310 FIND v(dout0_4) AT=660.025n 
-
-.meas tran vdout0_5ck1310 FIND v(dout0_5) AT=660.025n 
-
-.meas tran vdout0_6ck1310 FIND v(dout0_6) AT=660.025n 
-
-.meas tran vdout0_7ck1310 FIND v(dout0_7) AT=660.025n 
-
-.meas tran vdout0_8ck1310 FIND v(dout0_8) AT=660.025n 
-
-.meas tran vdout0_9ck1310 FIND v(dout0_9) AT=660.025n 
-
-.meas tran vdout0_10ck1310 FIND v(dout0_10) AT=660.025n 
-
-.meas tran vdout0_11ck1310 FIND v(dout0_11) AT=660.025n 
-
-.meas tran vdout0_12ck1310 FIND v(dout0_12) AT=660.025n 
-
-.meas tran vdout0_13ck1310 FIND v(dout0_13) AT=660.025n 
-
-.meas tran vdout0_14ck1310 FIND v(dout0_14) AT=660.025n 
-
-.meas tran vdout0_15ck1310 FIND v(dout0_15) AT=660.025n 
-
-.meas tran vdout0_16ck1310 FIND v(dout0_16) AT=660.025n 
-
-.meas tran vdout0_17ck1310 FIND v(dout0_17) AT=660.025n 
-
-.meas tran vdout0_18ck1310 FIND v(dout0_18) AT=660.025n 
-
-.meas tran vdout0_19ck1310 FIND v(dout0_19) AT=660.025n 
-
-.meas tran vdout0_20ck1310 FIND v(dout0_20) AT=660.025n 
-
-.meas tran vdout0_21ck1310 FIND v(dout0_21) AT=660.025n 
-
-.meas tran vdout0_22ck1310 FIND v(dout0_22) AT=660.025n 
-
-.meas tran vdout0_23ck1310 FIND v(dout0_23) AT=660.025n 
-
-.meas tran vdout0_24ck1310 FIND v(dout0_24) AT=660.025n 
-
-.meas tran vdout0_25ck1310 FIND v(dout0_25) AT=660.025n 
-
-.meas tran vdout0_26ck1310 FIND v(dout0_26) AT=660.025n 
-
-.meas tran vdout0_27ck1310 FIND v(dout0_27) AT=660.025n 
-
-.meas tran vdout0_28ck1310 FIND v(dout0_28) AT=660.025n 
-
-.meas tran vdout0_29ck1310 FIND v(dout0_29) AT=660.025n 
-
-.meas tran vdout0_30ck1310 FIND v(dout0_30) AT=660.025n 
-
-.meas tran vdout0_31ck1310 FIND v(dout0_31) AT=660.025n 
+.meas tran vdout0_31ck1300 FIND v(dout0_31) AT=655.025n 
 
 .meas tran vdout0_0ck1320 FIND v(dout0_0) AT=665.025n 
 
@@ -4221,6 +4221,134 @@
 .meas tran vdout0_30ck1320 FIND v(dout0_30) AT=665.025n 
 
 .meas tran vdout0_31ck1320 FIND v(dout0_31) AT=665.025n 
+
+.meas tran vdout0_0ck1330 FIND v(dout0_0) AT=670.025n 
+
+.meas tran vdout0_1ck1330 FIND v(dout0_1) AT=670.025n 
+
+.meas tran vdout0_2ck1330 FIND v(dout0_2) AT=670.025n 
+
+.meas tran vdout0_3ck1330 FIND v(dout0_3) AT=670.025n 
+
+.meas tran vdout0_4ck1330 FIND v(dout0_4) AT=670.025n 
+
+.meas tran vdout0_5ck1330 FIND v(dout0_5) AT=670.025n 
+
+.meas tran vdout0_6ck1330 FIND v(dout0_6) AT=670.025n 
+
+.meas tran vdout0_7ck1330 FIND v(dout0_7) AT=670.025n 
+
+.meas tran vdout0_8ck1330 FIND v(dout0_8) AT=670.025n 
+
+.meas tran vdout0_9ck1330 FIND v(dout0_9) AT=670.025n 
+
+.meas tran vdout0_10ck1330 FIND v(dout0_10) AT=670.025n 
+
+.meas tran vdout0_11ck1330 FIND v(dout0_11) AT=670.025n 
+
+.meas tran vdout0_12ck1330 FIND v(dout0_12) AT=670.025n 
+
+.meas tran vdout0_13ck1330 FIND v(dout0_13) AT=670.025n 
+
+.meas tran vdout0_14ck1330 FIND v(dout0_14) AT=670.025n 
+
+.meas tran vdout0_15ck1330 FIND v(dout0_15) AT=670.025n 
+
+.meas tran vdout0_16ck1330 FIND v(dout0_16) AT=670.025n 
+
+.meas tran vdout0_17ck1330 FIND v(dout0_17) AT=670.025n 
+
+.meas tran vdout0_18ck1330 FIND v(dout0_18) AT=670.025n 
+
+.meas tran vdout0_19ck1330 FIND v(dout0_19) AT=670.025n 
+
+.meas tran vdout0_20ck1330 FIND v(dout0_20) AT=670.025n 
+
+.meas tran vdout0_21ck1330 FIND v(dout0_21) AT=670.025n 
+
+.meas tran vdout0_22ck1330 FIND v(dout0_22) AT=670.025n 
+
+.meas tran vdout0_23ck1330 FIND v(dout0_23) AT=670.025n 
+
+.meas tran vdout0_24ck1330 FIND v(dout0_24) AT=670.025n 
+
+.meas tran vdout0_25ck1330 FIND v(dout0_25) AT=670.025n 
+
+.meas tran vdout0_26ck1330 FIND v(dout0_26) AT=670.025n 
+
+.meas tran vdout0_27ck1330 FIND v(dout0_27) AT=670.025n 
+
+.meas tran vdout0_28ck1330 FIND v(dout0_28) AT=670.025n 
+
+.meas tran vdout0_29ck1330 FIND v(dout0_29) AT=670.025n 
+
+.meas tran vdout0_30ck1330 FIND v(dout0_30) AT=670.025n 
+
+.meas tran vdout0_31ck1330 FIND v(dout0_31) AT=670.025n 
+
+.meas tran vdout0_0ck1350 FIND v(dout0_0) AT=680.025n 
+
+.meas tran vdout0_1ck1350 FIND v(dout0_1) AT=680.025n 
+
+.meas tran vdout0_2ck1350 FIND v(dout0_2) AT=680.025n 
+
+.meas tran vdout0_3ck1350 FIND v(dout0_3) AT=680.025n 
+
+.meas tran vdout0_4ck1350 FIND v(dout0_4) AT=680.025n 
+
+.meas tran vdout0_5ck1350 FIND v(dout0_5) AT=680.025n 
+
+.meas tran vdout0_6ck1350 FIND v(dout0_6) AT=680.025n 
+
+.meas tran vdout0_7ck1350 FIND v(dout0_7) AT=680.025n 
+
+.meas tran vdout0_8ck1350 FIND v(dout0_8) AT=680.025n 
+
+.meas tran vdout0_9ck1350 FIND v(dout0_9) AT=680.025n 
+
+.meas tran vdout0_10ck1350 FIND v(dout0_10) AT=680.025n 
+
+.meas tran vdout0_11ck1350 FIND v(dout0_11) AT=680.025n 
+
+.meas tran vdout0_12ck1350 FIND v(dout0_12) AT=680.025n 
+
+.meas tran vdout0_13ck1350 FIND v(dout0_13) AT=680.025n 
+
+.meas tran vdout0_14ck1350 FIND v(dout0_14) AT=680.025n 
+
+.meas tran vdout0_15ck1350 FIND v(dout0_15) AT=680.025n 
+
+.meas tran vdout0_16ck1350 FIND v(dout0_16) AT=680.025n 
+
+.meas tran vdout0_17ck1350 FIND v(dout0_17) AT=680.025n 
+
+.meas tran vdout0_18ck1350 FIND v(dout0_18) AT=680.025n 
+
+.meas tran vdout0_19ck1350 FIND v(dout0_19) AT=680.025n 
+
+.meas tran vdout0_20ck1350 FIND v(dout0_20) AT=680.025n 
+
+.meas tran vdout0_21ck1350 FIND v(dout0_21) AT=680.025n 
+
+.meas tran vdout0_22ck1350 FIND v(dout0_22) AT=680.025n 
+
+.meas tran vdout0_23ck1350 FIND v(dout0_23) AT=680.025n 
+
+.meas tran vdout0_24ck1350 FIND v(dout0_24) AT=680.025n 
+
+.meas tran vdout0_25ck1350 FIND v(dout0_25) AT=680.025n 
+
+.meas tran vdout0_26ck1350 FIND v(dout0_26) AT=680.025n 
+
+.meas tran vdout0_27ck1350 FIND v(dout0_27) AT=680.025n 
+
+.meas tran vdout0_28ck1350 FIND v(dout0_28) AT=680.025n 
+
+.meas tran vdout0_29ck1350 FIND v(dout0_29) AT=680.025n 
+
+.meas tran vdout0_30ck1350 FIND v(dout0_30) AT=680.025n 
+
+.meas tran vdout0_31ck1350 FIND v(dout0_31) AT=680.025n 
 
 .meas tran vdout0_0ck1360 FIND v(dout0_0) AT=685.025n 
 
@@ -4350,6 +4478,70 @@
 
 .meas tran vdout0_31ck1370 FIND v(dout0_31) AT=690.025n 
 
+.meas tran vdout0_0ck1380 FIND v(dout0_0) AT=695.025n 
+
+.meas tran vdout0_1ck1380 FIND v(dout0_1) AT=695.025n 
+
+.meas tran vdout0_2ck1380 FIND v(dout0_2) AT=695.025n 
+
+.meas tran vdout0_3ck1380 FIND v(dout0_3) AT=695.025n 
+
+.meas tran vdout0_4ck1380 FIND v(dout0_4) AT=695.025n 
+
+.meas tran vdout0_5ck1380 FIND v(dout0_5) AT=695.025n 
+
+.meas tran vdout0_6ck1380 FIND v(dout0_6) AT=695.025n 
+
+.meas tran vdout0_7ck1380 FIND v(dout0_7) AT=695.025n 
+
+.meas tran vdout0_8ck1380 FIND v(dout0_8) AT=695.025n 
+
+.meas tran vdout0_9ck1380 FIND v(dout0_9) AT=695.025n 
+
+.meas tran vdout0_10ck1380 FIND v(dout0_10) AT=695.025n 
+
+.meas tran vdout0_11ck1380 FIND v(dout0_11) AT=695.025n 
+
+.meas tran vdout0_12ck1380 FIND v(dout0_12) AT=695.025n 
+
+.meas tran vdout0_13ck1380 FIND v(dout0_13) AT=695.025n 
+
+.meas tran vdout0_14ck1380 FIND v(dout0_14) AT=695.025n 
+
+.meas tran vdout0_15ck1380 FIND v(dout0_15) AT=695.025n 
+
+.meas tran vdout0_16ck1380 FIND v(dout0_16) AT=695.025n 
+
+.meas tran vdout0_17ck1380 FIND v(dout0_17) AT=695.025n 
+
+.meas tran vdout0_18ck1380 FIND v(dout0_18) AT=695.025n 
+
+.meas tran vdout0_19ck1380 FIND v(dout0_19) AT=695.025n 
+
+.meas tran vdout0_20ck1380 FIND v(dout0_20) AT=695.025n 
+
+.meas tran vdout0_21ck1380 FIND v(dout0_21) AT=695.025n 
+
+.meas tran vdout0_22ck1380 FIND v(dout0_22) AT=695.025n 
+
+.meas tran vdout0_23ck1380 FIND v(dout0_23) AT=695.025n 
+
+.meas tran vdout0_24ck1380 FIND v(dout0_24) AT=695.025n 
+
+.meas tran vdout0_25ck1380 FIND v(dout0_25) AT=695.025n 
+
+.meas tran vdout0_26ck1380 FIND v(dout0_26) AT=695.025n 
+
+.meas tran vdout0_27ck1380 FIND v(dout0_27) AT=695.025n 
+
+.meas tran vdout0_28ck1380 FIND v(dout0_28) AT=695.025n 
+
+.meas tran vdout0_29ck1380 FIND v(dout0_29) AT=695.025n 
+
+.meas tran vdout0_30ck1380 FIND v(dout0_30) AT=695.025n 
+
+.meas tran vdout0_31ck1380 FIND v(dout0_31) AT=695.025n 
+
 .meas tran vdout0_0ck1390 FIND v(dout0_0) AT=700.025n 
 
 .meas tran vdout0_1ck1390 FIND v(dout0_1) AT=700.025n 
@@ -4478,70 +4670,6 @@
 
 .meas tran vdout0_31ck1410 FIND v(dout0_31) AT=710.025n 
 
-.meas tran vdout0_0ck1420 FIND v(dout0_0) AT=715.025n 
-
-.meas tran vdout0_1ck1420 FIND v(dout0_1) AT=715.025n 
-
-.meas tran vdout0_2ck1420 FIND v(dout0_2) AT=715.025n 
-
-.meas tran vdout0_3ck1420 FIND v(dout0_3) AT=715.025n 
-
-.meas tran vdout0_4ck1420 FIND v(dout0_4) AT=715.025n 
-
-.meas tran vdout0_5ck1420 FIND v(dout0_5) AT=715.025n 
-
-.meas tran vdout0_6ck1420 FIND v(dout0_6) AT=715.025n 
-
-.meas tran vdout0_7ck1420 FIND v(dout0_7) AT=715.025n 
-
-.meas tran vdout0_8ck1420 FIND v(dout0_8) AT=715.025n 
-
-.meas tran vdout0_9ck1420 FIND v(dout0_9) AT=715.025n 
-
-.meas tran vdout0_10ck1420 FIND v(dout0_10) AT=715.025n 
-
-.meas tran vdout0_11ck1420 FIND v(dout0_11) AT=715.025n 
-
-.meas tran vdout0_12ck1420 FIND v(dout0_12) AT=715.025n 
-
-.meas tran vdout0_13ck1420 FIND v(dout0_13) AT=715.025n 
-
-.meas tran vdout0_14ck1420 FIND v(dout0_14) AT=715.025n 
-
-.meas tran vdout0_15ck1420 FIND v(dout0_15) AT=715.025n 
-
-.meas tran vdout0_16ck1420 FIND v(dout0_16) AT=715.025n 
-
-.meas tran vdout0_17ck1420 FIND v(dout0_17) AT=715.025n 
-
-.meas tran vdout0_18ck1420 FIND v(dout0_18) AT=715.025n 
-
-.meas tran vdout0_19ck1420 FIND v(dout0_19) AT=715.025n 
-
-.meas tran vdout0_20ck1420 FIND v(dout0_20) AT=715.025n 
-
-.meas tran vdout0_21ck1420 FIND v(dout0_21) AT=715.025n 
-
-.meas tran vdout0_22ck1420 FIND v(dout0_22) AT=715.025n 
-
-.meas tran vdout0_23ck1420 FIND v(dout0_23) AT=715.025n 
-
-.meas tran vdout0_24ck1420 FIND v(dout0_24) AT=715.025n 
-
-.meas tran vdout0_25ck1420 FIND v(dout0_25) AT=715.025n 
-
-.meas tran vdout0_26ck1420 FIND v(dout0_26) AT=715.025n 
-
-.meas tran vdout0_27ck1420 FIND v(dout0_27) AT=715.025n 
-
-.meas tran vdout0_28ck1420 FIND v(dout0_28) AT=715.025n 
-
-.meas tran vdout0_29ck1420 FIND v(dout0_29) AT=715.025n 
-
-.meas tran vdout0_30ck1420 FIND v(dout0_30) AT=715.025n 
-
-.meas tran vdout0_31ck1420 FIND v(dout0_31) AT=715.025n 
-
 .meas tran vdout0_0ck1430 FIND v(dout0_0) AT=720.025n 
 
 .meas tran vdout0_1ck1430 FIND v(dout0_1) AT=720.025n 
@@ -4606,197 +4734,261 @@
 
 .meas tran vdout0_31ck1430 FIND v(dout0_31) AT=720.025n 
 
-.meas tran vdout0_0ck1440 FIND v(dout0_0) AT=725.025n 
+.meas tran vdout0_0ck1450 FIND v(dout0_0) AT=730.025n 
 
-.meas tran vdout0_1ck1440 FIND v(dout0_1) AT=725.025n 
+.meas tran vdout0_1ck1450 FIND v(dout0_1) AT=730.025n 
 
-.meas tran vdout0_2ck1440 FIND v(dout0_2) AT=725.025n 
+.meas tran vdout0_2ck1450 FIND v(dout0_2) AT=730.025n 
 
-.meas tran vdout0_3ck1440 FIND v(dout0_3) AT=725.025n 
+.meas tran vdout0_3ck1450 FIND v(dout0_3) AT=730.025n 
 
-.meas tran vdout0_4ck1440 FIND v(dout0_4) AT=725.025n 
+.meas tran vdout0_4ck1450 FIND v(dout0_4) AT=730.025n 
 
-.meas tran vdout0_5ck1440 FIND v(dout0_5) AT=725.025n 
+.meas tran vdout0_5ck1450 FIND v(dout0_5) AT=730.025n 
 
-.meas tran vdout0_6ck1440 FIND v(dout0_6) AT=725.025n 
+.meas tran vdout0_6ck1450 FIND v(dout0_6) AT=730.025n 
 
-.meas tran vdout0_7ck1440 FIND v(dout0_7) AT=725.025n 
+.meas tran vdout0_7ck1450 FIND v(dout0_7) AT=730.025n 
 
-.meas tran vdout0_8ck1440 FIND v(dout0_8) AT=725.025n 
+.meas tran vdout0_8ck1450 FIND v(dout0_8) AT=730.025n 
 
-.meas tran vdout0_9ck1440 FIND v(dout0_9) AT=725.025n 
+.meas tran vdout0_9ck1450 FIND v(dout0_9) AT=730.025n 
 
-.meas tran vdout0_10ck1440 FIND v(dout0_10) AT=725.025n 
+.meas tran vdout0_10ck1450 FIND v(dout0_10) AT=730.025n 
 
-.meas tran vdout0_11ck1440 FIND v(dout0_11) AT=725.025n 
+.meas tran vdout0_11ck1450 FIND v(dout0_11) AT=730.025n 
 
-.meas tran vdout0_12ck1440 FIND v(dout0_12) AT=725.025n 
+.meas tran vdout0_12ck1450 FIND v(dout0_12) AT=730.025n 
 
-.meas tran vdout0_13ck1440 FIND v(dout0_13) AT=725.025n 
+.meas tran vdout0_13ck1450 FIND v(dout0_13) AT=730.025n 
 
-.meas tran vdout0_14ck1440 FIND v(dout0_14) AT=725.025n 
+.meas tran vdout0_14ck1450 FIND v(dout0_14) AT=730.025n 
 
-.meas tran vdout0_15ck1440 FIND v(dout0_15) AT=725.025n 
+.meas tran vdout0_15ck1450 FIND v(dout0_15) AT=730.025n 
 
-.meas tran vdout0_16ck1440 FIND v(dout0_16) AT=725.025n 
+.meas tran vdout0_16ck1450 FIND v(dout0_16) AT=730.025n 
 
-.meas tran vdout0_17ck1440 FIND v(dout0_17) AT=725.025n 
+.meas tran vdout0_17ck1450 FIND v(dout0_17) AT=730.025n 
 
-.meas tran vdout0_18ck1440 FIND v(dout0_18) AT=725.025n 
+.meas tran vdout0_18ck1450 FIND v(dout0_18) AT=730.025n 
 
-.meas tran vdout0_19ck1440 FIND v(dout0_19) AT=725.025n 
+.meas tran vdout0_19ck1450 FIND v(dout0_19) AT=730.025n 
 
-.meas tran vdout0_20ck1440 FIND v(dout0_20) AT=725.025n 
+.meas tran vdout0_20ck1450 FIND v(dout0_20) AT=730.025n 
 
-.meas tran vdout0_21ck1440 FIND v(dout0_21) AT=725.025n 
+.meas tran vdout0_21ck1450 FIND v(dout0_21) AT=730.025n 
 
-.meas tran vdout0_22ck1440 FIND v(dout0_22) AT=725.025n 
+.meas tran vdout0_22ck1450 FIND v(dout0_22) AT=730.025n 
 
-.meas tran vdout0_23ck1440 FIND v(dout0_23) AT=725.025n 
+.meas tran vdout0_23ck1450 FIND v(dout0_23) AT=730.025n 
 
-.meas tran vdout0_24ck1440 FIND v(dout0_24) AT=725.025n 
+.meas tran vdout0_24ck1450 FIND v(dout0_24) AT=730.025n 
 
-.meas tran vdout0_25ck1440 FIND v(dout0_25) AT=725.025n 
+.meas tran vdout0_25ck1450 FIND v(dout0_25) AT=730.025n 
 
-.meas tran vdout0_26ck1440 FIND v(dout0_26) AT=725.025n 
+.meas tran vdout0_26ck1450 FIND v(dout0_26) AT=730.025n 
 
-.meas tran vdout0_27ck1440 FIND v(dout0_27) AT=725.025n 
+.meas tran vdout0_27ck1450 FIND v(dout0_27) AT=730.025n 
 
-.meas tran vdout0_28ck1440 FIND v(dout0_28) AT=725.025n 
+.meas tran vdout0_28ck1450 FIND v(dout0_28) AT=730.025n 
 
-.meas tran vdout0_29ck1440 FIND v(dout0_29) AT=725.025n 
+.meas tran vdout0_29ck1450 FIND v(dout0_29) AT=730.025n 
 
-.meas tran vdout0_30ck1440 FIND v(dout0_30) AT=725.025n 
+.meas tran vdout0_30ck1450 FIND v(dout0_30) AT=730.025n 
 
-.meas tran vdout0_31ck1440 FIND v(dout0_31) AT=725.025n 
+.meas tran vdout0_31ck1450 FIND v(dout0_31) AT=730.025n 
 
-.meas tran vdout0_0ck1480 FIND v(dout0_0) AT=745.025n 
+.meas tran vdout0_0ck1460 FIND v(dout0_0) AT=735.025n 
 
-.meas tran vdout0_1ck1480 FIND v(dout0_1) AT=745.025n 
+.meas tran vdout0_1ck1460 FIND v(dout0_1) AT=735.025n 
 
-.meas tran vdout0_2ck1480 FIND v(dout0_2) AT=745.025n 
+.meas tran vdout0_2ck1460 FIND v(dout0_2) AT=735.025n 
 
-.meas tran vdout0_3ck1480 FIND v(dout0_3) AT=745.025n 
+.meas tran vdout0_3ck1460 FIND v(dout0_3) AT=735.025n 
 
-.meas tran vdout0_4ck1480 FIND v(dout0_4) AT=745.025n 
+.meas tran vdout0_4ck1460 FIND v(dout0_4) AT=735.025n 
 
-.meas tran vdout0_5ck1480 FIND v(dout0_5) AT=745.025n 
+.meas tran vdout0_5ck1460 FIND v(dout0_5) AT=735.025n 
 
-.meas tran vdout0_6ck1480 FIND v(dout0_6) AT=745.025n 
+.meas tran vdout0_6ck1460 FIND v(dout0_6) AT=735.025n 
 
-.meas tran vdout0_7ck1480 FIND v(dout0_7) AT=745.025n 
+.meas tran vdout0_7ck1460 FIND v(dout0_7) AT=735.025n 
 
-.meas tran vdout0_8ck1480 FIND v(dout0_8) AT=745.025n 
+.meas tran vdout0_8ck1460 FIND v(dout0_8) AT=735.025n 
 
-.meas tran vdout0_9ck1480 FIND v(dout0_9) AT=745.025n 
+.meas tran vdout0_9ck1460 FIND v(dout0_9) AT=735.025n 
 
-.meas tran vdout0_10ck1480 FIND v(dout0_10) AT=745.025n 
+.meas tran vdout0_10ck1460 FIND v(dout0_10) AT=735.025n 
 
-.meas tran vdout0_11ck1480 FIND v(dout0_11) AT=745.025n 
+.meas tran vdout0_11ck1460 FIND v(dout0_11) AT=735.025n 
 
-.meas tran vdout0_12ck1480 FIND v(dout0_12) AT=745.025n 
+.meas tran vdout0_12ck1460 FIND v(dout0_12) AT=735.025n 
 
-.meas tran vdout0_13ck1480 FIND v(dout0_13) AT=745.025n 
+.meas tran vdout0_13ck1460 FIND v(dout0_13) AT=735.025n 
 
-.meas tran vdout0_14ck1480 FIND v(dout0_14) AT=745.025n 
+.meas tran vdout0_14ck1460 FIND v(dout0_14) AT=735.025n 
 
-.meas tran vdout0_15ck1480 FIND v(dout0_15) AT=745.025n 
+.meas tran vdout0_15ck1460 FIND v(dout0_15) AT=735.025n 
 
-.meas tran vdout0_16ck1480 FIND v(dout0_16) AT=745.025n 
+.meas tran vdout0_16ck1460 FIND v(dout0_16) AT=735.025n 
 
-.meas tran vdout0_17ck1480 FIND v(dout0_17) AT=745.025n 
+.meas tran vdout0_17ck1460 FIND v(dout0_17) AT=735.025n 
 
-.meas tran vdout0_18ck1480 FIND v(dout0_18) AT=745.025n 
+.meas tran vdout0_18ck1460 FIND v(dout0_18) AT=735.025n 
 
-.meas tran vdout0_19ck1480 FIND v(dout0_19) AT=745.025n 
+.meas tran vdout0_19ck1460 FIND v(dout0_19) AT=735.025n 
 
-.meas tran vdout0_20ck1480 FIND v(dout0_20) AT=745.025n 
+.meas tran vdout0_20ck1460 FIND v(dout0_20) AT=735.025n 
 
-.meas tran vdout0_21ck1480 FIND v(dout0_21) AT=745.025n 
+.meas tran vdout0_21ck1460 FIND v(dout0_21) AT=735.025n 
 
-.meas tran vdout0_22ck1480 FIND v(dout0_22) AT=745.025n 
+.meas tran vdout0_22ck1460 FIND v(dout0_22) AT=735.025n 
 
-.meas tran vdout0_23ck1480 FIND v(dout0_23) AT=745.025n 
+.meas tran vdout0_23ck1460 FIND v(dout0_23) AT=735.025n 
 
-.meas tran vdout0_24ck1480 FIND v(dout0_24) AT=745.025n 
+.meas tran vdout0_24ck1460 FIND v(dout0_24) AT=735.025n 
 
-.meas tran vdout0_25ck1480 FIND v(dout0_25) AT=745.025n 
+.meas tran vdout0_25ck1460 FIND v(dout0_25) AT=735.025n 
 
-.meas tran vdout0_26ck1480 FIND v(dout0_26) AT=745.025n 
+.meas tran vdout0_26ck1460 FIND v(dout0_26) AT=735.025n 
 
-.meas tran vdout0_27ck1480 FIND v(dout0_27) AT=745.025n 
+.meas tran vdout0_27ck1460 FIND v(dout0_27) AT=735.025n 
 
-.meas tran vdout0_28ck1480 FIND v(dout0_28) AT=745.025n 
+.meas tran vdout0_28ck1460 FIND v(dout0_28) AT=735.025n 
 
-.meas tran vdout0_29ck1480 FIND v(dout0_29) AT=745.025n 
+.meas tran vdout0_29ck1460 FIND v(dout0_29) AT=735.025n 
 
-.meas tran vdout0_30ck1480 FIND v(dout0_30) AT=745.025n 
+.meas tran vdout0_30ck1460 FIND v(dout0_30) AT=735.025n 
 
-.meas tran vdout0_31ck1480 FIND v(dout0_31) AT=745.025n 
+.meas tran vdout0_31ck1460 FIND v(dout0_31) AT=735.025n 
 
-.meas tran vdout0_0ck1510 FIND v(dout0_0) AT=760.025n 
+.meas tran vdout0_0ck1470 FIND v(dout0_0) AT=740.025n 
 
-.meas tran vdout0_1ck1510 FIND v(dout0_1) AT=760.025n 
+.meas tran vdout0_1ck1470 FIND v(dout0_1) AT=740.025n 
 
-.meas tran vdout0_2ck1510 FIND v(dout0_2) AT=760.025n 
+.meas tran vdout0_2ck1470 FIND v(dout0_2) AT=740.025n 
 
-.meas tran vdout0_3ck1510 FIND v(dout0_3) AT=760.025n 
+.meas tran vdout0_3ck1470 FIND v(dout0_3) AT=740.025n 
 
-.meas tran vdout0_4ck1510 FIND v(dout0_4) AT=760.025n 
+.meas tran vdout0_4ck1470 FIND v(dout0_4) AT=740.025n 
 
-.meas tran vdout0_5ck1510 FIND v(dout0_5) AT=760.025n 
+.meas tran vdout0_5ck1470 FIND v(dout0_5) AT=740.025n 
 
-.meas tran vdout0_6ck1510 FIND v(dout0_6) AT=760.025n 
+.meas tran vdout0_6ck1470 FIND v(dout0_6) AT=740.025n 
 
-.meas tran vdout0_7ck1510 FIND v(dout0_7) AT=760.025n 
+.meas tran vdout0_7ck1470 FIND v(dout0_7) AT=740.025n 
 
-.meas tran vdout0_8ck1510 FIND v(dout0_8) AT=760.025n 
+.meas tran vdout0_8ck1470 FIND v(dout0_8) AT=740.025n 
 
-.meas tran vdout0_9ck1510 FIND v(dout0_9) AT=760.025n 
+.meas tran vdout0_9ck1470 FIND v(dout0_9) AT=740.025n 
 
-.meas tran vdout0_10ck1510 FIND v(dout0_10) AT=760.025n 
+.meas tran vdout0_10ck1470 FIND v(dout0_10) AT=740.025n 
 
-.meas tran vdout0_11ck1510 FIND v(dout0_11) AT=760.025n 
+.meas tran vdout0_11ck1470 FIND v(dout0_11) AT=740.025n 
 
-.meas tran vdout0_12ck1510 FIND v(dout0_12) AT=760.025n 
+.meas tran vdout0_12ck1470 FIND v(dout0_12) AT=740.025n 
 
-.meas tran vdout0_13ck1510 FIND v(dout0_13) AT=760.025n 
+.meas tran vdout0_13ck1470 FIND v(dout0_13) AT=740.025n 
 
-.meas tran vdout0_14ck1510 FIND v(dout0_14) AT=760.025n 
+.meas tran vdout0_14ck1470 FIND v(dout0_14) AT=740.025n 
 
-.meas tran vdout0_15ck1510 FIND v(dout0_15) AT=760.025n 
+.meas tran vdout0_15ck1470 FIND v(dout0_15) AT=740.025n 
 
-.meas tran vdout0_16ck1510 FIND v(dout0_16) AT=760.025n 
+.meas tran vdout0_16ck1470 FIND v(dout0_16) AT=740.025n 
 
-.meas tran vdout0_17ck1510 FIND v(dout0_17) AT=760.025n 
+.meas tran vdout0_17ck1470 FIND v(dout0_17) AT=740.025n 
 
-.meas tran vdout0_18ck1510 FIND v(dout0_18) AT=760.025n 
+.meas tran vdout0_18ck1470 FIND v(dout0_18) AT=740.025n 
 
-.meas tran vdout0_19ck1510 FIND v(dout0_19) AT=760.025n 
+.meas tran vdout0_19ck1470 FIND v(dout0_19) AT=740.025n 
 
-.meas tran vdout0_20ck1510 FIND v(dout0_20) AT=760.025n 
+.meas tran vdout0_20ck1470 FIND v(dout0_20) AT=740.025n 
 
-.meas tran vdout0_21ck1510 FIND v(dout0_21) AT=760.025n 
+.meas tran vdout0_21ck1470 FIND v(dout0_21) AT=740.025n 
 
-.meas tran vdout0_22ck1510 FIND v(dout0_22) AT=760.025n 
+.meas tran vdout0_22ck1470 FIND v(dout0_22) AT=740.025n 
 
-.meas tran vdout0_23ck1510 FIND v(dout0_23) AT=760.025n 
+.meas tran vdout0_23ck1470 FIND v(dout0_23) AT=740.025n 
 
-.meas tran vdout0_24ck1510 FIND v(dout0_24) AT=760.025n 
+.meas tran vdout0_24ck1470 FIND v(dout0_24) AT=740.025n 
 
-.meas tran vdout0_25ck1510 FIND v(dout0_25) AT=760.025n 
+.meas tran vdout0_25ck1470 FIND v(dout0_25) AT=740.025n 
 
-.meas tran vdout0_26ck1510 FIND v(dout0_26) AT=760.025n 
+.meas tran vdout0_26ck1470 FIND v(dout0_26) AT=740.025n 
 
-.meas tran vdout0_27ck1510 FIND v(dout0_27) AT=760.025n 
+.meas tran vdout0_27ck1470 FIND v(dout0_27) AT=740.025n 
 
-.meas tran vdout0_28ck1510 FIND v(dout0_28) AT=760.025n 
+.meas tran vdout0_28ck1470 FIND v(dout0_28) AT=740.025n 
 
-.meas tran vdout0_29ck1510 FIND v(dout0_29) AT=760.025n 
+.meas tran vdout0_29ck1470 FIND v(dout0_29) AT=740.025n 
 
-.meas tran vdout0_30ck1510 FIND v(dout0_30) AT=760.025n 
+.meas tran vdout0_30ck1470 FIND v(dout0_30) AT=740.025n 
 
-.meas tran vdout0_31ck1510 FIND v(dout0_31) AT=760.025n 
+.meas tran vdout0_31ck1470 FIND v(dout0_31) AT=740.025n 
+
+.meas tran vdout0_0ck1490 FIND v(dout0_0) AT=750.025n 
+
+.meas tran vdout0_1ck1490 FIND v(dout0_1) AT=750.025n 
+
+.meas tran vdout0_2ck1490 FIND v(dout0_2) AT=750.025n 
+
+.meas tran vdout0_3ck1490 FIND v(dout0_3) AT=750.025n 
+
+.meas tran vdout0_4ck1490 FIND v(dout0_4) AT=750.025n 
+
+.meas tran vdout0_5ck1490 FIND v(dout0_5) AT=750.025n 
+
+.meas tran vdout0_6ck1490 FIND v(dout0_6) AT=750.025n 
+
+.meas tran vdout0_7ck1490 FIND v(dout0_7) AT=750.025n 
+
+.meas tran vdout0_8ck1490 FIND v(dout0_8) AT=750.025n 
+
+.meas tran vdout0_9ck1490 FIND v(dout0_9) AT=750.025n 
+
+.meas tran vdout0_10ck1490 FIND v(dout0_10) AT=750.025n 
+
+.meas tran vdout0_11ck1490 FIND v(dout0_11) AT=750.025n 
+
+.meas tran vdout0_12ck1490 FIND v(dout0_12) AT=750.025n 
+
+.meas tran vdout0_13ck1490 FIND v(dout0_13) AT=750.025n 
+
+.meas tran vdout0_14ck1490 FIND v(dout0_14) AT=750.025n 
+
+.meas tran vdout0_15ck1490 FIND v(dout0_15) AT=750.025n 
+
+.meas tran vdout0_16ck1490 FIND v(dout0_16) AT=750.025n 
+
+.meas tran vdout0_17ck1490 FIND v(dout0_17) AT=750.025n 
+
+.meas tran vdout0_18ck1490 FIND v(dout0_18) AT=750.025n 
+
+.meas tran vdout0_19ck1490 FIND v(dout0_19) AT=750.025n 
+
+.meas tran vdout0_20ck1490 FIND v(dout0_20) AT=750.025n 
+
+.meas tran vdout0_21ck1490 FIND v(dout0_21) AT=750.025n 
+
+.meas tran vdout0_22ck1490 FIND v(dout0_22) AT=750.025n 
+
+.meas tran vdout0_23ck1490 FIND v(dout0_23) AT=750.025n 
+
+.meas tran vdout0_24ck1490 FIND v(dout0_24) AT=750.025n 
+
+.meas tran vdout0_25ck1490 FIND v(dout0_25) AT=750.025n 
+
+.meas tran vdout0_26ck1490 FIND v(dout0_26) AT=750.025n 
+
+.meas tran vdout0_27ck1490 FIND v(dout0_27) AT=750.025n 
+
+.meas tran vdout0_28ck1490 FIND v(dout0_28) AT=750.025n 
+
+.meas tran vdout0_29ck1490 FIND v(dout0_29) AT=750.025n 
+
+.meas tran vdout0_30ck1490 FIND v(dout0_30) AT=750.025n 
+
+.meas tran vdout0_31ck1490 FIND v(dout0_31) AT=750.025n 
 
 .meas tran vdout0_0ck1530 FIND v(dout0_0) AT=770.025n 
 
@@ -4926,6 +5118,70 @@
 
 .meas tran vdout0_31ck1540 FIND v(dout0_31) AT=775.025n 
 
+.meas tran vdout0_0ck1550 FIND v(dout0_0) AT=780.025n 
+
+.meas tran vdout0_1ck1550 FIND v(dout0_1) AT=780.025n 
+
+.meas tran vdout0_2ck1550 FIND v(dout0_2) AT=780.025n 
+
+.meas tran vdout0_3ck1550 FIND v(dout0_3) AT=780.025n 
+
+.meas tran vdout0_4ck1550 FIND v(dout0_4) AT=780.025n 
+
+.meas tran vdout0_5ck1550 FIND v(dout0_5) AT=780.025n 
+
+.meas tran vdout0_6ck1550 FIND v(dout0_6) AT=780.025n 
+
+.meas tran vdout0_7ck1550 FIND v(dout0_7) AT=780.025n 
+
+.meas tran vdout0_8ck1550 FIND v(dout0_8) AT=780.025n 
+
+.meas tran vdout0_9ck1550 FIND v(dout0_9) AT=780.025n 
+
+.meas tran vdout0_10ck1550 FIND v(dout0_10) AT=780.025n 
+
+.meas tran vdout0_11ck1550 FIND v(dout0_11) AT=780.025n 
+
+.meas tran vdout0_12ck1550 FIND v(dout0_12) AT=780.025n 
+
+.meas tran vdout0_13ck1550 FIND v(dout0_13) AT=780.025n 
+
+.meas tran vdout0_14ck1550 FIND v(dout0_14) AT=780.025n 
+
+.meas tran vdout0_15ck1550 FIND v(dout0_15) AT=780.025n 
+
+.meas tran vdout0_16ck1550 FIND v(dout0_16) AT=780.025n 
+
+.meas tran vdout0_17ck1550 FIND v(dout0_17) AT=780.025n 
+
+.meas tran vdout0_18ck1550 FIND v(dout0_18) AT=780.025n 
+
+.meas tran vdout0_19ck1550 FIND v(dout0_19) AT=780.025n 
+
+.meas tran vdout0_20ck1550 FIND v(dout0_20) AT=780.025n 
+
+.meas tran vdout0_21ck1550 FIND v(dout0_21) AT=780.025n 
+
+.meas tran vdout0_22ck1550 FIND v(dout0_22) AT=780.025n 
+
+.meas tran vdout0_23ck1550 FIND v(dout0_23) AT=780.025n 
+
+.meas tran vdout0_24ck1550 FIND v(dout0_24) AT=780.025n 
+
+.meas tran vdout0_25ck1550 FIND v(dout0_25) AT=780.025n 
+
+.meas tran vdout0_26ck1550 FIND v(dout0_26) AT=780.025n 
+
+.meas tran vdout0_27ck1550 FIND v(dout0_27) AT=780.025n 
+
+.meas tran vdout0_28ck1550 FIND v(dout0_28) AT=780.025n 
+
+.meas tran vdout0_29ck1550 FIND v(dout0_29) AT=780.025n 
+
+.meas tran vdout0_30ck1550 FIND v(dout0_30) AT=780.025n 
+
+.meas tran vdout0_31ck1550 FIND v(dout0_31) AT=780.025n 
+
 .meas tran vdout0_0ck1560 FIND v(dout0_0) AT=785.025n 
 
 .meas tran vdout0_1ck1560 FIND v(dout0_1) AT=785.025n 
@@ -5053,6 +5309,198 @@
 .meas tran vdout0_30ck1570 FIND v(dout0_30) AT=790.025n 
 
 .meas tran vdout0_31ck1570 FIND v(dout0_31) AT=790.025n 
+
+.meas tran vdout0_0ck1580 FIND v(dout0_0) AT=795.025n 
+
+.meas tran vdout0_1ck1580 FIND v(dout0_1) AT=795.025n 
+
+.meas tran vdout0_2ck1580 FIND v(dout0_2) AT=795.025n 
+
+.meas tran vdout0_3ck1580 FIND v(dout0_3) AT=795.025n 
+
+.meas tran vdout0_4ck1580 FIND v(dout0_4) AT=795.025n 
+
+.meas tran vdout0_5ck1580 FIND v(dout0_5) AT=795.025n 
+
+.meas tran vdout0_6ck1580 FIND v(dout0_6) AT=795.025n 
+
+.meas tran vdout0_7ck1580 FIND v(dout0_7) AT=795.025n 
+
+.meas tran vdout0_8ck1580 FIND v(dout0_8) AT=795.025n 
+
+.meas tran vdout0_9ck1580 FIND v(dout0_9) AT=795.025n 
+
+.meas tran vdout0_10ck1580 FIND v(dout0_10) AT=795.025n 
+
+.meas tran vdout0_11ck1580 FIND v(dout0_11) AT=795.025n 
+
+.meas tran vdout0_12ck1580 FIND v(dout0_12) AT=795.025n 
+
+.meas tran vdout0_13ck1580 FIND v(dout0_13) AT=795.025n 
+
+.meas tran vdout0_14ck1580 FIND v(dout0_14) AT=795.025n 
+
+.meas tran vdout0_15ck1580 FIND v(dout0_15) AT=795.025n 
+
+.meas tran vdout0_16ck1580 FIND v(dout0_16) AT=795.025n 
+
+.meas tran vdout0_17ck1580 FIND v(dout0_17) AT=795.025n 
+
+.meas tran vdout0_18ck1580 FIND v(dout0_18) AT=795.025n 
+
+.meas tran vdout0_19ck1580 FIND v(dout0_19) AT=795.025n 
+
+.meas tran vdout0_20ck1580 FIND v(dout0_20) AT=795.025n 
+
+.meas tran vdout0_21ck1580 FIND v(dout0_21) AT=795.025n 
+
+.meas tran vdout0_22ck1580 FIND v(dout0_22) AT=795.025n 
+
+.meas tran vdout0_23ck1580 FIND v(dout0_23) AT=795.025n 
+
+.meas tran vdout0_24ck1580 FIND v(dout0_24) AT=795.025n 
+
+.meas tran vdout0_25ck1580 FIND v(dout0_25) AT=795.025n 
+
+.meas tran vdout0_26ck1580 FIND v(dout0_26) AT=795.025n 
+
+.meas tran vdout0_27ck1580 FIND v(dout0_27) AT=795.025n 
+
+.meas tran vdout0_28ck1580 FIND v(dout0_28) AT=795.025n 
+
+.meas tran vdout0_29ck1580 FIND v(dout0_29) AT=795.025n 
+
+.meas tran vdout0_30ck1580 FIND v(dout0_30) AT=795.025n 
+
+.meas tran vdout0_31ck1580 FIND v(dout0_31) AT=795.025n 
+
+.meas tran vdout0_0ck1590 FIND v(dout0_0) AT=800.025n 
+
+.meas tran vdout0_1ck1590 FIND v(dout0_1) AT=800.025n 
+
+.meas tran vdout0_2ck1590 FIND v(dout0_2) AT=800.025n 
+
+.meas tran vdout0_3ck1590 FIND v(dout0_3) AT=800.025n 
+
+.meas tran vdout0_4ck1590 FIND v(dout0_4) AT=800.025n 
+
+.meas tran vdout0_5ck1590 FIND v(dout0_5) AT=800.025n 
+
+.meas tran vdout0_6ck1590 FIND v(dout0_6) AT=800.025n 
+
+.meas tran vdout0_7ck1590 FIND v(dout0_7) AT=800.025n 
+
+.meas tran vdout0_8ck1590 FIND v(dout0_8) AT=800.025n 
+
+.meas tran vdout0_9ck1590 FIND v(dout0_9) AT=800.025n 
+
+.meas tran vdout0_10ck1590 FIND v(dout0_10) AT=800.025n 
+
+.meas tran vdout0_11ck1590 FIND v(dout0_11) AT=800.025n 
+
+.meas tran vdout0_12ck1590 FIND v(dout0_12) AT=800.025n 
+
+.meas tran vdout0_13ck1590 FIND v(dout0_13) AT=800.025n 
+
+.meas tran vdout0_14ck1590 FIND v(dout0_14) AT=800.025n 
+
+.meas tran vdout0_15ck1590 FIND v(dout0_15) AT=800.025n 
+
+.meas tran vdout0_16ck1590 FIND v(dout0_16) AT=800.025n 
+
+.meas tran vdout0_17ck1590 FIND v(dout0_17) AT=800.025n 
+
+.meas tran vdout0_18ck1590 FIND v(dout0_18) AT=800.025n 
+
+.meas tran vdout0_19ck1590 FIND v(dout0_19) AT=800.025n 
+
+.meas tran vdout0_20ck1590 FIND v(dout0_20) AT=800.025n 
+
+.meas tran vdout0_21ck1590 FIND v(dout0_21) AT=800.025n 
+
+.meas tran vdout0_22ck1590 FIND v(dout0_22) AT=800.025n 
+
+.meas tran vdout0_23ck1590 FIND v(dout0_23) AT=800.025n 
+
+.meas tran vdout0_24ck1590 FIND v(dout0_24) AT=800.025n 
+
+.meas tran vdout0_25ck1590 FIND v(dout0_25) AT=800.025n 
+
+.meas tran vdout0_26ck1590 FIND v(dout0_26) AT=800.025n 
+
+.meas tran vdout0_27ck1590 FIND v(dout0_27) AT=800.025n 
+
+.meas tran vdout0_28ck1590 FIND v(dout0_28) AT=800.025n 
+
+.meas tran vdout0_29ck1590 FIND v(dout0_29) AT=800.025n 
+
+.meas tran vdout0_30ck1590 FIND v(dout0_30) AT=800.025n 
+
+.meas tran vdout0_31ck1590 FIND v(dout0_31) AT=800.025n 
+
+.meas tran vdout0_0ck1600 FIND v(dout0_0) AT=805.025n 
+
+.meas tran vdout0_1ck1600 FIND v(dout0_1) AT=805.025n 
+
+.meas tran vdout0_2ck1600 FIND v(dout0_2) AT=805.025n 
+
+.meas tran vdout0_3ck1600 FIND v(dout0_3) AT=805.025n 
+
+.meas tran vdout0_4ck1600 FIND v(dout0_4) AT=805.025n 
+
+.meas tran vdout0_5ck1600 FIND v(dout0_5) AT=805.025n 
+
+.meas tran vdout0_6ck1600 FIND v(dout0_6) AT=805.025n 
+
+.meas tran vdout0_7ck1600 FIND v(dout0_7) AT=805.025n 
+
+.meas tran vdout0_8ck1600 FIND v(dout0_8) AT=805.025n 
+
+.meas tran vdout0_9ck1600 FIND v(dout0_9) AT=805.025n 
+
+.meas tran vdout0_10ck1600 FIND v(dout0_10) AT=805.025n 
+
+.meas tran vdout0_11ck1600 FIND v(dout0_11) AT=805.025n 
+
+.meas tran vdout0_12ck1600 FIND v(dout0_12) AT=805.025n 
+
+.meas tran vdout0_13ck1600 FIND v(dout0_13) AT=805.025n 
+
+.meas tran vdout0_14ck1600 FIND v(dout0_14) AT=805.025n 
+
+.meas tran vdout0_15ck1600 FIND v(dout0_15) AT=805.025n 
+
+.meas tran vdout0_16ck1600 FIND v(dout0_16) AT=805.025n 
+
+.meas tran vdout0_17ck1600 FIND v(dout0_17) AT=805.025n 
+
+.meas tran vdout0_18ck1600 FIND v(dout0_18) AT=805.025n 
+
+.meas tran vdout0_19ck1600 FIND v(dout0_19) AT=805.025n 
+
+.meas tran vdout0_20ck1600 FIND v(dout0_20) AT=805.025n 
+
+.meas tran vdout0_21ck1600 FIND v(dout0_21) AT=805.025n 
+
+.meas tran vdout0_22ck1600 FIND v(dout0_22) AT=805.025n 
+
+.meas tran vdout0_23ck1600 FIND v(dout0_23) AT=805.025n 
+
+.meas tran vdout0_24ck1600 FIND v(dout0_24) AT=805.025n 
+
+.meas tran vdout0_25ck1600 FIND v(dout0_25) AT=805.025n 
+
+.meas tran vdout0_26ck1600 FIND v(dout0_26) AT=805.025n 
+
+.meas tran vdout0_27ck1600 FIND v(dout0_27) AT=805.025n 
+
+.meas tran vdout0_28ck1600 FIND v(dout0_28) AT=805.025n 
+
+.meas tran vdout0_29ck1600 FIND v(dout0_29) AT=805.025n 
+
+.meas tran vdout0_30ck1600 FIND v(dout0_30) AT=805.025n 
+
+.meas tran vdout0_31ck1600 FIND v(dout0_31) AT=805.025n 
 
 .meas tran vdout0_0ck1610 FIND v(dout0_0) AT=810.025n 
 
@@ -5182,69 +5630,133 @@
 
 .meas tran vdout0_31ck1620 FIND v(dout0_31) AT=815.025n 
 
-.meas tran vdout0_0ck1630 FIND v(dout0_0) AT=820.025n 
+.meas tran vdout0_0ck1640 FIND v(dout0_0) AT=825.025n 
 
-.meas tran vdout0_1ck1630 FIND v(dout0_1) AT=820.025n 
+.meas tran vdout0_1ck1640 FIND v(dout0_1) AT=825.025n 
 
-.meas tran vdout0_2ck1630 FIND v(dout0_2) AT=820.025n 
+.meas tran vdout0_2ck1640 FIND v(dout0_2) AT=825.025n 
 
-.meas tran vdout0_3ck1630 FIND v(dout0_3) AT=820.025n 
+.meas tran vdout0_3ck1640 FIND v(dout0_3) AT=825.025n 
 
-.meas tran vdout0_4ck1630 FIND v(dout0_4) AT=820.025n 
+.meas tran vdout0_4ck1640 FIND v(dout0_4) AT=825.025n 
 
-.meas tran vdout0_5ck1630 FIND v(dout0_5) AT=820.025n 
+.meas tran vdout0_5ck1640 FIND v(dout0_5) AT=825.025n 
 
-.meas tran vdout0_6ck1630 FIND v(dout0_6) AT=820.025n 
+.meas tran vdout0_6ck1640 FIND v(dout0_6) AT=825.025n 
 
-.meas tran vdout0_7ck1630 FIND v(dout0_7) AT=820.025n 
+.meas tran vdout0_7ck1640 FIND v(dout0_7) AT=825.025n 
 
-.meas tran vdout0_8ck1630 FIND v(dout0_8) AT=820.025n 
+.meas tran vdout0_8ck1640 FIND v(dout0_8) AT=825.025n 
 
-.meas tran vdout0_9ck1630 FIND v(dout0_9) AT=820.025n 
+.meas tran vdout0_9ck1640 FIND v(dout0_9) AT=825.025n 
 
-.meas tran vdout0_10ck1630 FIND v(dout0_10) AT=820.025n 
+.meas tran vdout0_10ck1640 FIND v(dout0_10) AT=825.025n 
 
-.meas tran vdout0_11ck1630 FIND v(dout0_11) AT=820.025n 
+.meas tran vdout0_11ck1640 FIND v(dout0_11) AT=825.025n 
 
-.meas tran vdout0_12ck1630 FIND v(dout0_12) AT=820.025n 
+.meas tran vdout0_12ck1640 FIND v(dout0_12) AT=825.025n 
 
-.meas tran vdout0_13ck1630 FIND v(dout0_13) AT=820.025n 
+.meas tran vdout0_13ck1640 FIND v(dout0_13) AT=825.025n 
 
-.meas tran vdout0_14ck1630 FIND v(dout0_14) AT=820.025n 
+.meas tran vdout0_14ck1640 FIND v(dout0_14) AT=825.025n 
 
-.meas tran vdout0_15ck1630 FIND v(dout0_15) AT=820.025n 
+.meas tran vdout0_15ck1640 FIND v(dout0_15) AT=825.025n 
 
-.meas tran vdout0_16ck1630 FIND v(dout0_16) AT=820.025n 
+.meas tran vdout0_16ck1640 FIND v(dout0_16) AT=825.025n 
 
-.meas tran vdout0_17ck1630 FIND v(dout0_17) AT=820.025n 
+.meas tran vdout0_17ck1640 FIND v(dout0_17) AT=825.025n 
 
-.meas tran vdout0_18ck1630 FIND v(dout0_18) AT=820.025n 
+.meas tran vdout0_18ck1640 FIND v(dout0_18) AT=825.025n 
 
-.meas tran vdout0_19ck1630 FIND v(dout0_19) AT=820.025n 
+.meas tran vdout0_19ck1640 FIND v(dout0_19) AT=825.025n 
 
-.meas tran vdout0_20ck1630 FIND v(dout0_20) AT=820.025n 
+.meas tran vdout0_20ck1640 FIND v(dout0_20) AT=825.025n 
 
-.meas tran vdout0_21ck1630 FIND v(dout0_21) AT=820.025n 
+.meas tran vdout0_21ck1640 FIND v(dout0_21) AT=825.025n 
 
-.meas tran vdout0_22ck1630 FIND v(dout0_22) AT=820.025n 
+.meas tran vdout0_22ck1640 FIND v(dout0_22) AT=825.025n 
 
-.meas tran vdout0_23ck1630 FIND v(dout0_23) AT=820.025n 
+.meas tran vdout0_23ck1640 FIND v(dout0_23) AT=825.025n 
 
-.meas tran vdout0_24ck1630 FIND v(dout0_24) AT=820.025n 
+.meas tran vdout0_24ck1640 FIND v(dout0_24) AT=825.025n 
 
-.meas tran vdout0_25ck1630 FIND v(dout0_25) AT=820.025n 
+.meas tran vdout0_25ck1640 FIND v(dout0_25) AT=825.025n 
 
-.meas tran vdout0_26ck1630 FIND v(dout0_26) AT=820.025n 
+.meas tran vdout0_26ck1640 FIND v(dout0_26) AT=825.025n 
 
-.meas tran vdout0_27ck1630 FIND v(dout0_27) AT=820.025n 
+.meas tran vdout0_27ck1640 FIND v(dout0_27) AT=825.025n 
 
-.meas tran vdout0_28ck1630 FIND v(dout0_28) AT=820.025n 
+.meas tran vdout0_28ck1640 FIND v(dout0_28) AT=825.025n 
 
-.meas tran vdout0_29ck1630 FIND v(dout0_29) AT=820.025n 
+.meas tran vdout0_29ck1640 FIND v(dout0_29) AT=825.025n 
 
-.meas tran vdout0_30ck1630 FIND v(dout0_30) AT=820.025n 
+.meas tran vdout0_30ck1640 FIND v(dout0_30) AT=825.025n 
 
-.meas tran vdout0_31ck1630 FIND v(dout0_31) AT=820.025n 
+.meas tran vdout0_31ck1640 FIND v(dout0_31) AT=825.025n 
+
+.meas tran vdout0_0ck1650 FIND v(dout0_0) AT=830.025n 
+
+.meas tran vdout0_1ck1650 FIND v(dout0_1) AT=830.025n 
+
+.meas tran vdout0_2ck1650 FIND v(dout0_2) AT=830.025n 
+
+.meas tran vdout0_3ck1650 FIND v(dout0_3) AT=830.025n 
+
+.meas tran vdout0_4ck1650 FIND v(dout0_4) AT=830.025n 
+
+.meas tran vdout0_5ck1650 FIND v(dout0_5) AT=830.025n 
+
+.meas tran vdout0_6ck1650 FIND v(dout0_6) AT=830.025n 
+
+.meas tran vdout0_7ck1650 FIND v(dout0_7) AT=830.025n 
+
+.meas tran vdout0_8ck1650 FIND v(dout0_8) AT=830.025n 
+
+.meas tran vdout0_9ck1650 FIND v(dout0_9) AT=830.025n 
+
+.meas tran vdout0_10ck1650 FIND v(dout0_10) AT=830.025n 
+
+.meas tran vdout0_11ck1650 FIND v(dout0_11) AT=830.025n 
+
+.meas tran vdout0_12ck1650 FIND v(dout0_12) AT=830.025n 
+
+.meas tran vdout0_13ck1650 FIND v(dout0_13) AT=830.025n 
+
+.meas tran vdout0_14ck1650 FIND v(dout0_14) AT=830.025n 
+
+.meas tran vdout0_15ck1650 FIND v(dout0_15) AT=830.025n 
+
+.meas tran vdout0_16ck1650 FIND v(dout0_16) AT=830.025n 
+
+.meas tran vdout0_17ck1650 FIND v(dout0_17) AT=830.025n 
+
+.meas tran vdout0_18ck1650 FIND v(dout0_18) AT=830.025n 
+
+.meas tran vdout0_19ck1650 FIND v(dout0_19) AT=830.025n 
+
+.meas tran vdout0_20ck1650 FIND v(dout0_20) AT=830.025n 
+
+.meas tran vdout0_21ck1650 FIND v(dout0_21) AT=830.025n 
+
+.meas tran vdout0_22ck1650 FIND v(dout0_22) AT=830.025n 
+
+.meas tran vdout0_23ck1650 FIND v(dout0_23) AT=830.025n 
+
+.meas tran vdout0_24ck1650 FIND v(dout0_24) AT=830.025n 
+
+.meas tran vdout0_25ck1650 FIND v(dout0_25) AT=830.025n 
+
+.meas tran vdout0_26ck1650 FIND v(dout0_26) AT=830.025n 
+
+.meas tran vdout0_27ck1650 FIND v(dout0_27) AT=830.025n 
+
+.meas tran vdout0_28ck1650 FIND v(dout0_28) AT=830.025n 
+
+.meas tran vdout0_29ck1650 FIND v(dout0_29) AT=830.025n 
+
+.meas tran vdout0_30ck1650 FIND v(dout0_30) AT=830.025n 
+
+.meas tran vdout0_31ck1650 FIND v(dout0_31) AT=830.025n 
 
 .meas tran vdout0_0ck1660 FIND v(dout0_0) AT=835.025n 
 
@@ -5502,69 +6014,69 @@
 
 .meas tran vdout0_31ck1690 FIND v(dout0_31) AT=850.025n 
 
-.meas tran vdout0_0ck1720 FIND v(dout0_0) AT=865.025n 
+.meas tran vdout0_0ck1700 FIND v(dout0_0) AT=855.025n 
 
-.meas tran vdout0_1ck1720 FIND v(dout0_1) AT=865.025n 
+.meas tran vdout0_1ck1700 FIND v(dout0_1) AT=855.025n 
 
-.meas tran vdout0_2ck1720 FIND v(dout0_2) AT=865.025n 
+.meas tran vdout0_2ck1700 FIND v(dout0_2) AT=855.025n 
 
-.meas tran vdout0_3ck1720 FIND v(dout0_3) AT=865.025n 
+.meas tran vdout0_3ck1700 FIND v(dout0_3) AT=855.025n 
 
-.meas tran vdout0_4ck1720 FIND v(dout0_4) AT=865.025n 
+.meas tran vdout0_4ck1700 FIND v(dout0_4) AT=855.025n 
 
-.meas tran vdout0_5ck1720 FIND v(dout0_5) AT=865.025n 
+.meas tran vdout0_5ck1700 FIND v(dout0_5) AT=855.025n 
 
-.meas tran vdout0_6ck1720 FIND v(dout0_6) AT=865.025n 
+.meas tran vdout0_6ck1700 FIND v(dout0_6) AT=855.025n 
 
-.meas tran vdout0_7ck1720 FIND v(dout0_7) AT=865.025n 
+.meas tran vdout0_7ck1700 FIND v(dout0_7) AT=855.025n 
 
-.meas tran vdout0_8ck1720 FIND v(dout0_8) AT=865.025n 
+.meas tran vdout0_8ck1700 FIND v(dout0_8) AT=855.025n 
 
-.meas tran vdout0_9ck1720 FIND v(dout0_9) AT=865.025n 
+.meas tran vdout0_9ck1700 FIND v(dout0_9) AT=855.025n 
 
-.meas tran vdout0_10ck1720 FIND v(dout0_10) AT=865.025n 
+.meas tran vdout0_10ck1700 FIND v(dout0_10) AT=855.025n 
 
-.meas tran vdout0_11ck1720 FIND v(dout0_11) AT=865.025n 
+.meas tran vdout0_11ck1700 FIND v(dout0_11) AT=855.025n 
 
-.meas tran vdout0_12ck1720 FIND v(dout0_12) AT=865.025n 
+.meas tran vdout0_12ck1700 FIND v(dout0_12) AT=855.025n 
 
-.meas tran vdout0_13ck1720 FIND v(dout0_13) AT=865.025n 
+.meas tran vdout0_13ck1700 FIND v(dout0_13) AT=855.025n 
 
-.meas tran vdout0_14ck1720 FIND v(dout0_14) AT=865.025n 
+.meas tran vdout0_14ck1700 FIND v(dout0_14) AT=855.025n 
 
-.meas tran vdout0_15ck1720 FIND v(dout0_15) AT=865.025n 
+.meas tran vdout0_15ck1700 FIND v(dout0_15) AT=855.025n 
 
-.meas tran vdout0_16ck1720 FIND v(dout0_16) AT=865.025n 
+.meas tran vdout0_16ck1700 FIND v(dout0_16) AT=855.025n 
 
-.meas tran vdout0_17ck1720 FIND v(dout0_17) AT=865.025n 
+.meas tran vdout0_17ck1700 FIND v(dout0_17) AT=855.025n 
 
-.meas tran vdout0_18ck1720 FIND v(dout0_18) AT=865.025n 
+.meas tran vdout0_18ck1700 FIND v(dout0_18) AT=855.025n 
 
-.meas tran vdout0_19ck1720 FIND v(dout0_19) AT=865.025n 
+.meas tran vdout0_19ck1700 FIND v(dout0_19) AT=855.025n 
 
-.meas tran vdout0_20ck1720 FIND v(dout0_20) AT=865.025n 
+.meas tran vdout0_20ck1700 FIND v(dout0_20) AT=855.025n 
 
-.meas tran vdout0_21ck1720 FIND v(dout0_21) AT=865.025n 
+.meas tran vdout0_21ck1700 FIND v(dout0_21) AT=855.025n 
 
-.meas tran vdout0_22ck1720 FIND v(dout0_22) AT=865.025n 
+.meas tran vdout0_22ck1700 FIND v(dout0_22) AT=855.025n 
 
-.meas tran vdout0_23ck1720 FIND v(dout0_23) AT=865.025n 
+.meas tran vdout0_23ck1700 FIND v(dout0_23) AT=855.025n 
 
-.meas tran vdout0_24ck1720 FIND v(dout0_24) AT=865.025n 
+.meas tran vdout0_24ck1700 FIND v(dout0_24) AT=855.025n 
 
-.meas tran vdout0_25ck1720 FIND v(dout0_25) AT=865.025n 
+.meas tran vdout0_25ck1700 FIND v(dout0_25) AT=855.025n 
 
-.meas tran vdout0_26ck1720 FIND v(dout0_26) AT=865.025n 
+.meas tran vdout0_26ck1700 FIND v(dout0_26) AT=855.025n 
 
-.meas tran vdout0_27ck1720 FIND v(dout0_27) AT=865.025n 
+.meas tran vdout0_27ck1700 FIND v(dout0_27) AT=855.025n 
 
-.meas tran vdout0_28ck1720 FIND v(dout0_28) AT=865.025n 
+.meas tran vdout0_28ck1700 FIND v(dout0_28) AT=855.025n 
 
-.meas tran vdout0_29ck1720 FIND v(dout0_29) AT=865.025n 
+.meas tran vdout0_29ck1700 FIND v(dout0_29) AT=855.025n 
 
-.meas tran vdout0_30ck1720 FIND v(dout0_30) AT=865.025n 
+.meas tran vdout0_30ck1700 FIND v(dout0_30) AT=855.025n 
 
-.meas tran vdout0_31ck1720 FIND v(dout0_31) AT=865.025n 
+.meas tran vdout0_31ck1700 FIND v(dout0_31) AT=855.025n 
 
 .meas tran vdout0_0ck1730 FIND v(dout0_0) AT=870.025n 
 
@@ -5630,69 +6142,69 @@
 
 .meas tran vdout0_31ck1730 FIND v(dout0_31) AT=870.025n 
 
-.meas tran vdout0_0ck1740 FIND v(dout0_0) AT=875.025n 
+.meas tran vdout0_0ck1750 FIND v(dout0_0) AT=880.025n 
 
-.meas tran vdout0_1ck1740 FIND v(dout0_1) AT=875.025n 
+.meas tran vdout0_1ck1750 FIND v(dout0_1) AT=880.025n 
 
-.meas tran vdout0_2ck1740 FIND v(dout0_2) AT=875.025n 
+.meas tran vdout0_2ck1750 FIND v(dout0_2) AT=880.025n 
 
-.meas tran vdout0_3ck1740 FIND v(dout0_3) AT=875.025n 
+.meas tran vdout0_3ck1750 FIND v(dout0_3) AT=880.025n 
 
-.meas tran vdout0_4ck1740 FIND v(dout0_4) AT=875.025n 
+.meas tran vdout0_4ck1750 FIND v(dout0_4) AT=880.025n 
 
-.meas tran vdout0_5ck1740 FIND v(dout0_5) AT=875.025n 
+.meas tran vdout0_5ck1750 FIND v(dout0_5) AT=880.025n 
 
-.meas tran vdout0_6ck1740 FIND v(dout0_6) AT=875.025n 
+.meas tran vdout0_6ck1750 FIND v(dout0_6) AT=880.025n 
 
-.meas tran vdout0_7ck1740 FIND v(dout0_7) AT=875.025n 
+.meas tran vdout0_7ck1750 FIND v(dout0_7) AT=880.025n 
 
-.meas tran vdout0_8ck1740 FIND v(dout0_8) AT=875.025n 
+.meas tran vdout0_8ck1750 FIND v(dout0_8) AT=880.025n 
 
-.meas tran vdout0_9ck1740 FIND v(dout0_9) AT=875.025n 
+.meas tran vdout0_9ck1750 FIND v(dout0_9) AT=880.025n 
 
-.meas tran vdout0_10ck1740 FIND v(dout0_10) AT=875.025n 
+.meas tran vdout0_10ck1750 FIND v(dout0_10) AT=880.025n 
 
-.meas tran vdout0_11ck1740 FIND v(dout0_11) AT=875.025n 
+.meas tran vdout0_11ck1750 FIND v(dout0_11) AT=880.025n 
 
-.meas tran vdout0_12ck1740 FIND v(dout0_12) AT=875.025n 
+.meas tran vdout0_12ck1750 FIND v(dout0_12) AT=880.025n 
 
-.meas tran vdout0_13ck1740 FIND v(dout0_13) AT=875.025n 
+.meas tran vdout0_13ck1750 FIND v(dout0_13) AT=880.025n 
 
-.meas tran vdout0_14ck1740 FIND v(dout0_14) AT=875.025n 
+.meas tran vdout0_14ck1750 FIND v(dout0_14) AT=880.025n 
 
-.meas tran vdout0_15ck1740 FIND v(dout0_15) AT=875.025n 
+.meas tran vdout0_15ck1750 FIND v(dout0_15) AT=880.025n 
 
-.meas tran vdout0_16ck1740 FIND v(dout0_16) AT=875.025n 
+.meas tran vdout0_16ck1750 FIND v(dout0_16) AT=880.025n 
 
-.meas tran vdout0_17ck1740 FIND v(dout0_17) AT=875.025n 
+.meas tran vdout0_17ck1750 FIND v(dout0_17) AT=880.025n 
 
-.meas tran vdout0_18ck1740 FIND v(dout0_18) AT=875.025n 
+.meas tran vdout0_18ck1750 FIND v(dout0_18) AT=880.025n 
 
-.meas tran vdout0_19ck1740 FIND v(dout0_19) AT=875.025n 
+.meas tran vdout0_19ck1750 FIND v(dout0_19) AT=880.025n 
 
-.meas tran vdout0_20ck1740 FIND v(dout0_20) AT=875.025n 
+.meas tran vdout0_20ck1750 FIND v(dout0_20) AT=880.025n 
 
-.meas tran vdout0_21ck1740 FIND v(dout0_21) AT=875.025n 
+.meas tran vdout0_21ck1750 FIND v(dout0_21) AT=880.025n 
 
-.meas tran vdout0_22ck1740 FIND v(dout0_22) AT=875.025n 
+.meas tran vdout0_22ck1750 FIND v(dout0_22) AT=880.025n 
 
-.meas tran vdout0_23ck1740 FIND v(dout0_23) AT=875.025n 
+.meas tran vdout0_23ck1750 FIND v(dout0_23) AT=880.025n 
 
-.meas tran vdout0_24ck1740 FIND v(dout0_24) AT=875.025n 
+.meas tran vdout0_24ck1750 FIND v(dout0_24) AT=880.025n 
 
-.meas tran vdout0_25ck1740 FIND v(dout0_25) AT=875.025n 
+.meas tran vdout0_25ck1750 FIND v(dout0_25) AT=880.025n 
 
-.meas tran vdout0_26ck1740 FIND v(dout0_26) AT=875.025n 
+.meas tran vdout0_26ck1750 FIND v(dout0_26) AT=880.025n 
 
-.meas tran vdout0_27ck1740 FIND v(dout0_27) AT=875.025n 
+.meas tran vdout0_27ck1750 FIND v(dout0_27) AT=880.025n 
 
-.meas tran vdout0_28ck1740 FIND v(dout0_28) AT=875.025n 
+.meas tran vdout0_28ck1750 FIND v(dout0_28) AT=880.025n 
 
-.meas tran vdout0_29ck1740 FIND v(dout0_29) AT=875.025n 
+.meas tran vdout0_29ck1750 FIND v(dout0_29) AT=880.025n 
 
-.meas tran vdout0_30ck1740 FIND v(dout0_30) AT=875.025n 
+.meas tran vdout0_30ck1750 FIND v(dout0_30) AT=880.025n 
 
-.meas tran vdout0_31ck1740 FIND v(dout0_31) AT=875.025n 
+.meas tran vdout0_31ck1750 FIND v(dout0_31) AT=880.025n 
 
 .meas tran vdout0_0ck1770 FIND v(dout0_0) AT=890.025n 
 
@@ -5758,69 +6270,69 @@
 
 .meas tran vdout0_31ck1770 FIND v(dout0_31) AT=890.025n 
 
-.meas tran vdout0_0ck1790 FIND v(dout0_0) AT=900.025n 
+.meas tran vdout0_0ck1780 FIND v(dout0_0) AT=895.025n 
 
-.meas tran vdout0_1ck1790 FIND v(dout0_1) AT=900.025n 
+.meas tran vdout0_1ck1780 FIND v(dout0_1) AT=895.025n 
 
-.meas tran vdout0_2ck1790 FIND v(dout0_2) AT=900.025n 
+.meas tran vdout0_2ck1780 FIND v(dout0_2) AT=895.025n 
 
-.meas tran vdout0_3ck1790 FIND v(dout0_3) AT=900.025n 
+.meas tran vdout0_3ck1780 FIND v(dout0_3) AT=895.025n 
 
-.meas tran vdout0_4ck1790 FIND v(dout0_4) AT=900.025n 
+.meas tran vdout0_4ck1780 FIND v(dout0_4) AT=895.025n 
 
-.meas tran vdout0_5ck1790 FIND v(dout0_5) AT=900.025n 
+.meas tran vdout0_5ck1780 FIND v(dout0_5) AT=895.025n 
 
-.meas tran vdout0_6ck1790 FIND v(dout0_6) AT=900.025n 
+.meas tran vdout0_6ck1780 FIND v(dout0_6) AT=895.025n 
 
-.meas tran vdout0_7ck1790 FIND v(dout0_7) AT=900.025n 
+.meas tran vdout0_7ck1780 FIND v(dout0_7) AT=895.025n 
 
-.meas tran vdout0_8ck1790 FIND v(dout0_8) AT=900.025n 
+.meas tran vdout0_8ck1780 FIND v(dout0_8) AT=895.025n 
 
-.meas tran vdout0_9ck1790 FIND v(dout0_9) AT=900.025n 
+.meas tran vdout0_9ck1780 FIND v(dout0_9) AT=895.025n 
 
-.meas tran vdout0_10ck1790 FIND v(dout0_10) AT=900.025n 
+.meas tran vdout0_10ck1780 FIND v(dout0_10) AT=895.025n 
 
-.meas tran vdout0_11ck1790 FIND v(dout0_11) AT=900.025n 
+.meas tran vdout0_11ck1780 FIND v(dout0_11) AT=895.025n 
 
-.meas tran vdout0_12ck1790 FIND v(dout0_12) AT=900.025n 
+.meas tran vdout0_12ck1780 FIND v(dout0_12) AT=895.025n 
 
-.meas tran vdout0_13ck1790 FIND v(dout0_13) AT=900.025n 
+.meas tran vdout0_13ck1780 FIND v(dout0_13) AT=895.025n 
 
-.meas tran vdout0_14ck1790 FIND v(dout0_14) AT=900.025n 
+.meas tran vdout0_14ck1780 FIND v(dout0_14) AT=895.025n 
 
-.meas tran vdout0_15ck1790 FIND v(dout0_15) AT=900.025n 
+.meas tran vdout0_15ck1780 FIND v(dout0_15) AT=895.025n 
 
-.meas tran vdout0_16ck1790 FIND v(dout0_16) AT=900.025n 
+.meas tran vdout0_16ck1780 FIND v(dout0_16) AT=895.025n 
 
-.meas tran vdout0_17ck1790 FIND v(dout0_17) AT=900.025n 
+.meas tran vdout0_17ck1780 FIND v(dout0_17) AT=895.025n 
 
-.meas tran vdout0_18ck1790 FIND v(dout0_18) AT=900.025n 
+.meas tran vdout0_18ck1780 FIND v(dout0_18) AT=895.025n 
 
-.meas tran vdout0_19ck1790 FIND v(dout0_19) AT=900.025n 
+.meas tran vdout0_19ck1780 FIND v(dout0_19) AT=895.025n 
 
-.meas tran vdout0_20ck1790 FIND v(dout0_20) AT=900.025n 
+.meas tran vdout0_20ck1780 FIND v(dout0_20) AT=895.025n 
 
-.meas tran vdout0_21ck1790 FIND v(dout0_21) AT=900.025n 
+.meas tran vdout0_21ck1780 FIND v(dout0_21) AT=895.025n 
 
-.meas tran vdout0_22ck1790 FIND v(dout0_22) AT=900.025n 
+.meas tran vdout0_22ck1780 FIND v(dout0_22) AT=895.025n 
 
-.meas tran vdout0_23ck1790 FIND v(dout0_23) AT=900.025n 
+.meas tran vdout0_23ck1780 FIND v(dout0_23) AT=895.025n 
 
-.meas tran vdout0_24ck1790 FIND v(dout0_24) AT=900.025n 
+.meas tran vdout0_24ck1780 FIND v(dout0_24) AT=895.025n 
 
-.meas tran vdout0_25ck1790 FIND v(dout0_25) AT=900.025n 
+.meas tran vdout0_25ck1780 FIND v(dout0_25) AT=895.025n 
 
-.meas tran vdout0_26ck1790 FIND v(dout0_26) AT=900.025n 
+.meas tran vdout0_26ck1780 FIND v(dout0_26) AT=895.025n 
 
-.meas tran vdout0_27ck1790 FIND v(dout0_27) AT=900.025n 
+.meas tran vdout0_27ck1780 FIND v(dout0_27) AT=895.025n 
 
-.meas tran vdout0_28ck1790 FIND v(dout0_28) AT=900.025n 
+.meas tran vdout0_28ck1780 FIND v(dout0_28) AT=895.025n 
 
-.meas tran vdout0_29ck1790 FIND v(dout0_29) AT=900.025n 
+.meas tran vdout0_29ck1780 FIND v(dout0_29) AT=895.025n 
 
-.meas tran vdout0_30ck1790 FIND v(dout0_30) AT=900.025n 
+.meas tran vdout0_30ck1780 FIND v(dout0_30) AT=895.025n 
 
-.meas tran vdout0_31ck1790 FIND v(dout0_31) AT=900.025n 
+.meas tran vdout0_31ck1780 FIND v(dout0_31) AT=895.025n 
 
 .meas tran vdout0_0ck1800 FIND v(dout0_0) AT=905.025n 
 
@@ -5950,325 +6462,261 @@
 
 .meas tran vdout0_31ck1810 FIND v(dout0_31) AT=910.025n 
 
-.meas tran vdout0_0ck1860 FIND v(dout0_0) AT=935.025n 
+.meas tran vdout0_0ck1820 FIND v(dout0_0) AT=915.025n 
 
-.meas tran vdout0_1ck1860 FIND v(dout0_1) AT=935.025n 
+.meas tran vdout0_1ck1820 FIND v(dout0_1) AT=915.025n 
 
-.meas tran vdout0_2ck1860 FIND v(dout0_2) AT=935.025n 
+.meas tran vdout0_2ck1820 FIND v(dout0_2) AT=915.025n 
 
-.meas tran vdout0_3ck1860 FIND v(dout0_3) AT=935.025n 
+.meas tran vdout0_3ck1820 FIND v(dout0_3) AT=915.025n 
 
-.meas tran vdout0_4ck1860 FIND v(dout0_4) AT=935.025n 
+.meas tran vdout0_4ck1820 FIND v(dout0_4) AT=915.025n 
 
-.meas tran vdout0_5ck1860 FIND v(dout0_5) AT=935.025n 
+.meas tran vdout0_5ck1820 FIND v(dout0_5) AT=915.025n 
 
-.meas tran vdout0_6ck1860 FIND v(dout0_6) AT=935.025n 
+.meas tran vdout0_6ck1820 FIND v(dout0_6) AT=915.025n 
 
-.meas tran vdout0_7ck1860 FIND v(dout0_7) AT=935.025n 
+.meas tran vdout0_7ck1820 FIND v(dout0_7) AT=915.025n 
 
-.meas tran vdout0_8ck1860 FIND v(dout0_8) AT=935.025n 
+.meas tran vdout0_8ck1820 FIND v(dout0_8) AT=915.025n 
 
-.meas tran vdout0_9ck1860 FIND v(dout0_9) AT=935.025n 
+.meas tran vdout0_9ck1820 FIND v(dout0_9) AT=915.025n 
 
-.meas tran vdout0_10ck1860 FIND v(dout0_10) AT=935.025n 
+.meas tran vdout0_10ck1820 FIND v(dout0_10) AT=915.025n 
 
-.meas tran vdout0_11ck1860 FIND v(dout0_11) AT=935.025n 
+.meas tran vdout0_11ck1820 FIND v(dout0_11) AT=915.025n 
 
-.meas tran vdout0_12ck1860 FIND v(dout0_12) AT=935.025n 
+.meas tran vdout0_12ck1820 FIND v(dout0_12) AT=915.025n 
 
-.meas tran vdout0_13ck1860 FIND v(dout0_13) AT=935.025n 
+.meas tran vdout0_13ck1820 FIND v(dout0_13) AT=915.025n 
 
-.meas tran vdout0_14ck1860 FIND v(dout0_14) AT=935.025n 
+.meas tran vdout0_14ck1820 FIND v(dout0_14) AT=915.025n 
 
-.meas tran vdout0_15ck1860 FIND v(dout0_15) AT=935.025n 
+.meas tran vdout0_15ck1820 FIND v(dout0_15) AT=915.025n 
 
-.meas tran vdout0_16ck1860 FIND v(dout0_16) AT=935.025n 
+.meas tran vdout0_16ck1820 FIND v(dout0_16) AT=915.025n 
 
-.meas tran vdout0_17ck1860 FIND v(dout0_17) AT=935.025n 
+.meas tran vdout0_17ck1820 FIND v(dout0_17) AT=915.025n 
 
-.meas tran vdout0_18ck1860 FIND v(dout0_18) AT=935.025n 
+.meas tran vdout0_18ck1820 FIND v(dout0_18) AT=915.025n 
 
-.meas tran vdout0_19ck1860 FIND v(dout0_19) AT=935.025n 
+.meas tran vdout0_19ck1820 FIND v(dout0_19) AT=915.025n 
 
-.meas tran vdout0_20ck1860 FIND v(dout0_20) AT=935.025n 
+.meas tran vdout0_20ck1820 FIND v(dout0_20) AT=915.025n 
 
-.meas tran vdout0_21ck1860 FIND v(dout0_21) AT=935.025n 
+.meas tran vdout0_21ck1820 FIND v(dout0_21) AT=915.025n 
 
-.meas tran vdout0_22ck1860 FIND v(dout0_22) AT=935.025n 
+.meas tran vdout0_22ck1820 FIND v(dout0_22) AT=915.025n 
 
-.meas tran vdout0_23ck1860 FIND v(dout0_23) AT=935.025n 
+.meas tran vdout0_23ck1820 FIND v(dout0_23) AT=915.025n 
 
-.meas tran vdout0_24ck1860 FIND v(dout0_24) AT=935.025n 
+.meas tran vdout0_24ck1820 FIND v(dout0_24) AT=915.025n 
 
-.meas tran vdout0_25ck1860 FIND v(dout0_25) AT=935.025n 
+.meas tran vdout0_25ck1820 FIND v(dout0_25) AT=915.025n 
 
-.meas tran vdout0_26ck1860 FIND v(dout0_26) AT=935.025n 
+.meas tran vdout0_26ck1820 FIND v(dout0_26) AT=915.025n 
 
-.meas tran vdout0_27ck1860 FIND v(dout0_27) AT=935.025n 
+.meas tran vdout0_27ck1820 FIND v(dout0_27) AT=915.025n 
 
-.meas tran vdout0_28ck1860 FIND v(dout0_28) AT=935.025n 
+.meas tran vdout0_28ck1820 FIND v(dout0_28) AT=915.025n 
 
-.meas tran vdout0_29ck1860 FIND v(dout0_29) AT=935.025n 
+.meas tran vdout0_29ck1820 FIND v(dout0_29) AT=915.025n 
 
-.meas tran vdout0_30ck1860 FIND v(dout0_30) AT=935.025n 
+.meas tran vdout0_30ck1820 FIND v(dout0_30) AT=915.025n 
 
-.meas tran vdout0_31ck1860 FIND v(dout0_31) AT=935.025n 
+.meas tran vdout0_31ck1820 FIND v(dout0_31) AT=915.025n 
 
-.meas tran vdout0_0ck1870 FIND v(dout0_0) AT=940.025n 
+.meas tran vdout0_0ck1830 FIND v(dout0_0) AT=920.025n 
 
-.meas tran vdout0_1ck1870 FIND v(dout0_1) AT=940.025n 
+.meas tran vdout0_1ck1830 FIND v(dout0_1) AT=920.025n 
 
-.meas tran vdout0_2ck1870 FIND v(dout0_2) AT=940.025n 
+.meas tran vdout0_2ck1830 FIND v(dout0_2) AT=920.025n 
 
-.meas tran vdout0_3ck1870 FIND v(dout0_3) AT=940.025n 
+.meas tran vdout0_3ck1830 FIND v(dout0_3) AT=920.025n 
 
-.meas tran vdout0_4ck1870 FIND v(dout0_4) AT=940.025n 
+.meas tran vdout0_4ck1830 FIND v(dout0_4) AT=920.025n 
 
-.meas tran vdout0_5ck1870 FIND v(dout0_5) AT=940.025n 
+.meas tran vdout0_5ck1830 FIND v(dout0_5) AT=920.025n 
 
-.meas tran vdout0_6ck1870 FIND v(dout0_6) AT=940.025n 
+.meas tran vdout0_6ck1830 FIND v(dout0_6) AT=920.025n 
 
-.meas tran vdout0_7ck1870 FIND v(dout0_7) AT=940.025n 
+.meas tran vdout0_7ck1830 FIND v(dout0_7) AT=920.025n 
 
-.meas tran vdout0_8ck1870 FIND v(dout0_8) AT=940.025n 
+.meas tran vdout0_8ck1830 FIND v(dout0_8) AT=920.025n 
 
-.meas tran vdout0_9ck1870 FIND v(dout0_9) AT=940.025n 
+.meas tran vdout0_9ck1830 FIND v(dout0_9) AT=920.025n 
 
-.meas tran vdout0_10ck1870 FIND v(dout0_10) AT=940.025n 
+.meas tran vdout0_10ck1830 FIND v(dout0_10) AT=920.025n 
 
-.meas tran vdout0_11ck1870 FIND v(dout0_11) AT=940.025n 
+.meas tran vdout0_11ck1830 FIND v(dout0_11) AT=920.025n 
 
-.meas tran vdout0_12ck1870 FIND v(dout0_12) AT=940.025n 
+.meas tran vdout0_12ck1830 FIND v(dout0_12) AT=920.025n 
 
-.meas tran vdout0_13ck1870 FIND v(dout0_13) AT=940.025n 
+.meas tran vdout0_13ck1830 FIND v(dout0_13) AT=920.025n 
 
-.meas tran vdout0_14ck1870 FIND v(dout0_14) AT=940.025n 
+.meas tran vdout0_14ck1830 FIND v(dout0_14) AT=920.025n 
 
-.meas tran vdout0_15ck1870 FIND v(dout0_15) AT=940.025n 
+.meas tran vdout0_15ck1830 FIND v(dout0_15) AT=920.025n 
 
-.meas tran vdout0_16ck1870 FIND v(dout0_16) AT=940.025n 
+.meas tran vdout0_16ck1830 FIND v(dout0_16) AT=920.025n 
 
-.meas tran vdout0_17ck1870 FIND v(dout0_17) AT=940.025n 
+.meas tran vdout0_17ck1830 FIND v(dout0_17) AT=920.025n 
 
-.meas tran vdout0_18ck1870 FIND v(dout0_18) AT=940.025n 
+.meas tran vdout0_18ck1830 FIND v(dout0_18) AT=920.025n 
 
-.meas tran vdout0_19ck1870 FIND v(dout0_19) AT=940.025n 
+.meas tran vdout0_19ck1830 FIND v(dout0_19) AT=920.025n 
 
-.meas tran vdout0_20ck1870 FIND v(dout0_20) AT=940.025n 
+.meas tran vdout0_20ck1830 FIND v(dout0_20) AT=920.025n 
 
-.meas tran vdout0_21ck1870 FIND v(dout0_21) AT=940.025n 
+.meas tran vdout0_21ck1830 FIND v(dout0_21) AT=920.025n 
 
-.meas tran vdout0_22ck1870 FIND v(dout0_22) AT=940.025n 
+.meas tran vdout0_22ck1830 FIND v(dout0_22) AT=920.025n 
 
-.meas tran vdout0_23ck1870 FIND v(dout0_23) AT=940.025n 
+.meas tran vdout0_23ck1830 FIND v(dout0_23) AT=920.025n 
 
-.meas tran vdout0_24ck1870 FIND v(dout0_24) AT=940.025n 
+.meas tran vdout0_24ck1830 FIND v(dout0_24) AT=920.025n 
 
-.meas tran vdout0_25ck1870 FIND v(dout0_25) AT=940.025n 
+.meas tran vdout0_25ck1830 FIND v(dout0_25) AT=920.025n 
 
-.meas tran vdout0_26ck1870 FIND v(dout0_26) AT=940.025n 
+.meas tran vdout0_26ck1830 FIND v(dout0_26) AT=920.025n 
 
-.meas tran vdout0_27ck1870 FIND v(dout0_27) AT=940.025n 
+.meas tran vdout0_27ck1830 FIND v(dout0_27) AT=920.025n 
 
-.meas tran vdout0_28ck1870 FIND v(dout0_28) AT=940.025n 
+.meas tran vdout0_28ck1830 FIND v(dout0_28) AT=920.025n 
 
-.meas tran vdout0_29ck1870 FIND v(dout0_29) AT=940.025n 
+.meas tran vdout0_29ck1830 FIND v(dout0_29) AT=920.025n 
 
-.meas tran vdout0_30ck1870 FIND v(dout0_30) AT=940.025n 
+.meas tran vdout0_30ck1830 FIND v(dout0_30) AT=920.025n 
 
-.meas tran vdout0_31ck1870 FIND v(dout0_31) AT=940.025n 
+.meas tran vdout0_31ck1830 FIND v(dout0_31) AT=920.025n 
 
-.meas tran vdout0_0ck1880 FIND v(dout0_0) AT=945.025n 
+.meas tran vdout0_0ck1850 FIND v(dout0_0) AT=930.025n 
 
-.meas tran vdout0_1ck1880 FIND v(dout0_1) AT=945.025n 
+.meas tran vdout0_1ck1850 FIND v(dout0_1) AT=930.025n 
 
-.meas tran vdout0_2ck1880 FIND v(dout0_2) AT=945.025n 
+.meas tran vdout0_2ck1850 FIND v(dout0_2) AT=930.025n 
 
-.meas tran vdout0_3ck1880 FIND v(dout0_3) AT=945.025n 
+.meas tran vdout0_3ck1850 FIND v(dout0_3) AT=930.025n 
 
-.meas tran vdout0_4ck1880 FIND v(dout0_4) AT=945.025n 
+.meas tran vdout0_4ck1850 FIND v(dout0_4) AT=930.025n 
 
-.meas tran vdout0_5ck1880 FIND v(dout0_5) AT=945.025n 
+.meas tran vdout0_5ck1850 FIND v(dout0_5) AT=930.025n 
 
-.meas tran vdout0_6ck1880 FIND v(dout0_6) AT=945.025n 
+.meas tran vdout0_6ck1850 FIND v(dout0_6) AT=930.025n 
 
-.meas tran vdout0_7ck1880 FIND v(dout0_7) AT=945.025n 
+.meas tran vdout0_7ck1850 FIND v(dout0_7) AT=930.025n 
 
-.meas tran vdout0_8ck1880 FIND v(dout0_8) AT=945.025n 
+.meas tran vdout0_8ck1850 FIND v(dout0_8) AT=930.025n 
 
-.meas tran vdout0_9ck1880 FIND v(dout0_9) AT=945.025n 
+.meas tran vdout0_9ck1850 FIND v(dout0_9) AT=930.025n 
 
-.meas tran vdout0_10ck1880 FIND v(dout0_10) AT=945.025n 
+.meas tran vdout0_10ck1850 FIND v(dout0_10) AT=930.025n 
 
-.meas tran vdout0_11ck1880 FIND v(dout0_11) AT=945.025n 
+.meas tran vdout0_11ck1850 FIND v(dout0_11) AT=930.025n 
 
-.meas tran vdout0_12ck1880 FIND v(dout0_12) AT=945.025n 
+.meas tran vdout0_12ck1850 FIND v(dout0_12) AT=930.025n 
 
-.meas tran vdout0_13ck1880 FIND v(dout0_13) AT=945.025n 
+.meas tran vdout0_13ck1850 FIND v(dout0_13) AT=930.025n 
 
-.meas tran vdout0_14ck1880 FIND v(dout0_14) AT=945.025n 
+.meas tran vdout0_14ck1850 FIND v(dout0_14) AT=930.025n 
 
-.meas tran vdout0_15ck1880 FIND v(dout0_15) AT=945.025n 
+.meas tran vdout0_15ck1850 FIND v(dout0_15) AT=930.025n 
 
-.meas tran vdout0_16ck1880 FIND v(dout0_16) AT=945.025n 
+.meas tran vdout0_16ck1850 FIND v(dout0_16) AT=930.025n 
 
-.meas tran vdout0_17ck1880 FIND v(dout0_17) AT=945.025n 
+.meas tran vdout0_17ck1850 FIND v(dout0_17) AT=930.025n 
 
-.meas tran vdout0_18ck1880 FIND v(dout0_18) AT=945.025n 
+.meas tran vdout0_18ck1850 FIND v(dout0_18) AT=930.025n 
 
-.meas tran vdout0_19ck1880 FIND v(dout0_19) AT=945.025n 
+.meas tran vdout0_19ck1850 FIND v(dout0_19) AT=930.025n 
 
-.meas tran vdout0_20ck1880 FIND v(dout0_20) AT=945.025n 
+.meas tran vdout0_20ck1850 FIND v(dout0_20) AT=930.025n 
 
-.meas tran vdout0_21ck1880 FIND v(dout0_21) AT=945.025n 
+.meas tran vdout0_21ck1850 FIND v(dout0_21) AT=930.025n 
 
-.meas tran vdout0_22ck1880 FIND v(dout0_22) AT=945.025n 
+.meas tran vdout0_22ck1850 FIND v(dout0_22) AT=930.025n 
 
-.meas tran vdout0_23ck1880 FIND v(dout0_23) AT=945.025n 
+.meas tran vdout0_23ck1850 FIND v(dout0_23) AT=930.025n 
 
-.meas tran vdout0_24ck1880 FIND v(dout0_24) AT=945.025n 
+.meas tran vdout0_24ck1850 FIND v(dout0_24) AT=930.025n 
 
-.meas tran vdout0_25ck1880 FIND v(dout0_25) AT=945.025n 
+.meas tran vdout0_25ck1850 FIND v(dout0_25) AT=930.025n 
 
-.meas tran vdout0_26ck1880 FIND v(dout0_26) AT=945.025n 
+.meas tran vdout0_26ck1850 FIND v(dout0_26) AT=930.025n 
 
-.meas tran vdout0_27ck1880 FIND v(dout0_27) AT=945.025n 
+.meas tran vdout0_27ck1850 FIND v(dout0_27) AT=930.025n 
 
-.meas tran vdout0_28ck1880 FIND v(dout0_28) AT=945.025n 
+.meas tran vdout0_28ck1850 FIND v(dout0_28) AT=930.025n 
 
-.meas tran vdout0_29ck1880 FIND v(dout0_29) AT=945.025n 
+.meas tran vdout0_29ck1850 FIND v(dout0_29) AT=930.025n 
 
-.meas tran vdout0_30ck1880 FIND v(dout0_30) AT=945.025n 
+.meas tran vdout0_30ck1850 FIND v(dout0_30) AT=930.025n 
 
-.meas tran vdout0_31ck1880 FIND v(dout0_31) AT=945.025n 
+.meas tran vdout0_31ck1850 FIND v(dout0_31) AT=930.025n 
 
-.meas tran vdout0_0ck1900 FIND v(dout0_0) AT=955.025n 
+.meas tran vdout0_0ck1890 FIND v(dout0_0) AT=950.025n 
 
-.meas tran vdout0_1ck1900 FIND v(dout0_1) AT=955.025n 
+.meas tran vdout0_1ck1890 FIND v(dout0_1) AT=950.025n 
 
-.meas tran vdout0_2ck1900 FIND v(dout0_2) AT=955.025n 
+.meas tran vdout0_2ck1890 FIND v(dout0_2) AT=950.025n 
 
-.meas tran vdout0_3ck1900 FIND v(dout0_3) AT=955.025n 
+.meas tran vdout0_3ck1890 FIND v(dout0_3) AT=950.025n 
 
-.meas tran vdout0_4ck1900 FIND v(dout0_4) AT=955.025n 
+.meas tran vdout0_4ck1890 FIND v(dout0_4) AT=950.025n 
 
-.meas tran vdout0_5ck1900 FIND v(dout0_5) AT=955.025n 
+.meas tran vdout0_5ck1890 FIND v(dout0_5) AT=950.025n 
 
-.meas tran vdout0_6ck1900 FIND v(dout0_6) AT=955.025n 
+.meas tran vdout0_6ck1890 FIND v(dout0_6) AT=950.025n 
 
-.meas tran vdout0_7ck1900 FIND v(dout0_7) AT=955.025n 
+.meas tran vdout0_7ck1890 FIND v(dout0_7) AT=950.025n 
 
-.meas tran vdout0_8ck1900 FIND v(dout0_8) AT=955.025n 
+.meas tran vdout0_8ck1890 FIND v(dout0_8) AT=950.025n 
 
-.meas tran vdout0_9ck1900 FIND v(dout0_9) AT=955.025n 
+.meas tran vdout0_9ck1890 FIND v(dout0_9) AT=950.025n 
 
-.meas tran vdout0_10ck1900 FIND v(dout0_10) AT=955.025n 
+.meas tran vdout0_10ck1890 FIND v(dout0_10) AT=950.025n 
 
-.meas tran vdout0_11ck1900 FIND v(dout0_11) AT=955.025n 
+.meas tran vdout0_11ck1890 FIND v(dout0_11) AT=950.025n 
 
-.meas tran vdout0_12ck1900 FIND v(dout0_12) AT=955.025n 
+.meas tran vdout0_12ck1890 FIND v(dout0_12) AT=950.025n 
 
-.meas tran vdout0_13ck1900 FIND v(dout0_13) AT=955.025n 
+.meas tran vdout0_13ck1890 FIND v(dout0_13) AT=950.025n 
 
-.meas tran vdout0_14ck1900 FIND v(dout0_14) AT=955.025n 
+.meas tran vdout0_14ck1890 FIND v(dout0_14) AT=950.025n 
 
-.meas tran vdout0_15ck1900 FIND v(dout0_15) AT=955.025n 
+.meas tran vdout0_15ck1890 FIND v(dout0_15) AT=950.025n 
 
-.meas tran vdout0_16ck1900 FIND v(dout0_16) AT=955.025n 
+.meas tran vdout0_16ck1890 FIND v(dout0_16) AT=950.025n 
 
-.meas tran vdout0_17ck1900 FIND v(dout0_17) AT=955.025n 
+.meas tran vdout0_17ck1890 FIND v(dout0_17) AT=950.025n 
 
-.meas tran vdout0_18ck1900 FIND v(dout0_18) AT=955.025n 
+.meas tran vdout0_18ck1890 FIND v(dout0_18) AT=950.025n 
 
-.meas tran vdout0_19ck1900 FIND v(dout0_19) AT=955.025n 
+.meas tran vdout0_19ck1890 FIND v(dout0_19) AT=950.025n 
 
-.meas tran vdout0_20ck1900 FIND v(dout0_20) AT=955.025n 
+.meas tran vdout0_20ck1890 FIND v(dout0_20) AT=950.025n 
 
-.meas tran vdout0_21ck1900 FIND v(dout0_21) AT=955.025n 
+.meas tran vdout0_21ck1890 FIND v(dout0_21) AT=950.025n 
 
-.meas tran vdout0_22ck1900 FIND v(dout0_22) AT=955.025n 
+.meas tran vdout0_22ck1890 FIND v(dout0_22) AT=950.025n 
 
-.meas tran vdout0_23ck1900 FIND v(dout0_23) AT=955.025n 
+.meas tran vdout0_23ck1890 FIND v(dout0_23) AT=950.025n 
 
-.meas tran vdout0_24ck1900 FIND v(dout0_24) AT=955.025n 
+.meas tran vdout0_24ck1890 FIND v(dout0_24) AT=950.025n 
 
-.meas tran vdout0_25ck1900 FIND v(dout0_25) AT=955.025n 
+.meas tran vdout0_25ck1890 FIND v(dout0_25) AT=950.025n 
 
-.meas tran vdout0_26ck1900 FIND v(dout0_26) AT=955.025n 
+.meas tran vdout0_26ck1890 FIND v(dout0_26) AT=950.025n 
 
-.meas tran vdout0_27ck1900 FIND v(dout0_27) AT=955.025n 
+.meas tran vdout0_27ck1890 FIND v(dout0_27) AT=950.025n 
 
-.meas tran vdout0_28ck1900 FIND v(dout0_28) AT=955.025n 
+.meas tran vdout0_28ck1890 FIND v(dout0_28) AT=950.025n 
 
-.meas tran vdout0_29ck1900 FIND v(dout0_29) AT=955.025n 
+.meas tran vdout0_29ck1890 FIND v(dout0_29) AT=950.025n 
 
-.meas tran vdout0_30ck1900 FIND v(dout0_30) AT=955.025n 
+.meas tran vdout0_30ck1890 FIND v(dout0_30) AT=950.025n 
 
-.meas tran vdout0_31ck1900 FIND v(dout0_31) AT=955.025n 
-
-.meas tran vdout0_0ck1910 FIND v(dout0_0) AT=960.025n 
-
-.meas tran vdout0_1ck1910 FIND v(dout0_1) AT=960.025n 
-
-.meas tran vdout0_2ck1910 FIND v(dout0_2) AT=960.025n 
-
-.meas tran vdout0_3ck1910 FIND v(dout0_3) AT=960.025n 
-
-.meas tran vdout0_4ck1910 FIND v(dout0_4) AT=960.025n 
-
-.meas tran vdout0_5ck1910 FIND v(dout0_5) AT=960.025n 
-
-.meas tran vdout0_6ck1910 FIND v(dout0_6) AT=960.025n 
-
-.meas tran vdout0_7ck1910 FIND v(dout0_7) AT=960.025n 
-
-.meas tran vdout0_8ck1910 FIND v(dout0_8) AT=960.025n 
-
-.meas tran vdout0_9ck1910 FIND v(dout0_9) AT=960.025n 
-
-.meas tran vdout0_10ck1910 FIND v(dout0_10) AT=960.025n 
-
-.meas tran vdout0_11ck1910 FIND v(dout0_11) AT=960.025n 
-
-.meas tran vdout0_12ck1910 FIND v(dout0_12) AT=960.025n 
-
-.meas tran vdout0_13ck1910 FIND v(dout0_13) AT=960.025n 
-
-.meas tran vdout0_14ck1910 FIND v(dout0_14) AT=960.025n 
-
-.meas tran vdout0_15ck1910 FIND v(dout0_15) AT=960.025n 
-
-.meas tran vdout0_16ck1910 FIND v(dout0_16) AT=960.025n 
-
-.meas tran vdout0_17ck1910 FIND v(dout0_17) AT=960.025n 
-
-.meas tran vdout0_18ck1910 FIND v(dout0_18) AT=960.025n 
-
-.meas tran vdout0_19ck1910 FIND v(dout0_19) AT=960.025n 
-
-.meas tran vdout0_20ck1910 FIND v(dout0_20) AT=960.025n 
-
-.meas tran vdout0_21ck1910 FIND v(dout0_21) AT=960.025n 
-
-.meas tran vdout0_22ck1910 FIND v(dout0_22) AT=960.025n 
-
-.meas tran vdout0_23ck1910 FIND v(dout0_23) AT=960.025n 
-
-.meas tran vdout0_24ck1910 FIND v(dout0_24) AT=960.025n 
-
-.meas tran vdout0_25ck1910 FIND v(dout0_25) AT=960.025n 
-
-.meas tran vdout0_26ck1910 FIND v(dout0_26) AT=960.025n 
-
-.meas tran vdout0_27ck1910 FIND v(dout0_27) AT=960.025n 
-
-.meas tran vdout0_28ck1910 FIND v(dout0_28) AT=960.025n 
-
-.meas tran vdout0_29ck1910 FIND v(dout0_29) AT=960.025n 
-
-.meas tran vdout0_30ck1910 FIND v(dout0_30) AT=960.025n 
-
-.meas tran vdout0_31ck1910 FIND v(dout0_31) AT=960.025n 
+.meas tran vdout0_31ck1890 FIND v(dout0_31) AT=950.025n 
 
 .meas tran vdout0_0ck1920 FIND v(dout0_0) AT=965.025n 
 
@@ -6333,6 +6781,70 @@
 .meas tran vdout0_30ck1920 FIND v(dout0_30) AT=965.025n 
 
 .meas tran vdout0_31ck1920 FIND v(dout0_31) AT=965.025n 
+
+.meas tran vdout0_0ck1930 FIND v(dout0_0) AT=970.025n 
+
+.meas tran vdout0_1ck1930 FIND v(dout0_1) AT=970.025n 
+
+.meas tran vdout0_2ck1930 FIND v(dout0_2) AT=970.025n 
+
+.meas tran vdout0_3ck1930 FIND v(dout0_3) AT=970.025n 
+
+.meas tran vdout0_4ck1930 FIND v(dout0_4) AT=970.025n 
+
+.meas tran vdout0_5ck1930 FIND v(dout0_5) AT=970.025n 
+
+.meas tran vdout0_6ck1930 FIND v(dout0_6) AT=970.025n 
+
+.meas tran vdout0_7ck1930 FIND v(dout0_7) AT=970.025n 
+
+.meas tran vdout0_8ck1930 FIND v(dout0_8) AT=970.025n 
+
+.meas tran vdout0_9ck1930 FIND v(dout0_9) AT=970.025n 
+
+.meas tran vdout0_10ck1930 FIND v(dout0_10) AT=970.025n 
+
+.meas tran vdout0_11ck1930 FIND v(dout0_11) AT=970.025n 
+
+.meas tran vdout0_12ck1930 FIND v(dout0_12) AT=970.025n 
+
+.meas tran vdout0_13ck1930 FIND v(dout0_13) AT=970.025n 
+
+.meas tran vdout0_14ck1930 FIND v(dout0_14) AT=970.025n 
+
+.meas tran vdout0_15ck1930 FIND v(dout0_15) AT=970.025n 
+
+.meas tran vdout0_16ck1930 FIND v(dout0_16) AT=970.025n 
+
+.meas tran vdout0_17ck1930 FIND v(dout0_17) AT=970.025n 
+
+.meas tran vdout0_18ck1930 FIND v(dout0_18) AT=970.025n 
+
+.meas tran vdout0_19ck1930 FIND v(dout0_19) AT=970.025n 
+
+.meas tran vdout0_20ck1930 FIND v(dout0_20) AT=970.025n 
+
+.meas tran vdout0_21ck1930 FIND v(dout0_21) AT=970.025n 
+
+.meas tran vdout0_22ck1930 FIND v(dout0_22) AT=970.025n 
+
+.meas tran vdout0_23ck1930 FIND v(dout0_23) AT=970.025n 
+
+.meas tran vdout0_24ck1930 FIND v(dout0_24) AT=970.025n 
+
+.meas tran vdout0_25ck1930 FIND v(dout0_25) AT=970.025n 
+
+.meas tran vdout0_26ck1930 FIND v(dout0_26) AT=970.025n 
+
+.meas tran vdout0_27ck1930 FIND v(dout0_27) AT=970.025n 
+
+.meas tran vdout0_28ck1930 FIND v(dout0_28) AT=970.025n 
+
+.meas tran vdout0_29ck1930 FIND v(dout0_29) AT=970.025n 
+
+.meas tran vdout0_30ck1930 FIND v(dout0_30) AT=970.025n 
+
+.meas tran vdout0_31ck1930 FIND v(dout0_31) AT=970.025n 
 
 .meas tran vdout0_0ck1940 FIND v(dout0_0) AT=975.025n 
 
@@ -6462,6 +6974,70 @@
 
 .meas tran vdout0_31ck1960 FIND v(dout0_31) AT=985.025n 
 
+.meas tran vdout0_0ck1970 FIND v(dout0_0) AT=990.025n 
+
+.meas tran vdout0_1ck1970 FIND v(dout0_1) AT=990.025n 
+
+.meas tran vdout0_2ck1970 FIND v(dout0_2) AT=990.025n 
+
+.meas tran vdout0_3ck1970 FIND v(dout0_3) AT=990.025n 
+
+.meas tran vdout0_4ck1970 FIND v(dout0_4) AT=990.025n 
+
+.meas tran vdout0_5ck1970 FIND v(dout0_5) AT=990.025n 
+
+.meas tran vdout0_6ck1970 FIND v(dout0_6) AT=990.025n 
+
+.meas tran vdout0_7ck1970 FIND v(dout0_7) AT=990.025n 
+
+.meas tran vdout0_8ck1970 FIND v(dout0_8) AT=990.025n 
+
+.meas tran vdout0_9ck1970 FIND v(dout0_9) AT=990.025n 
+
+.meas tran vdout0_10ck1970 FIND v(dout0_10) AT=990.025n 
+
+.meas tran vdout0_11ck1970 FIND v(dout0_11) AT=990.025n 
+
+.meas tran vdout0_12ck1970 FIND v(dout0_12) AT=990.025n 
+
+.meas tran vdout0_13ck1970 FIND v(dout0_13) AT=990.025n 
+
+.meas tran vdout0_14ck1970 FIND v(dout0_14) AT=990.025n 
+
+.meas tran vdout0_15ck1970 FIND v(dout0_15) AT=990.025n 
+
+.meas tran vdout0_16ck1970 FIND v(dout0_16) AT=990.025n 
+
+.meas tran vdout0_17ck1970 FIND v(dout0_17) AT=990.025n 
+
+.meas tran vdout0_18ck1970 FIND v(dout0_18) AT=990.025n 
+
+.meas tran vdout0_19ck1970 FIND v(dout0_19) AT=990.025n 
+
+.meas tran vdout0_20ck1970 FIND v(dout0_20) AT=990.025n 
+
+.meas tran vdout0_21ck1970 FIND v(dout0_21) AT=990.025n 
+
+.meas tran vdout0_22ck1970 FIND v(dout0_22) AT=990.025n 
+
+.meas tran vdout0_23ck1970 FIND v(dout0_23) AT=990.025n 
+
+.meas tran vdout0_24ck1970 FIND v(dout0_24) AT=990.025n 
+
+.meas tran vdout0_25ck1970 FIND v(dout0_25) AT=990.025n 
+
+.meas tran vdout0_26ck1970 FIND v(dout0_26) AT=990.025n 
+
+.meas tran vdout0_27ck1970 FIND v(dout0_27) AT=990.025n 
+
+.meas tran vdout0_28ck1970 FIND v(dout0_28) AT=990.025n 
+
+.meas tran vdout0_29ck1970 FIND v(dout0_29) AT=990.025n 
+
+.meas tran vdout0_30ck1970 FIND v(dout0_30) AT=990.025n 
+
+.meas tran vdout0_31ck1970 FIND v(dout0_31) AT=990.025n 
+
 .meas tran vdout0_0ck1990 FIND v(dout0_0) AT=1000.025n 
 
 .meas tran vdout0_1ck1990 FIND v(dout0_1) AT=1000.025n 
@@ -6526,69 +7102,69 @@
 
 .meas tran vdout0_31ck1990 FIND v(dout0_31) AT=1000.025n 
 
-.meas tran vdout0_0ck2030 FIND v(dout0_0) AT=1020.025n 
+.meas tran vdout0_0ck2020 FIND v(dout0_0) AT=1015.025n 
 
-.meas tran vdout0_1ck2030 FIND v(dout0_1) AT=1020.025n 
+.meas tran vdout0_1ck2020 FIND v(dout0_1) AT=1015.025n 
 
-.meas tran vdout0_2ck2030 FIND v(dout0_2) AT=1020.025n 
+.meas tran vdout0_2ck2020 FIND v(dout0_2) AT=1015.025n 
 
-.meas tran vdout0_3ck2030 FIND v(dout0_3) AT=1020.025n 
+.meas tran vdout0_3ck2020 FIND v(dout0_3) AT=1015.025n 
 
-.meas tran vdout0_4ck2030 FIND v(dout0_4) AT=1020.025n 
+.meas tran vdout0_4ck2020 FIND v(dout0_4) AT=1015.025n 
 
-.meas tran vdout0_5ck2030 FIND v(dout0_5) AT=1020.025n 
+.meas tran vdout0_5ck2020 FIND v(dout0_5) AT=1015.025n 
 
-.meas tran vdout0_6ck2030 FIND v(dout0_6) AT=1020.025n 
+.meas tran vdout0_6ck2020 FIND v(dout0_6) AT=1015.025n 
 
-.meas tran vdout0_7ck2030 FIND v(dout0_7) AT=1020.025n 
+.meas tran vdout0_7ck2020 FIND v(dout0_7) AT=1015.025n 
 
-.meas tran vdout0_8ck2030 FIND v(dout0_8) AT=1020.025n 
+.meas tran vdout0_8ck2020 FIND v(dout0_8) AT=1015.025n 
 
-.meas tran vdout0_9ck2030 FIND v(dout0_9) AT=1020.025n 
+.meas tran vdout0_9ck2020 FIND v(dout0_9) AT=1015.025n 
 
-.meas tran vdout0_10ck2030 FIND v(dout0_10) AT=1020.025n 
+.meas tran vdout0_10ck2020 FIND v(dout0_10) AT=1015.025n 
 
-.meas tran vdout0_11ck2030 FIND v(dout0_11) AT=1020.025n 
+.meas tran vdout0_11ck2020 FIND v(dout0_11) AT=1015.025n 
 
-.meas tran vdout0_12ck2030 FIND v(dout0_12) AT=1020.025n 
+.meas tran vdout0_12ck2020 FIND v(dout0_12) AT=1015.025n 
 
-.meas tran vdout0_13ck2030 FIND v(dout0_13) AT=1020.025n 
+.meas tran vdout0_13ck2020 FIND v(dout0_13) AT=1015.025n 
 
-.meas tran vdout0_14ck2030 FIND v(dout0_14) AT=1020.025n 
+.meas tran vdout0_14ck2020 FIND v(dout0_14) AT=1015.025n 
 
-.meas tran vdout0_15ck2030 FIND v(dout0_15) AT=1020.025n 
+.meas tran vdout0_15ck2020 FIND v(dout0_15) AT=1015.025n 
 
-.meas tran vdout0_16ck2030 FIND v(dout0_16) AT=1020.025n 
+.meas tran vdout0_16ck2020 FIND v(dout0_16) AT=1015.025n 
 
-.meas tran vdout0_17ck2030 FIND v(dout0_17) AT=1020.025n 
+.meas tran vdout0_17ck2020 FIND v(dout0_17) AT=1015.025n 
 
-.meas tran vdout0_18ck2030 FIND v(dout0_18) AT=1020.025n 
+.meas tran vdout0_18ck2020 FIND v(dout0_18) AT=1015.025n 
 
-.meas tran vdout0_19ck2030 FIND v(dout0_19) AT=1020.025n 
+.meas tran vdout0_19ck2020 FIND v(dout0_19) AT=1015.025n 
 
-.meas tran vdout0_20ck2030 FIND v(dout0_20) AT=1020.025n 
+.meas tran vdout0_20ck2020 FIND v(dout0_20) AT=1015.025n 
 
-.meas tran vdout0_21ck2030 FIND v(dout0_21) AT=1020.025n 
+.meas tran vdout0_21ck2020 FIND v(dout0_21) AT=1015.025n 
 
-.meas tran vdout0_22ck2030 FIND v(dout0_22) AT=1020.025n 
+.meas tran vdout0_22ck2020 FIND v(dout0_22) AT=1015.025n 
 
-.meas tran vdout0_23ck2030 FIND v(dout0_23) AT=1020.025n 
+.meas tran vdout0_23ck2020 FIND v(dout0_23) AT=1015.025n 
 
-.meas tran vdout0_24ck2030 FIND v(dout0_24) AT=1020.025n 
+.meas tran vdout0_24ck2020 FIND v(dout0_24) AT=1015.025n 
 
-.meas tran vdout0_25ck2030 FIND v(dout0_25) AT=1020.025n 
+.meas tran vdout0_25ck2020 FIND v(dout0_25) AT=1015.025n 
 
-.meas tran vdout0_26ck2030 FIND v(dout0_26) AT=1020.025n 
+.meas tran vdout0_26ck2020 FIND v(dout0_26) AT=1015.025n 
 
-.meas tran vdout0_27ck2030 FIND v(dout0_27) AT=1020.025n 
+.meas tran vdout0_27ck2020 FIND v(dout0_27) AT=1015.025n 
 
-.meas tran vdout0_28ck2030 FIND v(dout0_28) AT=1020.025n 
+.meas tran vdout0_28ck2020 FIND v(dout0_28) AT=1015.025n 
 
-.meas tran vdout0_29ck2030 FIND v(dout0_29) AT=1020.025n 
+.meas tran vdout0_29ck2020 FIND v(dout0_29) AT=1015.025n 
 
-.meas tran vdout0_30ck2030 FIND v(dout0_30) AT=1020.025n 
+.meas tran vdout0_30ck2020 FIND v(dout0_30) AT=1015.025n 
 
-.meas tran vdout0_31ck2030 FIND v(dout0_31) AT=1020.025n 
+.meas tran vdout0_31ck2020 FIND v(dout0_31) AT=1015.025n 
 
 .meas tran vdout0_0ck2040 FIND v(dout0_0) AT=1025.025n 
 

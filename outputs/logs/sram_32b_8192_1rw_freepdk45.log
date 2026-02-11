@@ -1,0 +1,23 @@
+[2026-02-10 17:49:28.059363] ** Submodules: 18630.2 seconds
+[2026-02-10 17:49:28.080888] ** Placement: 0.0 seconds
+[2026-02-10 19:18:47.531026] ** Routing: 5359.4 seconds
+[2026-02-10 19:18:47.538109] ** Verification: 0.0 seconds
+[2026-02-10 19:18:47.538205] ** SRAM creation: 23989.7 seconds
+[2026-02-10 19:18:47.538241] SP: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v.sp
+[2026-02-10 19:18:49.565405] ** Spice writing: 2.0 seconds
+[2026-02-10 19:18:49.565508] DELAY: Writing stimulus...
+[2026-02-10 19:19:04.396610] ** DELAY: 14.8 seconds
+[2026-02-10 19:19:06.446529] GDS: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v.gds
+[2026-02-10 19:19:10.789735] ** GDS: 4.3 seconds
+[2026-02-10 19:19:10.789850] LEF: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v.lef
+[2026-02-10 19:19:10.799707] ** LEF: 0.0 seconds
+[2026-02-10 19:19:10.799752] LVS: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v.lvs.sp
+[2026-02-10 19:19:12.768119] ** LVS writing: 2.0 seconds
+[2026-02-10 19:19:12.768225] LIB: Characterizing... 
+[2026-02-10 19:21:05.330579] ** Characterization: 112.6 seconds
+[2026-02-10 19:21:05.337151] Config: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_8192_1rw_freepdk45.py
+[2026-02-10 19:21:05.337192] ** Config: 0.0 seconds
+[2026-02-10 19:21:05.337820] Datasheet: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v.html
+[2026-02-10 19:21:05.339107] ** Datasheet: 0.0 seconds
+[2026-02-10 19:21:05.339151] Verilog: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v.v
+[2026-02-10 19:21:05.339256] ** Verilog: 0.0 seconds
