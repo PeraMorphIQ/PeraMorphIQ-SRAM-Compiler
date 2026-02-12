@@ -310,6 +310,31 @@ MACRO sram_32b_65536_1rw_freepdk45_sram_32x65536_32v
          RECT  0.0 88.84 0.14 88.98 ;
       END
    END addr0[10]
+   PIN addr0[11]
+      DIRECTION INPUT ;
+      PORT
+      END
+   END addr0[11]
+   PIN addr0[12]
+      DIRECTION INPUT ;
+      PORT
+      END
+   END addr0[12]
+   PIN addr0[13]
+      DIRECTION INPUT ;
+      PORT
+      END
+   END addr0[13]
+   PIN addr0[14]
+      DIRECTION INPUT ;
+      PORT
+      END
+   END addr0[14]
+   PIN addr0[15]
+      DIRECTION INPUT ;
+      PORT
+      END
+   END addr0[15]
    PIN csb0
       DIRECTION INPUT ;
       PORT
@@ -556,33 +581,33 @@ MACRO sram_32b_65536_1rw_freepdk45_sram_32x65536_32v
       END
    END dout0[31]
    PIN vdd
-      DIRECTION INOUT ;
+      DIRECTION INPUT ;
       USE POWER ; 
       SHAPE ABUTMENT ; 
       PORT
-         LAYER metal4 ;
-         RECT  0.0 0.0 0.7 391.5075 ;
-         LAYER metal4 ;
-         RECT  237.8625 0.0 238.5625 391.5075 ;
          LAYER metal3 ;
          RECT  0.0 0.0 238.5625 0.7 ;
          LAYER metal3 ;
          RECT  0.0 390.8075 238.5625 391.5075 ;
+         LAYER metal4 ;
+         RECT  0.0 0.0 0.7 391.5075 ;
+         LAYER metal4 ;
+         RECT  237.8625 0.0 238.5625 391.5075 ;
       END
    END vdd
    PIN gnd
-      DIRECTION INOUT ;
+      DIRECTION INPUT ;
       USE GROUND ; 
       SHAPE ABUTMENT ; 
       PORT
-         LAYER metal4 ;
-         RECT  236.4625 1.4 237.1625 390.1075 ;
          LAYER metal4 ;
          RECT  1.4 1.4 2.1 390.1075 ;
          LAYER metal3 ;
          RECT  1.4 1.4 237.1625 2.1 ;
          LAYER metal3 ;
          RECT  1.4 389.4075 237.1625 390.1075 ;
+         LAYER metal4 ;
+         RECT  236.4625 1.4 237.1625 390.1075 ;
       END
    END gnd
    OBS
@@ -684,14 +709,6 @@ MACRO sram_32b_65536_1rw_freepdk45_sram_32x65536_32v
       RECT  205.825 0.14 210.765 0.42 ;
       RECT  0.98 0.14 26.845 0.42 ;
       RECT  211.465 0.14 237.5825 0.42 ;
-      RECT  36.125 0.42 236.1825 1.12 ;
-      RECT  36.125 1.12 236.1825 390.3875 ;
-      RECT  36.125 390.3875 236.1825 391.3675 ;
-      RECT  236.1825 0.42 237.4425 1.12 ;
-      RECT  236.1825 390.3875 237.4425 391.3675 ;
-      RECT  237.4425 0.42 237.5825 1.12 ;
-      RECT  237.4425 1.12 237.5825 390.3875 ;
-      RECT  237.4425 390.3875 237.5825 391.3675 ;
       RECT  0.98 0.42 1.12 1.12 ;
       RECT  0.98 1.12 1.12 390.3875 ;
       RECT  0.98 390.3875 1.12 391.3675 ;
@@ -700,6 +717,14 @@ MACRO sram_32b_65536_1rw_freepdk45_sram_32x65536_32v
       RECT  2.38 0.42 35.425 1.12 ;
       RECT  2.38 1.12 35.425 390.3875 ;
       RECT  2.38 390.3875 35.425 391.3675 ;
+      RECT  36.125 0.42 236.1825 1.12 ;
+      RECT  36.125 1.12 236.1825 390.3875 ;
+      RECT  36.125 390.3875 236.1825 391.3675 ;
+      RECT  236.1825 0.42 237.4425 1.12 ;
+      RECT  236.1825 390.3875 237.4425 391.3675 ;
+      RECT  237.4425 0.42 237.5825 1.12 ;
+      RECT  237.4425 1.12 237.5825 390.3875 ;
+      RECT  237.4425 390.3875 237.5825 391.3675 ;
    END
 END    sram_32b_65536_1rw_freepdk45_sram_32x65536_32v
 END    LIBRARY
