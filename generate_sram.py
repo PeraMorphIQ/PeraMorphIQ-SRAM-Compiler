@@ -60,6 +60,17 @@ print("="*70)
 import config
 
 banking_mode = getattr(config, 'banking_mode', 'vertical')
+num_rw_ports = getattr(config, 'num_rw_ports', 1)
+num_r_ports = getattr(config, 'num_r_ports', 0)
+num_w_ports = getattr(config, 'num_w_ports', 0)
+
+# Validate port configuration
+total_ports = num_rw_ports + num_r_ports + num_w_ports
+if total_ports < 1 or total_ports > 2:
+    print(f"\nERROR: Invalid port configuration!")
+    print(f"  Total ports (num_rw_ports + num_r_ports + num_w_ports) must be 1 or 2")
+    print(f"  Current: {num_rw_ports} RW + {num_r_ports} R + {num_w_ports} W = {total_ports} total")
+    sys.exit(1)
 
 print(f"Configuration:")
 print(f"  Technology:  {config.tech_name}")
@@ -67,6 +78,7 @@ print(f"  Word Size:   {config.word_size} bits")
 print(f"  Num Words:   {config.num_words}")
 print(f"  Num Banks:   {config.num_banks}")
 print(f"  Banking Mode: {banking_mode}")
+print(f"  Port Config: {num_rw_ports} RW + {num_r_ports} R + {num_w_ports} W ({total_ports} port{'s' if total_ports > 1 else ''})")
 print(f"  SRAM Name:   {config.sram_name}")
 print(f"  Threads:     {config.num_threads}")
 
@@ -76,10 +88,16 @@ print(f"  Threads:     {config.num_threads}")
 globals.init_openram("config")
 globals.OPTS.num_threads = config.num_threads
 
+# Set port configuration
+globals.OPTS.num_rw_ports = num_rw_ports
+globals.OPTS.num_r_ports = num_r_ports
+globals.OPTS.num_w_ports = num_w_ports
+
 # Set banking mode
 if hasattr(config, 'banking_mode'):
     globals.OPTS.banking_mode = config.banking_mode
     print(f"\n  Banking mode set to: {config.banking_mode}")
+print(f"  Port configuration set to: {num_rw_ports} RW, {num_r_ports} R, {num_w_ports} W")
 
 # =============================================================================
 # Setup Output Directory Structure
@@ -178,6 +196,11 @@ print(f"  Generation Complete!")
 print(f"{'='*70}")
 print(f"\nGenerated SRAM: {design_name}")
 print(f"  Architecture: {config.word_size}b x {config.num_words}w x {config.num_banks}banks")
+print(f"  Port Config:  {num_rw_ports} RW + {num_r_ports} R + {num_w_ports} W")
+if total_ports == 1:
+    print(f"  Port Type:    Single-port")
+else:
+    print(f"  Port Type:    Dual-port")
 print(f"  Banking Mode: {banking_mode}")
 if banking_mode == "horizontal":
     bits_per_bank = config.word_size // config.num_banks

@@ -42,6 +42,24 @@ num_banks = 1
 #   - NO bank mux latency!
 banking_mode = "vertical"  # Options: "vertical", "horizontal"
 
+# Port Configuration
+# -----------------------------------------------------------------------------
+# OpenRAM supports single-port and dual-port SRAMs (max 2 ports)
+# Three types of ports:
+#   - RW (Read-Write): Can perform both read and write operations
+#   - W (Write-only): Can only write data
+#   - R (Read-only): Can only read data
+#
+# Common configurations:
+#   Single-port:  num_rw_ports=1, num_r_ports=0, num_w_ports=0
+#   Dual-port:    num_rw_ports=1, num_r_ports=1, num_w_ports=0 (1 RW + 1 R)
+#   Dual-port:    num_rw_ports=0, num_r_ports=1, num_w_ports=1 (1 W + 1 R)
+#
+# Note: Total ports (num_rw_ports + num_r_ports + num_w_ports) must be <= 2
+num_rw_ports = 1  # Number of read-write ports (default: 1 for single-port)
+num_r_ports = 0   # Number of read-only ports (default: 0)
+num_w_ports = 0   # Number of write-only ports (default: 0)
+
 # ==============================================================================
 # Technology Configuration
 # ==============================================================================
@@ -86,7 +104,9 @@ pvt_corners = "TT_1p0V_25C"
 # SRAM instance name (auto-generated from parameters)
 # Suffix: 'v' for vertical (default), 'h' for horizontal
 _banking_suffix = "h" if banking_mode == "horizontal" else "v"
-sram_name = f"sram_{word_size}x{num_words}_{num_banks}{_banking_suffix}"
+# Port suffix: e.g., "1rw0r0w" for single-port, "1rw1r0w" for dual-port
+_port_suffix = f"{num_rw_ports}rw{num_r_ports}r{num_w_ports}w"
+sram_name = f"sram_{_port_suffix}_{word_size}x{num_words}_{num_banks}{_banking_suffix}"
 
 # Output directory for generated files
 output_path = "./outputs"

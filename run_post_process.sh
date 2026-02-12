@@ -28,7 +28,7 @@ set -e  # Exit on error
 # =============================================================================
 
 # SRAM base name (without corner/voltage suffix)
-SRAM_NAME="sram_16b_32_1rw_freepdk45_sram_16x32_1v"
+SRAM_NAME="sram_16b_32_1rw_freepdk45_sram_1rw0r0w_16x32_1v"
 
 # Technology library path (for NDM generation)
 TECH_LIB="/path/to/your/tech/lib/NangateOpenCellLibrary.ndm"
