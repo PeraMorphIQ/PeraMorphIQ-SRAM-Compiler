@@ -556,7 +556,7 @@ MACRO sram_32b_2048_1rw_freepdk45_sram_32x2048_1v
       END
    END dout0[31]
    PIN vdd
-      DIRECTION INOUT ;
+      DIRECTION INPUT ;
       USE POWER ; 
       SHAPE ABUTMENT ; 
       PORT
@@ -571,18 +571,18 @@ MACRO sram_32b_2048_1rw_freepdk45_sram_32x2048_1v
       END
    END vdd
    PIN gnd
-      DIRECTION INOUT ;
+      DIRECTION INPUT ;
       USE GROUND ; 
       SHAPE ABUTMENT ; 
       PORT
-         LAYER metal3 ;
-         RECT  1.4 1.4 237.1625 2.1 ;
          LAYER metal4 ;
          RECT  236.4625 1.4 237.1625 390.1075 ;
          LAYER metal3 ;
-         RECT  1.4 389.4075 237.1625 390.1075 ;
+         RECT  1.4 1.4 237.1625 2.1 ;
          LAYER metal4 ;
          RECT  1.4 1.4 2.1 390.1075 ;
+         LAYER metal3 ;
+         RECT  1.4 389.4075 237.1625 390.1075 ;
       END
    END gnd
    OBS

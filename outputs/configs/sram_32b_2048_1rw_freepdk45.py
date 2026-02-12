@@ -22,10 +22,12 @@ word_size = 32
 
 # Number of words: Depth of the SRAM (number of addressable locations)
 # Must be a power of 2: 32, 64, 128, 256, 512, 1024, 2048, 4096, etc.
+# NOTE: OpenRAM limit is 2048 words per bank - use multiple banks for larger SRAMs
 num_words = 2048
 
 # Number of banks: Must be a power of 2 (1, 2, 4, 8, etc.)
 # More banks = better performance but larger area
+# For 65536 words with 2048 max per bank: need 32 banks minimum
 num_banks = 1
 
 # Banking Mode
