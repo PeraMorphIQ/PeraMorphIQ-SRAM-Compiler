@@ -48,6 +48,7 @@ PeraMorphIQ SRAM Compiler is a production-ready tool for generating custom SRAM 
 ## Features
 
 - **Simple Configuration**: Single configuration file with clear parameter documentation
+- **Multi-Port Support**: Single-port and dual-port SRAM configurations (RW, R, W ports)
 - **Organized Outputs**: Automatic directory structure for all generated files (GDS, LEF, Liberty, Verilog, SPICE)
 - **Dual Banking Modes**: 
   - Vertical banking (address space division)
@@ -143,8 +144,52 @@ Edit `config.py` to customize your SRAM:
 | `num_words` | SRAM depth | Must be power of 2 | 128, 256, 512, 1024 |
 | `num_banks` | Number of banks | Must be power of 2 | 1, 2, 4, 8 |
 | `banking_mode` | Banking architecture | "vertical" or "horizontal" | "vertical" |
+| `num_rw_ports` | Read-write ports | 0-2 (total ≤ 2) | 1 |
+| `num_r_ports` | Read-only ports | 0-2 (total ≤ 2) | 0 |
+| `num_w_ports` | Write-only ports | 0-2 (total ≤ 2) | 0 |
 | `tech_name` | Technology node | See supported list | "freepdk45" |
 | `num_threads` | Parallel generation threads | 1-16 | 4 |
+
+### Multi-Port SRAMs
+
+The compiler supports both single-port and dual-port SRAM configurations. Multi-port SRAMs enable simultaneous read/write operations, which is essential for high-performance applications.
+
+#### Port Types
+
+- **RW (Read-Write)**: Can perform both read and write operations
+- **R (Read-only)**: Can only read data
+- **W (Write-only)**: Can only write data
+
+#### Common Configurations
+
+**Single-Port (Default)**
+```python
+num_rw_ports = 1  # 1 read-write port
+num_r_ports = 0   # No read-only ports
+num_w_ports = 0   # No write-only ports
+```
+
+**Dual-Port (1 RW + 1 R)**
+```python
+num_rw_ports = 1  # 1 read-write port
+num_r_ports = 1   # 1 read-only port
+num_w_ports = 0   # No write-only ports
+```
+- Simultaneous read and write to different addresses
+- Common in FIFOs, buffers, dual-core systems
+
+**Dual-Port (1 W + 1 R)**
+```python
+num_rw_ports = 0  # No read-write ports
+num_r_ports = 1   # 1 read-only port
+num_w_ports = 1   # 1 write-only port
+```
+- True dual-port with separate read/write
+- Used in video buffers, line buffers
+
+**Limitations:**
+- Maximum 2 ports total (num_rw_ports + num_r_ports + num_w_ports ≤ 2)
+- Dual-port SRAMs have increased area and power consumption
 
 ### Banking Modes
 
@@ -282,6 +327,30 @@ word_size = 1024
 num_words = 2048
 num_banks = 8
 banking_mode = "horizontal"  # No bank mux latency
+tech_name = "freepdk45"
+```
+
+### Dual-Port SRAM for FIFO
+
+```python
+word_size = 32
+num_words = 256
+num_banks = 1
+num_rw_ports = 1  # One read-write port
+num_r_ports = 1   # One read-only port
+num_w_ports = 0
+tech_name = "freepdk45"
+```
+
+### True Dual-Port for Video Buffer
+
+```python
+word_size = 64
+num_words = 512
+num_banks = 1
+num_rw_ports = 0  # No read-write ports
+num_r_ports = 1   # One read-only port
+num_w_ports = 1   # One write-only port
 tech_name = "freepdk45"
 ```
 

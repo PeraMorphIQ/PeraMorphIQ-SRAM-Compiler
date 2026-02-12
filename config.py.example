@@ -45,6 +45,28 @@ num_banks = 1
 #   - Use case: Cache lines, vector processors, wide data paths
 banking_mode = "vertical"
 
+# Port Configuration
+# -----------------------------------------------------------------------------
+# OpenRAM supports single-port and dual-port SRAMs (max 2 ports)
+# Three types of ports:
+#   - RW (Read-Write): Can perform both read and write operations
+#   - W (Write-only): Can only write data
+#   - R (Read-only): Can only read data
+#
+# Common configurations:
+#   Single-port:  num_rw_ports=1, num_r_ports=0, num_w_ports=0 (default)
+#   Dual-port:    num_rw_ports=1, num_r_ports=1, num_w_ports=0 (1 RW + 1 R)
+#                 - Simultaneous read and write to different addresses
+#                 - Common in FIFOs, buffers, dual-core systems
+#   Dual-port:    num_rw_ports=0, num_r_ports=1, num_w_ports=1 (1 W + 1 R)
+#                 - True dual-port with separate read/write
+#                 - Used in video buffers, line buffers
+#
+# Note: Total ports (num_rw_ports + num_r_ports + num_w_ports) must be <= 2
+num_rw_ports = 1  # Number of read-write ports (default: 1)
+num_r_ports = 0   # Number of read-only ports (default: 0)
+num_w_ports = 0   # Number of write-only ports (default: 0)
+
 # ==============================================================================
 # Technology Configuration
 # ==============================================================================
@@ -106,7 +128,9 @@ pvt_corners = "TT_1p0V_25C"
 # SRAM instance name (auto-generated from parameters)
 # Suffix: 'v' for vertical (default), 'h' for horizontal
 _banking_suffix = "h" if banking_mode == "horizontal" else "v"
-sram_name = f"sram_{word_size}x{num_words}_{num_banks}{_banking_suffix}"
+# Port suffix: e.g., "1rw0r0w" for single-port, "1rw1r0w" for dual-port
+_port_suffix = f"{num_rw_ports}rw{num_r_ports}r{num_w_ports}w"
+sram_name = f"sram_{_port_suffix}_{word_size}x{num_words}_{num_banks}{_banking_suffix}"
 
 # Output directory for generated files
 output_path = "./outputs"
@@ -143,3 +167,19 @@ output_path = "./outputs"
 # num_words = 2048
 # num_banks = 8
 # banking_mode = "horizontal"  # Bit-slicing, no mux latency
+
+# --- Dual-Port SRAM (1 Read-Write + 1 Read) ---
+# word_size = 32
+# num_words = 256
+# num_banks = 1
+# num_rw_ports = 1
+# num_r_ports = 1
+# num_w_ports = 0
+
+# --- Dual-Port SRAM (1 Write + 1 Read) ---
+# word_size = 32
+# num_words = 256
+# num_banks = 1
+# num_rw_ports = 0
+# num_r_ports = 1
+# num_w_ports = 1
