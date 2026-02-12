@@ -486,7 +486,7 @@ class delay(simulation):
                 self.stim.gen_constant(sig_name="{0}{1}_{2} ".format(self.din_name, write_port, i),
                                        v_val=0)
         for port in self.all_ports:
-            for i in range(self.bank_addr_size):
+            for i in range(self.addr_size):
                 self.stim.gen_constant(sig_name="{0}{1}_{2}".format(self.addr_name, port, i),
                                        v_val=0)
 
@@ -1545,7 +1545,7 @@ class delay(simulation):
         """
 
         for port in self.all_ports:
-            for i in range(self.bank_addr_size):
+            for i in range(self.addr_size):
                 sig_name = "{0}{1}_{2}".format(self.addr_name, port, i)
                 self.stim.gen_pwl(sig_name, self.cycle_times, self.addr_values[port][i], self.period, self.slew, 0.05)
 

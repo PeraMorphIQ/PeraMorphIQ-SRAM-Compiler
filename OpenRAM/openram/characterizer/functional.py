@@ -451,7 +451,7 @@ class functional(simulation):
 
         # Generate address bits
         for port in self.all_ports:
-            for bit in range(self.bank_addr_size):
+            for bit in range(self.addr_size):
                 sig_name="{0}{1}_{2} ".format(self.addr_name, port, bit)
                 self.stim.gen_pwl(sig_name, self.cycle_times, self.addr_values[port][bit], self.period, self.slew, 0.05)
 

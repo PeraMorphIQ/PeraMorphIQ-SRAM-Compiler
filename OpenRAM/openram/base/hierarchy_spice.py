@@ -133,10 +133,10 @@ class spice():
         return pin.type
 
     def get_pin_dir(self, name):
-        """ Returns the direction of the pin. (Supply/ground are INOUT). """
+        """ Returns the direction of the pin. (Supply/ground are INPUT to match Liberty). """
         pin_type = self.get_pin_type(name)
         if pin_type in ["POWER", "GROUND"]:
-            return "INOUT"
+            return "INPUT"
         else:
             return pin_type
 

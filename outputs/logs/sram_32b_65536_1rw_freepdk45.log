@@ -1,59 +1,43 @@
-[2026-02-11 08:37:54.752178] ** Submodules: 1181.0 seconds
-[2026-02-11 08:37:54.772313] ** Placement: 0.0 seconds
-[2026-02-11 09:02:48.733254] ** Routing: 1494.0 seconds
-[2026-02-11 09:02:48.741998] ** Verification: 0.0 seconds
-[2026-02-11 09:02:48.742099] ** SRAM creation: 2675.0 seconds
-[2026-02-11 09:02:48.742146] SP: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.sp
-[2026-02-11 09:02:49.503231] ** Spice writing: 0.8 seconds
-[2026-02-11 09:02:49.503343] DELAY: Writing stimulus...
-[2026-02-11 09:02:50.588175] WARNING: file simulation.py: line 618: Could not find bl net in timing paths (using analytical delay, so continuing with dummy name).
+[2026-02-11 16:29:52.179110] ** Submodules: 1184.4 seconds
+[2026-02-11 16:29:52.201012] ** Placement: 0.0 seconds
+[2026-02-11 16:55:04.027443] ** Routing: 1511.8 seconds
+[2026-02-11 16:55:04.034404] ** Verification: 0.0 seconds
+[2026-02-11 16:55:04.034495] ** SRAM creation: 2696.2 seconds
+[2026-02-11 16:55:04.034530] SP: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.sp
+[2026-02-11 16:55:04.615439] ** Spice writing: 0.6 seconds
+[2026-02-11 16:55:04.615526] DELAY: Writing stimulus...
+[2026-02-11 16:55:08.037395] WARNING: file simulation.py: line 620: Could not find bl net in timing paths (using analytical delay, so continuing with dummy name).
 
-[2026-02-11 09:02:50.615799] WARNING: file simulation.py: line 618: Could not find br net in timing paths (using analytical delay, so continuing with dummy name).
+[2026-02-11 16:55:08.063284] WARNING: file simulation.py: line 620: Could not find br net in timing paths (using analytical delay, so continuing with dummy name).
 
-[2026-02-11 09:02:50.616128] WARNING: file simulation.py: line 538: Error occurred while determining bitline names. Can cause faults in simulation.
+[2026-02-11 16:55:08.063617] WARNING: file simulation.py: line 540: Error occurred while determining bitline names. Can cause faults in simulation.
 
-[2026-02-11 09:02:50.616367] WARNING: file simulation.py: line 544: Error occurred while determining bitline names. Can cause faults in simulation.
+[2026-02-11 16:55:08.063854] WARNING: file simulation.py: line 546: Error occurred while determining bitline names. Can cause faults in simulation.
 
-[2026-02-11 09:02:50.618030] WARNING: file bitcell_array.py: line 129: Cell (8191, 255) not found in array (likely multi-bank config). Using placeholder for analytical delay.
+[2026-02-11 16:55:08.064783] WARNING: file bitcell_array.py: line 129: Cell (8191, 255) not found in array (likely multi-bank config). Using placeholder for analytical delay.
 
-[2026-02-11 09:02:50.618522] WARNING: file bitcell_array.py: line 129: Cell (8191, 255) not found in array (likely multi-bank config). Using placeholder for analytical delay.
+[2026-02-11 16:55:08.065251] WARNING: file bitcell_array.py: line 129: Cell (8191, 255) not found in array (likely multi-bank config). Using placeholder for analytical delay.
 
-[2026-02-11 09:02:50.618887] WARNING: file delay.py: line 278: Found 0 paths which contain the bitline net (expected 1). Using dummy path for analytical delay.
+[2026-02-11 16:55:08.065616] WARNING: file delay.py: line 278: Found 0 paths which contain the bitline net (expected 1). Using dummy path for analytical delay.
 
-[2026-02-11 09:02:50.619382] WARNING: file bitcell_array.py: line 129: Cell (8191, 255) not found in array (likely multi-bank config). Using placeholder for analytical delay.
+[2026-02-11 16:55:08.066110] WARNING: file bitcell_array.py: line 129: Cell (8191, 255) not found in array (likely multi-bank config). Using placeholder for analytical delay.
 
-[2026-02-11 09:02:50.619762] WARNING: file bitcell_array.py: line 129: Cell (8191, 255) not found in array (likely multi-bank config). Using placeholder for analytical delay.
+[2026-02-11 16:55:08.066488] WARNING: file bitcell_array.py: line 129: Cell (8191, 255) not found in array (likely multi-bank config). Using placeholder for analytical delay.
 
-[2026-02-11 09:02:50.620025] WARNING: file delay.py: line 381: Probe Address's number of bits (16) does not match bank_addr_size (11) - expected in multi-bank configs with analytical delay.
+[2026-02-11 16:55:08.066734] WARNING: file delay.py: line 381: Probe Address's number of bits (16) does not match bank_addr_size (11) - expected in multi-bank configs with analytical delay.
 
-[2026-02-11 09:02:50.620389] WARNING: file simulation.py: line 180: Address size (16) doesn't match bank_addr_size (11) - adjusting for multi-bank config with analytical delay.
-
-[2026-02-11 09:02:50.620694] WARNING: file simulation.py: line 180: Address size (16) doesn't match bank_addr_size (11) - adjusting for multi-bank config with analytical delay.
-
-[2026-02-11 09:02:50.621026] WARNING: file simulation.py: line 180: Address size (16) doesn't match bank_addr_size (11) - adjusting for multi-bank config with analytical delay.
-
-[2026-02-11 09:02:50.621347] WARNING: file simulation.py: line 180: Address size (16) doesn't match bank_addr_size (11) - adjusting for multi-bank config with analytical delay.
-
-[2026-02-11 09:02:50.621704] WARNING: file simulation.py: line 180: Address size (16) doesn't match bank_addr_size (11) - adjusting for multi-bank config with analytical delay.
-
-[2026-02-11 09:02:50.622064] WARNING: file simulation.py: line 180: Address size (16) doesn't match bank_addr_size (11) - adjusting for multi-bank config with analytical delay.
-
-[2026-02-11 09:02:50.622427] WARNING: file simulation.py: line 180: Address size (16) doesn't match bank_addr_size (11) - adjusting for multi-bank config with analytical delay.
-
-[2026-02-11 09:02:50.622786] WARNING: file simulation.py: line 180: Address size (16) doesn't match bank_addr_size (11) - adjusting for multi-bank config with analytical delay.
-
-[2026-02-11 09:02:50.624476] ** DELAY: 1.1 seconds
-[2026-02-11 09:02:51.156398] GDS: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.gds
-[2026-02-11 09:02:52.384609] ** GDS: 1.2 seconds
-[2026-02-11 09:02:52.384723] LEF: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.lef
-[2026-02-11 09:02:52.393895] ** LEF: 0.0 seconds
-[2026-02-11 09:02:52.393936] LVS: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.lvs.sp
-[2026-02-11 09:02:52.918049] ** LVS writing: 0.5 seconds
-[2026-02-11 09:02:52.918157] LIB: Characterizing... 
-[2026-02-11 09:03:24.283525] ** Characterization: 31.4 seconds
-[2026-02-11 09:03:24.283736] Config: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45.py
-[2026-02-11 09:03:24.283776] ** Config: 0.0 seconds
-[2026-02-11 09:03:24.297999] Datasheet: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.html
-[2026-02-11 09:03:24.299649] ** Datasheet: 0.0 seconds
-[2026-02-11 09:03:24.299696] Verilog: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.v
-[2026-02-11 09:03:24.304327] ** Verilog: 0.0 seconds
+[2026-02-11 16:55:08.068742] ** DELAY: 3.5 seconds
+[2026-02-11 16:55:08.617480] GDS: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.gds
+[2026-02-11 16:55:09.837696] ** GDS: 1.2 seconds
+[2026-02-11 16:55:09.837802] LEF: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.lef
+[2026-02-11 16:55:09.847871] ** LEF: 0.0 seconds
+[2026-02-11 16:55:09.847917] LVS: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.lvs.sp
+[2026-02-11 16:55:10.388481] ** LVS writing: 0.5 seconds
+[2026-02-11 16:55:10.388588] LIB: Characterizing... 
+[2026-02-11 16:55:40.110047] ** Characterization: 29.7 seconds
+[2026-02-11 16:55:40.110204] Config: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45.py
+[2026-02-11 16:55:40.110237] ** Config: 0.0 seconds
+[2026-02-11 16:55:40.110859] Datasheet: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.html
+[2026-02-11 16:55:40.112151] ** Datasheet: 0.0 seconds
+[2026-02-11 16:55:40.112198] Verilog: Writing to /localhome/kanishka/neuromorphic/sram/PeraMorphIQ-SRAM-Compiler/outputs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.v
+[2026-02-11 16:55:40.115153] ** Verilog: 0.0 seconds

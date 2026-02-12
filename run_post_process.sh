@@ -168,7 +168,11 @@ fix_lef_files() {
     sed -i 's/\bVIA3\b/via3/g' "$SRAM_LEF"
     sed -i 's/\bVIA4\b/via4/g' "$SRAM_LEF"
     
-    print_success "Fixed: $(basename $SRAM_LEF) (M# → metal#)"
+    # Fix power/ground pin directions: INOUT → INPUT (to match Liberty)
+    sed -i '/PIN vdd/,/END vdd/ s/DIRECTION INOUT/DIRECTION INPUT/' "$SRAM_LEF"
+    sed -i '/PIN gnd/,/END gnd/ s/DIRECTION INOUT/DIRECTION INPUT/' "$SRAM_LEF"
+    
+    print_success "Fixed: $(basename $SRAM_LEF) (M# → metal#, power pin directions)"
 }
 
 # =============================================================================
