@@ -200,14 +200,7 @@ print(f"  Port Config:  {num_rw_ports} RW + {num_r_ports} R + {num_w_ports} W")
 if total_ports == 1:
     print(f"  Port Type:    Single-port")
 else:
-    port_types = []
-    if num_rw_ports > 0:
-        port_types.append(f"{num_rw_ports} RW")
-    if num_r_ports > 0:
-        port_types.append(f"{num_r_ports} R")
-    if num_w_ports > 0:
-        port_types.append(f"{num_w_ports} W")
-    print(f"  Port Type:    Dual-port ({', '.join(port_types)})")
+    print(f"  Port Type:    Dual-port")
 print(f"  Banking Mode: {banking_mode}")
 if banking_mode == "horizontal":
     bits_per_bank = config.word_size // config.num_banks
