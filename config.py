@@ -42,7 +42,7 @@ num_banks = 8
 #   - All banks accessed simultaneously
 #   - Example 1024-bit word, 4 banks: each bank stores 256 bits
 #   - NO bank mux latency!
-banking_mode = "vertical"  # Options: "vertical", "horizontal"
+banking_mode = "horizontal"  # Options: "vertical", "horizontal"
 
 # ==============================================================================
 # Technology Configuration
