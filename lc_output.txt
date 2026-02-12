@@ -22,191 +22,123 @@
 
 Initializing...
 # Auto-generated library compilation script
-puts "========== Compiling Libraries for sram_32b_8192_1rw_freepdk45_sram_32x8192_1v =========="
-========== Compiling Libraries for sram_32b_8192_1rw_freepdk45_sram_32x8192_1v ==========
+puts "========== Compiling Libraries for sram_32b_65536_1rw_freepdk45_sram_32x65536_32v =========="
+========== Compiling Libraries for sram_32b_65536_1rw_freepdk45_sram_32x65536_32v ==========
 # Corner: TT_1p0V_25C
-if {![file exists "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_25C.db"]} {
+if {![file exists "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_25C.db"]} {
     puts "Processing: TT_1p0V_25C"
-    if {[catch {read_lib "outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_25C.lib"} error_msg]} {
+    if {[catch {read_lib "outputs/libs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_25C.lib"} error_msg]} {
         puts "ERROR: $error_msg"
     } else {
         set libs [get_libs *]
         set lib_name [get_object_name [lindex $libs end]]
-        write_lib $lib_name -format db -output "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_25C.db"
+        write_lib $lib_name -format db -output "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_25C.db"
         remove_lib $lib_name
-        puts "SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_25C.db"
+        puts "SUCCESS: Created outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_25C.db"
     }
 } else {
-    puts "SKIPPING: outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_25C.db already exists"
+    puts "SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_25C.db already exists"
 }
-Processing: TT_1p0V_25C
-Reading '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_25C.lib' ...
-Warning: Line 1, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
-        No default can be applied to this attribute. (LBDB-366)
-Information: Line 74, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', The cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v' contiains memory/memory_read/memory_write groups which are deprecated, use the is_memory_cell attribute instead. (LIBG-280)
-Technology library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_25C_lib' read successfully
-Wrote the 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_25C_lib' library to '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_25C.db' successfully
-Removing library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_25C_lib'
-SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_25C.db
+SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_25C.db already exists
 # Corner: SS_1p0V_25C
-if {![file exists "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_SS_1p0V_25C.db"]} {
+if {![file exists "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_SS_1p0V_25C.db"]} {
     puts "Processing: SS_1p0V_25C"
-    if {[catch {read_lib "outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_SS_1p0V_25C.lib"} error_msg]} {
+    if {[catch {read_lib "outputs/libs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_SS_1p0V_25C.lib"} error_msg]} {
         puts "ERROR: $error_msg"
     } else {
         set libs [get_libs *]
         set lib_name [get_object_name [lindex $libs end]]
-        write_lib $lib_name -format db -output "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_SS_1p0V_25C.db"
+        write_lib $lib_name -format db -output "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_SS_1p0V_25C.db"
         remove_lib $lib_name
-        puts "SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_SS_1p0V_25C.db"
+        puts "SUCCESS: Created outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_SS_1p0V_25C.db"
     }
 } else {
-    puts "SKIPPING: outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_SS_1p0V_25C.db already exists"
+    puts "SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_SS_1p0V_25C.db already exists"
 }
-Processing: SS_1p0V_25C
-Reading '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_SS_1p0V_25C.lib' ...
-Warning: Line 1, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
-        No default can be applied to this attribute. (LBDB-366)
-Information: Line 74, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', The cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v' contiains memory/memory_read/memory_write groups which are deprecated, use the is_memory_cell attribute instead. (LIBG-280)
-Technology library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_SS_1p0V_25C_lib' read successfully
-Wrote the 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_SS_1p0V_25C_lib' library to '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_SS_1p0V_25C.db' successfully
-Removing library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_SS_1p0V_25C_lib'
-SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_SS_1p0V_25C.db
+SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_SS_1p0V_25C.db already exists
 # Corner: FF_1p0V_25C
-if {![file exists "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_FF_1p0V_25C.db"]} {
+if {![file exists "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_FF_1p0V_25C.db"]} {
     puts "Processing: FF_1p0V_25C"
-    if {[catch {read_lib "outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_FF_1p0V_25C.lib"} error_msg]} {
+    if {[catch {read_lib "outputs/libs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_FF_1p0V_25C.lib"} error_msg]} {
         puts "ERROR: $error_msg"
     } else {
         set libs [get_libs *]
         set lib_name [get_object_name [lindex $libs end]]
-        write_lib $lib_name -format db -output "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_FF_1p0V_25C.db"
+        write_lib $lib_name -format db -output "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_FF_1p0V_25C.db"
         remove_lib $lib_name
-        puts "SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_FF_1p0V_25C.db"
+        puts "SUCCESS: Created outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_FF_1p0V_25C.db"
     }
 } else {
-    puts "SKIPPING: outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_FF_1p0V_25C.db already exists"
+    puts "SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_FF_1p0V_25C.db already exists"
 }
-Processing: FF_1p0V_25C
-Reading '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_FF_1p0V_25C.lib' ...
-Warning: Line 1, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
-        No default can be applied to this attribute. (LBDB-366)
-Information: Line 74, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', The cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v' contiains memory/memory_read/memory_write groups which are deprecated, use the is_memory_cell attribute instead. (LIBG-280)
-Technology library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_FF_1p0V_25C_lib' read successfully
-Wrote the 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_FF_1p0V_25C_lib' library to '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_FF_1p0V_25C.db' successfully
-Removing library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_FF_1p0V_25C_lib'
-SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_FF_1p0V_25C.db
+SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_FF_1p0V_25C.db already exists
 # Corner: TT_1p0V_100C
-if {![file exists "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_100C.db"]} {
+if {![file exists "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_100C.db"]} {
     puts "Processing: TT_1p0V_100C"
-    if {[catch {read_lib "outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_100C.lib"} error_msg]} {
+    if {[catch {read_lib "outputs/libs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_100C.lib"} error_msg]} {
         puts "ERROR: $error_msg"
     } else {
         set libs [get_libs *]
         set lib_name [get_object_name [lindex $libs end]]
-        write_lib $lib_name -format db -output "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_100C.db"
+        write_lib $lib_name -format db -output "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_100C.db"
         remove_lib $lib_name
-        puts "SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_100C.db"
+        puts "SUCCESS: Created outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_100C.db"
     }
 } else {
-    puts "SKIPPING: outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_100C.db already exists"
+    puts "SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_100C.db already exists"
 }
-Processing: TT_1p0V_100C
-Reading '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_100C.lib' ...
-Warning: Line 1, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
-        No default can be applied to this attribute. (LBDB-366)
-Warning: Line 155, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', pin 'dout0[31]', The 'values' attribute has a '-0.474000' value,
-        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
-Warning: Line 155, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', pin 'dout0[31]', The 'values' attribute has a '-0.475000' value,
-        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
-Warning: Line 160, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', pin 'dout0[31]', The 'values' attribute has a '-0.474000' value,
-        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
-Warning: Line 160, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', pin 'dout0[31]', The 'values' attribute has a '-0.475000' value,
-        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
-Warning: Line 165, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', pin 'dout0[31]', The 'values' attribute has a '-0.001000' value,
-        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
-Warning: Line 170, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', pin 'dout0[31]', The 'values' attribute has a '-0.001000' value,
-        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
-Information: Line 74, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', The cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v' contiains memory/memory_read/memory_write groups which are deprecated, use the is_memory_cell attribute instead. (LIBG-280)
-Technology library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_100C_lib' read successfully
-Wrote the 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_100C_lib' library to '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_100C.db' successfully
-Removing library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_100C_lib'
-SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_100C.db
+SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_100C.db already exists
 # Corner: TT_1p0V_0C
-if {![file exists "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_0C.db"]} {
+if {![file exists "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_0C.db"]} {
     puts "Processing: TT_1p0V_0C"
-    if {[catch {read_lib "outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_0C.lib"} error_msg]} {
+    if {[catch {read_lib "outputs/libs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_0C.lib"} error_msg]} {
         puts "ERROR: $error_msg"
     } else {
         set libs [get_libs *]
         set lib_name [get_object_name [lindex $libs end]]
-        write_lib $lib_name -format db -output "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_0C.db"
+        write_lib $lib_name -format db -output "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_0C.db"
         remove_lib $lib_name
-        puts "SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_0C.db"
+        puts "SUCCESS: Created outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_0C.db"
     }
 } else {
-    puts "SKIPPING: outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_0C.db already exists"
+    puts "SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_0C.db already exists"
 }
-Processing: TT_1p0V_0C
-Reading '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_0C.lib' ...
-Warning: Line 1, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
-        No default can be applied to this attribute. (LBDB-366)
-Information: Line 74, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', The cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v' contiains memory/memory_read/memory_write groups which are deprecated, use the is_memory_cell attribute instead. (LIBG-280)
-Technology library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_0C_lib' read successfully
-Wrote the 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_0C_lib' library to '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_0C.db' successfully
-Removing library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_0C_lib'
-SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p0V_0C.db
+SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p0V_0C.db already exists
 # Corner: TT_0p9V_25C
-if {![file exists "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_0p9V_25C.db"]} {
+if {![file exists "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_0p9V_25C.db"]} {
     puts "Processing: TT_0p9V_25C"
-    if {[catch {read_lib "outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_0p9V_25C.lib"} error_msg]} {
+    if {[catch {read_lib "outputs/libs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_0p9V_25C.lib"} error_msg]} {
         puts "ERROR: $error_msg"
     } else {
         set libs [get_libs *]
         set lib_name [get_object_name [lindex $libs end]]
-        write_lib $lib_name -format db -output "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_0p9V_25C.db"
+        write_lib $lib_name -format db -output "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_0p9V_25C.db"
         remove_lib $lib_name
-        puts "SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_0p9V_25C.db"
+        puts "SUCCESS: Created outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_0p9V_25C.db"
     }
 } else {
-    puts "SKIPPING: outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_0p9V_25C.db already exists"
+    puts "SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_0p9V_25C.db already exists"
 }
-Processing: TT_0p9V_25C
-Reading '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_0p9V_25C.lib' ...
-Warning: Line 1, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
-        No default can be applied to this attribute. (LBDB-366)
-Information: Line 74, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', The cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v' contiains memory/memory_read/memory_write groups which are deprecated, use the is_memory_cell attribute instead. (LIBG-280)
-Technology library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_0p9V_25C_lib' read successfully
-Wrote the 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_0p9V_25C_lib' library to '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_0p9V_25C.db' successfully
-Removing library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_0p9V_25C_lib'
-SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_0p9V_25C.db
+SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_0p9V_25C.db already exists
 # Corner: TT_1p1V_25C
-if {![file exists "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p1V_25C.db"]} {
+if {![file exists "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p1V_25C.db"]} {
     puts "Processing: TT_1p1V_25C"
-    if {[catch {read_lib "outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p1V_25C.lib"} error_msg]} {
+    if {[catch {read_lib "outputs/libs/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p1V_25C.lib"} error_msg]} {
         puts "ERROR: $error_msg"
     } else {
         set libs [get_libs *]
         set lib_name [get_object_name [lindex $libs end]]
-        write_lib $lib_name -format db -output "outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p1V_25C.db"
+        write_lib $lib_name -format db -output "outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p1V_25C.db"
         remove_lib $lib_name
-        puts "SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p1V_25C.db"
+        puts "SUCCESS: Created outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p1V_25C.db"
     }
 } else {
-    puts "SKIPPING: outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p1V_25C.db already exists"
+    puts "SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p1V_25C.db already exists"
 }
-Processing: TT_1p1V_25C
-Reading '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/libs/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p1V_25C.lib' ...
-Warning: Line 1, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
-        No default can be applied to this attribute. (LBDB-366)
-Information: Line 74, Cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v', The cell 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v' contiains memory/memory_read/memory_write groups which are deprecated, use the is_memory_cell attribute instead. (LIBG-280)
-Technology library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p1V_25C_lib' read successfully
-Wrote the 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p1V_25C_lib' library to '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p1V_25C.db' successfully
-Removing library 'sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p1V_25C_lib'
-SUCCESS: Created outputs/db/sram_32b_8192_1rw_freepdk45_sram_32x8192_1v_TT_1p1V_25C.db
+SKIPPING: outputs/db/sram_32b_65536_1rw_freepdk45_sram_32x65536_32v_TT_1p1V_25C.db already exists
 exit
-Maximum memory usage for this session: 101.14 MB
+Maximum memory usage for this session: 96.62 MB
 CPU usage for this session:      1 seconds (  0.00 hours)
-Elapsed time for this session:      1 seconds (  0.00 hours)
+Elapsed time for this session:      4 seconds (  0.00 hours)
 Thank you for using Library Compiler.
 
