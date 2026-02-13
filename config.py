@@ -18,7 +18,7 @@
 
 # Word size: Number of bits per word (data width)
 # Common values: 8, 16, 32, 64, 128, 256
-word_size = 1024
+word_size = 32
 
 # Number of words: Depth of the SRAM (number of addressable locations)
 # Must be a power of 2: 32, 64, 128, 256, 512, 1024, 2048, 4096, etc.
@@ -28,7 +28,7 @@ num_words = 2048
 # Number of banks: Must be a power of 2 (1, 2, 4, 8, etc.)
 # More banks = better performance but larger area
 # For 65536 words with 2048 max per bank: need 32 banks minimum
-num_banks = 8
+num_banks = 1
 
 # Banking Mode
 # -----------------------------------------------------------------------------
@@ -42,7 +42,7 @@ num_banks = 8
 #   - All banks accessed simultaneously
 #   - Example 1024-bit word, 4 banks: each bank stores 256 bits
 #   - NO bank mux latency!
-banking_mode = "horizontal"  # Options: "vertical", "horizontal"
+banking_mode = "vertical"  # Options: "vertical", "horizontal"
 
 # ==============================================================================
 # Technology Configuration

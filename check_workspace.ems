@@ -1,18 +1,0 @@
-<Database>
-versionNumber:2
-Name/home/user26/PeraMorphIQ-SRAM-Compiler/check_workspace.ems
-Creation TimeThu Feb 12 07:50:58 2026
-Modified TimeThu Feb 12 07:50:58 2026
-Design Name
-Library Name
-</Database>
-<RuleCount>
-LM-0051
-LM-0341
-</RuleCount>
-<UserDefinedRules>
-</UserDefinedRules>
-<Messages>
-LM-005Information
-LM-034Informationpara1110para210para31 with a design view (1 had ports reordered);10
-</Messages>

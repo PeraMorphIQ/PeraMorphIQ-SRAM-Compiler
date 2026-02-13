@@ -1,7 +1,0 @@
-#@ # 
-#@ # Running lc_shell Version U-2022.12-SP6 for linux64 -- Aug 08, 2023
-#@ # Date:   Thu Feb 12 07:50:47 2026
-#@ # Run by: user26@vlsilab
-#@ 
-
-source -echo -verbose outputs/logs/compile_sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.tcl

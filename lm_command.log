@@ -1,7 +1,0 @@
-#@ # 
-#@ # Running lm_shell Version V-2023.12-SP5-2 for linux64 -- Oct 30, 2024
-#@ # Date:   Thu Feb 12 07:50:53 2026
-#@ # Run by: user26@vlsilab
-#@ 
-
-source -echo -verbose outputs/logs/build_ndm_sram_32b_65536_1rw_freepdk45_sram_32x65536_32v.tcl
