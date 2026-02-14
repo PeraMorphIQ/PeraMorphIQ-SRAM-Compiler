@@ -58,7 +58,7 @@ class sram_1bank(design, verilog, lef):
             for bit in range(self.word_size + self.num_spare_cols):
                 self.add_pin("din{0}[{1}]".format(port, bit), "INPUT")
         for port in self.all_ports:
-            for bit in range(self.bank_addr_size):
+            for bit in range(self.addr_size):
                 self.add_pin("addr{0}[{1}]".format(port, bit), "INPUT")
 
         # These are used to create the physical pins
