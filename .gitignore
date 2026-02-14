@@ -15,5 +15,13 @@ OpenRAM/.git/
 **/*.bsf
 
 .venv/
+
+
+*.log
+*.txt
+*.ems
+*.gds
+*.lef
+*.ndm
 outputs/
 
