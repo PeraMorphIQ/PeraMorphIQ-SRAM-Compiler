@@ -142,13 +142,39 @@ Edit `config.py` to customize your SRAM:
 | `word_size` | Bits per word (data width) | Power of 2 recommended | 32, 64, 128, 256 |
 | `num_words` | SRAM depth | Must be power of 2 | 128, 256, 512, 1024 |
 | `num_banks` | Number of banks | Must be power of 2 | 1, 2, 4, 8 |
-| `banking_mode` | Banking architecture | "vertical" or "horizontal" | "vertical" |
+| `banking_mode` | Banking architecture | "vertical", "horizontal" or "mixed" | "vertical" |
+| `num_h_banks` | Word-width slices (mixed only) | Power of 2 | 1 |
+| `num_v_banks` | Address-space groups (mixed only) | Power of 2 | 1 |
 | `tech_name` | Technology node | See supported list | "freepdk45" |
 | `num_threads` | Parallel generation threads | 1-16 | 4 |
 
+### What a "bank" actually is here
+
+Worth knowing before reading the rest: **the compiler runs OpenRAM once and
+produces exactly ONE physical macro**, of
+
+```
+(word_size / num_h_banks) bits  x  (num_words / num_v_banks) words
+```
+
+It then emits `<name>_top.v`, a Verilog wrapper that instantiates that one macro
+`num_h_banks * num_v_banks` times. **There is no `_top.lef`, `_top.lib`,
+`_top.db` or `_top.gds`** — the wrapper is RTL glue, and a place-and-route flow
+instantiates the single macro's physical views N times itself.
+
+So "banking mode" means two things and only two things: how the one macro is
+sized, and which wrapper template is rendered.
+
 ### Banking Modes
 
-The compiler supports two banking architectures for multi-bank SRAMs:
+The compiler supports three banking architectures for multi-bank SRAMs. All
+three are the same arithmetic over an `(h, v)` array shape:
+
+| mode | `(h, v)` |
+|------|----------|
+| `horizontal` | `(num_banks, 1)` |
+| `vertical` | `(1, num_banks)` |
+| `mixed` | `(num_h_banks, num_v_banks)` |
 
 #### Vertical Banking (Default)
 
@@ -217,15 +243,99 @@ Bank 7: bits [896:1023]  of all words
 - High-performance designs
 - Uniform timing requirements
 
+#### Mixed (2-D) Banking
+
+**Both axes at once: a `num_v_banks` x `num_h_banks` array**
+
+Use this when a word is too wide *and* the array too deep for either single-axis
+split. A purely horizontal split of a very deep array leaves each macro over
+OpenRAM's row limit; a purely vertical split of a very wide word leaves each
+macro impractically wide.
+
+**Configuration:**
+```python
+word_size   = 1024
+num_words   = 2048
+num_banks   = 8          # must equal num_h_banks * num_v_banks
+banking_mode = "mixed"
+num_h_banks = 4          # word-width slices
+num_v_banks = 2          # address-space groups
+```
+
+**Architecture** — eight 256b x 1024w macros:
+```
+                bits[  0:255]  bits[256:511]  bits[512:767]  bits[768:1023]
+words    0-1023   v0_h0          v0_h1          v0_h2          v0_h3
+words 1024-2047   v1_h0          v1_h1          v1_h2          v1_h3
+```
+
+- The top `log2(num_v_banks)` address bits select the vertical group.
+- All `num_h_banks` slices of the selected group fire in parallel and their
+  outputs assemble into the full word.
+- Non-selected vertical groups have `csb` deasserted.
+- Read latency is 1 cycle, as with vertical banking: the group-select mux is
+  driven by the *registered* address.
+- The wrapper's `ADDR_WIDTH` is always `log2(num_words)`, whatever the split, so
+  the wrapper is drop-in compatible across splits.
+
+`mixed` with `num_v_banks = 1` is exactly `horizontal`, and with
+`num_h_banks = 1` is exactly `vertical`; the test suite asserts that equivalence
+both in the arithmetic and in simulation.
+
+**Best For:**
+- Wide words in deep arrays (both axes over a single macro's practical limit)
+- Trading bank-mux latency against macro aspect ratio
+
+> **Power caveat.** Deasserting `csb` on non-selected groups is correct RTL, but
+> it buys **nothing** in OpenRAM's Liberty, which has no deselected state: `clk0`
+> bills the same internal energy for write, read and deselect alike. Mixed
+> banking also multiplies the sub-array count from `h` to `h*v`, and billing is
+> per sub-array per clock edge. So an `8h4v` split can report roughly **4x worse**
+> memory power than an `8h` split of the same array while the silicon is better.
+> Do not compare a mixed macro against a single-axis one on total power until
+> that Liberty gap is closed.
+
 **Performance Comparison:**
 
-| Metric | Vertical | Horizontal |
-|--------|----------|------------|
-| Bank mux latency | Yes (15-20%) | None |
-| Active banks per access | 1 | All |
-| Power per access | Lower | Higher |
-| Timing uniformity | Moderate | High |
-| Physical complexity | Lower | Higher |
+| Metric | Vertical | Horizontal | Mixed (h x v) |
+|--------|----------|------------|---------------|
+| Bank mux latency | Yes (15-20%) | None | Yes (across v groups) |
+| Active macros per access | 1 | All | h of h*v |
+| Power per access | Lower | Higher | Between |
+| Timing uniformity | Moderate | High | High within a group |
+| Physical complexity | Lower | Higher | Higher |
+| Macro aspect ratio | Tall | Wide | Tunable |
+
+### Write masks
+
+`write_size` produces a per-macro mask of `ceil((word_size/h) / write_size)`
+bits, and the wrapper declares `h` times that at the top level, slicing it
+across the horizontal banks.
+
+**The `horizontal` template does not do this correctly** — it connects one mask
+bit to an N-bit macro port and declares the top-level mask at the per-macro
+width. Rather than emit a silently broken wrapper, the compiler now **errors**
+on `banking_mode = "horizontal"` with `num_wmasks > 1` and points you at
+`banking_mode = "mixed"` with `num_v_banks = 1`, which slices the mask properly.
+Macros without a write mask (`write_size == word_size`, i.e. `num_wmasks == 0`)
+are unaffected.
+
+### Testing
+
+```bash
+./tests/run_tests.sh            # arithmetic, rendering, VCS simulation (~2 min)
+./tests/run_tests.sh --wide     # also the full-size 1024x2048 configurations
+./tests/run_tests.sh --gen      # also real OpenRAM generation (needs ./venv)
+./tests/run_tests.sh --all      # everything
+```
+
+Layers 1-3 are stdlib-only and run on a bare `python3`. Only `--gen` needs
+
+```bash
+python3 -m venv venv && ./venv/bin/pip install -r requirements.txt
+```
+
+See [`tests/README.md`](tests/README.md) for what each layer proves.
 
 ### Advanced Options
 
@@ -334,11 +444,21 @@ Generated files include a banking mode suffix:
 ```
 Vertical banking:   sram_128x2048_4v.gds
 Horizontal banking: sram_1024x2048_8h.gds
+Mixed banking:      sram_1024x2048_4h2v.gds
 ```
 
 Where:
-- `v` = Vertical banking (address division)
-- `h` = Horizontal banking (bit-slicing)
+- `<N>v` = Vertical banking (address division), N banks
+- `<N>h` = Horizontal banking (bit-slicing), N banks
+- `<H>h<V>v` = Mixed 2-D banking, H slices x V groups (H*V macros)
+
+The single-axis forms are unchanged from before mixed banking existed, and no
+legacy name contains both `h` and `v`, so mixed names cannot collide with them.
+
+Note that OpenRAM prefixes all of these with its own `output_name`, built from
+the FULL array dimensions — so a 1024b x 2048w array split 8 ways horizontally
+is named `sram_1024b_2048_1rw_freepdk45_sram_1024x2048_8h` even though the macro
+it names is physically 128b x 2048w.
 
 ### Integration with Design Tools
 

@@ -305,14 +305,13 @@ class bank(design):
     def compute_sizes(self):
         """  Computes the required sizes to create the bank """
 
-        # Respect banking mode from config
-        # horizontal mode: num_words_per_bank = num_words (all words in each bank)
-        # vertical mode: num_words_per_bank = num_words / num_banks
-        banking_mode = getattr(self, 'banking_mode', 'vertical')
-        if banking_mode == "horizontal":
-            self.num_words_per_bank = self.num_words
-        else:
-            self.num_words_per_bank = self.num_words / self.num_banks
+        # (h, v) is resolved once in sram_config and copied here by
+        # set_local_config. self.word_size is already the per-macro width, so
+        # only the depth is divided.  NOTE: no getattr(..., 1) fallback -- a
+        # silent 1 would build a correctly-sized-looking but wrong bank.
+        debug.check(hasattr(self, "num_v_banks") and hasattr(self, "num_h_banks"),
+                    "bank built from a config without num_h_banks/num_v_banks.")
+        self.num_words_per_bank = self.num_words / self.num_v_banks
         self.num_bits_per_bank = self.word_size * self.num_words_per_bank
 
         self.num_cols = int(self.words_per_row * self.word_size)
@@ -323,17 +322,17 @@ class bank(design):
         self.col_addr_size = int(log(self.words_per_row, 2))
         self.bank_addr_size = self.col_addr_size + self.row_addr_size
 
-        # Validate bank sizes based on banking mode
-        if banking_mode == "horizontal":
-            # For horizontal banking, each bank has word_size bits and all num_words
-            # Total bits in this bank = num_rows_temp * num_cols
-            # This should equal word_size * num_words_per_bank = word_size * num_words
-            debug.check(self.num_rows_temp * self.num_cols == self.word_size * self.num_words,
-                        "Invalid bank sizes for horizontal banking.")
-        else:
-            # For vertical banking, total bits across all banks = word_size * num_words
-            debug.check(self.num_rows_temp * self.num_cols * self.num_banks == self.word_size * self.num_words,
-                        "Invalid bank sizes.")
+        # Every macro holds (num_words / v) words of self.word_size bits, so the
+        # v macros of one horizontal slice together hold all num_words words.
+        #   v = 1        -> num_rows_temp * num_cols == word_size * num_words
+        #                   (the old horizontal check, verbatim)
+        #   h = 1, v = N -> ... * num_banks == ...  (the old vertical check, verbatim)
+        debug.check(self.num_rows_temp * self.num_cols * self.num_v_banks
+                    == self.word_size * self.num_words,
+                    "Invalid bank sizes: {} rows x {} cols x {} v-banks != "
+                    "{} bits/word x {} words.".format(
+                        self.num_rows_temp, self.num_cols, self.num_v_banks,
+                        self.word_size, self.num_words))
         debug.check(self.bank_addr_size==self.col_addr_size + self.row_addr_size,
                     "Invalid address break down.")
 

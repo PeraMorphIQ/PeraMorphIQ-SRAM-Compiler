@@ -25,12 +25,13 @@ word_size = 64
 # Must be a power of 2: 32, 64, 128, 256, 512, 1024, 2048, 4096, etc.
 num_words = 256
 
-# Number of banks: Must be a power of 2 (1, 2, 4, 8, etc.)
+# Number of banks: TOTAL number of physical macro instances in the array.
+# Must be a power of 2 (1, 2, 4, 8, etc.) and equal to num_h_banks * num_v_banks.
 # More banks = better performance but larger area
 num_banks = 1
 
-# Banking mode: "vertical" or "horizontal" (for multi-bank SRAMs)
-# 
+# Banking mode: "vertical", "horizontal" or "mixed" (for multi-bank SRAMs)
+#
 # "vertical" (default): Address space divided across banks
 #   - Each bank stores different words
 #   - Bank selection via address bits
@@ -43,7 +44,25 @@ num_banks = 1
 #   - Example: 1024-bit word, 4 banks → each bank has 256 bits
 #   - Advantage: No bank mux latency, better for wide words
 #   - Use case: Cache lines, vector processors, wide data paths
+#
+# "mixed": BOTH axes at once (a num_v_banks x num_h_banks array)
+#   - ONE macro of (word_size / num_h_banks) bits x (num_words / num_v_banks)
+#     words is generated; <name>_top.v instantiates num_h_banks * num_v_banks
+#     copies of it.
+#   - Top log2(num_v_banks) address bits select the vertical group; all
+#     num_h_banks slices of that group fire in parallel; other groups have csb
+#     deasserted.
+#   - Example: 1024-bit word, 2048 words, 4h x 2v → eight 256b x 1024w macros
+#   - Use case: wide words that are ALSO too deep for a single bank, where a
+#     purely horizontal split would leave each macro over OpenRAM's row limit.
 banking_mode = "vertical"
+
+# Read ONLY when banking_mode == "mixed". Both must be powers of 2 and their
+# product must equal num_banks.
+#   num_h_banks -> word-width slices    (word_size must divide evenly)
+#   num_v_banks -> address-space groups (num_words must divide evenly)
+num_h_banks = 1
+num_v_banks = 1
 
 # ==============================================================================
 # Technology Configuration
@@ -104,9 +123,14 @@ pvt_corners = "TT_1p0V_25C"
 # ==============================================================================
 
 # SRAM instance name (auto-generated from parameters)
-# Suffix: 'v' for vertical (default), 'h' for horizontal
-_banking_suffix = "h" if banking_mode == "horizontal" else "v"
-sram_name = f"sram_{word_size}x{num_words}_{num_banks}{_banking_suffix}"
+# Suffix: '<N>v' vertical (default), '<N>h' horizontal, '<H>h<V>v' mixed
+if banking_mode == "mixed":
+    _banking_suffix = f"{num_h_banks}h{num_v_banks}v"
+elif banking_mode == "horizontal":
+    _banking_suffix = f"{num_banks}h"
+else:
+    _banking_suffix = f"{num_banks}v"
+sram_name = f"sram_{word_size}x{num_words}_{_banking_suffix}"
 
 # Output directory for generated files
 output_path = "./outputs"
@@ -143,3 +167,12 @@ output_path = "./outputs"
 # num_words = 2048
 # num_banks = 8
 # banking_mode = "horizontal"  # Bit-slicing, no mux latency
+
+# --- Wide AND Deep SRAM (Mixed 2-D Banking) ---
+# Eight 256b x 1024w macros: the word is split 4 ways, the depth 2 ways.
+# word_size = 1024
+# num_words = 2048
+# num_banks = 8            # must equal num_h_banks * num_v_banks
+# banking_mode = "mixed"
+# num_h_banks = 4          # word-width slices
+# num_v_banks = 2          # address-space groups

@@ -25,3 +25,22 @@ OpenRAM/.git/
 *.ndm
 outputs/
 
+
+# --- test suite -------------------------------------------------------------
+tests/build/
+tests/__pycache__/
+simv
+simv.daidir/
+csrc/
+AN.DB/
+ucli.key
+*.vpd
+*.fsdb
+verdiLog/
+novas.*
+.pytest_cache/
+# Goldens are committed. *.txt and *.log above are globally ignored, so goldens
+# must stay .v / .json; *.lef and *.gds are ignored too, which is why the test
+# suite asserts on derived LEF numbers (pin counts, stub list, SIZE) rather than
+# committing a golden LEF that would churn on every layout change.
+!tests/golden/*.v

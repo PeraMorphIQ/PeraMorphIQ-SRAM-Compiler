@@ -48,7 +48,17 @@ class options(optparse.Values):
     # num_words = 0
     # word_size = 0
     # You can manually specify banks, but it is better to auto-detect it.
+    # num_banks is the TOTAL number of physical macro instances in the array and
+    # must equal num_h_banks * num_v_banks in every banking mode.
     num_banks = 1
+    # "vertical"   -> (h, v) = (1, num_banks)          address space divided
+    # "horizontal" -> (h, v) = (num_banks, 1)          word width divided
+    # "mixed"      -> (h, v) = (num_h_banks, num_v_banks)
+    # These are class attributes, so they are absent from OPTS.__dict__ and a
+    # config file can still override them (see globals.py read_config).
+    banking_mode = "vertical"
+    num_h_banks = 1
+    num_v_banks = 1
     words_per_row = None
     num_spare_rows = 0
     num_spare_cols = 0

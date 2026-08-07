@@ -27,7 +27,14 @@ set -e  # Exit on error
 # USER CONFIGURATION - Auto-populated by generate_sram.py
 # =============================================================================
 
-# SRAM base name (without corner/voltage suffix)
+# SRAM base name (without corner/voltage suffix).
+#
+# This names the ONE physical macro that was generated. In a multi-bank config
+# that macro is (word_size / num_h_banks) bits x (num_words / num_v_banks) words
+# -- NOT the full array. <SRAM_NAME>_top.v is a Verilog wrapper that instantiates
+# it num_h_banks * num_v_banks times, and it is deliberately NOT post-processed
+# here: it has no LEF, no Liberty and no .db, because it is RTL glue rather than
+# a physical view.
 SRAM_NAME="sram_32b_2048_1rw_freepdk45_sram_32x2048_1v"
 
 # Technology library path (for NDM generation)

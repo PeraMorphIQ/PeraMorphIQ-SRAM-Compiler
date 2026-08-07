@@ -9,6 +9,12 @@ from math import log, sqrt, ceil
 from openram import debug
 from openram.sram_factory import factory
 from . import globals
+# Pure banking arithmetic lives in banking.py, which imports nothing from
+# OpenRAM. Re-exported here so `from openram import bank_geometry` keeps working
+# (OpenRAM/__init__.py does `from .sram_config import *`).
+from .banking import (BANKING_MODES, MIN_WORDS_PER_BANK, MAX_WORDS_PER_BANK,
+                      RECOMMENDED_MAX_WORDS_PER_BANK, VALID_WORDS_PER_ROW,
+                      resolve_banking, bank_geometry, address_sizes, is_pow2)
 OPTS = globals.OPTS
 
 
@@ -29,8 +35,17 @@ class sram_config:
         self.num_spare_rows = num_spare_rows
         self.num_spare_cols = num_spare_cols
         
-        # Get banking mode from OPTS (horizontal = bit-sliced, vertical = address-divided)
+        # Banking mode and the (h, v) shape of the macro array it implies.
+        # horizontal = bit-sliced, vertical = address-divided, mixed = both.
         self.banking_mode = getattr(OPTS, "banking_mode", "vertical")
+        try:
+            self.num_h_banks, self.num_v_banks = resolve_banking(
+                self.banking_mode,
+                self.num_banks,
+                getattr(OPTS, "num_h_banks", 1),
+                getattr(OPTS, "num_v_banks", 1))
+        except ValueError as e:
+            debug.error(str(e), -1)
 
         try:
             from openram.tech import array_row_multiple
@@ -83,31 +98,35 @@ class sram_config:
 
         bitcell = factory.create(module_type=OPTS.bitcell)
 
-        debug.check(ceil(log(self.num_banks, 2)) == log(self.num_banks, 2) ,
-                    "Number of banks should be power of 2.")
+        # ONE physical macro is generated, of
+        #     (word_size / num_h_banks) bits x (num_words / num_v_banks) words,
+        # and <name>_top.v instantiates num_h_banks * num_v_banks copies of it.
+        #   horizontal -> (h, v) = (num_banks, 1)
+        #   vertical   -> (h, v) = (1, num_banks)
+        #   mixed      -> (h, v) = (num_h_banks, num_v_banks)
+        try:
+            geo = bank_geometry(self.word_size,
+                                self.num_words,
+                                self.num_banks,
+                                self.banking_mode,
+                                self.num_h_banks,
+                                self.num_v_banks,
+                                self.write_size_init)
+        except ValueError as e:
+            debug.error(str(e), -1)
 
         # Store original word size for top-level wrapper
-        self.original_word_size = self.word_size
-        
-        # Configure based on banking mode
-        if self.banking_mode == "horizontal":
-            # Horizontal banking: word width is divided across banks
-            # Each bank handles word_size/num_banks bits for ALL words
-            self.word_size_per_bank = self.word_size // self.num_banks
-            self.num_words_per_bank = self.num_words  # All words in each bank
-            # Override word_size for bank generation
-            self.word_size = self.word_size_per_bank
-            # Also update write_size if needed
-            if self.write_size == self.original_word_size:
-                self.write_size = self.word_size_per_bank
-            self.num_bits_per_bank = self.word_size * self.num_words_per_bank
-            debug.info(1, "Horizontal banking: {} bits/bank x {} words".format(
-                self.word_size_per_bank, self.num_words_per_bank))
-        else:
-            # Vertical banking (default): address space divided across banks
-            self.word_size_per_bank = self.word_size
-            self.num_words_per_bank = self.num_words / self.num_banks
-            self.num_bits_per_bank = self.word_size * self.num_words_per_bank
+        self.original_word_size = geo["original_word_size"]
+        self.word_size_per_bank = geo["word_size_per_bank"]
+        self.num_words_per_bank = geo["num_words_per_bank"]
+        # From here on self.word_size is the PER-MACRO width.
+        self.word_size = self.word_size_per_bank
+        if self.write_size == self.original_word_size:
+            self.write_size = self.word_size_per_bank
+        self.num_bits_per_bank = geo["num_bits_per_bank"]
+        debug.info(1, "Banking {}: {}h x {}v -> macro {} bits/word x {} words".format(
+            self.banking_mode, self.num_h_banks, self.num_v_banks,
+            self.word_size_per_bank, self.num_words_per_bank))
 
         # If this was hard coded, don't dynamically compute it!
         if not self.words_per_row:
@@ -138,15 +157,10 @@ class sram_config:
 
         debug.info(1, "Recomputing with words per row: {}".format(self.words_per_row))
 
-        # Recalculate based on banking mode
-        if self.banking_mode == "horizontal":
-            # Horizontal banking: each bank has ALL words with word_size/num_banks bits
-            self.num_words_per_bank = self.num_words
-            self.num_bits_per_bank = self.word_size * self.num_words_per_bank
-        else:
-            # Vertical banking: address space divided
-            self.num_words_per_bank = self.num_words / self.num_banks
-            self.num_bits_per_bank = self.word_size * self.num_words_per_bank
+        # self.word_size is already the per-macro width (set in compute_sizes),
+        # so only the depth has to be divided again here.
+        self.num_words_per_bank = self.num_words / self.num_v_banks
+        self.num_bits_per_bank = self.word_size * self.num_words_per_bank
 
         # Fix the number of columns and rows
         self.num_cols = int(self.words_per_row * self.word_size)
@@ -160,12 +174,29 @@ class sram_config:
         else:
             self.write_size = self.word_size
 
-        # Compute the address and bank sizes
-        self.row_addr_size = ceil(log(self.num_rows, 2))
-        self.col_addr_size = int(log(self.words_per_row, 2))
-        self.bank_addr_size = self.col_addr_size + self.row_addr_size
-        self.addr_size = self.bank_addr_size + int(log(self.num_banks, 2))
-        #self.addr_size = self.bank_addr_size
+        # amend_words_per_row() can return a non-power-of-2 (e.g. 3 for
+        # tentative_num_rows=1000, words_per_row=2), after which
+        # col_addr_size = int(log(3, 2)) = 1 disagrees with num_cols = 3 * word_size
+        # and the column mux is silently wrong. Mixed banking makes odd aspect
+        # ratios far more reachable than either single-axis mode, so check it.
+        debug.check(self.words_per_row in VALID_WORDS_PER_ROW,
+                    "words_per_row must be one of {}, got {}. "
+                    "Adjust word_size / num_words / the banking split.".format(
+                        VALID_WORDS_PER_ROW, self.words_per_row))
+
+        # Compute the address and bank sizes.
+        # addr_size is what the MACRO declares, and this fork only ever builds a
+        # single sram_1bank, which decodes exactly bank_addr_size bits. Legacy
+        # OpenRAM added log2(num_banks) here; sram_1bank.add_pins created those
+        # pins and lib.py wrote them into address_width, but nothing routed them,
+        # so they left the LEF with an empty PORT and disagreed with the
+        # ADDR_WIDTH that base/verilog.py writes into the behavioural model.
+        # The wrapper's own (wider) address width is computed in sram_multibank.
+        addr = address_sizes(self.num_rows, self.words_per_row, self.num_v_banks)
+        self.row_addr_size = addr["row_addr_size"]
+        self.col_addr_size = addr["col_addr_size"]
+        self.bank_addr_size = addr["bank_addr_size"]
+        self.addr_size = addr["addr_size"]
         debug.info(1, "Row addr size: {}".format(self.row_addr_size)
                    + " Col addr size: {}".format(self.col_addr_size)
                    + " Bank addr size: {}".format(self.bank_addr_size))

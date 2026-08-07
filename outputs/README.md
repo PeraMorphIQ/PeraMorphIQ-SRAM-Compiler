@@ -104,14 +104,31 @@ Files follow this naming pattern:
 ```
 
 The SRAM name includes a banking mode suffix:
-- `h` suffix = Horizontal banking (bit-slicing)
-- `v` suffix = Vertical banking (address division)
+- `<N>h` suffix = Horizontal banking (bit-slicing), N banks
+- `<N>v` suffix = Vertical banking (address division), N banks
+- `<H>h<V>v`    = Mixed 2-D banking, H width slices x V address groups
 
 Examples:
 - `sram_64x256_1v.gds` - Single bank (vertical is default)
 - `sram_128x2048_4v_TT_1p0V_25C.lib` - 4 banks, vertical banking, typical corner
 - `sram_1024x2048_8h.lef` - 8 banks, horizontal banking (bit-sliced)
 - `sram_1024x2048_8h_FF_1p1V_125C.lib` - Same design, fast corner
+- `sram_1024x2048_4h2v.lef` - 8 macros as a 2-group x 4-slice array
+
+## `<name>_top.v` has no physical views, and that is deliberate
+
+Only **one** physical macro is generated, whatever the banking mode. `<name>_top.v`
+is a Verilog wrapper that instantiates it `num_h_banks * num_v_banks` times, and
+it is RTL glue only:
+
+- there is **no** `<name>_top.lef`, `<name>_top.lib`, `<name>_top.db` or
+  `<name>_top.gds`, and there never will be;
+- the physical views in `designs/`, `libs/` and `db/` describe the **single
+  macro**, which is `(word_size / num_h_banks)` bits wide and
+  `(num_words / num_v_banks)` words deep — not the array;
+- a place-and-route flow instantiates the macro's own views N times itself.
+
+Several hours have been lost looking for a `_top` LEF that does not exist.
 
 ---
 

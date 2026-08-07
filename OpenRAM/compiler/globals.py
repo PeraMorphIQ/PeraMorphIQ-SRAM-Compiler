@@ -657,13 +657,21 @@ def report_status():
         debug.error("Tech name must be specified in config file.")
 
     debug.print_raw("Technology: {0}".format(OPTS.tech_name))
-    total_size = OPTS.word_size*OPTS.num_words*OPTS.num_banks
+    # OPTS.word_size / OPTS.num_words are the FULL ARRAY dimensions in this fork
+    # (sram_config divides them down to the per-macro geometry afterwards), so
+    # multiplying by num_banks over-counted by num_banks: the 1024x2048 8h array
+    # was reported as 16 Mbit rather than 2 Mbit.
+    total_size = OPTS.word_size*OPTS.num_words
     debug.print_raw("Total size: {} bits".format(total_size))
     if total_size >= 2**14 and not OPTS.analytical_delay:
         debug.warning("Characterizing large memories ({0}) will have a large run-time.".format(total_size))
-    debug.print_raw("Word size: {0}\nWords: {1}\nBanks: {2}".format(OPTS.word_size,
-                                                                    OPTS.num_words,
-                                                                    OPTS.num_banks))
+    debug.print_raw("Word size: {0}\nWords: {1}\nBanks: {2} ({3}h x {4}v, {5})".format(
+        OPTS.word_size,
+        OPTS.num_words,
+        OPTS.num_banks,
+        getattr(OPTS, "num_h_banks", 1),
+        getattr(OPTS, "num_v_banks", 1),
+        getattr(OPTS, "banking_mode", "vertical")))
     if (OPTS.write_size != OPTS.word_size):
         debug.print_raw("Write size: {}".format(OPTS.write_size))
     debug.print_raw("RW ports: {0}\nR-only ports: {1}\nW-only ports: {2}".format(OPTS.num_rw_ports,
