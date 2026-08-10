@@ -225,7 +225,12 @@ def install_conda():
         debug.warning("Couldn't find conda installer script.")
         return
     
-    subprocess.call(CONDA_INSTALLER)
+    # Run through bash rather than exec'ing the script. install_conda.sh is
+    # tracked at mode 644 (no execute bit), so subprocess.call(CONDA_INSTALLER)
+    # fails with PermissionError/EACCES on a fresh checkout -- and use_conda
+    # defaults to True, so that is the default path. The script itself is a
+    # no-op when $CONDA_HOME/bin already exists.
+    subprocess.call(["bash", CONDA_INSTALLER])
 
 
 def setup_bitcell():
@@ -511,7 +516,22 @@ def set_default_corner():
         if OPTS.nominal_corner_only:
             OPTS.process_corners = ["TT"]
         else:
-            OPTS.process_corners = list(tech.spice["fet_models"].keys())
+            # A tech defines EITHER fet_models (freepdk45, scn4m_subm) or
+            # fet_libraries (sky130, gf180mcu -- a .lib file plus a section
+            # name, rather than a list of .inc files).
+            # characterizer/stimuli.py already accepts both; this was the one
+            # place that still assumed the older key, so any fet_libraries tech
+            # died here with KeyError: 'fet_models' before doing any work.
+            # fet_models is consulted first so techs that define it keep their
+            # exact previous corner ordering.
+            corners = []
+            for key in ("fet_models", "fet_libraries"):
+                for corner in tech.spice.get(key, {}):
+                    if corner not in corners:
+                        corners.append(corner)
+            if not corners:
+                debug.error("Tech must define either fet_libraries or fet_models.", -1)
+            OPTS.process_corners = corners
 
     if (OPTS.supply_voltages == ""):
         if OPTS.nominal_corner_only:

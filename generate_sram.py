@@ -78,6 +78,10 @@ print("="*70)
 import config
 
 banking_mode = getattr(config, 'banking_mode', 'vertical')
+# Optional in config.py; options.py defaults num_threads to 1. Read it through
+# getattr so a trimmed-down config does not crash the banner before OpenRAM has
+# even been initialised.
+num_threads = getattr(config, 'num_threads', 4)
 
 # Resolve the (h, v) array shape through the same helper the compiler uses, so
 # the banner can never disagree with what is actually built.
@@ -98,13 +102,13 @@ print(f"  Num Words:   {config.num_words}")
 print(f"  Num Banks:   {config.num_banks}")
 print(f"  Banking Mode: {banking_mode}  ({h_banks}h x {v_banks}v)")
 print(f"  SRAM Name:   {config.sram_name}")
-print(f"  Threads:     {config.num_threads}")
+print(f"  Threads:     {num_threads}")
 
 # =============================================================================
 # Initialize OpenRAM
 # =============================================================================
 globals.init_openram("config")
-globals.OPTS.num_threads = config.num_threads
+globals.OPTS.num_threads = num_threads
 
 # Set banking mode. read_config already copies these from config.py, but set
 # them explicitly so a config that omits num_h_banks/num_v_banks still gets the

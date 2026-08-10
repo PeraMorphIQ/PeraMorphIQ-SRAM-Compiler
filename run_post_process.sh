@@ -35,7 +35,7 @@ set -e  # Exit on error
 # it num_h_banks * num_v_banks times, and it is deliberately NOT post-processed
 # here: it has no LEF, no Liberty and no .db, because it is RTL glue rather than
 # a physical view.
-SRAM_NAME="sram_32b_2048_1rw_freepdk45_sram_32x2048_1v"
+SRAM_NAME="sram_1024b_2048_1rw_freepdk45_sram_1024x2048_8h8v"
 
 # Technology library path (for NDM generation)
 TECH_LIB="/tech/45nm/nangate45nm_ndm-main/Nangate.ndm"
