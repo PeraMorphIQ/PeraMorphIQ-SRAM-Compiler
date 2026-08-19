@@ -28,7 +28,7 @@ num_words = 2048
 
 # Number of banks: TOTAL physical macro instances in the array.
 # Must be a power of 2 AND equal num_h_banks * num_v_banks.
-num_banks = 8
+num_banks = 32
 
 # Banking Mode -- "vertical" | "horizontal" | "mixed"
 # -----------------------------------------------------------------------------
@@ -54,7 +54,7 @@ banking_mode = "mixed"
 #   num_h_banks -> word-width slices    (word_size must divide evenly)
 #   num_v_banks -> address-space groups (num_words must divide evenly)
 num_h_banks = 8
-num_v_banks = 1
+num_v_banks = 4
 
 # ==============================================================================
 # Port Configuration
@@ -76,9 +76,21 @@ num_v_banks = 1
 #
 # Cost: an unused read port (clk1/csb1/addr1/dout1) that weight_resolver.v does
 # not drive. Tie clk1/csb1/addr1 off and leave dout1 unconnected.
-# freepdk45 has no such constraint -- set num_r_ports = 0 there.
+#
+# *** freepdk45 has NO such constraint -- use num_r_ports = 0 there. ***
+# The second port is not merely wasteful at 45 nm, it can make layout FAIL.
+# Every pin is escape-routed to the macro perimeter, and dout1 nearly doubles
+# the pin count on a wide macro. Measured on completed 45 nm layouts:
+#     128b x  256w, 1rw     269 pins   4.75 um/pin   OK
+#      64b x 2048w, 1rw1r   221 pins  10.97 um/pin   OK
+#     128b x 1024w, 1rw1r  ~410 pins                 FAILED after 2.8 h in
+#                                                    signal_escape_router
+# When a pin's escaped wire never reaches the boundary the router used to pass
+# None onward and die as "AttributeError: 'NoneType' object has no attribute
+# 'layer'"; it now reports the pin and the cause. If you genuinely need dual
+# port on a wide macro, set perimeter_pins = False to keep pins internal.
 num_rw_ports = 1
-num_r_ports = 1
+num_r_ports = 0
 num_w_ports = 0
 
 # Write mask granularity, in bits. Leave unset (== word_size) for no mask.
@@ -93,7 +105,7 @@ num_w_ports = 0
 # ==============================================================================
 
 # "freepdk45", "sky130", "gf180mcu", "scn4m_subm"
-tech_name = "sky130"
+tech_name = "freepdk45"
 
 # sky130 additionally needs, in the environment:
 #     export PDK_ROOT=/mnt/hidden_home/e19129/pdk
@@ -114,7 +126,7 @@ num_threads = 16
 
 # Skip layout/GDS/LEF. Still produces .sp, .v, _top.v and the .lib corners --
 # enough to check geometry and the wrapper. Drop this for the real run.
-netlist_only = True
+# netlist_only = True
 
 # Analytical delay models (no SPICE). This DOES work for sky130: only
 # regression_model.py reads the absent sim_data/, and the default model is

@@ -35,14 +35,14 @@ set -e  # Exit on error
 # it num_h_banks * num_v_banks times, and it is deliberately NOT post-processed
 # here: it has no LEF, no Liberty and no .db, because it is RTL glue rather than
 # a physical view.
-SRAM_NAME="sram_1024b_2048_1rw_freepdk45_sram_1024x2048_8h8v"
+SRAM_NAME="sram_1024b_2048_1rw_freepdk45_sram_1024x2048_8h4v"
 
-# Technology library path (for NDM generation)
-TECH_LIB="/tech/45nm/nangate45nm_ndm-main/Nangate.ndm"
+# Technology the macro was generated for. Auto-populated by generate_sram.py
+# from config.tech_name; cross-checked below against SRAM_NAME, which embeds it.
+TECH_NAME="freepdk45"
 
-# PVT corners to process (space-separated)
-# Format: <corner>_<voltage>_<temp>
-PVT_CORNERS="TT_1p0V_25C SS_1p0V_25C FF_1p0V_25C TT_1p0V_100C TT_1p0V_0C TT_0p9V_25C TT_1p1V_25C"
+# Everything below is DERIVED from TECH_NAME. Override any of it from the
+# environment: PP_TECH_LIB, PP_PVT_CORNERS.
 
 # =============================================================================
 # DERIVED PATHS - Auto-generated from SRAM_NAME
@@ -84,6 +84,89 @@ get_db_file() {
 }
 
 # =============================================================================
+# Technology profile
+# =============================================================================
+# Each node needs a different reference NDM, different corner names, different
+# power-pin names, and -- critically -- a different answer to "should the LEF
+# layer names be rewritten". Getting that last one wrong is silent: the 45 nm
+# rename is a no-op on a sky130 LEF, so the file looks fine and the NDM build
+# fails much later with unresolvable layers.
+
+# Cross-check: OpenRAM's output_name is sram_<w>b_<n>_<ports>_<tech>_<user>, so
+# the macro name embeds the technology. If it disagrees with TECH_NAME then
+# SRAM_NAME and TECH_NAME were written by different runs of generate_sram.py.
+detect_tech_from_name() {
+    case "$SRAM_NAME" in
+        *_freepdk45_*|*_freepdk45)     echo "freepdk45" ;;
+        *_sky130_*|*_sky130)           echo "sky130" ;;
+        *_gf180mcu_*|*_gf180mcu)       echo "gf180mcu" ;;
+        *_scn4m_subm_*|*_scn4m_subm)   echo "scn4m_subm" ;;
+        *)                             echo "" ;;
+    esac
+}
+
+configure_tech() {
+    local name_tech
+    name_tech="$(detect_tech_from_name)"
+    if [ -n "$name_tech" ] && [ "$name_tech" != "$TECH_NAME" ]; then
+        print_error "TECH_NAME is '$TECH_NAME' but SRAM_NAME says '$name_tech'."
+        print_error "  SRAM_NAME=$SRAM_NAME"
+        print_error "  These are populated together by generate_sram.py, so they"
+        print_error "  disagreeing means one is stale. Re-run the generator."
+        return 1
+    fi
+
+    case "$TECH_NAME" in
+        freepdk45)
+            TECH_LIB="${PP_TECH_LIB:-/tech/45nm/nangate45nm_ndm-main/Nangate.ndm}"
+            # OpenRAM emits M1..M10 / VIA1..VIA4; Nangate45 expects metal*/via*.
+            LEF_LAYER_FIX=true
+            PG_PINS="vdd gnd"
+            EXPECTED_CORNERS="TT_1p0V_25C SS_1p0V_25C FF_1p0V_25C TT_1p0V_100C TT_1p0V_0C TT_0p9V_25C TT_1p1V_25C"
+            ;;
+        sky130)
+            # The prebuilt standard-cell NDM. /tech/sky130 is NOT tracked by git
+            # (removed in 241d058) -- see synopsys/tech/sky130_typical/README.md.
+            TECH_LIB="${PP_TECH_LIB:-/tech/sky130/libs/sky130_library/ndm/sky130_fd_sc_hd.ndm}"
+            # sky130 uses li1/met1..met5 natively. The 45 nm rename must NOT run:
+            # \bM1\b does not match "met1", so it silently does nothing and the
+            # real problem only surfaces at NDM build time.
+            LEF_LAYER_FIX=false
+            # sky130 macros use vccd1/vssd1, not vdd/gnd.
+            PG_PINS="vccd1 vssd1"
+            EXPECTED_CORNERS="TT_1p8V_25C SS_1p8V_25C FF_1p8V_25C TT_1p8V_100C TT_1p8V_0C TT_1p7V_25C TT_1p9V_25C"
+            ;;
+        gf180mcu)
+            TECH_LIB="${PP_TECH_LIB:-}"
+            LEF_LAYER_FIX=false
+            PG_PINS="vdd vss"
+            EXPECTED_CORNERS=""
+            ;;
+        *)
+            print_error "Unknown TECH_NAME '$TECH_NAME'."
+            print_error "  Known: freepdk45, sky130, gf180mcu"
+            return 1
+            ;;
+    esac
+    return 0
+}
+
+# Corner list. DISCOVERED from the Liberty files actually on disk rather than
+# hardcoded, because the set depends on nominal_corner_only / process_corners /
+# supply_voltages and a stale hardcoded list silently processes nothing.
+# EXPECTED_CORNERS is only used to report what is missing.
+discover_corners() {
+    local found="" f c
+    for f in "${LIBS_DIR}/${SRAM_NAME}_"*.lib; do
+        [ -e "$f" ] || continue
+        c="${f##*/${SRAM_NAME}_}"
+        c="${c%.lib}"
+        found="$found $c"
+    done
+    echo "${found# }"
+}
+
+# =============================================================================
 # Helper Functions
 # =============================================================================
 
@@ -120,8 +203,20 @@ print_config() {
     print_header "Configuration"
     echo ""
     echo "  SRAM Name:    ${SRAM_NAME}"
+    echo "  Technology:   ${TECH_NAME}"
     echo "  Tech Library: ${TECH_LIB}"
+    if [ ! -e "$TECH_LIB" ]; then
+        print_warning "  Tech library does not exist -- NDM build will fail."
+    fi
+    echo "  LEF layer fix: ${LEF_LAYER_FIX}   power pins: ${PG_PINS}"
     echo "  PVT Corners:  ${PVT_CORNERS}"
+    # Report expected-but-absent corners: silence here means the generator ran
+    # with nominal_corner_only, which is easy to forget.
+    local missing=""
+    for c in $EXPECTED_CORNERS; do
+        case " $PVT_CORNERS " in *" $c "*) ;; *) missing="$missing $c" ;; esac
+    done
+    [ -n "$missing" ] && echo "  (not generated:$missing)"
     echo ""
     echo "  File Paths:"
     echo "    LEF:     ${SRAM_LEF}"
@@ -156,30 +251,57 @@ fix_lef_files() {
         echo "  Backup: $backup_file"
     fi
     
-    # Convert layer names: M1->metal1, M2->metal2, etc. (Nangate45 expects 'metal' prefix)
-    # Process in reverse order to avoid conflicts (M10 before M1)
-    sed -i 's/\bM10\b/metal10/g' "$SRAM_LEF"
-    sed -i 's/\bM9\b/metal9/g' "$SRAM_LEF"
-    sed -i 's/\bM8\b/metal8/g' "$SRAM_LEF"
-    sed -i 's/\bM7\b/metal7/g' "$SRAM_LEF"
-    sed -i 's/\bM6\b/metal6/g' "$SRAM_LEF"
-    sed -i 's/\bM5\b/metal5/g' "$SRAM_LEF"
-    sed -i 's/\bM4\b/metal4/g' "$SRAM_LEF"
-    sed -i 's/\bM3\b/metal3/g' "$SRAM_LEF"
-    sed -i 's/\bM2\b/metal2/g' "$SRAM_LEF"
-    sed -i 's/\bM1\b/metal1/g' "$SRAM_LEF"
-    
-    # Also handle VIA layers if needed
-    sed -i 's/\bVIA1\b/via1/g' "$SRAM_LEF"
-    sed -i 's/\bVIA2\b/via2/g' "$SRAM_LEF"
-    sed -i 's/\bVIA3\b/via3/g' "$SRAM_LEF"
-    sed -i 's/\bVIA4\b/via4/g' "$SRAM_LEF"
-    
-    # Fix power/ground pin directions: INOUT → INPUT (to match Liberty)
-    sed -i '/PIN vdd/,/END vdd/ s/DIRECTION INOUT/DIRECTION INPUT/' "$SRAM_LEF"
-    sed -i '/PIN gnd/,/END gnd/ s/DIRECTION INOUT/DIRECTION INPUT/' "$SRAM_LEF"
-    
-    print_success "Fixed: $(basename $SRAM_LEF) (M# → metal#, power pin directions)"
+    if [ "$LEF_LAYER_FIX" = true ]; then
+        # Convert layer names: M1->metal1, M2->metal2, etc. (Nangate45 expects
+        # the 'metal' prefix). Descending order so M10 is not clobbered by the
+        # M1 rule.
+        sed -i 's/\bM10\b/metal10/g' "$SRAM_LEF"
+        sed -i 's/\bM9\b/metal9/g' "$SRAM_LEF"
+        sed -i 's/\bM8\b/metal8/g' "$SRAM_LEF"
+        sed -i 's/\bM7\b/metal7/g' "$SRAM_LEF"
+        sed -i 's/\bM6\b/metal6/g' "$SRAM_LEF"
+        sed -i 's/\bM5\b/metal5/g' "$SRAM_LEF"
+        sed -i 's/\bM4\b/metal4/g' "$SRAM_LEF"
+        sed -i 's/\bM3\b/metal3/g' "$SRAM_LEF"
+        sed -i 's/\bM2\b/metal2/g' "$SRAM_LEF"
+        sed -i 's/\bM1\b/metal1/g' "$SRAM_LEF"
+
+        # Also handle VIA layers if needed
+        sed -i 's/\bVIA1\b/via1/g' "$SRAM_LEF"
+        sed -i 's/\bVIA2\b/via2/g' "$SRAM_LEF"
+        sed -i 's/\bVIA3\b/via3/g' "$SRAM_LEF"
+        sed -i 's/\bVIA4\b/via4/g' "$SRAM_LEF"
+        echo "  layer names: M# -> metal#, VIA# -> via#"
+    else
+        # sky130 (li1/met1..met5) and gf180mcu already use the names their
+        # technology expects. Applying the 45 nm rename here would be a silent
+        # no-op -- \bM1\b does not match "met1" -- so guard positively instead
+        # of relying on the seds not matching.
+        if grep -aqE "LAYER[[:space:]]+M[0-9]" "$SRAM_LEF"; then
+            print_error "LEF has 45nm-style layer names (M#) but TECH_NAME=$TECH_NAME."
+            print_error "  This LEF does not look like a $TECH_NAME macro."
+            return 1
+        fi
+        echo "  layer names: left as-is (correct for $TECH_NAME)"
+    fi
+
+    # Fix power/ground pin directions: INOUT -> INPUT (to match Liberty).
+    # Pin names are per-technology: freepdk45 vdd/gnd, sky130 vccd1/vssd1.
+    local fixed_pg=0
+    for pin in $PG_PINS; do
+        if grep -aqE "^[[:space:]]*PIN[[:space:]]+${pin}\b" "$SRAM_LEF"; then
+            sed -i "/PIN ${pin}/,/END ${pin}/ s/DIRECTION INOUT/DIRECTION INPUT/" "$SRAM_LEF"
+            fixed_pg=$((fixed_pg + 1))
+        fi
+    done
+    if [ "$fixed_pg" -eq 0 ]; then
+        print_warning "None of the expected power pins ($PG_PINS) found in the LEF."
+        print_warning "  Actual pins: $(grep -aoE '^[[:space:]]*PIN[[:space:]]+[A-Za-z][A-Za-z0-9_]*' "$SRAM_LEF" | awk '{print $2}' | grep -viE '^(addr|din|dout|csb|web|clk|wmask)' | sort -u | tr '\n' ' ')"
+    else
+        echo "  power pins: $fixed_pg of ($PG_PINS) set to DIRECTION INPUT"
+    fi
+
+    print_success "Fixed: $(basename $SRAM_LEF) for $TECH_NAME"
 }
 
 # =============================================================================
@@ -390,9 +512,15 @@ show_help() {
     echo ""
     echo "Current Configuration:"
     echo "  SRAM_NAME:    $SRAM_NAME"
-    echo "  PVT_CORNERS:  $PVT_CORNERS"
+    echo "  TECH_NAME:    $TECH_NAME"
+    echo "  TECH_LIB:     $TECH_LIB"
+    echo "  PVT_CORNERS:  $PVT_CORNERS  (discovered from outputs/libs/)"
     echo ""
-    echo "Note: This script is auto-updated by generate_sram.py"
+    echo "Environment overrides:"
+    echo "  PP_TECH_LIB      reference NDM for the NDM build"
+    echo "  PP_PVT_CORNERS   corner list, instead of discovering from disk"
+    echo ""
+    echo "Note: SRAM_NAME and TECH_NAME are auto-updated by generate_sram.py"
     echo ""
     echo "Prerequisites:"
     echo "  - Synopsys Library Compiler (lc_shell) for .lib → .db"
@@ -408,7 +536,18 @@ main() {
     mkdir -p "$LOGS_DIR"
     mkdir -p "$DB_DIR"
     mkdir -p "$NDM_DIR"
-    
+
+    # Resolve the technology profile before anything reads TECH_LIB / PG_PINS.
+    configure_tech || exit 1
+
+    # Corners come from the Liberty files on disk, not a hardcoded list.
+    PVT_CORNERS="${PP_PVT_CORNERS:-$(discover_corners)}"
+    if [ -z "$PVT_CORNERS" ]; then
+        print_warning "No Liberty files found matching ${LIBS_DIR}/${SRAM_NAME}_*.lib"
+        print_warning "Falling back to the expected ${TECH_NAME} corner list."
+        PVT_CORNERS="$EXPECTED_CORNERS"
+    fi
+
     case "${1:-all}" in
         --help|-h)
             show_help

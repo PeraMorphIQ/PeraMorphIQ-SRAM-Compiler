@@ -225,9 +225,34 @@ class signal_escape_router(router):
 
         for name, pin in self.new_pins.items():
             pin = graph_shape(pin.name, pin.boundary, pin.lpp)
+            # Reset per pin. Without this, `edge` carries over from the previous
+            # iteration, so a pin that intersects nothing silently inherits the
+            # PREVIOUS pin's perimeter location instead of failing -- a wrong
+            # LEF with no error at all.
+            edge = None
             # Find the intersection of this pin on the perimeter
             for fake in self.fake_pins:
                 edge = pin.intersection(fake)
                 if edge:
                     break
+            if edge is None:
+                # Passing None through reaches hierarchy_layout.replace_layout_pin
+                # and dies as "AttributeError: 'NoneType' object has no attribute
+                # 'layer'", which says nothing about the cause. The cause is that
+                # the escaped wire for this pin did not reach the perimeter --
+                # in practice, too many pins for the available boundary.
+                debug.error(
+                    "Escape routing produced no perimeter edge for pin '{}' "
+                    "({} of {} pins on a {} x {} boundary).\n"
+                    "  The pin was routed but does not touch the macro edge, so "
+                    "it cannot be placed as a boundary pin.\n"
+                    "  Usual cause: too many pins for the perimeter. Reduce the "
+                    "pin count (e.g. num_r_ports = 0 removes dout1/addr1/clk1/csb1, "
+                    "which on a wide macro is nearly half of them), widen the "
+                    "macro, or set perimeter_pins = False to keep pins internal."
+                    .format(name, len(self.new_pins),
+                            len(self.new_pins),
+                            self.bbox[1].x - self.bbox[0].x,
+                            self.bbox[1].y - self.bbox[0].y),
+                    -1)
             self.design.replace_layout_pin(name, edge)

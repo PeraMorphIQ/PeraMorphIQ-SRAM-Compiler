@@ -193,11 +193,19 @@ post_process_script = "run_post_process.sh"
 with open(post_process_script, 'r') as f:
     script_content = f.read()
 
-# Update SRAM_NAME
+# Update SRAM_NAME and TECH_NAME together. The script derives its reference NDM,
+# corner names, LEF layer handling and power-pin names from TECH_NAME, and
+# cross-checks it against SRAM_NAME (which embeds the technology), so writing
+# only one of them would trip that check rather than silently mis-post-process.
 import re
 script_content = re.sub(
     r'SRAM_NAME="[^"]*"',
     f'SRAM_NAME="{design_name}"',
+    script_content
+)
+script_content = re.sub(
+    r'TECH_NAME="[^"]*"',
+    f'TECH_NAME="{config.tech_name}"',
     script_content
 )
 
@@ -206,6 +214,7 @@ with open(post_process_script, 'w') as f:
     f.write(script_content)
 
 print(f"  [OK] Updated SRAM_NAME to: {design_name}")
+print(f"  [OK] Updated TECH_NAME to: {config.tech_name}")
 
 # =============================================================================
 # Summary
