@@ -52,7 +52,7 @@ Loads the real `sram_multibank` with a stub `openram` package (`orlib.py`) — n
 OpenRAM init, no tech, no third-party deps.
 
 **The gate, run first:** horizontal N=8 must render **byte-identically** to the
-committed `rtl/weight_resolver/sram_1024b_2048_1rw_freepdk45_sram_1024x2048_8h_top.v`.
+committed `rtl/weight_resolver/sram_macros/sram_1024b_2048_1rw_freepdk45_sram_1024x2048_8h_top.v`.
 That file is checked-in RTL compiled into the blackbox testbench and the
 PrimePower flow, so a change there does not error — it produces a different
 number, hours later, in a 3+ hour `rtl_opt` run.

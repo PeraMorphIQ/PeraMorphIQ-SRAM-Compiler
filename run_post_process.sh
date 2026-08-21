@@ -35,7 +35,7 @@ set -e  # Exit on error
 # it num_h_banks * num_v_banks times, and it is deliberately NOT post-processed
 # here: it has no LEF, no Liberty and no .db, because it is RTL glue rather than
 # a physical view.
-SRAM_NAME="sram_1024b_2048_1rw_freepdk45_sram_1024x2048_8h4v"
+SRAM_NAME="sram_512b_2048_1rw_freepdk45_sram_512x2048_8h4v"
 
 # Technology the macro was generated for. Auto-populated by generate_sram.py
 # from config.tech_name; cross-checked below against SRAM_NAME, which embeds it.

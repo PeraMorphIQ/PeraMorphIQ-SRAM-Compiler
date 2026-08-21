@@ -20,7 +20,7 @@
 # ==============================================================================
 
 # Word size: bits per word (the FULL array width, before banking divides it)
-word_size = 1024
+word_size = 512
 
 # Number of words: depth of the array (the FULL depth, before banking divides it)
 # Must be a power of 2.
@@ -141,7 +141,7 @@ use_pex = False
 
 # Characterise only the nominal corner rather than all of
 # TT/SS/FF/SF/FS x 3 voltages x 3 temperatures.
-nominal_corner_only = True
+nominal_corner_only = False
 
 # ==============================================================================
 # Auto-Generated Settings (Do Not Edit)
